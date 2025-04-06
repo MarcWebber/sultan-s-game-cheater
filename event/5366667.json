@@ -1,0 +1,67 @@
+{
+    "id": 5366667,
+    "text": "神燈的饋贈",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366667_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "財富",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "名聲",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "神的共鳴",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "coin": 666, //金币
+                    "prompt": {
+                        "id": "5300504_prompt_1",
+                        "text": "神賜予了你也許這輩子都用不完的財富",
+                        "icon": "cards/2000001"
+                    }
+                    // 可以通過事件觸發別的選項
+                    //"event_on": 5320101, //检定，如果妻子已经不在了，会额外有个弹框
+                    //"event_on": 5320102 //如果妻子存活会关掉上面的检定，避免在其他场景无端触发
+                },
+                "case:op2": {
+                    "counter+7100001": 5, // 增加善名
+                    "counter+7100002": -5 , // 降低惡名
+                    "prompt": {
+                        "id": "5300504_prompt_2",
+                        "text": "神跡顯靈，爲你帶來了巨大的名聲",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "counter+7100006": 5,
+                    "prompt": {
+                        "id": "5300504_prompt_3",
+                        "text": "你獲得了神的祝福",
+                        "icon": "cards/2000001"
+                    }
+                }
+            }
+        }
+    ]
+}

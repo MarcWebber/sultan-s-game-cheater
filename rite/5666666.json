@@ -22,13 +22,32 @@
     "settlement_prior": [],
     "settlement": [
         {
-            "condition": {},
-            "result_title": "",
-            "result_text": "提升了能力",
+            "condition": {
+                "any": {
+                    "s1": 1
+                }
+            },
+            "result_title": "全能强化",
+            "result_text": "你提升了能力",
             "result": {
-                "s1+社交": 5
+                "s1+社交": 5,
+                "s1+魔力": 5,
+                "s1+魅力": 5
             },
             "action": {}
+        },
+        {
+            "condition": {
+                "any": {
+                    "s2": 1
+                }
+            },
+            "result_title": "神的贈與",
+            "result_text": "即將領受神的賜福",
+            "result": {},
+            "action": {
+                "event_on": 5366667
+            }
         }
     ],
     "settlement_extre": [],
@@ -39,9 +58,99 @@
             },
             "open_adsorb": 0,
             "is_key": 0,
-            "is_empty": 0,
+            "is_empty": 1,
             "is_enemy": 0,
-            "text": "领受神赐者"
+            "text": "讓神給予一次洗禮，提升你的能力或物品的特質"
+        },
+        "s2": {
+            "condition": {
+                "type": "char"
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "讓神回應你世俗的請求"
+        },
+        "s3": {
+            "condition": {
+                "any": {
+                    "type": "char",
+                    "type": "item",
+                    "type": "sudan"
+                }
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 0, // 不能为空
+            "is_enemy": 0,
+            "text": "放入道具或者特殊卡牌",
+            "pops": [
+                {
+                    "condition": {
+                        "is": 2000083 //妻子不满
+                    },
+                    "action": {
+                        "pop.5666666_s1_01.self": "可以帮你消除"
+                    }
+                },
+                {
+                    "condition": {
+                        "is": 2000558 //罪证
+                    },
+                    "action": {
+                        "pop.5666666_s1_02.self": "可以帮你消除"
+                    }
+                },
+                {
+                    "condition": {
+                        "情报": 1
+                    },
+                    "action": {
+                        "pop.5666666_s1_04.self": "可以给你一份对应的黄金品级的情报"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "char",
+                        "any": {
+                            "男性": 1,
+                            "女性": 1
+                        },
+                    },
+                    "action": {
+                        "pop.5666666_s1_05.self": "可以帮忙提升属性"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "item",
+                        "any": {
+                            "is": 2000725,
+                            "is": 2000726,
+                            "is": 2000727,
+                            "is": 2000728,
+                        },
+                    },
+                    "action": {
+                        "pop.5666666_s1_07.self": "可以增加虔信"
+                    }
+                },
+                {
+                    "condition": {
+                        "!type": "char",
+                        "!装备": 1,
+                        "!情报": 1,
+                        "!金币": 1,
+                        "!大餐": 1,
+                        "!is": 2000558,
+                        "!is": 2000083
+                    },
+                    "action": {
+                        "pop.5666666_s1_06.self": "无能为力"
+                    }
+                }
+            ]
         }
     }
 }
