@@ -29,7 +29,8 @@
                     ]
                 },
                 "case:op1": {
-                    "event_on": 5310004
+                    "event_on": 5310004,
+                    "card": 2666666
                 },
                 "case:op2": {
                     "event_on": 5310004

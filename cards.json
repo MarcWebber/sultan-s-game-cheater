@@ -25938,19 +25938,35 @@
         "card_favour": "",
         "type": "item",
         "tips": "",
-        "rare": 3,
+        "rare": 4,
         "resource": "cards/2000320",
         "tag": {
             "已拥有": 1,
             "可堆叠": 0,
             "装备": 1,
             "饰品": 1,
-            "魔力": 5,
-            "魅力": 5
+            "魔力": 10
         },
         "card_vanishing": 0,
         "vanish": {},
         "equips": [],
         "is_only": 0
-    }
+    },
+    "2666667": {
+        "id": 2666667,
+        "name": "撒旦的种子",
+        "title": "撒旦的种子",
+        "text": "你会与恶魔做交易吗？",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2001021",
+        "tag": {},
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    },
 }

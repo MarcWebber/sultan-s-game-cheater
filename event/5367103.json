@@ -1,0 +1,169 @@
+{
+    "id": 5367103,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370103_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "盗贼斗篷",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "隐身衣",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "遗忘神明披肩",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "失落荣誉臂环",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "异种雕工戒指",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "盲眼盾",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "梦行者项链",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "黄金断剑",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "阿迪莱的宝剑",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000272,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_1",
+                        "text": "你選擇了盗贼斗篷",
+                        "icon": "cards/2000272"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000273,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_2",
+                        "text": "你選擇了隐身衣",
+                        "icon": "cards/2000273"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000296,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_3",
+                        "text": "你選擇了遗忘神明披肩",
+                        "icon": "cards/2000296"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000297,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_4",
+                        "text": "你選擇了失落荣誉臂环",
+                        "icon": "cards/2000297"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000298,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_5",
+                        "text": "你選擇了异种雕工戒指",
+                        "icon": "cards/2000298"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000299,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_6",
+                        "text": "你選擇了盲眼盾",
+                        "icon": "cards/2000299"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000300,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_7",
+                        "text": "你選擇了梦行者项链",
+                        "icon": "cards/2000300"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000301,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_8",
+                        "text": "你選擇了黄金断剑",
+                        "icon": "cards/2000301"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000330,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367103_prompt_9",
+                        "text": "你選擇了阿迪莱的宝剑",
+                        "icon": "cards/2000330"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367104
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "id": 5367102,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370102_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "白银手镯",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "金项链",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "丝质盛装",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "一大捧花束",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "皮靴",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "金丝盛装",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "巨大宝石项链",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "玲珑香炉",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "盗贼鞋",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000263,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_1",
+                        "text": "你選擇了白银手镯",
+                        "icon": "cards/2000263"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000264,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_2",
+                        "text": "你選擇了金项链",
+                        "icon": "cards/2000264"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000265,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_3",
+                        "text": "你選擇了丝质盛装",
+                        "icon": "cards/2000265"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000266,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_4",
+                        "text": "你選擇了一大捧花束",
+                        "icon": "cards/2000266"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000267,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_5",
+                        "text": "你選擇了皮靴",
+                        "icon": "cards/2000267"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000268,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_6",
+                        "text": "你選擇了金丝盛装",
+                        "icon": "cards/2000268"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000269,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_7",
+                        "text": "你選擇了巨大宝石项链",
+                        "icon": "cards/2000269"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000270,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_8",
+                        "text": "你選擇了玲珑香炉",
+                        "icon": "cards/2000270"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000271,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367102_prompt_9",
+                        "text": "你選擇了盗贼鞋",
+                        "icon": "cards/2000271"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367103
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "id": 5367100,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370100_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "复合弓",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "匕首",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "指虎",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小圆盾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "投石索",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "皮甲",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "大盾",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "长剑",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "弯刀",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000160,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_1",
+                        "text": "你選擇了复合弓",
+                        "icon": "cards/2000160"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000246,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_2",
+                        "text": "你選擇了匕首",
+                        "icon": "cards/2000246"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000247,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_3",
+                        "text": "你選擇了指虎",
+                        "icon": "cards/2000247"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000248,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_4",
+                        "text": "你選擇了小圆盾",
+                        "icon": "cards/2000248"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000249,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_5",
+                        "text": "你選擇了投石索",
+                        "icon": "cards/2000249"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000250,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_6",
+                        "text": "你選擇了皮甲",
+                        "icon": "cards/2000250"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000251,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_7",
+                        "text": "你選擇了大盾",
+                        "icon": "cards/2000251"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000252,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_8",
+                        "text": "你選擇了长剑",
+                        "icon": "cards/2000252"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000253,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367100_prompt_9",
+                        "text": "你選擇了弯刀",
+                        "icon": "cards/2000253"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367101
+                }
+            }
+        }
+    ]
+}

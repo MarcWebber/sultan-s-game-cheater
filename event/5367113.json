@@ -1,0 +1,169 @@
+{
+    "id": 5367113,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370113_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "琉璃锋",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "骑兵之刃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈费勒的毒箭",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "龙鳞盾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "龙鳞盔",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "龙鳞铠",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "龙鳞刃",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "承阳剑",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "族长的祝福",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000921,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_1",
+                        "text": "你選擇了琉璃锋",
+                        "icon": "cards/2000839"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000922,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_2",
+                        "text": "你選擇了骑兵之刃",
+                        "icon": "cards/2000827"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000928,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_3",
+                        "text": "你選擇了奈费勒的毒箭",
+                        "icon": "cards/2000928"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000950,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_4",
+                        "text": "你選擇了龙鳞盾",
+                        "icon": "cards/2000950"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000951,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_5",
+                        "text": "你選擇了龙鳞盔",
+                        "icon": "cards/2000951"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000952,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_6",
+                        "text": "你選擇了龙鳞铠",
+                        "icon": "cards/2000952"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000953,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_7",
+                        "text": "你選擇了龙鳞刃",
+                        "icon": "cards/2000953"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000959,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_8",
+                        "text": "你選擇了承阳剑",
+                        "icon": "cards/2000959"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000982,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367113_prompt_9",
+                        "text": "你選擇了族长的祝福",
+                        "icon": "cards/2000982"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367114
+                }
+            }
+        }
+    ]
+}

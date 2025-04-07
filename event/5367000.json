@@ -1,0 +1,75 @@
+{
+    "id": 5367000,
+    "text": "添加道具",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370000_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "裝備",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "情報",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "特殊道具",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "我不會和魔鬼做交易",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "coin": 666, //金币
+                    "prompt": {
+                        "id": "5367000_prompt_1",
+                        "text": "神給了你一個選擇裝備的機會",
+                        "icon": "cards/2000001"
+                    },
+                    "event_on": 5367001 // 問你要選什麽道具
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5367000_prompt_2",
+                        "text": "神給了你一個選擇情報的機會",
+                        "icon": "cards/2000001"
+                    },
+                    "event_on": 5367002
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5367000_prompt_3",
+                        "text": "神給了你一個選擇特殊道具的機會",
+                        "icon": "cards/2000001"
+                    },
+                    "event_on": 5367003
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5367000_prompt_4",
+                        "text": "你拒絕了神的恩典",
+                        "icon": "cards/2000001"
+                    }
+                }
+            }
+        }
+    ]
+}

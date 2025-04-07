@@ -1,0 +1,169 @@
+{
+    "id": 5367105,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367105_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "幸运护符",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "再生护符",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "魅力护符",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "家传铠甲",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "家传铠甲",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "咒文发梳",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "智慧宝珠",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "黄金臂环",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "战士的护巾",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000519,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_1",
+                        "text": "你選擇了幸运护符",
+                        "icon": "cards/2000519"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000520,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_2",
+                        "text": "你選擇了再生护符",
+                        "icon": "cards/2000520"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000521,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_3",
+                        "text": "你選擇了魅力护符",
+                        "icon": "cards/2000521"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000526,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_4",
+                        "text": "你選擇了家传铠甲",
+                        "icon": "cards/2000368"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000527,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_5",
+                        "text": "你選擇了家传铠甲",
+                        "icon": "cards/2000368"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000542,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_6",
+                        "text": "你選擇了咒文发梳",
+                        "icon": "cards/2000542"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000543,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_7",
+                        "text": "你選擇了智慧宝珠",
+                        "icon": "cards/2000543"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000553,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_8",
+                        "text": "你選擇了黄金臂环",
+                        "icon": "cards/2000553"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000571,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367105_prompt_9",
+                        "text": "你選擇了战士的护巾",
+                        "icon": "cards/2000571"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367106
+                }
+            }
+        }
+    ]
+}

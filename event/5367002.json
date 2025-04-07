@@ -1,0 +1,111 @@
+{
+    "id": 5367002,
+    "text": "添加情报",
+    "is_replay": 1, 
+    "auto_start": false,
+    "start_trigger": true, 
+    "on": { 
+        "round_begin_ba": 1
+    },
+    "condition": { 
+    },
+    "settlement": [ 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370002_option_1",
+                    "text": "你想要什麽情报？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "秘密",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "洞察",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "机遇",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "内幕",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "预兆",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "战术",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "秘氛",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": 2000413,
+                    "prompt": {
+                        "id": "5367002_prompt_1",
+                        "text": "你選擇了秘密",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "card": 2000414,
+                    "prompt": {
+                        "id": "5367002_prompt_2",
+                        "text": "你選擇了洞察",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "card": 2000415,
+                    "prompt": {
+                        "id": "5367002_prompt_3",
+                        "text": "你選擇了机遇",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "card": 2000416,
+                    "prompt": {
+                        "id": "5367002_prompt_4",
+                        "text": "你選擇了内幕",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "card": 2000417,
+                    "prompt": {
+                        "id": "5367002_prompt_5",
+                        "text": "你選擇了预兆",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "card": 2000418,
+                    "prompt": {
+                        "id": "5367002_prompt_6",
+                        "text": "你選擇了战术",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op7": {
+                    "card": 2000422,
+                    "prompt": {
+                        "id": "5367002_prompt_7",
+                        "text": "你選擇了秘氛",
+                        "icon": "cards/2000001"
+                    }
+                }
+            }
+        }
+    ]
+}

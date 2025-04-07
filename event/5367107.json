@@ -1,0 +1,169 @@
+{
+    "id": 5367107,
+    "text": "添加裝備",
+    "is_replay": 1, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5370107_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "淬火的秘银剑",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "防火衣",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "焦黑的盔甲",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "白银吊坠",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "双截龙",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "血滴耳环",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "白银戒指",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "狼头围巾",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "石餐盒",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op10"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        2000665,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_1",
+                        "text": "你選擇了淬火的秘银剑",
+                        "icon": "cards/2000665"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        2000666,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_2",
+                        "text": "你選擇了防火衣",
+                        "icon": "cards/2000666"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        2000669,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_3",
+                        "text": "你選擇了焦黑的盔甲",
+                        "icon": "cards/2000669"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        2000693,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_4",
+                        "text": "你選擇了白银吊坠",
+                        "icon": "cards/2000693"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        2000694,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_5",
+                        "text": "你選擇了双截龙",
+                        "icon": "cards/2000694"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        2000696,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_6",
+                        "text": "你選擇了血滴耳环",
+                        "icon": "cards/2000696"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        2000701,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_7",
+                        "text": "你選擇了白银戒指",
+                        "icon": "cards/2000701"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        2000729,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_8",
+                        "text": "你選擇了狼头围巾",
+                        "icon": "cards/2000729"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        2000732,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367107_prompt_9",
+                        "text": "你選擇了石餐盒",
+                        "icon": "cards/2000732"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367108
+                }
+            }
+        }
+    ]
+}
