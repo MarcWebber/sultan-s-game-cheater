@@ -1,0 +1,175 @@
+{
+    "id": 5367257,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367257_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "受伤",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "尚未失效的罪证",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的统治",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹的耐心",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "弑君的计划",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "萨达尔尼的秘密",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "赛里曼的头颅",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "稍加整修的居所",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "山狮",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000098",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_1",
+                        "text": "你選擇了受伤",
+                        "icon": "cards/2000098"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000137",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_2",
+                        "text": "你選擇了尚未失效的罪证",
+                        "icon": "cards/2000137"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000169",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_3",
+                        "text": "你選擇了苏丹的统治",
+                        "icon": "cards/2000169"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001053",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_4",
+                        "text": "你選擇了苏丹的耐心",
+                        "icon": "cards/2001053"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000172",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_5",
+                        "text": "你選擇了弑君的计划",
+                        "icon": "cards/2000172"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000174",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_6",
+                        "text": "你選擇了萨达尔尼的秘密",
+                        "icon": "cards/2000174"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000177",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_7",
+                        "text": "你選擇了赛里曼的头颅",
+                        "icon": "cards/2000177"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000180",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_8",
+                        "text": "你選擇了稍加整修的居所",
+                        "icon": "cards/2000180"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000202",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367257_prompt_9",
+                        "text": "你選擇了山狮",
+                        "icon": "cards/2000202"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367258
+                },
+                "case:op11": {
+                    "event_on": 5367256
+                }
+            }
+        }
+    ]
+}

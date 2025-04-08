@@ -1,0 +1,63 @@
+{
+    "id": 5367207,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367207_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "拜铃耶的信众",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "百目斗篷",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001109",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367207_prompt_1",
+                        "text": "你選擇了拜铃耶的信众",
+                        "icon": "cards/2001109"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001137",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367207_prompt_2",
+                        "text": "你選擇了百目斗篷",
+                        "icon": "cards/2001137"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367206
+                }
+            }
+        }
+    ]
+}

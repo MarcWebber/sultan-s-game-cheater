@@ -1,0 +1,175 @@
+{
+    "id": 5367246,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367246_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "末日火山岩",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "谋反的意图",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "马上竞技",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "面具的秘密",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "密教的修行",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "盲眼盾",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "梦行者项链",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "迷药",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "茉莉",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000157",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_1",
+                        "text": "你選擇了末日火山岩",
+                        "icon": "cards/2000157"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000171",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_2",
+                        "text": "你選擇了谋反的意图",
+                        "icon": "cards/2000171"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000206",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_3",
+                        "text": "你選擇了马上竞技",
+                        "icon": "cards/2000206"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000239",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_4",
+                        "text": "你選擇了面具的秘密",
+                        "icon": "cards/2000239"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000240",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_5",
+                        "text": "你選擇了密教的修行",
+                        "icon": "cards/2000240"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000299",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_6",
+                        "text": "你選擇了盲眼盾",
+                        "icon": "cards/2000299"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000300",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_7",
+                        "text": "你選擇了梦行者项链",
+                        "icon": "cards/2000300"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000316",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_8",
+                        "text": "你選擇了迷药",
+                        "icon": "cards/2000316"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000337",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367246_prompt_9",
+                        "text": "你選擇了茉莉",
+                        "icon": "cards/2000337"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367247
+                },
+                "case:op11": {
+                    "event_on": 5367245
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "id": 5367288,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367288_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "征战护身符",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "战车项链",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "斩首斧",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "自我",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "知识",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "自由",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "昼夜契约",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "最后的时间",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "斩王剑",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000819",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_1",
+                        "text": "你選擇了征战护身符",
+                        "icon": "cards/2000819"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000826",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_2",
+                        "text": "你選擇了战车项链",
+                        "icon": "cards/2000826"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000920",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_3",
+                        "text": "你選擇了斩首斧",
+                        "icon": "cards/2000920"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000870",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_4",
+                        "text": "你選擇了自我",
+                        "icon": "cards/2000870"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000873",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_5",
+                        "text": "你選擇了知识",
+                        "icon": "cards/2000873"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000881",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_6",
+                        "text": "你選擇了自由",
+                        "icon": "cards/2000881"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000912",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_7",
+                        "text": "你選擇了昼夜契约",
+                        "icon": "cards/2000912"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000914",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_8",
+                        "text": "你選擇了最后的时间",
+                        "icon": "cards/2000914"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000916",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367288_prompt_9",
+                        "text": "你選擇了斩王剑",
+                        "icon": "cards/2000916"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367289
+                },
+                "case:op11": {
+                    "event_on": 5367287
+                }
+            }
+        }
+    ]
+}

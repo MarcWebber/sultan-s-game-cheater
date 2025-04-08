@@ -1,0 +1,175 @@
+{
+    "id": 5367274,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367274_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "娴熟的骑手",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "星空之镜",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "新世界",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小龙卷风",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "熏香项圈",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "献祭仪式图纸",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "谐音谩骂",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "幸运护符",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "洗浴金卡",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000339",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_1",
+                        "text": "你選擇了娴熟的骑手",
+                        "icon": "cards/2000339"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000380",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_2",
+                        "text": "你選擇了星空之镜",
+                        "icon": "cards/2000380"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000412",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_3",
+                        "text": "你選擇了新世界",
+                        "icon": "cards/2000412"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000428",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_4",
+                        "text": "你選擇了小龙卷风",
+                        "icon": "cards/2000428"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000440",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_5",
+                        "text": "你選擇了熏香项圈",
+                        "icon": "cards/2000440"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000462",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_6",
+                        "text": "你選擇了献祭仪式图纸",
+                        "icon": "cards/2000462"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000479",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_7",
+                        "text": "你選擇了谐音谩骂",
+                        "icon": "cards/2000479"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000519",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_8",
+                        "text": "你選擇了幸运护符",
+                        "icon": "cards/2000519"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000524",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367274_prompt_9",
+                        "text": "你選擇了洗浴金卡",
+                        "icon": "cards/2000524"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367275
+                },
+                "case:op11": {
+                    "event_on": 5367273
+                }
+            }
+        }
+    ]
+}

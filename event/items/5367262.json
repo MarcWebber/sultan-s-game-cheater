@@ -1,0 +1,175 @@
+{
+    "id": 5367262,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367262_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "赎罪祈愿",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "熟悉的战斗方式",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "石餐盒",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹的怒火",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "酸莓甜米饭",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "石榴园",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "守护兽手镯",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "水晶匕首",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "善的本质？",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000727",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_1",
+                        "text": "你選擇了赎罪祈愿",
+                        "icon": "cards/2000727"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000730",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_2",
+                        "text": "你選擇了熟悉的战斗方式",
+                        "icon": "cards/2000730"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000732",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_3",
+                        "text": "你選擇了石餐盒",
+                        "icon": "cards/2000732"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000796",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_4",
+                        "text": "你選擇了苏丹的怒火",
+                        "icon": "cards/2000796"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000811",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_5",
+                        "text": "你選擇了酸莓甜米饭",
+                        "icon": "cards/2000811"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000821",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_6",
+                        "text": "你選擇了石榴园",
+                        "icon": "cards/2000821"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000822",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_7",
+                        "text": "你選擇了守护兽手镯",
+                        "icon": "cards/2000822"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000839",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_8",
+                        "text": "你選擇了水晶匕首",
+                        "icon": "cards/2000839"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000845",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367262_prompt_9",
+                        "text": "你選擇了善的本质？",
+                        "icon": "cards/2000845"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367263
+                },
+                "case:op11": {
+                    "event_on": 5367261
+                }
+            }
+        }
+    ]
+}

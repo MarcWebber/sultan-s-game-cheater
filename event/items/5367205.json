@@ -1,0 +1,175 @@
+{
+    "id": 5367205,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367205_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "白鼬的宫廷",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "不要凝视群星",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "被俘的异教徒",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "被打包的财物",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "霸气",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "被囚禁的苏丹",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "被流放的苏丹",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "被侮辱的苏丹",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "白银马鞍",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000804",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_1",
+                        "text": "你選擇了白鼬的宫廷",
+                        "icon": "cards/2000804"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000807",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_2",
+                        "text": "你選擇了不要凝视群星",
+                        "icon": "cards/2000807"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000840",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_3",
+                        "text": "你選擇了被俘的异教徒",
+                        "icon": "cards/2000840"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000866",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_4",
+                        "text": "你選擇了被打包的财物",
+                        "icon": "cards/2000866"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000915",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_5",
+                        "text": "你選擇了霸气",
+                        "icon": "cards/2000915"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000956",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_6",
+                        "text": "你選擇了被囚禁的苏丹",
+                        "icon": "cards/2000956"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000957",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_7",
+                        "text": "你選擇了被流放的苏丹",
+                        "icon": "cards/2000957"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000958",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_8",
+                        "text": "你選擇了被侮辱的苏丹",
+                        "icon": "cards/2000958"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000983",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367205_prompt_9",
+                        "text": "你選擇了白银马鞍",
+                        "icon": "cards/2000983"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367206
+                },
+                "case:op11": {
+                    "event_on": 5367204
+                }
+            }
+        }
+    ]
+}

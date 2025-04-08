@@ -1,0 +1,175 @@
+{
+    "id": 5367247,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367247_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "魔幻诗歌",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "魔力增长仪式图纸",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "魅力护符",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "魅惑",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "免于恐惧的自由",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "蛮人社团",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "美容药膏",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "蒙尘之剑",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "盲目的军队",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000484",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_1",
+                        "text": "你選擇了魔幻诗歌",
+                        "icon": "cards/2000484"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000491",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_2",
+                        "text": "你選擇了魔力增长仪式图纸",
+                        "icon": "cards/2000491"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000521",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_3",
+                        "text": "你選擇了魅力护符",
+                        "icon": "cards/2000521"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000528",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_4",
+                        "text": "你選擇了魅惑",
+                        "icon": "cards/2000528"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000541",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_5",
+                        "text": "你選擇了免于恐惧的自由",
+                        "icon": "cards/2000541"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000573",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_6",
+                        "text": "你選擇了蛮人社团",
+                        "icon": "cards/2000573"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000670",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_7",
+                        "text": "你選擇了美容药膏",
+                        "icon": "cards/2000670"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000739",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_8",
+                        "text": "你選擇了蒙尘之剑",
+                        "icon": "cards/2000739"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000746",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367247_prompt_9",
+                        "text": "你選擇了盲目的军队",
+                        "icon": "cards/2000746"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367248
+                },
+                "case:op11": {
+                    "event_on": 5367246
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "id": 5367272,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367272_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "污渍：信徒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "污渍：王冠",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001041",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367272_prompt_1",
+                        "text": "你選擇了污渍：信徒",
+                        "icon": "cards/2001041"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001042",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367272_prompt_2",
+                        "text": "你選擇了污渍：王冠",
+                        "icon": "cards/2001042"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367271
+                }
+            }
+        }
+    ]
+}

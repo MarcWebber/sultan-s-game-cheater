@@ -1,0 +1,61 @@
+{
+    "id": 5367302,
+    "text": "起始字母",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367302_option_1",
+                    "text": "选择开头字母",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "W",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "X",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "Y",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "Z",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5367270
+                },
+                "case:op2": {
+                    "event_on": 5367273
+                },
+                "case:op3": {
+                    "event_on": 5367278
+                },
+                "case:op4": {
+                    "event_on": 5367284
+                },
+                "case:op5": {
+                    "event_on": 5367301
+                }
+            }
+        }
+    ]
+}

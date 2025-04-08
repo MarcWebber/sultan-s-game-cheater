@@ -1,0 +1,175 @@
+{
+    "id": 5367215,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367215_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "等待太久",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "弹球游戏",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "镀金铜拖鞋",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "盾与盔",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "对等",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "得利",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000706",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_1",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000706",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_2",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000706",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_3",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000799",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_4",
+                        "text": "你選擇了等待太久",
+                        "icon": "cards/2000799"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000805",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_5",
+                        "text": "你選擇了弹球游戏",
+                        "icon": "cards/2000805"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000814",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_6",
+                        "text": "你選擇了镀金铜拖鞋",
+                        "icon": "cards/2000814"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000834",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_7",
+                        "text": "你選擇了盾与盔",
+                        "icon": "cards/2000834"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000869",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_8",
+                        "text": "你選擇了对等",
+                        "icon": "cards/2000869"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000875",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367215_prompt_9",
+                        "text": "你選擇了得利",
+                        "icon": "cards/2000875"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367216
+                },
+                "case:op11": {
+                    "event_on": 5367214
+                }
+            }
+        }
+    ]
+}

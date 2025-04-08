@@ -1,0 +1,153 @@
+{
+    "id": 5367245,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367245_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "烂泥众",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "猎魂众",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "猎奴队线索",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "猎奴队线索",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "猎奴队线索",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "猎奴团",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "裂空",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "老派花园大餐",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op9"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000965",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_1",
+                        "text": "你選擇了烂泥众",
+                        "icon": "cards/2000965"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000969",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_2",
+                        "text": "你選擇了猎魂众",
+                        "icon": "cards/2000969"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000975",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_3",
+                        "text": "你選擇了猎奴队线索",
+                        "icon": "cards/2000975"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000975",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_4",
+                        "text": "你選擇了猎奴队线索",
+                        "icon": "cards/2000975"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000975",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_5",
+                        "text": "你選擇了猎奴队线索",
+                        "icon": "cards/2000975"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000978",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_6",
+                        "text": "你選擇了猎奴团",
+                        "icon": "cards/2000978"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000988",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_7",
+                        "text": "你選擇了裂空",
+                        "icon": "cards/2000988"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2001049",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367245_prompt_8",
+                        "text": "你選擇了老派花园大餐",
+                        "icon": "cards/2001049"
+                    }
+                },
+                "case:op9": {
+                    "event_on": 5367244
+                }
+            }
+        }
+    ]
+}

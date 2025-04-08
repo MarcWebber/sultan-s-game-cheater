@@ -1,0 +1,175 @@
+{
+    "id": 5367230,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367230_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "金币",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "精油",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "镜子",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "疾病",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "骏马",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "军用长矛指南",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "健身手册",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "金项链",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "金丝盛装",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000813",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_1",
+                        "text": "你選擇了金币",
+                        "icon": "cards/2000813"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000158",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_2",
+                        "text": "你選擇了精油",
+                        "icon": "cards/2000158"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000165",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_3",
+                        "text": "你選擇了镜子",
+                        "icon": "cards/2000165"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000194",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_4",
+                        "text": "你選擇了疾病",
+                        "icon": "cards/2000194"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000201",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_5",
+                        "text": "你選擇了骏马",
+                        "icon": "cards/2000201"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000205",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_6",
+                        "text": "你選擇了军用长矛指南",
+                        "icon": "cards/2000205"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000227",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_7",
+                        "text": "你選擇了健身手册",
+                        "icon": "cards/2000227"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000264",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_8",
+                        "text": "你選擇了金项链",
+                        "icon": "cards/2000264"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000268",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367230_prompt_9",
+                        "text": "你選擇了金丝盛装",
+                        "icon": "cards/2000268"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367231
+                },
+                "case:op11": {
+                    "event_on": 5367229
+                }
+            }
+        }
+    ]
+}

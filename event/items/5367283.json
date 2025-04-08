@@ -1,0 +1,63 @@
+{
+    "id": 5367283,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367283_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "月之暗面",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "乙太",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001062",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367283_prompt_1",
+                        "text": "你選擇了月之暗面",
+                        "icon": "cards/2001062"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001090",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367283_prompt_2",
+                        "text": "你選擇了乙太",
+                        "icon": "cards/2001090"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367282
+                }
+            }
+        }
+    ]
+}

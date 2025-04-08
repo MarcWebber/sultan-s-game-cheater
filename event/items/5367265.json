@@ -1,0 +1,175 @@
+{
+    "id": 5367265,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367265_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "受益者的线索",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "苏丹的耐心",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的耐心",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹的耐心",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "神的耐心",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "神临之塔",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "三日审判",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "舒尼雅",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "神的耐心",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001045",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_1",
+                        "text": "你選擇了受益者的线索",
+                        "icon": "cards/2001045"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001053",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_2",
+                        "text": "你選擇了苏丹的耐心",
+                        "icon": "cards/2001053"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001053",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_3",
+                        "text": "你選擇了苏丹的耐心",
+                        "icon": "cards/2001053"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001053",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_4",
+                        "text": "你選擇了苏丹的耐心",
+                        "icon": "cards/2001053"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2001122",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_5",
+                        "text": "你選擇了神的耐心",
+                        "icon": "cards/2001122"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2001077",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_6",
+                        "text": "你選擇了神临之塔",
+                        "icon": "cards/2001077"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2001079",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_7",
+                        "text": "你選擇了三日审判",
+                        "icon": "cards/2001079"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2001107",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_8",
+                        "text": "你選擇了舒尼雅",
+                        "icon": "cards/2001107"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2001122",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_9",
+                        "text": "你選擇了神的耐心",
+                        "icon": "cards/2001122"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367266
+                },
+                "case:op11": {
+                    "event_on": 5367264
+                }
+            }
+        }
+    ]
+}

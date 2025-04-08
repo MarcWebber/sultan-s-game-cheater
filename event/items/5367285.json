@@ -1,0 +1,175 @@
+{
+    "id": 5367285,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367285_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "长弓",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "作恶的狗群",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "租赁协议",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "租赁协议",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "租赁协议",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "租赁协议",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "中国",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "追随者部队",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "中龙卷风",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000260",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_1",
+                        "text": "你選擇了长弓",
+                        "icon": "cards/2000260"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000279",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_2",
+                        "text": "你選擇了作恶的狗群",
+                        "icon": "cards/2000279"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000324",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_3",
+                        "text": "你選擇了租赁协议",
+                        "icon": "cards/2000324"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000324",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_4",
+                        "text": "你選擇了租赁协议",
+                        "icon": "cards/2000324"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000324",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_5",
+                        "text": "你選擇了租赁协议",
+                        "icon": "cards/2000324"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000324",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_6",
+                        "text": "你選擇了租赁协议",
+                        "icon": "cards/2000324"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000366",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_7",
+                        "text": "你選擇了中国",
+                        "icon": "cards/2000366"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000376",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_8",
+                        "text": "你選擇了追随者部队",
+                        "icon": "cards/2000376"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000429",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367285_prompt_9",
+                        "text": "你選擇了中龙卷风",
+                        "icon": "cards/2000429"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367286
+                },
+                "case:op11": {
+                    "event_on": 5367284
+                }
+            }
+        }
+    ]
+}

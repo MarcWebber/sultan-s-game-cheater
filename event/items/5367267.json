@@ -1,0 +1,175 @@
+{
+    "id": 5367267,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367267_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "体面",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "投石索",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "天象",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "天命所归",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "挑战歌",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "铁头的优势",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "铁头的拳套",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "屠龙补给",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "屠龙之书",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000209",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_1",
+                        "text": "你選擇了体面",
+                        "icon": "cards/2000209"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000249",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_2",
+                        "text": "你選擇了投石索",
+                        "icon": "cards/2000249"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000395",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_3",
+                        "text": "你選擇了天象",
+                        "icon": "cards/2000395"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000477",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_4",
+                        "text": "你選擇了天命所归",
+                        "icon": "cards/2000477"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000481",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_5",
+                        "text": "你選擇了挑战歌",
+                        "icon": "cards/2000481"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000575",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_6",
+                        "text": "你選擇了铁头的优势",
+                        "icon": "cards/2000575"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000577",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_7",
+                        "text": "你選擇了铁头的拳套",
+                        "icon": "cards/2000577"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000667",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_8",
+                        "text": "你選擇了屠龙补给",
+                        "icon": "cards/2000667"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000671",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367267_prompt_9",
+                        "text": "你選擇了屠龙之书",
+                        "icon": "cards/2000671"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367268
+                },
+                "case:op11": {
+                    "event_on": 5367266
+                }
+            }
+        }
+    ]
+}

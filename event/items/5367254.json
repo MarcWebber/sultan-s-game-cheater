@@ -1,0 +1,175 @@
+{
+    "id": 5367254,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367254_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "骑兵之刃",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "曲直迷思",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "权势的遮掩",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "乞儿们",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "骑兵之刃",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "枪姬众",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "寝食单",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "禽肉炒蘑菇",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "全知视角",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000922",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_1",
+                        "text": "你選擇了骑兵之刃",
+                        "icon": "cards/2000922"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000857",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_2",
+                        "text": "你選擇了曲直迷思",
+                        "icon": "cards/2000857"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000863",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_3",
+                        "text": "你選擇了权势的遮掩",
+                        "icon": "cards/2000863"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000887",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_4",
+                        "text": "你選擇了乞儿们",
+                        "icon": "cards/2000887"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000922",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_5",
+                        "text": "你選擇了骑兵之刃",
+                        "icon": "cards/2000922"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000967",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_6",
+                        "text": "你選擇了枪姬众",
+                        "icon": "cards/2000967"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2001000",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_7",
+                        "text": "你選擇了寝食单",
+                        "icon": "cards/2001000"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2001050",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_8",
+                        "text": "你選擇了禽肉炒蘑菇",
+                        "icon": "cards/2001050"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2001128",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367254_prompt_9",
+                        "text": "你選擇了全知视角",
+                        "icon": "cards/2001128"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367255
+                },
+                "case:op11": {
+                    "event_on": 5367253
+                }
+            }
+        }
+    ]
+}

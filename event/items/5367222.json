@@ -1,0 +1,175 @@
+{
+    "id": 5367222,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367222_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "高空侦查",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "古老的信仰",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "古怪面具",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "怪诞的书",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "诡异的幻听",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "孤女复仇记",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "怪物的奇珍",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "怪物的铠甲",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "国民的好感",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000396",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_1",
+                        "text": "你選擇了高空侦查",
+                        "icon": "cards/2000396"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000411",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_2",
+                        "text": "你選擇了古老的信仰",
+                        "icon": "cards/2000411"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000441",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_3",
+                        "text": "你選擇了古怪面具",
+                        "icon": "cards/2000441"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000464",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_4",
+                        "text": "你選擇了怪诞的书",
+                        "icon": "cards/2000464"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000485",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_5",
+                        "text": "你選擇了诡异的幻听",
+                        "icon": "cards/2000485"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000548",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_6",
+                        "text": "你選擇了孤女复仇记",
+                        "icon": "cards/2000548"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000603",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_7",
+                        "text": "你選擇了怪物的奇珍",
+                        "icon": "cards/2000603"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000604",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_8",
+                        "text": "你選擇了怪物的铠甲",
+                        "icon": "cards/2000604"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000674",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367222_prompt_9",
+                        "text": "你選擇了国民的好感",
+                        "icon": "cards/2000674"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367223
+                },
+                "case:op11": {
+                    "event_on": 5367221
+                }
+            }
+        }
+    ]
+}

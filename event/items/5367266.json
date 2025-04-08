@@ -1,0 +1,63 @@
+{
+    "id": 5367266,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367266_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "深渊的礼物",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神面披风",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001124",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_1",
+                        "text": "你選擇了深渊的礼物",
+                        "icon": "cards/2001124"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001132",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_2",
+                        "text": "你選擇了神面披风",
+                        "icon": "cards/2001132"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367265
+                }
+            }
+        }
+    ]
+}

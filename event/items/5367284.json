@@ -1,0 +1,175 @@
+{
+    "id": 5367284,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367284_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "诅咒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "治理家业",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "纵欲的痕迹-浴场",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "纵欲的痕迹-书店",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "捉贼人回忆录",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "指虎",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "长剑",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "长矛",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "重剑",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000163",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_1",
+                        "text": "你選擇了诅咒",
+                        "icon": "cards/2000163"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000175",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_2",
+                        "text": "你選擇了治理家业",
+                        "icon": "cards/2000175"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000192",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_3",
+                        "text": "你選擇了纵欲的痕迹-浴场",
+                        "icon": "cards/2000192"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000200",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_4",
+                        "text": "你選擇了纵欲的痕迹-书店",
+                        "icon": "cards/2000200"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000218",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_5",
+                        "text": "你選擇了捉贼人回忆录",
+                        "icon": "cards/2000218"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000247",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_6",
+                        "text": "你選擇了指虎",
+                        "icon": "cards/2000247"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000252",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_7",
+                        "text": "你選擇了长剑",
+                        "icon": "cards/2000252"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000255",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_8",
+                        "text": "你選擇了长矛",
+                        "icon": "cards/2000255"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000256",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_9",
+                        "text": "你選擇了重剑",
+                        "icon": "cards/2000256"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367285
+                },
+                "case:op11": {
+                    "event_on": 5367283
+                }
+            }
+        }
+    ]
+}

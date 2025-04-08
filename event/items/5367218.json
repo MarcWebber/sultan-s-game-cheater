@@ -1,0 +1,175 @@
+{
+    "id": 5367218,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367218_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "复合弓",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "法官的死亡证明",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "法务官的头颅",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "方圆运算",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "风之护符",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "疯狂",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "繁荣的城市",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "反抗者部队",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "繁荣的城镇",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000160",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_1",
+                        "text": "你選擇了复合弓",
+                        "icon": "cards/2000160"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000167",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_2",
+                        "text": "你選擇了法官的死亡证明",
+                        "icon": "cards/2000167"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000186",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_3",
+                        "text": "你選擇了法务官的头颅",
+                        "icon": "cards/2000186"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000234",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_4",
+                        "text": "你選擇了方圆运算",
+                        "icon": "cards/2000234"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000318",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_5",
+                        "text": "你選擇了风之护符",
+                        "icon": "cards/2000318"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000326",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_6",
+                        "text": "你選擇了疯狂",
+                        "icon": "cards/2000326"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000365",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_7",
+                        "text": "你選擇了繁荣的城市",
+                        "icon": "cards/2000365"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000377",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_8",
+                        "text": "你選擇了反抗者部队",
+                        "icon": "cards/2000377"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000518",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367218_prompt_9",
+                        "text": "你選擇了繁荣的城镇",
+                        "icon": "cards/2000518"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367219
+                },
+                "case:op11": {
+                    "event_on": 5367217
+                }
+            }
+        }
+    ]
+}

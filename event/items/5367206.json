@@ -1,0 +1,175 @@
+{
+    "id": 5367206,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367206_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "白霜之剑",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "饼夹一切",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "被困的星神",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "暴食者雕像",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "暴食者雕像",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "暴食者雕像",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "暴食者雕像",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "被俘虏的祭司",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "拜玲耶的诅咒",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000996",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_1",
+                        "text": "你選擇了白霜之剑",
+                        "icon": "cards/2000996"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001016",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_2",
+                        "text": "你選擇了饼夹一切",
+                        "icon": "cards/2001016"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001031",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_3",
+                        "text": "你選擇了被困的星神",
+                        "icon": "cards/2001031"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001075",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_4",
+                        "text": "你選擇了暴食者雕像",
+                        "icon": "cards/2001075"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2001075",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_5",
+                        "text": "你選擇了暴食者雕像",
+                        "icon": "cards/2001075"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2001075",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_6",
+                        "text": "你選擇了暴食者雕像",
+                        "icon": "cards/2001075"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2001075",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_7",
+                        "text": "你選擇了暴食者雕像",
+                        "icon": "cards/2001075"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2001101",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_8",
+                        "text": "你選擇了被俘虏的祭司",
+                        "icon": "cards/2001101"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2001105",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367206_prompt_9",
+                        "text": "你選擇了拜玲耶的诅咒",
+                        "icon": "cards/2001105"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367207
+                },
+                "case:op11": {
+                    "event_on": 5367205
+                }
+            }
+        }
+    ]
+}

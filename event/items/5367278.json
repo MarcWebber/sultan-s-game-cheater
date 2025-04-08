@@ -1,0 +1,175 @@
+{
+    "id": 5367278,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367278_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "影响力",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宴会级餐饮",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "隐蔽的匕首",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "雨之子·下卷",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "抑郁",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "夜间的战斗",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "以弱胜强",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "游牧民的生活",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "勇武故事集",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000050",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_1",
+                        "text": "你選擇了影响力",
+                        "icon": "cards/2000050"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000091",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_2",
+                        "text": "你選擇了宴会级餐饮",
+                        "icon": "cards/2000091"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000156",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_3",
+                        "text": "你選擇了隐蔽的匕首",
+                        "icon": "cards/2000156"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000193",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_4",
+                        "text": "你選擇了雨之子·下卷",
+                        "icon": "cards/2000193"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000198",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_5",
+                        "text": "你選擇了抑郁",
+                        "icon": "cards/2000198"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000207",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_6",
+                        "text": "你選擇了夜间的战斗",
+                        "icon": "cards/2000207"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000208",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_7",
+                        "text": "你選擇了以弱胜强",
+                        "icon": "cards/2000208"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000223",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_8",
+                        "text": "你選擇了游牧民的生活",
+                        "icon": "cards/2000223"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000229",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367278_prompt_9",
+                        "text": "你選擇了勇武故事集",
+                        "icon": "cards/2000229"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367279
+                },
+                "case:op11": {
+                    "event_on": 5367277
+                }
+            }
+        }
+    ]
+}

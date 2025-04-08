@@ -1,0 +1,175 @@
+{
+    "id": 5367287,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367287_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "自戕者之匕",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "逐渐启智的仆人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宰相的桃色新闻",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "湛蓝丝巾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "哲瓦德的打手",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "哲瓦德的优势",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "哲百集",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "蜘蛛的网",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "咒文发梳",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000607",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_1",
+                        "text": "你選擇了自戕者之匕",
+                        "icon": "cards/2000607"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000700",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_2",
+                        "text": "你選擇了逐渐启智的仆人",
+                        "icon": "cards/2000700"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000768",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_3",
+                        "text": "你選擇了宰相的桃色新闻",
+                        "icon": "cards/2000768"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000779",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_4",
+                        "text": "你選擇了湛蓝丝巾",
+                        "icon": "cards/2000779"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000781",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_5",
+                        "text": "你選擇了哲瓦德的打手",
+                        "icon": "cards/2000781"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000783",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_6",
+                        "text": "你選擇了哲瓦德的优势",
+                        "icon": "cards/2000783"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000806",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_7",
+                        "text": "你選擇了哲百集",
+                        "icon": "cards/2000806"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000808",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_8",
+                        "text": "你選擇了蜘蛛的网",
+                        "icon": "cards/2000808"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000815",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_9",
+                        "text": "你選擇了咒文发梳",
+                        "icon": "cards/2000815"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367288
+                },
+                "case:op11": {
+                    "event_on": 5367286
+                }
+            }
+        }
+    ]
+}

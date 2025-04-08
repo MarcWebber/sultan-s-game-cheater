@@ -1,0 +1,48 @@
+{
+    "id": 5367255,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367255_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "千面纱裙",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001134",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367255_prompt_1",
+                        "text": "你選擇了千面纱裙",
+                        "icon": "cards/2001134"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5367254
+                }
+            }
+        }
+    ]
+}

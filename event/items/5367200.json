@@ -1,0 +1,175 @@
+{
+    "id": 5367200,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367200_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "艾娃日记",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "奥义书",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "暗影罗盘",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "阿迪莱的宝剑",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "暗中蓄谋",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "昂贵的香料",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "暗无天日",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "昂贵的金面纱",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "阿巴拉战事之盾",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000213",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_1",
+                        "text": "你選擇了艾娃日记",
+                        "icon": "cards/2000213"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000245",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_2",
+                        "text": "你選擇了奥义书",
+                        "icon": "cards/2000245"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000319",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_3",
+                        "text": "你選擇了暗影罗盘",
+                        "icon": "cards/2000319"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000330",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_4",
+                        "text": "你選擇了阿迪莱的宝剑",
+                        "icon": "cards/2000330"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000566",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_5",
+                        "text": "你選擇了暗中蓄谋",
+                        "icon": "cards/2000566"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000695",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_6",
+                        "text": "你選擇了昂贵的香料",
+                        "icon": "cards/2000695"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000720",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_7",
+                        "text": "你選擇了暗无天日",
+                        "icon": "cards/2000720"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000776",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_8",
+                        "text": "你選擇了昂贵的金面纱",
+                        "icon": "cards/2000776"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000835",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367200_prompt_9",
+                        "text": "你選擇了阿巴拉战事之盾",
+                        "icon": "cards/2000835"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367201
+                },
+                "case:op11": {
+                    "event_on": 5367199
+                }
+            }
+        }
+    ]
+}

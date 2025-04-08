@@ -1,0 +1,175 @@
+{
+    "id": 5367261,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367261_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "生命权杖",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "商队",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "神秘的怪物",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "商队的饰品",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "受雇的冒险者部队",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "苏丹的猜疑",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "苏丹的猜忌",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "双截龙",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "岁月轨迹",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000556",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_1",
+                        "text": "你選擇了生命权杖",
+                        "icon": "cards/2000556"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000597",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_2",
+                        "text": "你選擇了商队",
+                        "icon": "cards/2000597"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000599",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_3",
+                        "text": "你選擇了神秘的怪物",
+                        "icon": "cards/2000599"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000602",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_4",
+                        "text": "你選擇了商队的饰品",
+                        "icon": "cards/2000602"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000605",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_5",
+                        "text": "你選擇了受雇的冒险者部队",
+                        "icon": "cards/2000605"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000672",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_6",
+                        "text": "你選擇了苏丹的猜疑",
+                        "icon": "cards/2000672"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000680",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_7",
+                        "text": "你選擇了苏丹的猜忌",
+                        "icon": "cards/2000680"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000694",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_8",
+                        "text": "你選擇了双截龙",
+                        "icon": "cards/2000694"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000718",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367261_prompt_9",
+                        "text": "你選擇了岁月轨迹",
+                        "icon": "cards/2000718"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367262
+                },
+                "case:op11": {
+                    "event_on": 5367260
+                }
+            }
+        }
+    ]
+}

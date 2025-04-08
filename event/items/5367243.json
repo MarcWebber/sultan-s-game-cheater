@@ -1,0 +1,175 @@
+{
+    "id": 5367243,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367243_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "理性",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "狼头围巾",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "蓝巾军",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "老花园",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "列王纪",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "老派花园大餐",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "灵视的遮掩",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "理想",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "领袖",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000723",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_1",
+                        "text": "你選擇了理性",
+                        "icon": "cards/2000723"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000729",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_2",
+                        "text": "你選擇了狼头围巾",
+                        "icon": "cards/2000729"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000780",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_3",
+                        "text": "你選擇了蓝巾军",
+                        "icon": "cards/2000780"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000797",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_4",
+                        "text": "你選擇了老花园",
+                        "icon": "cards/2000797"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000798",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_5",
+                        "text": "你選擇了列王纪",
+                        "icon": "cards/2000798"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2001049",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_6",
+                        "text": "你選擇了老派花园大餐",
+                        "icon": "cards/2001049"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000865",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_7",
+                        "text": "你選擇了灵视的遮掩",
+                        "icon": "cards/2000865"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000871",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_8",
+                        "text": "你選擇了理想",
+                        "icon": "cards/2000871"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000872",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_9",
+                        "text": "你選擇了领袖",
+                        "icon": "cards/2000872"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367244
+                },
+                "case:op11": {
+                    "event_on": 5367242
+                }
+            }
+        }
+    ]
+}

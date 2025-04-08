@@ -1,0 +1,175 @@
+{
+    "id": 5367203,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367203_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "卑贱囚牢",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "白犀牛皮",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "被找到的绿洲",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "不稳定的火箭筒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "编织头环",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "不引人注意的妆扮",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "被保佑的妆扮",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "不灭的情诗",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "不凡的史诗",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000309",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_1",
+                        "text": "你選擇了卑贱囚牢",
+                        "icon": "cards/2000309"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000329",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_2",
+                        "text": "你選擇了白犀牛皮",
+                        "icon": "cards/2000329"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000364",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_3",
+                        "text": "你選擇了被找到的绿洲",
+                        "icon": "cards/2000364"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000392",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_4",
+                        "text": "你選擇了不稳定的火箭筒",
+                        "icon": "cards/2000392"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000435",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_5",
+                        "text": "你選擇了编织头环",
+                        "icon": "cards/2000435"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000449",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_6",
+                        "text": "你選擇了不引人注意的妆扮",
+                        "icon": "cards/2000449"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000451",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_7",
+                        "text": "你選擇了被保佑的妆扮",
+                        "icon": "cards/2000451"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000470",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_8",
+                        "text": "你選擇了不灭的情诗",
+                        "icon": "cards/2000470"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000474",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367203_prompt_9",
+                        "text": "你選擇了不凡的史诗",
+                        "icon": "cards/2000474"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367204
+                },
+                "case:op11": {
+                    "event_on": 5367202
+                }
+            }
+        }
+    ]
+}

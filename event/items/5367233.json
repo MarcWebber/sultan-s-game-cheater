@@ -1,0 +1,175 @@
+{
+    "id": 5367233,
+    "text": "选择道具",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367233_option_1",
+                    "text": "你想要什麽？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "借书证",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "家传铠甲",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "家传铠甲",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "激进教团",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "桀骜不驯的部落",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "精致的匕首",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "焦黑的盔甲",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "军队的好感",
+                            "tag": "op8"
+                        },
+                        {
+                            "text": "军队的支持",
+                            "tag": "op9"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op10"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op11"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000525",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_1",
+                        "text": "你選擇了借书证",
+                        "icon": "cards/2000525"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000527",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_2",
+                        "text": "你選擇了家传铠甲",
+                        "icon": "cards/2000527"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000527",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_3",
+                        "text": "你選擇了家传铠甲",
+                        "icon": "cards/2000527"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000567",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_4",
+                        "text": "你選擇了激进教团",
+                        "icon": "cards/2000567"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000598",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_5",
+                        "text": "你選擇了桀骜不驯的部落",
+                        "icon": "cards/2000598"
+                    }
+                },
+                "case:op6": {
+                    "g.card": [
+                        "2000663",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_6",
+                        "text": "你選擇了精致的匕首",
+                        "icon": "cards/2000663"
+                    }
+                },
+                "case:op7": {
+                    "g.card": [
+                        "2000669",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_7",
+                        "text": "你選擇了焦黑的盔甲",
+                        "icon": "cards/2000669"
+                    }
+                },
+                "case:op8": {
+                    "g.card": [
+                        "2000673",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_8",
+                        "text": "你選擇了军队的好感",
+                        "icon": "cards/2000673"
+                    }
+                },
+                "case:op9": {
+                    "g.card": [
+                        "2000677",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367233_prompt_9",
+                        "text": "你選擇了军队的支持",
+                        "icon": "cards/2000677"
+                    }
+                },
+                "case:op10": {
+                    "event_on": 5367234
+                },
+                "case:op11": {
+                    "event_on": 5367232
+                }
+            }
+        }
+    ]
+}
