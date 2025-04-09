@@ -1176,7 +1176,10 @@
         "type": "char",
         "tips": "",
         "rare": 3,
-        "resource": ["cards/2000056","cards/2000056_1"],
+        "resource": [
+            "cards/2000056",
+            "cards/2000056_1"
+        ],
         "tag": {
             "体魄": 2,
             "魅力": 2,
@@ -1330,7 +1333,10 @@
         "type": "char",
         "tips": "",
         "rare": 2,
-        "resource": ["cards/2000061","cards/2000061_1"],
+        "resource": [
+            "cards/2000061",
+            "cards/2000061_1"
+        ],
         "tag": {
             "体魄": 2,
             "魅力": 2,
@@ -1351,15 +1357,14 @@
             "饰品"
         ],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
                 "condition": {
-                    "tag_tips.战斗":1              
+                    "tag_tips.战斗": 1
                 },
                 "result_text": "无论胜负如何，她很享受这场战斗。",
-                "result": 
-                {
-                    "self+战斗的痕迹": 1 
+                "result": {
+                    "self+战斗的痕迹": 1
                 },
                 "action": {}
             }
@@ -2271,7 +2276,10 @@
         "type": "char",
         "tips": "",
         "rare": 2,
-        "resource": ["cards/2000123","cards/2000123_1"],
+        "resource": [
+            "cards/2000123",
+            "cards/2000123_1"
+        ],
         "tag": {
             "体魄": 1,
             "魅力": 1,
@@ -2287,86 +2295,85 @@
             "饰品"
         ],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
                 "condition": {
-                    "any":{
-                    "is_rite":5000012,
-                    "is_rite":5000013,
-                    "is_rite":5000014,
-                    "is_rite":5000015,
-                    "is_rite":5000016,
-                    "is_rite":5000017,
-                    "is_rite":5000018,
-                    "is_rite":5000019,
-                    "is_rite":5000020,
-                    "is_rite":5000021,
-                    "is_rite":5000022,
-                    "is_rite":5000023,
-                    "is_rite":5000024,
-                    "is_rite":5000025,
-                    "is_rite":5000026,
-                    "is_rite":5000027,
-                    "is_rite":5000028,
-                    "is_rite":5000029,
-                    "is_rite":5000030,
-                    "is_rite":5000031,
-                    "is_rite":5000032,
-                    "is_rite":5000033,
-                    "is_rite":5000034,
-                    "is_rite":5000035,
-                    "is_rite":5000036,
-                    "is_rite":5000037,
-                    "is_rite":5000038,
-                    "is_rite":5000039,
-                    "is_rite":5000040,
-                    "is_rite":5000041,
-                    "is_rite":5000042,
-                    "is_rite":5000043,
-                    "is_rite":5000044,
-                    "is_rite":5000045,
-                    "is_rite":5000046,
-                    "is_rite":5000047,
-                    "is_rite":5000048,
-                    "is_rite":5000049,
-                    "is_rite":5000050,
-                    "is_rite":5000051,
-                    "is_rite":5000052,
-                    "is_rite":5000053,
-                    "is_rite":5000065,
-                    "is_rite":5000054,
-                    "is_rite":5000128,
-                    "is_rite":5000142,
-                    "is_rite":5000143,
-                    "is_rite":5000144,
-                    "is_rite":5000145,
-                    "is_rite":5000146,
-                    "is_rite":5000147,
-                    "is_rite":5000148,
-                    "is_rite":5000149,
-                    "is_rite":5000150,
-                    "is_rite":5000151,
-                    "is_rite":5000152,
-                    "is_rite":5000153,
-                    "is_rite":5000155,
-                    "is_rite":5000156,
-                    "is_rite":5000157,
-                    "is_rite":5000159, 
-                    "is_rite":5000832, 
-                    "is_rite":5000833, 
-                    "is_rite":5000834, 
-                    "is_rite":5006519, 
-                    "is_rite":5006523,
-                    "is_rite":5006529,
-                    "is_rite":5006530,
-                    "is_rite":5006531,
-                    "is_rite":5006533,
-                    "is_rite":5006534, 
-                    }       
+                    "any": {
+                        "is_rite": 5000012,
+                        "is_rite": 5000013,
+                        "is_rite": 5000014,
+                        "is_rite": 5000015,
+                        "is_rite": 5000016,
+                        "is_rite": 5000017,
+                        "is_rite": 5000018,
+                        "is_rite": 5000019,
+                        "is_rite": 5000020,
+                        "is_rite": 5000021,
+                        "is_rite": 5000022,
+                        "is_rite": 5000023,
+                        "is_rite": 5000024,
+                        "is_rite": 5000025,
+                        "is_rite": 5000026,
+                        "is_rite": 5000027,
+                        "is_rite": 5000028,
+                        "is_rite": 5000029,
+                        "is_rite": 5000030,
+                        "is_rite": 5000031,
+                        "is_rite": 5000032,
+                        "is_rite": 5000033,
+                        "is_rite": 5000034,
+                        "is_rite": 5000035,
+                        "is_rite": 5000036,
+                        "is_rite": 5000037,
+                        "is_rite": 5000038,
+                        "is_rite": 5000039,
+                        "is_rite": 5000040,
+                        "is_rite": 5000041,
+                        "is_rite": 5000042,
+                        "is_rite": 5000043,
+                        "is_rite": 5000044,
+                        "is_rite": 5000045,
+                        "is_rite": 5000046,
+                        "is_rite": 5000047,
+                        "is_rite": 5000048,
+                        "is_rite": 5000049,
+                        "is_rite": 5000050,
+                        "is_rite": 5000051,
+                        "is_rite": 5000052,
+                        "is_rite": 5000053,
+                        "is_rite": 5000065,
+                        "is_rite": 5000054,
+                        "is_rite": 5000128,
+                        "is_rite": 5000142,
+                        "is_rite": 5000143,
+                        "is_rite": 5000144,
+                        "is_rite": 5000145,
+                        "is_rite": 5000146,
+                        "is_rite": 5000147,
+                        "is_rite": 5000148,
+                        "is_rite": 5000149,
+                        "is_rite": 5000150,
+                        "is_rite": 5000151,
+                        "is_rite": 5000152,
+                        "is_rite": 5000153,
+                        "is_rite": 5000155,
+                        "is_rite": 5000156,
+                        "is_rite": 5000157,
+                        "is_rite": 5000159,
+                        "is_rite": 5000832,
+                        "is_rite": 5000833,
+                        "is_rite": 5000834,
+                        "is_rite": 5006519,
+                        "is_rite": 5006523,
+                        "is_rite": 5006529,
+                        "is_rite": 5006530,
+                        "is_rite": 5006531,
+                        "is_rite": 5006533,
+                        "is_rite": 5006534,
+                    }
                 },
                 "result_text": "鲁梅拉若有所思。",
-                "result": 
-                {
+                "result": {
                     "counter+7000100": 1 //成就
                 },
                 "action": {}
@@ -2528,7 +2535,10 @@
         "type": "char",
         "tips": "",
         "rare": 2,
-        "resource": ["cards/2000129","cards/2000129_01"],
+        "resource": [
+            "cards/2000129",
+            "cards/2000129_01"
+        ],
         "tag": {
             "体魄": 3,
             "魅力": 5,
@@ -6885,7 +6895,15 @@
         "tips": "",
         "rare": 1,
         "resource": "cards/2010001",
-        "destroy_resources": ["sudan_big/1_sudan_1", "sudan_big/1_sudan_1_2", "sudan_big/1_sudan_1_3", "sudan_big/1_sudan_1_4", "sudan_big/1_sudan_1_5", "sudan_big/1_sudan_1_6", "sudan_big/1_sudan_1_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_1",
+            "sudan_big/1_sudan_1_2",
+            "sudan_big/1_sudan_1_3",
+            "sudan_big/1_sudan_1_4",
+            "sudan_big/1_sudan_1_5",
+            "sudan_big/1_sudan_1_6",
+            "sudan_big/1_sudan_1_7"
+        ],
         "tag": {
             "杀戮": 1,
             "战斗": 1,
@@ -6910,7 +6928,15 @@
         "tips": "",
         "rare": 2,
         "resource": "cards/2010002",
-        "destroy_resources": ["sudan_big/1_sudan_1", "sudan_big/1_sudan_1_2", "sudan_big/1_sudan_1_3", "sudan_big/1_sudan_1_4", "sudan_big/1_sudan_1_5", "sudan_big/1_sudan_1_6", "sudan_big/1_sudan_1_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_1",
+            "sudan_big/1_sudan_1_2",
+            "sudan_big/1_sudan_1_3",
+            "sudan_big/1_sudan_1_4",
+            "sudan_big/1_sudan_1_5",
+            "sudan_big/1_sudan_1_6",
+            "sudan_big/1_sudan_1_7"
+        ],
         "tag": {
             "杀戮": 1,
             "战斗": 2,
@@ -6935,7 +6961,15 @@
         "tips": "",
         "rare": 3,
         "resource": "cards/2010003",
-        "destroy_resources": ["sudan_big/1_sudan_1", "sudan_big/1_sudan_1_2", "sudan_big/1_sudan_1_3", "sudan_big/1_sudan_1_4", "sudan_big/1_sudan_1_5", "sudan_big/1_sudan_1_6", "sudan_big/1_sudan_1_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_1",
+            "sudan_big/1_sudan_1_2",
+            "sudan_big/1_sudan_1_3",
+            "sudan_big/1_sudan_1_4",
+            "sudan_big/1_sudan_1_5",
+            "sudan_big/1_sudan_1_6",
+            "sudan_big/1_sudan_1_7"
+        ],
         "tag": {
             "杀戮": 1,
             "战斗": 3,
@@ -6960,7 +6994,15 @@
         "tips": "",
         "rare": 4,
         "resource": "cards/2010004",
-        "destroy_resources": ["sudan_big/1_sudan_1", "sudan_big/1_sudan_1_2", "sudan_big/1_sudan_1_3", "sudan_big/1_sudan_1_4", "sudan_big/1_sudan_1_5", "sudan_big/1_sudan_1_6", "sudan_big/1_sudan_1_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_1",
+            "sudan_big/1_sudan_1_2",
+            "sudan_big/1_sudan_1_3",
+            "sudan_big/1_sudan_1_4",
+            "sudan_big/1_sudan_1_5",
+            "sudan_big/1_sudan_1_6",
+            "sudan_big/1_sudan_1_7"
+        ],
         "tag": {
             "杀戮": 1,
             "战斗": 4,
@@ -6985,7 +7027,15 @@
         "tips": "",
         "rare": 1,
         "resource": "cards/2010005",
-        "destroy_resources": ["sudan_big/1_sudan_4", "sudan_big/1_sudan_4_2", "sudan_big/1_sudan_4_3", "sudan_big/1_sudan_4_4", "sudan_big/1_sudan_4_5", "sudan_big/1_sudan_4_6", "sudan_big/1_sudan_4_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_4",
+            "sudan_big/1_sudan_4_2",
+            "sudan_big/1_sudan_4_3",
+            "sudan_big/1_sudan_4_4",
+            "sudan_big/1_sudan_4_5",
+            "sudan_big/1_sudan_4_6",
+            "sudan_big/1_sudan_4_7"
+        ],
         "tag": {
             "纵欲": 1,
             "社交": 1,
@@ -6998,21 +7048,19 @@
         },
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "have.不举的传言":1,
-                    "!is":2000184, //没有双头龙
-                    "!is_rite":5006559,
-                    "!is_rite":5006558,
-                    "!is_rite":5000158,           
+                "condition": {
+                    "have.不举的传言": 1,
+                    "!is": 2000184, //没有双头龙
+                    "!is_rite": 5006559,
+                    "!is_rite": 5006558,
+                    "!is_rite": 5000158,
                 },
                 "result_text": "你用出了纵欲卡，那么之前关于你不举的传言是假的？准备接受戏弄苏丹的代价吧！",
-                "result": 
-                {
-                },
+                "result": {},
                 "action": {
-                    "over":13
+                    "over": 13
                 }
             }
         ]
@@ -7028,7 +7076,15 @@
         "tips": "",
         "rare": 2,
         "resource": "cards/2010006",
-        "destroy_resources": ["sudan_big/1_sudan_4", "sudan_big/1_sudan_4_2", "sudan_big/1_sudan_4_3", "sudan_big/1_sudan_4_4", "sudan_big/1_sudan_4_5", "sudan_big/1_sudan_4_6", "sudan_big/1_sudan_4_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_4",
+            "sudan_big/1_sudan_4_2",
+            "sudan_big/1_sudan_4_3",
+            "sudan_big/1_sudan_4_4",
+            "sudan_big/1_sudan_4_5",
+            "sudan_big/1_sudan_4_6",
+            "sudan_big/1_sudan_4_7"
+        ],
         "tag": {
             "纵欲": 1,
             "社交": 2,
@@ -7041,20 +7097,18 @@
         },
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "have.不举的传言":1,
-                    "!is_rite":5006559,
-                    "!is_rite":5006558,                    
-                    "!is_rite":5000158,       
+                "condition": {
+                    "have.不举的传言": 1,
+                    "!is_rite": 5006559,
+                    "!is_rite": 5006558,
+                    "!is_rite": 5000158,
                 },
                 "result_text": "你用出了纵欲卡，那么之前关于你不举的传言是假的？准备接受戏弄苏丹的代价吧！",
-                "result": 
-                {
-                },
+                "result": {},
                 "action": {
-                    "over":13
+                    "over": 13
                 }
             }
         ]
@@ -7070,7 +7124,15 @@
         "tips": "",
         "rare": 3,
         "resource": "cards/2010007",
-        "destroy_resources": ["sudan_big/1_sudan_4", "sudan_big/1_sudan_4_2", "sudan_big/1_sudan_4_3", "sudan_big/1_sudan_4_4", "sudan_big/1_sudan_4_5", "sudan_big/1_sudan_4_6", "sudan_big/1_sudan_4_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_4",
+            "sudan_big/1_sudan_4_2",
+            "sudan_big/1_sudan_4_3",
+            "sudan_big/1_sudan_4_4",
+            "sudan_big/1_sudan_4_5",
+            "sudan_big/1_sudan_4_6",
+            "sudan_big/1_sudan_4_7"
+        ],
         "tag": {
             "纵欲": 1,
             "社交": 3,
@@ -7083,20 +7145,18 @@
         },
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "have.不举的传言":1,
-                    "!is_rite":5006559,
-                    "!is_rite":5006558,                    
-                    "!is_rite":5000158,       
+                "condition": {
+                    "have.不举的传言": 1,
+                    "!is_rite": 5006559,
+                    "!is_rite": 5006558,
+                    "!is_rite": 5000158,
                 },
                 "result_text": "你用出了纵欲卡，那么之前关于你不举的传言是假的？准备接受戏弄苏丹的代价吧！",
-                "result": 
-                {
-                },
+                "result": {},
                 "action": {
-                    "over":13
+                    "over": 13
                 }
             }
         ]
@@ -7112,7 +7172,15 @@
         "tips": "",
         "rare": 4,
         "resource": "cards/2010008",
-        "destroy_resources": ["sudan_big/1_sudan_4", "sudan_big/1_sudan_4_2", "sudan_big/1_sudan_4_3", "sudan_big/1_sudan_4_4", "sudan_big/1_sudan_4_5", "sudan_big/1_sudan_4_6", "sudan_big/1_sudan_4_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_4",
+            "sudan_big/1_sudan_4_2",
+            "sudan_big/1_sudan_4_3",
+            "sudan_big/1_sudan_4_4",
+            "sudan_big/1_sudan_4_5",
+            "sudan_big/1_sudan_4_6",
+            "sudan_big/1_sudan_4_7"
+        ],
         "tag": {
             "纵欲": 1,
             "社交": 4,
@@ -7125,20 +7193,18 @@
         },
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "have.不举的传言":1,
-                    "!is_rite":5006559,
-                    "!is_rite":5006558,                    
-                    "!is_rite":5000158,      
+                "condition": {
+                    "have.不举的传言": 1,
+                    "!is_rite": 5006559,
+                    "!is_rite": 5006558,
+                    "!is_rite": 5000158,
                 },
                 "result_text": "你用出了纵欲卡，那么之前关于你不举的传言是假的？准备接受戏弄苏丹的代价吧！",
-                "result": 
-                {
-                },
+                "result": {},
                 "action": {
-                    "over":13
+                    "over": 13
                 }
             }
         ]
@@ -7154,7 +7220,15 @@
         "tips": "",
         "rare": 1,
         "resource": "cards/2010009",
-        "destroy_resources": ["sudan_big/1_sudan_2", "sudan_big/1_sudan_2_2", "sudan_big/1_sudan_2_3", "sudan_big/1_sudan_2_4", "sudan_big/1_sudan_2_5", "sudan_big/1_sudan_2_6", "sudan_big/1_sudan_2_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_2",
+            "sudan_big/1_sudan_2_2",
+            "sudan_big/1_sudan_2_3",
+            "sudan_big/1_sudan_2_4",
+            "sudan_big/1_sudan_2_5",
+            "sudan_big/1_sudan_2_6",
+            "sudan_big/1_sudan_2_7"
+        ],
         "tag": {
             "奢靡": 1,
             "社交": 1,
@@ -7179,7 +7253,15 @@
         "tips": "",
         "rare": 2,
         "resource": "cards/2010010",
-        "destroy_resources": ["sudan_big/1_sudan_2", "sudan_big/1_sudan_2_2", "sudan_big/1_sudan_2_3", "sudan_big/1_sudan_2_4", "sudan_big/1_sudan_2_5", "sudan_big/1_sudan_2_6", "sudan_big/1_sudan_2_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_2",
+            "sudan_big/1_sudan_2_2",
+            "sudan_big/1_sudan_2_3",
+            "sudan_big/1_sudan_2_4",
+            "sudan_big/1_sudan_2_5",
+            "sudan_big/1_sudan_2_6",
+            "sudan_big/1_sudan_2_7"
+        ],
         "tag": {
             "奢靡": 1,
             "社交": 2,
@@ -7204,7 +7286,15 @@
         "tips": "",
         "rare": 3,
         "resource": "cards/2010011",
-        "destroy_resources": ["sudan_big/1_sudan_2", "sudan_big/1_sudan_2_2", "sudan_big/1_sudan_2_3", "sudan_big/1_sudan_2_4", "sudan_big/1_sudan_2_5", "sudan_big/1_sudan_2_6", "sudan_big/1_sudan_2_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_2",
+            "sudan_big/1_sudan_2_2",
+            "sudan_big/1_sudan_2_3",
+            "sudan_big/1_sudan_2_4",
+            "sudan_big/1_sudan_2_5",
+            "sudan_big/1_sudan_2_6",
+            "sudan_big/1_sudan_2_7"
+        ],
         "tag": {
             "奢靡": 1,
             "社交": 3,
@@ -7229,7 +7319,15 @@
         "tips": "",
         "rare": 4,
         "resource": "cards/2010012",
-        "destroy_resources": ["sudan_big/1_sudan_2", "sudan_big/1_sudan_2_2", "sudan_big/1_sudan_2_3", "sudan_big/1_sudan_2_4", "sudan_big/1_sudan_2_5", "sudan_big/1_sudan_2_6", "sudan_big/1_sudan_2_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_2",
+            "sudan_big/1_sudan_2_2",
+            "sudan_big/1_sudan_2_3",
+            "sudan_big/1_sudan_2_4",
+            "sudan_big/1_sudan_2_5",
+            "sudan_big/1_sudan_2_6",
+            "sudan_big/1_sudan_2_7"
+        ],
         "tag": {
             "奢靡": 1,
             "社交": 4,
@@ -7254,7 +7352,15 @@
         "tips": "",
         "rare": 1,
         "resource": "cards/2010013",
-        "destroy_resources": ["sudan_big/1_sudan_3", "sudan_big/1_sudan_3_2", "sudan_big/1_sudan_3_3", "sudan_big/1_sudan_3_4", "sudan_big/1_sudan_3_5", "sudan_big/1_sudan_3_6", "sudan_big/1_sudan_3_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_3",
+            "sudan_big/1_sudan_3_2",
+            "sudan_big/1_sudan_3_3",
+            "sudan_big/1_sudan_3_4",
+            "sudan_big/1_sudan_3_5",
+            "sudan_big/1_sudan_3_6",
+            "sudan_big/1_sudan_3_7"
+        ],
         "tag": {
             "征服": 1,
             "战斗": 1,
@@ -7279,7 +7385,15 @@
         "tips": "",
         "rare": 2,
         "resource": "cards/2010014",
-        "destroy_resources": ["sudan_big/1_sudan_3", "sudan_big/1_sudan_3_2", "sudan_big/1_sudan_3_3", "sudan_big/1_sudan_3_4", "sudan_big/1_sudan_3_5", "sudan_big/1_sudan_3_6", "sudan_big/1_sudan_3_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_3",
+            "sudan_big/1_sudan_3_2",
+            "sudan_big/1_sudan_3_3",
+            "sudan_big/1_sudan_3_4",
+            "sudan_big/1_sudan_3_5",
+            "sudan_big/1_sudan_3_6",
+            "sudan_big/1_sudan_3_7"
+        ],
         "tag": {
             "征服": 1,
             "战斗": 2,
@@ -7304,7 +7418,15 @@
         "tips": "",
         "rare": 3,
         "resource": "cards/2010015",
-        "destroy_resources": ["sudan_big/1_sudan_3", "sudan_big/1_sudan_3_2", "sudan_big/1_sudan_3_3", "sudan_big/1_sudan_3_4", "sudan_big/1_sudan_3_5", "sudan_big/1_sudan_3_6", "sudan_big/1_sudan_3_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_3",
+            "sudan_big/1_sudan_3_2",
+            "sudan_big/1_sudan_3_3",
+            "sudan_big/1_sudan_3_4",
+            "sudan_big/1_sudan_3_5",
+            "sudan_big/1_sudan_3_6",
+            "sudan_big/1_sudan_3_7"
+        ],
         "tag": {
             "征服": 1,
             "战斗": 3,
@@ -7329,7 +7451,15 @@
         "tips": "",
         "rare": 4,
         "resource": "cards/2010016",
-        "destroy_resources": ["sudan_big/1_sudan_3", "sudan_big/1_sudan_3_2", "sudan_big/1_sudan_3_3", "sudan_big/1_sudan_3_4", "sudan_big/1_sudan_3_5", "sudan_big/1_sudan_3_6", "sudan_big/1_sudan_3_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_3",
+            "sudan_big/1_sudan_3_2",
+            "sudan_big/1_sudan_3_3",
+            "sudan_big/1_sudan_3_4",
+            "sudan_big/1_sudan_3_5",
+            "sudan_big/1_sudan_3_6",
+            "sudan_big/1_sudan_3_7"
+        ],
         "tag": {
             "征服": 1,
             "战斗": 4,
@@ -8987,14 +9117,12 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {           
-                },
+                "condition": {},
                 "result_text": "猫战士的魂灵回归了。",
-                "result": 
-                {
-                    "clean.self": 1 
+                "result": {
+                    "clean.self": 1
                 },
                 "action": {}
             }
@@ -9263,23 +9391,22 @@
             "驯兽"
         ],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
                 "condition": {
-                    "any":{
-                        "is_rite":5001001,  //上朝
-                        "is_rite":5002006,  //书店
-                        "is_rite":5000001,  //治理家业
-                        "is_rite":5001501,  //浴场
-                        "is_rite":5002036,  //淘书
-                        "is_rite":5002037,  //淘书
-                        "is_rite":5002038  //淘书
-                    }       
+                    "any": {
+                        "is_rite": 5001001, //上朝
+                        "is_rite": 5002006, //书店
+                        "is_rite": 5000001, //治理家业
+                        "is_rite": 5001501, //浴场
+                        "is_rite": 5002036, //淘书
+                        "is_rite": 5002037, //淘书
+                        "is_rite": 5002038 //淘书
+                    }
                 },
                 "result_text": "小留偶尔能带回来一些被他人遗忘的幸运，但这本身也是一件看运气的事情。",
-                "result": 
-                {
-                    "choose":{
+                "result": {
+                    "choose": {
                         "counter+7100006": 1, //金骰子
                         "counter+7000508": 1, //没用的计数器
                         "counter+7000508": 1, //没用的计数器
@@ -9614,15 +9741,14 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000101      
+                "condition": {
+                    "!is_rite": 5000101
                 },
                 "result_text": "妆扮损毁了。",
-                "result": 
-                {
-                    "clean.self": 1 
+                "result": {
+                    "clean.self": 1
                 },
                 "action": {}
             }
@@ -9649,15 +9775,14 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {            
-                    "!is_rite":5000101 
+                "condition": {
+                    "!is_rite": 5000101
                 },
                 "result_text": "妆扮损毁了。",
-                "result": 
-                {
-                    "clean.self": 1 
+                "result": {
+                    "clean.self": 1
                 },
                 "action": {}
             }
@@ -9684,15 +9809,14 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {  
-                    "!is_rite":5000101      
+                "condition": {
+                    "!is_rite": 5000101
                 },
                 "result_text": "妆扮损毁了。",
-                "result": 
-                {
-                    "clean.self": 1 
+                "result": {
+                    "clean.self": 1
                 },
                 "action": {}
             }
@@ -9955,14 +10079,12 @@
             "饰品"
         ],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {            
-                },
+                "condition": {},
                 "result_text": "诗人获得了创作的灵感。",
-                "result": 
-                {
-                    "self+灵感": 1 
+                "result": {
+                    "self+灵感": 1
                 },
                 "action": {}
             }
@@ -11227,7 +11349,15 @@
         "tips": "",
         "rare": 3,
         "resource": "cards/2000512",
-        "destroy_resources": ["sudan_big/1_sudan_4", "sudan_big/1_sudan_4_2", "sudan_big/1_sudan_4_3", "sudan_big/1_sudan_4_4", "sudan_big/1_sudan_4_5", "sudan_big/1_sudan_4_6", "sudan_big/1_sudan_4_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_4",
+            "sudan_big/1_sudan_4_2",
+            "sudan_big/1_sudan_4_3",
+            "sudan_big/1_sudan_4_4",
+            "sudan_big/1_sudan_4_5",
+            "sudan_big/1_sudan_4_6",
+            "sudan_big/1_sudan_4_7"
+        ],
         "tag": {
             "纵欲": 1,
             "社交": 3,
@@ -11251,7 +11381,15 @@
         "tips": "",
         "rare": 4,
         "resource": "cards/2000513",
-        "destroy_resources": ["sudan_big/1_sudan_1", "sudan_big/1_sudan_1_2", "sudan_big/1_sudan_1_3", "sudan_big/1_sudan_1_4", "sudan_big/1_sudan_1_5", "sudan_big/1_sudan_1_6", "sudan_big/1_sudan_1_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_1",
+            "sudan_big/1_sudan_1_2",
+            "sudan_big/1_sudan_1_3",
+            "sudan_big/1_sudan_1_4",
+            "sudan_big/1_sudan_1_5",
+            "sudan_big/1_sudan_1_6",
+            "sudan_big/1_sudan_1_7"
+        ],
         "tag": {
             "杀戮": 1,
             "战斗": 4,
@@ -11275,7 +11413,15 @@
         "tips": "",
         "rare": 1,
         "resource": "cards/2000514",
-        "destroy_resources": ["sudan_big/1_sudan_2", "sudan_big/1_sudan_2_2", "sudan_big/1_sudan_2_3", "sudan_big/1_sudan_2_4", "sudan_big/1_sudan_2_5", "sudan_big/1_sudan_2_6", "sudan_big/1_sudan_2_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_2",
+            "sudan_big/1_sudan_2_2",
+            "sudan_big/1_sudan_2_3",
+            "sudan_big/1_sudan_2_4",
+            "sudan_big/1_sudan_2_5",
+            "sudan_big/1_sudan_2_6",
+            "sudan_big/1_sudan_2_7"
+        ],
         "tag": {
             "奢靡": 1,
             "社交": 1,
@@ -11299,7 +11445,15 @@
         "tips": "",
         "rare": 2,
         "resource": "cards/2000515",
-        "destroy_resources": ["sudan_big/1_sudan_3", "sudan_big/1_sudan_3_2", "sudan_big/1_sudan_3_3", "sudan_big/1_sudan_3_4", "sudan_big/1_sudan_3_5", "sudan_big/1_sudan_3_6", "sudan_big/1_sudan_3_7"],
+        "destroy_resources": [
+            "sudan_big/1_sudan_3",
+            "sudan_big/1_sudan_3_2",
+            "sudan_big/1_sudan_3_3",
+            "sudan_big/1_sudan_3_4",
+            "sudan_big/1_sudan_3_5",
+            "sudan_big/1_sudan_3_6",
+            "sudan_big/1_sudan_3_7"
+        ],
         "tag": {
             "征服": 1,
             "战斗": 2,
@@ -11421,15 +11575,14 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "parent.受伤":1      
+                "condition": {
+                    "parent.受伤": 1
                 },
                 "result_text": "你的伤口愈合了。",
-                "result": 
-                {
-                    "parent-equip": 2000098 
+                "result": {
+                    "parent-equip": 2000098
                 },
                 "action": {}
             }
@@ -13344,31 +13497,28 @@
         "vanish": {},
         "equips": [],
         "is_only": 1,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {      
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
-                    "parent-equip": 2000609  //在任意仪式使用后会被移除
+                "result": {
+                    "parent-equip": 2000609 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
-
     },
     "2000610": {
         "id": 2000610,
@@ -13392,28 +13542,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571   
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000610 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13439,28 +13587,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000611 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13486,28 +13632,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000612 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13533,28 +13677,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000613 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13580,28 +13722,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000614 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13627,28 +13767,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000615 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13674,28 +13812,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000616 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13721,28 +13857,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000617 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13768,28 +13902,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000618 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13815,28 +13947,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000619 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13862,28 +13992,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000620 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13909,28 +14037,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000621 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -13956,28 +14082,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000622 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14003,28 +14127,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000623 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14050,28 +14172,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000624 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14097,28 +14217,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000625 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14144,28 +14262,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000626 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14191,28 +14307,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000627 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14238,28 +14352,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000628 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14285,28 +14397,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000629 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14332,28 +14442,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000630 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14379,28 +14487,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000631 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14426,28 +14532,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000632 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14473,28 +14577,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000633 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14520,28 +14622,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000634 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14567,28 +14667,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000635 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14614,28 +14712,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000636 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14661,28 +14757,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000637 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14708,28 +14802,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000638 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14755,28 +14847,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000639 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14802,28 +14892,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000640 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14849,28 +14937,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000641 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14896,28 +14982,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000642 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14943,28 +15027,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000643 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -14990,28 +15072,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "parent-equip": 2000644 //在任意仪式使用后会被移除
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15038,28 +15118,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15086,28 +15164,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15134,28 +15210,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15182,28 +15256,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15230,28 +15302,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15278,28 +15348,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15326,28 +15394,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15374,28 +15440,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15421,28 +15485,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15468,28 +15530,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15515,28 +15575,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15562,28 +15620,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15608,29 +15664,27 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571,
-                    "!is_rite":5001009   
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571,
+                    "!is_rite": 5001009
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15655,29 +15709,27 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571,
-                    "!is_rite":5001009    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571,
+                    "!is_rite": 5001009
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15702,29 +15754,27 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571,
-                    "!is_rite":5001009    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571,
+                    "!is_rite": 5001009
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -15749,29 +15799,27 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "!is_rite":5000002,
-                    "!is_rite":5010009, //誓师的时候不会被移除    
-                    "!is_rite":5006561,
-                    "!is_rite":5006562,
-                    "!is_rite":5006563,
-                    "!is_rite":5006564,
-                    "!is_rite":5006565,
-                    "!is_rite":5006566,
-                    "!is_rite":5006567,
-                    "!is_rite":5006568,
-                    "!is_rite":5006571,
-                    "!is_rite":5001009    
+                "condition": {
+                    "!is_rite": 5000002,
+                    "!is_rite": 5010009, //誓师的时候不会被移除    
+                    "!is_rite": 5006561,
+                    "!is_rite": 5006562,
+                    "!is_rite": 5006563,
+                    "!is_rite": 5006564,
+                    "!is_rite": 5006565,
+                    "!is_rite": 5006566,
+                    "!is_rite": 5006567,
+                    "!is_rite": 5006568,
+                    "!is_rite": 5006571,
+                    "!is_rite": 5001009
                 },
                 "result_text": "<size=-10>（食客是一次性的资源，即使没有在仪式中死亡或者被消耗掉，他们被使用后仍然会离开，而你可以在舍馆或投奔的罪犯中雇佣新的食客。）</size>",
-                "result": 
-                {
+                "result": {
                     "clean.self": 1
                 },
-                "action": {
-                }
+                "action": {}
             }
         ]
     },
@@ -16162,7 +16210,10 @@
         "tag": {},
         "card_vanishing": 7,
         "vanish": {
-            "event_on":[5320095,5320096]
+            "event_on": [
+                5320095,
+                5320096
+            ]
         },
         "equips": [],
         "is_only": 0
@@ -23366,7 +23417,7 @@
         "tag": {},
         "card_vanishing": 15,
         "vanish": {
-            "event_on":5320261
+            "event_on": 5320261
         },
         "equips": [],
         "is_only": 1
@@ -23431,27 +23482,26 @@
         "vanish": {},
         "equips": [],
         "is_only": 0,
-        "post_rite":[
+        "post_rite": [
             {
-                "condition": {       
-                    "any":{
-                        "is_rite":5001017,
-                        "is_rite":5000796,
-                        "all":{
-                            "is_rite":5000798,
-                            "is":2000024
+                "condition": {
+                    "any": {
+                        "is_rite": 5001017,
+                        "is_rite": 5000796,
+                        "all": {
+                            "is_rite": 5000798,
+                            "is": 2000024
                         },
-                        "all":{
-                            "is_rite":5000800,
-                            "is":2000024
+                        "all": {
+                            "is_rite": 5000800,
+                            "is": 2000024
                         },
-                        "is_rite":5001102
-                    }      
+                        "is_rite": 5001102
+                    }
                 },
                 "result_text": "无论如何这是一次性的。",
-                "result": 
-                {
-                    "parent-equip": 2001022 
+                "result": {
+                    "parent-equip": 2001022
                 },
                 "action": {}
             }
@@ -25634,7 +25684,10 @@
         "type": "item",
         "tips": "",
         "rare": 4,
-        "resource": ["cards/2001126","cards/2001126_1"],
+        "resource": [
+            "cards/2001126",
+            "cards/2001126_1"
+        ],
         "tag": {},
         "card_vanishing": 0,
         "vanish": {},
@@ -25926,4 +25979,21 @@
         "equips": [],
         "is_only": 1
     },
+    "2666668": {
+        "id": 2666668,
+        "name": "事件召唤卡",
+        "title": "特殊",
+        "text": "用于召唤事件",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000524",
+        "tag": {},
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
+    }
 }
