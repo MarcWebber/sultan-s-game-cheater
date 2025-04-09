@@ -1,4 +1,6 @@
 @echo off
+REM 设置控制台代码页为 UTF-8
+chcp 65001 >nul
 REM 检查git命令是否可用
 where git >nul 2>&1
 if %errorlevel% equ 0 (
