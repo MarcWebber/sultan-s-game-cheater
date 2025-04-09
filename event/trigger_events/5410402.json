@@ -1,0 +1,1 @@
+{"id": 5410402, "text": "结局-逃跑-梅姬的责难", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010001}, "condition": {"rite": 5110402}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410402_prompt_01", "text": "藏在行李中的一封信：我已经知道了你的决定……谢谢你，这样我们两人都自由了。-----爱你的梅姬", "icon": "cards/2000006"}, "event_on": 5310408}}]}

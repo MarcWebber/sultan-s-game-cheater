@@ -1,0 +1,100 @@
+{
+    "id": 5367543,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367543_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "奈费勒声望事件--火焰大王名声显赫",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "奈费勒声望事件--团结他们的",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈费勒声望事件--火焰大王的呼唤",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "奈费勒声望事件--清流交汇",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "奈费勒声望事件--泄露的消息3",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120227,
+                    "prompt": {
+                        "id": "5367543_prompt_1",
+                        "text": "你選擇了奈费勒声望事件--火焰大王名声显赫",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120228,
+                    "prompt": {
+                        "id": "5367543_prompt_2",
+                        "text": "你選擇了奈费勒声望事件--团结他们的",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120229,
+                    "prompt": {
+                        "id": "5367543_prompt_3",
+                        "text": "你選擇了奈费勒声望事件--火焰大王的呼唤",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120230,
+                    "prompt": {
+                        "id": "5367543_prompt_4",
+                        "text": "你選擇了奈费勒声望事件--清流交汇",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120231,
+                    "prompt": {
+                        "id": "5367543_prompt_5",
+                        "text": "你選擇了奈费勒声望事件--泄露的消息3",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367544
+                },
+                "case:op7": {
+                    "event_on": 5367542
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5420073, "text": "善名1阶段事件-重复刷", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [10, 20]}, "condition": {"rite": 5120073}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006557}}]}

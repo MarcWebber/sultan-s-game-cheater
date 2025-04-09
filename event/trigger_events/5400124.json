@@ -1,0 +1,1 @@
+{"id": 5400124, "text": "少女审视自己", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 10}, "condition": {"rite": 5100124}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000635, "success": {"event_off": 5400124}}}]}

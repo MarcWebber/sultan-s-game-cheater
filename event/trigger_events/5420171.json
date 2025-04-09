@@ -1,0 +1,1 @@
+{"id": 5420171, "text": "铁头声望事件--铁头死了军队会跑", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120171}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000734-已拥有": 1, "prompt": {"id": "5420171_prompt_01", "text": "某日你走入营房，似乎因为铁头的消失，这支蛮人军队也悄无声息地离开了你。", "icon": "common/position_yewai_1"}}}]}

@@ -1,0 +1,1 @@
+{"id": 5400539, "text": "帮派斗争", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100539}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"no_prompt": {"card": 2001057, "table.clean.2000770": 1}, "rite": 5000810, "success": {"event_off": 5400539}}}]}

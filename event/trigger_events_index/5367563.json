@@ -1,0 +1,100 @@
+{
+    "id": 5367563,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367563_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "如此大恩",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "如此大恩2",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "芮尔的匪帮助阵",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "锐草之地幕后",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "染血的赌约",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100278,
+                    "prompt": {
+                        "id": "5367563_prompt_1",
+                        "text": "你選擇了如此大恩",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100287,
+                    "prompt": {
+                        "id": "5367563_prompt_2",
+                        "text": "你選擇了如此大恩2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100553,
+                    "prompt": {
+                        "id": "5367563_prompt_3",
+                        "text": "你選擇了芮尔的匪帮助阵",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100561,
+                    "prompt": {
+                        "id": "5367563_prompt_4",
+                        "text": "你選擇了锐草之地幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100610,
+                    "prompt": {
+                        "id": "5367563_prompt_5",
+                        "text": "你選擇了染血的赌约",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367564
+                },
+                "case:op7": {
+                    "event_on": 5367562
+                }
+            }
+        }
+    ]
+}

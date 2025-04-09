@@ -1,0 +1,100 @@
+{
+    "id": 5367409,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367409_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "编修之苦",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "背叛的黎明",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "白银舍馆",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "白嫖的快乐",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "白嫖",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120024,
+                    "prompt": {
+                        "id": "5367409_prompt_1",
+                        "text": "你選擇了编修之苦",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120071,
+                    "prompt": {
+                        "id": "5367409_prompt_2",
+                        "text": "你選擇了背叛的黎明",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120079,
+                    "prompt": {
+                        "id": "5367409_prompt_3",
+                        "text": "你選擇了白银舍馆",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120517,
+                    "prompt": {
+                        "id": "5367409_prompt_4",
+                        "text": "你選擇了白嫖的快乐",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120518,
+                    "prompt": {
+                        "id": "5367409_prompt_5",
+                        "text": "你選擇了白嫖",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367410
+                },
+                "case:op7": {
+                    "event_on": 5367408
+                }
+            }
+        }
+    ]
+}

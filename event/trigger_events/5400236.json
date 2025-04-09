@@ -1,0 +1,1 @@
+{"id": 5400236, "text": "资助研究·二", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [4, 6]}, "condition": {"rite": 5100236}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000732, "success": {"prompt": {"id": "prompt_5400236_01", "text": "有人来到你的门前，期待能和你见上一面。", "icon": "cards/2000352"}, "event_off": 5400236}}}]}

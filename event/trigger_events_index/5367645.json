@@ -1,0 +1,100 @@
+{
+    "id": 5367645,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367645_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "一局游戏内善名达到X点",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "一局游戏内恶名达到X点",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "一局游戏内权势达到X点",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "一局游戏内侠名达到X点",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "一局游戏内灵视达到X点",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5160014,
+                    "prompt": {
+                        "id": "5367645_prompt_1",
+                        "text": "你選擇了一局游戏内善名达到X点",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5160015,
+                    "prompt": {
+                        "id": "5367645_prompt_2",
+                        "text": "你選擇了一局游戏内恶名达到X点",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160016,
+                    "prompt": {
+                        "id": "5367645_prompt_3",
+                        "text": "你選擇了一局游戏内权势达到X点",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5160017,
+                    "prompt": {
+                        "id": "5367645_prompt_4",
+                        "text": "你選擇了一局游戏内侠名达到X点",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5160018,
+                    "prompt": {
+                        "id": "5367645_prompt_5",
+                        "text": "你選擇了一局游戏内灵视达到X点",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367646
+                },
+                "case:op7": {
+                    "event_on": 5367644
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5421104, "text": "出轨的开端", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121104}, "settlement": [{"action": {"rite": 5008101, "success": {"event_off": 5421104}}}], "auto_start": true}

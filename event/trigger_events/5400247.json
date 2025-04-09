@@ -1,0 +1,1 @@
+{"id": 5400247, "text": "获得神秘的锅的幕后（废弃）", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100247}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": [2000466, "已拥有+1"], "success": {"prompt": {"id": "prompt_5400247_01", "text": "商店老板看在你多次购买装备的面子上，打包附赠给了你一口神秘的锅。"}, "event_off": 5400247}}}]}

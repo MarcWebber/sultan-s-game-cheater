@@ -1,0 +1,1 @@
+{"id": 5421030, "text": "盖斯声望事件-行脚商走了", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121030}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5008020, "prompt": {"id": "5421030_prompt_01", "text": "你没有如约支付金币购买奇怪的旧书，行脚商离开了。"}, "success": {"event_off": 5421030}}}]}

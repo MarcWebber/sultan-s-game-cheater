@@ -1,0 +1,100 @@
+{
+    "id": 5367616,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367616_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "懈怠的士兵",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "询问品级",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "选光者",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "心中之神",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "消解疯狂-检定妻子的体魄",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100606,
+                    "prompt": {
+                        "id": "5367616_prompt_1",
+                        "text": "你選擇了懈怠的士兵",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100608,
+                    "prompt": {
+                        "id": "5367616_prompt_2",
+                        "text": "你選擇了询问品级",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110624,
+                    "prompt": {
+                        "id": "5367616_prompt_3",
+                        "text": "你選擇了选光者",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110803,
+                    "prompt": {
+                        "id": "5367616_prompt_4",
+                        "text": "你選擇了心中之神",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110810,
+                    "prompt": {
+                        "id": "5367616_prompt_5",
+                        "text": "你選擇了消解疯狂-检定妻子的体魄",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367617
+                },
+                "case:op7": {
+                    "event_on": 5367615
+                }
+            }
+        }
+    ]
+}

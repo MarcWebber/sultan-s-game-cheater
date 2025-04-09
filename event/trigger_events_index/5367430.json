@@ -1,0 +1,100 @@
+{
+    "id": 5367430,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367430_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "道别幕后",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "第一眼幕后",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "第一个牺牲者",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "第一次帮助",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "第二次帮助",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121080,
+                    "prompt": {
+                        "id": "5367430_prompt_1",
+                        "text": "你選擇了道别幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121084,
+                    "prompt": {
+                        "id": "5367430_prompt_2",
+                        "text": "你選擇了第一眼幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121130,
+                    "prompt": {
+                        "id": "5367430_prompt_3",
+                        "text": "你選擇了第一个牺牲者",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121146,
+                    "prompt": {
+                        "id": "5367430_prompt_4",
+                        "text": "你選擇了第一次帮助",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121147,
+                    "prompt": {
+                        "id": "5367430_prompt_5",
+                        "text": "你選擇了第二次帮助",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367431
+                },
+                "case:op7": {
+                    "event_on": 5367429
+                }
+            }
+        }
+    ]
+}

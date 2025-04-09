@@ -1,0 +1,1 @@
+{"id": 5410007, "text": "获得第一本书时，放入俺寻思的提示", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110007}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"hand_pop.5410007_01.读物": "这是一本读物，想阅读它的话将其拖入<color=white><size=172%>俺寻思</size></color>中。"}}], "auto_start": true}

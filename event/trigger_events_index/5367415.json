@@ -1,0 +1,100 @@
+{
+    "id": 5367415,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367415_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "刺杀",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "城外的骚乱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "刺杀",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "刺杀",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "处置女战士",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100044,
+                    "prompt": {
+                        "id": "5367415_prompt_1",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100100,
+                    "prompt": {
+                        "id": "5367415_prompt_2",
+                        "text": "你選擇了城外的骚乱",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100103,
+                    "prompt": {
+                        "id": "5367415_prompt_3",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100106,
+                    "prompt": {
+                        "id": "5367415_prompt_4",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100122,
+                    "prompt": {
+                        "id": "5367415_prompt_5",
+                        "text": "你選擇了处置女战士",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367416
+                },
+                "case:op7": {
+                    "event_on": 5367414
+                }
+            }
+        }
+    ]
+}

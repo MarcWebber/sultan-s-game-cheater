@@ -1,0 +1,100 @@
+{
+    "id": 5367411,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367411_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "拜玲耶的掉落",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "布缇娜女士的管束",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "拜铃耶声望激活提示",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "不洁的援助",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "拜铃耶刺青",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121115,
+                    "prompt": {
+                        "id": "5367411_prompt_1",
+                        "text": "你選擇了拜玲耶的掉落",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121116,
+                    "prompt": {
+                        "id": "5367411_prompt_2",
+                        "text": "你選擇了布缇娜女士的管束",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121158,
+                    "prompt": {
+                        "id": "5367411_prompt_3",
+                        "text": "你選擇了拜铃耶声望激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121159,
+                    "prompt": {
+                        "id": "5367411_prompt_4",
+                        "text": "你選擇了不洁的援助",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121164,
+                    "prompt": {
+                        "id": "5367411_prompt_5",
+                        "text": "你選擇了拜铃耶刺青",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367412
+                },
+                "case:op7": {
+                    "event_on": 5367410
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410452, "text": "结局-造反-给角色加改革和传统的tag", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010022}, "condition": {"rite": 5110452}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000009+传统": 1, "table.2000010+改革": 1, "table.2000013+改革": 1, "table.2000312+改革": 3, "table.2000349+传统": 3}}]}

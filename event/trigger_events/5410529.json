@@ -1,0 +1,1 @@
+{"id": 5410529, "text": "结局-英雄之国", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010024}, "condition": {"rite": 5110529}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 257}}]}

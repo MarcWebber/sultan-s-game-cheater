@@ -1,0 +1,100 @@
+{
+    "id": 5367597,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367597_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "偷戒指",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "脱罪",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "探访黑街",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "探访监狱",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "探访奈费勒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100049,
+                    "prompt": {
+                        "id": "5367597_prompt_1",
+                        "text": "你選擇了偷戒指",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100053,
+                    "prompt": {
+                        "id": "5367597_prompt_2",
+                        "text": "你選擇了脱罪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100077,
+                    "prompt": {
+                        "id": "5367597_prompt_3",
+                        "text": "你選擇了探访黑街",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100085,
+                    "prompt": {
+                        "id": "5367597_prompt_4",
+                        "text": "你選擇了探访监狱",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100112,
+                    "prompt": {
+                        "id": "5367597_prompt_5",
+                        "text": "你選擇了探访奈费勒",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367598
+                },
+                "case:op7": {
+                    "event_on": 5367596
+                }
+            }
+        }
+    ]
+}

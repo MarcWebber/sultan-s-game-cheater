@@ -1,0 +1,100 @@
+{
+    "id": 5367407,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367407_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "被偏爱的与被冷落的",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "不是故意的",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "不敬之书",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "帮派斗争",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "不守规矩的佣兵",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100272,
+                    "prompt": {
+                        "id": "5367407_prompt_1",
+                        "text": "你選擇了被偏爱的与被冷落的",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100281,
+                    "prompt": {
+                        "id": "5367407_prompt_2",
+                        "text": "你選擇了不是故意的",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100523,
+                    "prompt": {
+                        "id": "5367407_prompt_3",
+                        "text": "你選擇了不敬之书",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100539,
+                    "prompt": {
+                        "id": "5367407_prompt_4",
+                        "text": "你選擇了帮派斗争",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100558,
+                    "prompt": {
+                        "id": "5367407_prompt_5",
+                        "text": "你選擇了不守规矩的佣兵",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367408
+                },
+                "case:op7": {
+                    "event_on": 5367406
+                }
+            }
+        }
+    ]
+}

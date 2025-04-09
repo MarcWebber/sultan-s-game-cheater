@@ -1,0 +1,1 @@
+{"id": 5420186, "text": "小圆声望事件--悲伤的铁头", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120186}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000738": 1, "counter+7000243": 1, "rite": 5006638}}]}

@@ -1,0 +1,1 @@
+{"id": 5400579, "text": "神的秘密", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5100579}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004907, "success": {"event_off": 5400579}}}]}

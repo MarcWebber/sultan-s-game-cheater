@@ -1,0 +1,100 @@
+{
+    "id": 5367557,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367557_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "权势3的事件--苏丹的猜忌-疲软的丑态",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "权势3的事件--苏丹让你成为宰相--宰相已死（废弃）",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "权势3的事件--赤字滔天",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "权势3的事件--赤字滔天--重复刷",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "权势3的事件--苏丹让你成为宰相--宰相还没死死（废弃）",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120090,
+                    "prompt": {
+                        "id": "5367557_prompt_1",
+                        "text": "你選擇了权势3的事件--苏丹的猜忌-疲软的丑态",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120091,
+                    "prompt": {
+                        "id": "5367557_prompt_2",
+                        "text": "你選擇了权势3的事件--苏丹让你成为宰相--宰相已死（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120092,
+                    "prompt": {
+                        "id": "5367557_prompt_3",
+                        "text": "你選擇了权势3的事件--赤字滔天",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120093,
+                    "prompt": {
+                        "id": "5367557_prompt_4",
+                        "text": "你選擇了权势3的事件--赤字滔天--重复刷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120094,
+                    "prompt": {
+                        "id": "5367557_prompt_5",
+                        "text": "你選擇了权势3的事件--苏丹让你成为宰相--宰相还没死死（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367558
+                },
+                "case:op7": {
+                    "event_on": 5367556
+                }
+            }
+        }
+    ]
+}

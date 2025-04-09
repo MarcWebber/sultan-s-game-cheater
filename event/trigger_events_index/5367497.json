@@ -1,0 +1,100 @@
+{
+    "id": 5367497,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367497_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "结局-命运之剪",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "结局-遭窃的果实",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "结局-均衡之国",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "结局-终点的笑声",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "结局-命运之剪",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110520,
+                    "prompt": {
+                        "id": "5367497_prompt_1",
+                        "text": "你選擇了结局-命运之剪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110521,
+                    "prompt": {
+                        "id": "5367497_prompt_2",
+                        "text": "你選擇了结局-遭窃的果实",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110522,
+                    "prompt": {
+                        "id": "5367497_prompt_3",
+                        "text": "你選擇了结局-均衡之国",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110523,
+                    "prompt": {
+                        "id": "5367497_prompt_4",
+                        "text": "你選擇了结局-终点的笑声",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110524,
+                    "prompt": {
+                        "id": "5367497_prompt_5",
+                        "text": "你選擇了结局-命运之剪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367498
+                },
+                "case:op7": {
+                    "event_on": 5367496
+                }
+            }
+        }
+    ]
+}

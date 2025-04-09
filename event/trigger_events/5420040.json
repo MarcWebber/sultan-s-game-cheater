@@ -1,0 +1,1 @@
+{"id": 5420040, "text": "血墙", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5120040}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000145": 1, "prompt": {"id": "5420040_prompt_01", "text": "由于你和鲁梅拉婉拒了现场观看，不久后，暗娼馆的老板派人来告诉你，表演已经完美地结束了，客人们都非常满意，也许，您可以去监狱亲眼看看，那面墙是真正的艺术品。"}}}]}

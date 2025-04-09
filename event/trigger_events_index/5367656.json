@@ -1,0 +1,100 @@
+{
+    "id": 5367656,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367656_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "宰相的罪证后续",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宰相之死",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "族长的祝福",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "宰相之死",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "着火的宅子",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100549,
+                    "prompt": {
+                        "id": "5367656_prompt_1",
+                        "text": "你選擇了宰相的罪证后续",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100551,
+                    "prompt": {
+                        "id": "5367656_prompt_2",
+                        "text": "你選擇了宰相之死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100552,
+                    "prompt": {
+                        "id": "5367656_prompt_3",
+                        "text": "你選擇了族长的祝福",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100557,
+                    "prompt": {
+                        "id": "5367656_prompt_4",
+                        "text": "你選擇了宰相之死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100607,
+                    "prompt": {
+                        "id": "5367656_prompt_5",
+                        "text": "你選擇了着火的宅子",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367657
+                },
+                "case:op7": {
+                    "event_on": 5367655
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410635, "text": "大敌的讨伐", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010057}, "condition": {"rite": 5110635}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"no_prompt": {"clean.rite": 5008045}, "prompt": {"id": "5410635_prompt_01", "text": "你的敌人们集结了起来！", "icon": "cards/2000001"}, "success": {"event_off": 5410635}}}]}

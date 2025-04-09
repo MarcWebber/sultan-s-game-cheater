@@ -1,0 +1,100 @@
+{
+    "id": 5367447,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367447_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "更多的细纱",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "工匠街区的意外",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "孤注一掷",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "诡异的游戏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "高原人的回响",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100290,
+                    "prompt": {
+                        "id": "5367447_prompt_1",
+                        "text": "你選擇了更多的细纱",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100291,
+                    "prompt": {
+                        "id": "5367447_prompt_2",
+                        "text": "你選擇了工匠街区的意外",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100312,
+                    "prompt": {
+                        "id": "5367447_prompt_3",
+                        "text": "你選擇了孤注一掷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100604,
+                    "prompt": {
+                        "id": "5367447_prompt_4",
+                        "text": "你選擇了诡异的游戏",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110505,
+                    "prompt": {
+                        "id": "5367447_prompt_5",
+                        "text": "你選擇了高原人的回响",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367448
+                },
+                "case:op7": {
+                    "event_on": 5367446
+                }
+            }
+        }
+    ]
+}

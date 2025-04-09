@@ -1,0 +1,1 @@
+{"id": 5410804, "text": "腐化真容", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110804}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004804}}], "auto_start": true}

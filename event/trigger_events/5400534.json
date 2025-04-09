@@ -1,0 +1,1 @@
+{"id": 5400534, "text": "想开妓女的游戏但大伙都被赎身了", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100534}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5400534_prompt_1", "text": "这里是妓女已经全被赎身，关闭不可靠的盟友。", "icon": "cards/2000064"}, "clean.rite": 5000712, "event_off": 5300253}}]}

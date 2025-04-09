@@ -1,0 +1,100 @@
+{
+    "id": 5367523,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367523_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "女王的朋友",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "纳妾",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "逆子之死",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "虐待致死",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "虐待致死-重试",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100310,
+                    "prompt": {
+                        "id": "5367523_prompt_1",
+                        "text": "你選擇了女王的朋友",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100314,
+                    "prompt": {
+                        "id": "5367523_prompt_2",
+                        "text": "你選擇了纳妾",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100315,
+                    "prompt": {
+                        "id": "5367523_prompt_3",
+                        "text": "你選擇了逆子之死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100327,
+                    "prompt": {
+                        "id": "5367523_prompt_4",
+                        "text": "你選擇了虐待致死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100328,
+                    "prompt": {
+                        "id": "5367523_prompt_5",
+                        "text": "你選擇了虐待致死-重试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367524
+                },
+                "case:op7": {
+                    "event_on": 5367522
+                }
+            }
+        }
+    ]
+}

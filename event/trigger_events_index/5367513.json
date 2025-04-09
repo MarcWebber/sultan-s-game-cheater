@@ -1,0 +1,100 @@
+{
+    "id": 5367513,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367513_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "龙的最期",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "恋爱咨询 ",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "老乡见老乡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "拉磨幕后",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "疗愈的食物",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120553,
+                    "prompt": {
+                        "id": "5367513_prompt_1",
+                        "text": "你選擇了龙的最期",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121052,
+                    "prompt": {
+                        "id": "5367513_prompt_2",
+                        "text": "你選擇了恋爱咨询 ",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121069,
+                    "prompt": {
+                        "id": "5367513_prompt_3",
+                        "text": "你選擇了老乡见老乡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121081,
+                    "prompt": {
+                        "id": "5367513_prompt_4",
+                        "text": "你選擇了拉磨幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121096,
+                    "prompt": {
+                        "id": "5367513_prompt_5",
+                        "text": "你選擇了疗愈的食物",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367514
+                },
+                "case:op7": {
+                    "event_on": 5367512
+                }
+            }
+        }
+    ]
+}

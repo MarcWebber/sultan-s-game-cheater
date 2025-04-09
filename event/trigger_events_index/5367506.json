@@ -1,0 +1,100 @@
+{
+    "id": 5367506,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367506_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "开场演出4测试",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "开场演出5测试",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "开场演出1-最开始",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "困难难度需要维持信誉",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "开启神之硕鼠",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110003,
+                    "prompt": {
+                        "id": "5367506_prompt_1",
+                        "text": "你選擇了开场演出4测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110004,
+                    "prompt": {
+                        "id": "5367506_prompt_2",
+                        "text": "你選擇了开场演出5测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110006,
+                    "prompt": {
+                        "id": "5367506_prompt_3",
+                        "text": "你選擇了开场演出1-最开始",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110009,
+                    "prompt": {
+                        "id": "5367506_prompt_4",
+                        "text": "你選擇了困难难度需要维持信誉",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110625,
+                    "prompt": {
+                        "id": "5367506_prompt_5",
+                        "text": "你選擇了开启神之硕鼠",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367507
+                },
+                "case:op7": {
+                    "event_on": 5367505
+                }
+            }
+        }
+    ]
+}

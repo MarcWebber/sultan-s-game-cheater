@@ -1,0 +1,1 @@
+{"id": 5420273, "text": "宫廷-索要妃子-报复来临", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5120273}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000578, "prompt": {"id": "5420273_prompt_1", "text": "圣主可不会就这么离去……祂回来了，渴望着人类的灵魂——特别是你们这种得罪过祂的灵魂。", "icon": "cards/2001023"}}}]}

@@ -1,0 +1,100 @@
+{
+    "id": 5367451,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367451_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "宫廷-索要妃子-星星的信号",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-书店偶遇",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-急迫的欢愉（废弃）",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-监听是否适用了纵欲卡",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-最后一步",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120265,
+                    "prompt": {
+                        "id": "5367451_prompt_1",
+                        "text": "你選擇了宫廷-索要妃子-星星的信号",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120266,
+                    "prompt": {
+                        "id": "5367451_prompt_2",
+                        "text": "你選擇了宫廷-索要妃子-书店偶遇",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120267,
+                    "prompt": {
+                        "id": "5367451_prompt_3",
+                        "text": "你選擇了宫廷-索要妃子-急迫的欢愉（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120268,
+                    "prompt": {
+                        "id": "5367451_prompt_4",
+                        "text": "你選擇了宫廷-索要妃子-监听是否适用了纵欲卡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120269,
+                    "prompt": {
+                        "id": "5367451_prompt_5",
+                        "text": "你選擇了宫廷-索要妃子-最后一步",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367452
+                },
+                "case:op7": {
+                    "event_on": 5367450
+                }
+            }
+        }
+    ]
+}

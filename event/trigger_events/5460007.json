@@ -1,0 +1,1 @@
+{"id": 5460007, "text": "累计消除X张奢靡卡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": [2010009, 2010010, 2010011, 2010012]}, "condition": {"rite": 5160007}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter+7210005": 1, "debug": "消除1张奢靡苏丹卡"}}], "auto_start": true}

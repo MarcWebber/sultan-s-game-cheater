@@ -1,0 +1,1 @@
+{"id": 5460057, "text": "成就-苏丹的近臣", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5160057}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7200237": 1}}], "auto_start": true}

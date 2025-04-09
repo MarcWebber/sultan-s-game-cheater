@@ -1,0 +1,1 @@
+{"id": 5400325, "text": "升级舞姬2", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [10, 15]}, "condition": {"rite": 5100325}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000104, "prompt": {"id": "prompt_5400325_01", "text": "阿图娜尔先向你款款行礼，脸上挂着柔和的微笑。她告诉你——她未来能够帮你更多，只要你先为她提供一些帮助。"}, "success": {"event_off": 5400325}}}]}

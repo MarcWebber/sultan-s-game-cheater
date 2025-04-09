@@ -1,0 +1,100 @@
+{
+    "id": 5367408,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367408_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "拜铃耶的嫉恨",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "拜铃耶的训练",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "拜铃耶的训练",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "辨识灵光",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "不义之事",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100580,
+                    "prompt": {
+                        "id": "5367408_prompt_1",
+                        "text": "你選擇了拜铃耶的嫉恨",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100581,
+                    "prompt": {
+                        "id": "5367408_prompt_2",
+                        "text": "你選擇了拜铃耶的训练",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100582,
+                    "prompt": {
+                        "id": "5367408_prompt_3",
+                        "text": "你選擇了拜铃耶的训练",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110623,
+                    "prompt": {
+                        "id": "5367408_prompt_4",
+                        "text": "你選擇了辨识灵光",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120012,
+                    "prompt": {
+                        "id": "5367408_prompt_5",
+                        "text": "你選擇了不义之事",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367409
+                },
+                "case:op7": {
+                    "event_on": 5367407
+                }
+            }
+        }
+    ]
+}

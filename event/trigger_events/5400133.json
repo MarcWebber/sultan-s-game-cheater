@@ -1,0 +1,1 @@
+{"id": 5400133, "text": "无名的暗杀", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5100133}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5001011, "success": {"prompt": {"id": "prompt_5400133_01", "text": "你被一名潜伏的刺客袭击了。", "icon": "cards/2000360"}, "event_off": 5400133}}}]}

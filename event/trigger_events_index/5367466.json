@@ -1,0 +1,100 @@
+{
+    "id": 5367466,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367466_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "合宜之人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "哈比卜的拿手菜",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "哈比卜的拿手菜",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "后街的动静",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "和颜悦色的哈比卜",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121092,
+                    "prompt": {
+                        "id": "5367466_prompt_1",
+                        "text": "你選擇了合宜之人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121093,
+                    "prompt": {
+                        "id": "5367466_prompt_2",
+                        "text": "你選擇了哈比卜的拿手菜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121094,
+                    "prompt": {
+                        "id": "5367466_prompt_3",
+                        "text": "你選擇了哈比卜的拿手菜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121098,
+                    "prompt": {
+                        "id": "5367466_prompt_4",
+                        "text": "你選擇了后街的动静",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121105,
+                    "prompt": {
+                        "id": "5367466_prompt_5",
+                        "text": "你選擇了和颜悦色的哈比卜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367467
+                },
+                "case:op7": {
+                    "event_on": 5367465
+                }
+            }
+        }
+    ]
+}

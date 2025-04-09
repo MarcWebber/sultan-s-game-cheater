@@ -1,0 +1,1 @@
+{"id": 5410108, "text": "苏丹引导-day2-弹框6", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5005101}, "condition": {"rite": 5110108}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410108_prompt_01", "text": "第一张卡牌让苏丹非常满意！这真是一个适合他的游戏！\n于是，他准备抽第二张……", "icon": ["", "cards/sudan", ""]}, "event_on": 5310109}}]}

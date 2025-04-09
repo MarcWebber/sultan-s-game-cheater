@@ -1,0 +1,100 @@
+{
+    "id": 5367460,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367460_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "获得献祭仪式图纸",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "获取召唤邪物图纸",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "获得附魔仪式的幕后",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "获得禁忌的古书的幕后（废弃，获取方法另做）",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "获得神秘的锅的幕后（废弃）",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100243,
+                    "prompt": {
+                        "id": "5367460_prompt_1",
+                        "text": "你選擇了获得献祭仪式图纸",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100244,
+                    "prompt": {
+                        "id": "5367460_prompt_2",
+                        "text": "你選擇了获取召唤邪物图纸",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100245,
+                    "prompt": {
+                        "id": "5367460_prompt_3",
+                        "text": "你選擇了获得附魔仪式的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100246,
+                    "prompt": {
+                        "id": "5367460_prompt_4",
+                        "text": "你選擇了获得禁忌的古书的幕后（废弃，获取方法另做）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100247,
+                    "prompt": {
+                        "id": "5367460_prompt_5",
+                        "text": "你選擇了获得神秘的锅的幕后（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367461
+                },
+                "case:op7": {
+                    "event_on": 5367459
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5421094, "text": "哈比卜的拿手菜", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121094}, "settlement": [{"action": {"rite": 5008132, "success": {"event_off": 5421094}}}]}

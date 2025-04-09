@@ -1,0 +1,100 @@
+{
+    "id": 5367445,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367445_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "挂毯长廊每回合随机掉情报",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "根据度过的回合计数",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "寡妇登门",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贵妇的邀请",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "贵妇的邀请（113的补充）",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100093,
+                    "prompt": {
+                        "id": "5367445_prompt_1",
+                        "text": "你選擇了挂毯长廊每回合随机掉情报",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100096,
+                    "prompt": {
+                        "id": "5367445_prompt_2",
+                        "text": "你選擇了根据度过的回合计数",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100111,
+                    "prompt": {
+                        "id": "5367445_prompt_3",
+                        "text": "你選擇了寡妇登门",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100113,
+                    "prompt": {
+                        "id": "5367445_prompt_4",
+                        "text": "你選擇了贵妇的邀请",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100114,
+                    "prompt": {
+                        "id": "5367445_prompt_5",
+                        "text": "你選擇了贵妇的邀请（113的补充）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367446
+                },
+                "case:op7": {
+                    "event_on": 5367444
+                }
+            }
+        }
+    ]
+}

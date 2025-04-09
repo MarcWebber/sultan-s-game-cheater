@@ -1,0 +1,1 @@
+{"id": 5400031, "text": "不羁骏马", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5100031}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002504, "success": {"event_off": 5400031}}}]}

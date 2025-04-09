@@ -1,0 +1,1 @@
+{"id": 5420095, "text": "苏丹的猜忌卡牌消失后的死亡", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120095}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 20}}]}

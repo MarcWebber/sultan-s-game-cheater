@@ -1,0 +1,1 @@
+{"id": 5400089, "text": "权力的游戏", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5001004}, "condition": {"rite": 5100089}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000024=上朝": 1, "rite": 5001001, "success": {"event_off": 5300356}}}]}

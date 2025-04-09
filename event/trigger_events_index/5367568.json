@@ -1,0 +1,100 @@
+{
+    "id": 5367568,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367568_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "弑君",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "失去",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "说服禁卫队长",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "生成治理家业",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "搜寻提尔亚遗物",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100051,
+                    "prompt": {
+                        "id": "5367568_prompt_1",
+                        "text": "你選擇了弑君",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100063,
+                    "prompt": {
+                        "id": "5367568_prompt_2",
+                        "text": "你選擇了失去",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100065,
+                    "prompt": {
+                        "id": "5367568_prompt_3",
+                        "text": "你選擇了说服禁卫队长",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100066,
+                    "prompt": {
+                        "id": "5367568_prompt_4",
+                        "text": "你選擇了生成治理家业",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100086,
+                    "prompt": {
+                        "id": "5367568_prompt_5",
+                        "text": "你選擇了搜寻提尔亚遗物",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367569
+                },
+                "case:op7": {
+                    "event_on": 5367567
+                }
+            }
+        }
+    ]
+}

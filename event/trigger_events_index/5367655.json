@@ -1,0 +1,100 @@
+{
+    "id": 5367655,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367655_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "正直官员的回馈",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "贼人之手",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "祖传的……",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "追击豺狼帮",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "追查猎奴人",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100342,
+                    "prompt": {
+                        "id": "5367655_prompt_1",
+                        "text": "你選擇了正直官员的回馈",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100504,
+                    "prompt": {
+                        "id": "5367655_prompt_2",
+                        "text": "你選擇了贼人之手",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100506,
+                    "prompt": {
+                        "id": "5367655_prompt_3",
+                        "text": "你選擇了祖传的……",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100540,
+                    "prompt": {
+                        "id": "5367655_prompt_4",
+                        "text": "你選擇了追击豺狼帮",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100545,
+                    "prompt": {
+                        "id": "5367655_prompt_5",
+                        "text": "你選擇了追查猎奴人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367656
+                },
+                "case:op7": {
+                    "event_on": 5367654
+                }
+            }
+        }
+    ]
+}

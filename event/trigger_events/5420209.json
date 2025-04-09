@@ -1,0 +1,1 @@
+{"id": 5420209, "text": "奈费勒声望事件--母亲的水滴重复刷", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5120209}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006647}}]}

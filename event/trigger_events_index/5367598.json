@@ -1,0 +1,100 @@
+{
+    "id": 5367598,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367598_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "脱罪的希望",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "淘书仪式",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "淘书仪式",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "逃离",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "逃离",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100142,
+                    "prompt": {
+                        "id": "5367598_prompt_1",
+                        "text": "你選擇了脱罪的希望",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100175,
+                    "prompt": {
+                        "id": "5367598_prompt_2",
+                        "text": "你選擇了淘书仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100179,
+                    "prompt": {
+                        "id": "5367598_prompt_3",
+                        "text": "你選擇了淘书仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100238,
+                    "prompt": {
+                        "id": "5367598_prompt_4",
+                        "text": "你選擇了逃离",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100249,
+                    "prompt": {
+                        "id": "5367598_prompt_5",
+                        "text": "你選擇了逃离",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367599
+                },
+                "case:op7": {
+                    "event_on": 5367597
+                }
+            }
+        }
+    ]
+}

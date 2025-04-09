@@ -1,0 +1,100 @@
+{
+    "id": 5367579,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367579_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "商人之争",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神的栖所",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹引导-强制5",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹引导-强制7",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "苏丹引导-day1-弹框1",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100611,
+                    "prompt": {
+                        "id": "5367579_prompt_1",
+                        "text": "你選擇了商人之争",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100612,
+                    "prompt": {
+                        "id": "5367579_prompt_2",
+                        "text": "你選擇了神的栖所",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100616,
+                    "prompt": {
+                        "id": "5367579_prompt_3",
+                        "text": "你選擇了苏丹引导-强制5",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100617,
+                    "prompt": {
+                        "id": "5367579_prompt_4",
+                        "text": "你選擇了苏丹引导-强制7",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110100,
+                    "prompt": {
+                        "id": "5367579_prompt_5",
+                        "text": "你選擇了苏丹引导-day1-弹框1",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367580
+                },
+                "case:op7": {
+                    "event_on": 5367578
+                }
+            }
+        }
+    ]
+}

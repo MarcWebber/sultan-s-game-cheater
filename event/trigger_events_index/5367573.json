@@ -1,0 +1,100 @@
+{
+    "id": 5367573,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367573_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "苏丹奔赴猎场",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "奢侈的欢欣",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的游戏",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "石妓女赎身",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "升华",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100263,
+                    "prompt": {
+                        "id": "5367573_prompt_1",
+                        "text": "你選擇了苏丹奔赴猎场",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100282,
+                    "prompt": {
+                        "id": "5367573_prompt_2",
+                        "text": "你選擇了奢侈的欢欣",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100292,
+                    "prompt": {
+                        "id": "5367573_prompt_3",
+                        "text": "你選擇了苏丹的游戏",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100304,
+                    "prompt": {
+                        "id": "5367573_prompt_4",
+                        "text": "你選擇了石妓女赎身",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100317,
+                    "prompt": {
+                        "id": "5367573_prompt_5",
+                        "text": "你選擇了升华",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367574
+                },
+                "case:op7": {
+                    "event_on": 5367572
+                }
+            }
+        }
+    ]
+}

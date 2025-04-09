@@ -1,0 +1,100 @@
+{
+    "id": 5367634,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367634_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "邀请寡妇",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "勇行",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "用来重新激活-赞助请求的幕后机制",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "远方的乐土",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "远来的质子",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100102,
+                    "prompt": {
+                        "id": "5367634_prompt_1",
+                        "text": "你選擇了邀请寡妇",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100126,
+                    "prompt": {
+                        "id": "5367634_prompt_2",
+                        "text": "你選擇了勇行",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100149,
+                    "prompt": {
+                        "id": "5367634_prompt_3",
+                        "text": "你選擇了用来重新激活-赞助请求的幕后机制",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100156,
+                    "prompt": {
+                        "id": "5367634_prompt_4",
+                        "text": "你選擇了远方的乐土",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100158,
+                    "prompt": {
+                        "id": "5367634_prompt_5",
+                        "text": "你選擇了远来的质子",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367635
+                },
+                "case:op7": {
+                    "event_on": 5367633
+                }
+            }
+        }
+    ]
+}

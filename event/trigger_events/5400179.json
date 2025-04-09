@@ -1,0 +1,1 @@
+{"id": 5400179, "text": "淘书仪式", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5100179}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6000101}}]}

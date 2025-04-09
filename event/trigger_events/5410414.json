@@ -1,0 +1,1 @@
+{"id": 5410414, "text": "结局-造反-攻打王都城墙", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010011}, "condition": {"rite": 5110414}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410414_prompt_01", "text": "即使集中了全部主力部队，你也没能真正摧毁苏丹的防线——他们将你困在了一段城墙下面……在任何援军来得及到达之前，你已经受了致命伤——来自于某个无名的士兵……"}, "over": 201}}]}

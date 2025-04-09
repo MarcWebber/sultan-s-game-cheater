@@ -1,0 +1,75 @@
+{
+    "id": 5367801,
+    "text": "起始字母",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367801_option_1",
+                    "text": "起始字母",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "F",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "G",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "H",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "J",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "K",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5367431
+                },
+                "case:op2": {
+                    "event_on": 5367441
+                },
+                "case:op3": {
+                    "event_on": 5367454
+                },
+                "case:op4": {
+                    "event_on": 5367463
+                },
+                "case:op5": {
+                    "event_on": 5367497
+                },
+                "case:op6": {
+                    "event_on": 5367800
+                },
+                "case:op7": {
+                    "event_on": 5367802
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5400106, "text": "刺杀", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5100106}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000606, "success": {"event_off": 5400106}}}]}

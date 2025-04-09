@@ -1,0 +1,1 @@
+{"id": 5420077, "text": "岩石舍馆", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 7}, "condition": {"rite": 5120077}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5006562, "table.clean.无主": 99, "loot.无主+1": 6000503, "rite": 5006561, "global_counter=7200242": 1}}]}

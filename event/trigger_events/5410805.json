@@ -1,0 +1,1 @@
+{"id": 5410805, "text": "光之训诫", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110805}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004805}}], "auto_start": true}

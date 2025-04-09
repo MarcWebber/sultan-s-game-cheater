@@ -1,0 +1,1 @@
+{"id": 5400011, "text": "疾病肆虐", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 7}, "condition": {"rite": 5100011}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002002}}], "auto_start": true}

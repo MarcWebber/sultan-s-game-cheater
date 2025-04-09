@@ -1,0 +1,100 @@
+{
+    "id": 5367500,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367500_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "结局-加个冻结的保险",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "决裂伊曼存活",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "决裂伊曼死亡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "抉择",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "饥渴",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110535,
+                    "prompt": {
+                        "id": "5367500_prompt_1",
+                        "text": "你選擇了结局-加个冻结的保险",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110618,
+                    "prompt": {
+                        "id": "5367500_prompt_2",
+                        "text": "你選擇了决裂伊曼存活",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110619,
+                    "prompt": {
+                        "id": "5367500_prompt_3",
+                        "text": "你選擇了决裂伊曼死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110622,
+                    "prompt": {
+                        "id": "5367500_prompt_4",
+                        "text": "你選擇了抉择",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110630,
+                    "prompt": {
+                        "id": "5367500_prompt_5",
+                        "text": "你選擇了饥渴",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367501
+                },
+                "case:op7": {
+                    "event_on": 5367499
+                }
+            }
+        }
+    ]
+}

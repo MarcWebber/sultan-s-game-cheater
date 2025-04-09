@@ -1,0 +1,1 @@
+{"id": 5421096, "text": "疗愈的食物", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5121096}, "settlement": [{"action": {"rite": 5008094, "success": {"event_off": 5421096}}}], "auto_start": true}

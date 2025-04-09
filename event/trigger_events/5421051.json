@@ -1,0 +1,1 @@
+{"id": 5421051, "text": "哲瓦德死亡或对阿鲁米娜纵欲幕后", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121051}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000774=贵族": 0, "success": {"event_off": 5421051}}}], "auto_start": true}

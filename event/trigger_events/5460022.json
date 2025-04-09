@@ -1,0 +1,1 @@
+{"id": 5460022, "text": "一局游戏内拥有X位追随者", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5160022}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210020": 1, "debug": "一局游戏内拥有40位追随者"}}], "auto_start": true}

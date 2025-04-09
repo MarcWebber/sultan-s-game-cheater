@@ -1,0 +1,1 @@
+{"id": 5421015, "text": "法拉杰声望事件-侠名lv2", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5000002}, "condition": {"rite": 5121015}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000736, "table.法拉杰-事件提示": 1, "counter+7000249": 1, "rite": 5008011, "success": {"event_off": 5421015}}}]}

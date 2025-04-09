@@ -1,0 +1,1 @@
+{"id": 5460002, "text": "活着/胜利X局游戏（死亡不计数）", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"game_end": -3}, "condition": {"rite": 5160002}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter+7220002": 1}}], "auto_start": true}

@@ -1,0 +1,100 @@
+{
+    "id": 5367638,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367638_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "伊曼的祈祷开启的幕后",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "伊曼辩经",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "伊曼的羁绊",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "伊曼的感谢信",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "伊曼的解释",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110609,
+                    "prompt": {
+                        "id": "5367638_prompt_1",
+                        "text": "你選擇了伊曼的祈祷开启的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110610,
+                    "prompt": {
+                        "id": "5367638_prompt_2",
+                        "text": "你選擇了伊曼辩经",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110613,
+                    "prompt": {
+                        "id": "5367638_prompt_3",
+                        "text": "你選擇了伊曼的羁绊",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110614,
+                    "prompt": {
+                        "id": "5367638_prompt_4",
+                        "text": "你選擇了伊曼的感谢信",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110628,
+                    "prompt": {
+                        "id": "5367638_prompt_5",
+                        "text": "你選擇了伊曼的解释",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367639
+                },
+                "case:op7": {
+                    "event_on": 5367637
+                }
+            }
+        }
+    ]
+}

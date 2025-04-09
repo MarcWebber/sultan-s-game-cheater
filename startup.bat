@@ -2,21 +2,26 @@
 REM 设置控制台代码页为 UTF-8
 chcp 65001 >nul
 setlocal enabledelayedexpansion
-REM 检查git命令是否可用
-where git >nul 2>&1
-@REM if %errorlevel% equ 0 (
-@REM     echo Git 命令存在，开始执行 git pull 操作...
-@REM     cd /d "%~dp0"
-@REM     REM 拉取远程master分支
-@REM     git pull origin master
-@REM     if %errorlevel% equ 0 (
-@REM         echo 成功拉取远程 master 分支。
-@REM     ) else (
-@REM         echo 拉取远程 master 分支时出错。
-@REM     )
-@REM ) else (
-@REM     echo Git 命令不存在，跳过 git pull 操作。
-@REM )
+
+
+
+
+
+@REM REM 检查git命令是否可用
+@REM where git >nul 2>&1
+@REM @REM if %errorlevel% equ 0 (
+@REM @REM     echo Git 命令存在，开始执行 git pull 操作...
+@REM @REM     cd /d "%~dp0"
+@REM @REM     REM 拉取远程master分支
+@REM @REM     git pull origin master
+@REM @REM     if %errorlevel% equ 0 (
+@REM @REM         echo 成功拉取远程 master 分支。
+@REM @REM     ) else (
+@REM @REM         echo 拉取远程 master 分支时出错。
+@REM @REM     )
+@REM @REM ) else (
+@REM @REM     echo Git 命令不存在，跳过 git pull 操作。
+@REM @REM )
 
 REM 接收用户输入：苏丹的游戏路径
 set /p "gamePath=请输入苏丹的游戏路径（例如：E:\Games\Steam\steamapps\common\Sultan's Game）："
@@ -43,6 +48,18 @@ if exist "%gamePath%\" (
             exit /b 1
         )
     )
+
+    REM === 添加额外的仪式（用于触发事件） ====
+    for %%f in ("%~dp0rite\rites\*.json") do (
+        set "fileName=%%~nxf"
+        echo 正在添加仪式："!fileName!"
+        copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
+        if errorlevel 1 (
+            echo [错误] 仪式文件复制失败: "%%f"
+            exit /b 1
+        )
+    )
+
     REM === 3. 添加事件、道具和装备文件 ===
     set "eventPath=%gamePath%\Sultan's Game_Data\StreamingAssets\config\event"
     REM 复制事件文件
@@ -77,6 +94,29 @@ if exist "%gamePath%\" (
             exit /b 1
         )
     )
+
+     set "equipsPath=!eventPath!"
+     for %%f in ("%~dp0event\trigger_events\*.json") do (
+         set "fileName=%%~nxf"
+         echo 正在添加事件触发器："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 事件触发器复制失败: "%%f"
+             exit /b 1
+         )
+     )
+
+    set "equipsPath=!eventPath!"
+     for %%f in ("%~dp0event\trigger_events_index\*.json") do (
+         set "fileName=%%~nxf"
+         echo 正在添加事件触发器的索引："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 事件触发器复制失败: "%%f"
+             exit /b 1
+         )
+     )
+
     echo 所有文件已成功复制到 E 盘游戏目录！
     timeout /t 5 >nul
 ) else (

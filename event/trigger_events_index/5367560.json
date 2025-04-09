@@ -1,0 +1,100 @@
+{
+    "id": 5367560,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367560_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "妻子的武装声望事件",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子特殊的枕头声望事件",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "妻子为你辩解声望事件",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "妻子的茶会",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "穷酸的拍卖会",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121005,
+                    "prompt": {
+                        "id": "5367560_prompt_1",
+                        "text": "你選擇了妻子的武装声望事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121006,
+                    "prompt": {
+                        "id": "5367560_prompt_2",
+                        "text": "你選擇了妻子特殊的枕头声望事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121007,
+                    "prompt": {
+                        "id": "5367560_prompt_3",
+                        "text": "你選擇了妻子为你辩解声望事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121008,
+                    "prompt": {
+                        "id": "5367560_prompt_4",
+                        "text": "你選擇了妻子的茶会",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121026,
+                    "prompt": {
+                        "id": "5367560_prompt_5",
+                        "text": "你選擇了穷酸的拍卖会",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367561
+                },
+                "case:op7": {
+                    "event_on": 5367559
+                }
+            }
+        }
+    ]
+}

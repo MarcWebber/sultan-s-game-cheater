@@ -1,0 +1,1 @@
+{"id": 5410123, "text": "苏丹引导-day5-弹框16", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110123}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410123_prompt_01", "text": "你在宫廷上怒斥了昏君，为那些无辜的死者鸣冤……", "icon": "cards/2000001"}, "event_on": 5310125}}]}

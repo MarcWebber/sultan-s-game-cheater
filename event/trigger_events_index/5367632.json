@@ -1,0 +1,69 @@
+{
+    "id": 5367632,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367632_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "消失的回响",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "向苏丹索要过一次妃子",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "向苏丹索要过他所有的妃子",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121185,
+                    "prompt": {
+                        "id": "5367632_prompt_1",
+                        "text": "你選擇了消失的回响",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5160034,
+                    "prompt": {
+                        "id": "5367632_prompt_2",
+                        "text": "你選擇了向苏丹索要过一次妃子",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160035,
+                    "prompt": {
+                        "id": "5367632_prompt_3",
+                        "text": "你選擇了向苏丹索要过他所有的妃子",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5367631
+                }
+            }
+        }
+    ]
+}

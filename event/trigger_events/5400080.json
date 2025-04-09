@@ -1,0 +1,1 @@
+{"id": 5400080, "text": "下水道的鳄鱼", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100080}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002510, "success": {"event_off": 5400080}}}]}

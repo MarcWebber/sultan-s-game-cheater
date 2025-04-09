@@ -1,0 +1,100 @@
+{
+    "id": 5367553,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367553_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "权力的游戏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "权力的游戏开启提示",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "妻子正在酝酿不满",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "权力的游戏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "群龙无首和权力游戏的保险机制",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100089,
+                    "prompt": {
+                        "id": "5367553_prompt_1",
+                        "text": "你選擇了权力的游戏",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100091,
+                    "prompt": {
+                        "id": "5367553_prompt_2",
+                        "text": "你選擇了权力的游戏开启提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100182,
+                    "prompt": {
+                        "id": "5367553_prompt_3",
+                        "text": "你選擇了妻子正在酝酿不满",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100356,
+                    "prompt": {
+                        "id": "5367553_prompt_4",
+                        "text": "你選擇了权力的游戏",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100357,
+                    "prompt": {
+                        "id": "5367553_prompt_5",
+                        "text": "你選擇了群龙无首和权力游戏的保险机制",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367554
+                },
+                "case:op7": {
+                    "event_on": 5367552
+                }
+            }
+        }
+    ]
+}

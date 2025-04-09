@@ -1,0 +1,1 @@
+{"id": 5400116, "text": "贵妇奢靡", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [2, 5]}, "condition": {"rite": 5100116}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000652, "success": {"event_off": 5400116}}}]}

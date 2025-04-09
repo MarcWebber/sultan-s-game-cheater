@@ -1,0 +1,1 @@
+{"id": 5420029, "text": "激活廊下的故事", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5120029}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000140": 1}}]}

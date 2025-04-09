@@ -1,0 +1,100 @@
+{
+    "id": 5367516,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367516_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "没头脑和不高兴",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "貌合神离",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "麦娜尔的道别",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贸易路线",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "密教基地启动",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100020,
+                    "prompt": {
+                        "id": "5367516_prompt_1",
+                        "text": "你選擇了没头脑和不高兴",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100061,
+                    "prompt": {
+                        "id": "5367516_prompt_2",
+                        "text": "你選擇了貌合神离",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100155,
+                    "prompt": {
+                        "id": "5367516_prompt_3",
+                        "text": "你選擇了麦娜尔的道别",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100519,
+                    "prompt": {
+                        "id": "5367516_prompt_4",
+                        "text": "你選擇了贸易路线",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100583,
+                    "prompt": {
+                        "id": "5367516_prompt_5",
+                        "text": "你選擇了密教基地启动",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367517
+                },
+                "case:op7": {
+                    "event_on": 5367515
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410465, "text": "结局-直面苏丹的暗道", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010009}, "condition": {"rite": 5110465}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5010033, "prompt": {"id": "5410465_prompt_01", "text": "你想起了你之前掌握的直通宫殿内部的暗道信息，也许在此时可以拿来使用了。"}}}]}

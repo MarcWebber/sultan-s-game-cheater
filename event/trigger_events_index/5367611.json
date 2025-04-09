@@ -1,0 +1,100 @@
+{
+    "id": 5367611,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367611_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "我自己可以做主",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "我自己，可以……做主",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "我都知道了幕后",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "唯一的牺牲者",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "无妄之灾",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121041,
+                    "prompt": {
+                        "id": "5367611_prompt_1",
+                        "text": "你選擇了我自己可以做主",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121044,
+                    "prompt": {
+                        "id": "5367611_prompt_2",
+                        "text": "你選擇了我自己，可以……做主",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121082,
+                    "prompt": {
+                        "id": "5367611_prompt_3",
+                        "text": "你選擇了我都知道了幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121131,
+                    "prompt": {
+                        "id": "5367611_prompt_4",
+                        "text": "你選擇了唯一的牺牲者",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121163,
+                    "prompt": {
+                        "id": "5367611_prompt_5",
+                        "text": "你選擇了无妄之灾",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367612
+                },
+                "case:op7": {
+                    "event_on": 5367610
+                }
+            }
+        }
+    ]
+}

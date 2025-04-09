@@ -1,0 +1,1 @@
+{"id": 5410850, "text": "消解疯狂-检定法拉杰的体魄", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"rite_end": 5004817}, "condition": {"rite": 5110850}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter=7000639": 0}}], "auto_start": true}

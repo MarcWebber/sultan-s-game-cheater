@@ -1,0 +1,100 @@
+{
+    "id": 5367550,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367550_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "普通妓院（石银美人死了）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "普通妓院（铜银美人死了）",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "胖贵族来访",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "PPT式新手引导测试",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "PPT式新手引导测试2",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100017,
+                    "prompt": {
+                        "id": "5367550_prompt_1",
+                        "text": "你選擇了普通妓院（石银美人死了）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100018,
+                    "prompt": {
+                        "id": "5367550_prompt_2",
+                        "text": "你選擇了普通妓院（铜银美人死了）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100134,
+                    "prompt": {
+                        "id": "5367550_prompt_3",
+                        "text": "你選擇了胖贵族来访",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100300,
+                    "prompt": {
+                        "id": "5367550_prompt_4",
+                        "text": "你選擇了PPT式新手引导测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100301,
+                    "prompt": {
+                        "id": "5367550_prompt_5",
+                        "text": "你選擇了PPT式新手引导测试2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367551
+                },
+                "case:op7": {
+                    "event_on": 5367549
+                }
+            }
+        }
+    ]
+}

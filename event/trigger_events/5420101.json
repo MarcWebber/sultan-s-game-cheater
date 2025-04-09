@@ -1,0 +1,1 @@
+{"id": 5420101, "text": "妻子死亡的反馈", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120101}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5420101_prompt_1", "text": "你做了一个决定……突然，世界如镜子般破碎，你在黑暗中坠落，最后在床榻上惊醒——梅姬早就不在你的身边了，刚刚的一切都只是梦幻泡影而已。", "icon": "cards/2000001"}}}]}

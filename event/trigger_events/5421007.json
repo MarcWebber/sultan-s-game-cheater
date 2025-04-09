@@ -1,0 +1,1 @@
+{"id": 5421007, "text": "妻子为你辩解声望事件", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121007}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.妻子-事件提示": 1, "rite": 5008004, "success": {"event_off": 5421007}}}]}

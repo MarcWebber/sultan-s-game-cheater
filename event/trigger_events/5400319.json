@@ -1,0 +1,1 @@
+{"id": 5400319, "text": "探访监狱(首次)", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 9}, "condition": {"rite": 5100319}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5001006, "success": {"prompt": {"id": "prompt_5400319_01", "text": "消息：最近听闻有两位贵族惹毛了苏丹被关进了监狱。"}, "event_off": 5300085}}}], "auto_start": true}

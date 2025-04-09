@@ -1,0 +1,1 @@
+{"id": 5420037, "text": "复仇的滋味1", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120037}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000549, "prompt": {"id": "5420037_prompt_01", "text": "不知是谁把一册抄本放在了你的卧室门口。"}}}]}

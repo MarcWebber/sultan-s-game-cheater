@@ -1,0 +1,1 @@
+{"id": 5460031, "text": "一局游戏内嫖过所有的妓女", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5160031}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210028": 1, "debug": "一局游戏内嫖过所有的妓女"}}], "auto_start": true}

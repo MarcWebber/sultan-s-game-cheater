@@ -1,0 +1,1 @@
+{"id": 5420262, "text": "宫廷-索要妃子-调查苏丹的奴隶", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5001001}, "condition": {"rite": 5120262}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000573}}]}

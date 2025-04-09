@@ -1,0 +1,1 @@
+{"id": 5410851, "text": "消解疯狂-检定玩家的体魄", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"rite_end": 5004817}, "condition": {"rite": 5110851}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter=7000640": 0}}], "auto_start": true}

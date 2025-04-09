@@ -1,0 +1,1 @@
+{"id": 5421162, "text": "法德耶之死", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121162}, "settlement": [{"action": {"table.clean.2000173": 1, "prompt": {"id": "5421162_prompt_01", "text": "不久后，宫里传来消息，说王宫的阉奴们处理了一具自缢而死的女人的尸体。\n自那之后，你再也没有见过法德耶。"}, "event_off": 5421162}}]}

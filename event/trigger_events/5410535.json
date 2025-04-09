@@ -1,0 +1,1 @@
+{"id": 5410535, "text": "结局-加个冻结的保险", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110535}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"total.2001019+冻结": 1, "total.sudan+冻结": 1, "total.2000680+冻结": 1, "sudan_pool.sudan+冻结": 1}}]}

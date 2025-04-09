@@ -1,0 +1,100 @@
+{
+    "id": 5367420,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367420_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "触发见证奇迹的时刻",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "处置龙眼宝石",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "出轨的开端",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "持有金币数量达到20",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "持有金币数量达到50",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120503,
+                    "prompt": {
+                        "id": "5367420_prompt_1",
+                        "text": "你選擇了触发见证奇迹的时刻",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120528,
+                    "prompt": {
+                        "id": "5367420_prompt_2",
+                        "text": "你選擇了处置龙眼宝石",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121104,
+                    "prompt": {
+                        "id": "5367420_prompt_3",
+                        "text": "你選擇了出轨的开端",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5160011,
+                    "prompt": {
+                        "id": "5367420_prompt_4",
+                        "text": "你選擇了持有金币数量达到20",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5160012,
+                    "prompt": {
+                        "id": "5367420_prompt_5",
+                        "text": "你選擇了持有金币数量达到50",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367421
+                },
+                "case:op7": {
+                    "event_on": 5367419
+                }
+            }
+        }
+    ]
+}

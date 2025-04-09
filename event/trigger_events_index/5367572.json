@@ -1,0 +1,100 @@
+{
+    "id": 5367572,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367572_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "散尽家财",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "散尽家财下回合启动",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "萨达尔尼加支持的幕后",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "萨达尔尼加反对的幕后",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "审判",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100233,
+                    "prompt": {
+                        "id": "5367572_prompt_1",
+                        "text": "你選擇了散尽家财",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100234,
+                    "prompt": {
+                        "id": "5367572_prompt_2",
+                        "text": "你選擇了散尽家财下回合启动",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100251,
+                    "prompt": {
+                        "id": "5367572_prompt_3",
+                        "text": "你選擇了萨达尔尼加支持的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100252,
+                    "prompt": {
+                        "id": "5367572_prompt_4",
+                        "text": "你選擇了萨达尔尼加反对的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100258,
+                    "prompt": {
+                        "id": "5367572_prompt_5",
+                        "text": "你選擇了审判",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367573
+                },
+                "case:op7": {
+                    "event_on": 5367571
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "id": 5367589,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367589_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神秘的女士",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "生成正教的乙太的幕后",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹在玩魅魔",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "圣主驾到",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "神的面容",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110473,
+                    "prompt": {
+                        "id": "5367589_prompt_1",
+                        "text": "你選擇了神秘的女士",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110621,
+                    "prompt": {
+                        "id": "5367589_prompt_2",
+                        "text": "你選擇了生成正教的乙太的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110633,
+                    "prompt": {
+                        "id": "5367589_prompt_3",
+                        "text": "你選擇了苏丹在玩魅魔",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110639,
+                    "prompt": {
+                        "id": "5367589_prompt_4",
+                        "text": "你選擇了圣主驾到",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110801,
+                    "prompt": {
+                        "id": "5367589_prompt_5",
+                        "text": "你選擇了神的面容",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367590
+                },
+                "case:op7": {
+                    "event_on": 5367588
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5420213, "text": "奈费勒声望事件--带来的改变", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5120213}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320214}}]}

@@ -1,0 +1,1 @@
+{"id": 5400092, "text": "赌马", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5100092}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6000030, "success": {"event_off": 5400092}}}], "auto_start": true}

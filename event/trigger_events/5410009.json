@@ -1,0 +1,1 @@
+{"id": 5410009, "text": "困难难度需要维持信誉", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5110009}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000154}}], "auto_start": true}

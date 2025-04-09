@@ -1,0 +1,1 @@
+{"id": 5421123, "text": "过于尊贵的客人", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121123}, "settlement": [{"action": {"card": 2001005, "rite": 5008117, "prompt": {"id": "5421123_prompt_01", "text": "某次朝会结束后，一位官员满头大汗地拦住你，说有重要的事情与你商谈。"}, "success": {"event_off": 5421123}}}], "auto_start": true}

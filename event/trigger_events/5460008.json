@@ -1,0 +1,1 @@
+{"id": 5460008, "text": "一局游戏内撑过7天", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"game_end": -1}, "condition": {"rite": 5160008}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210006": 1, "debug": "一局游戏撑过7天"}}], "auto_start": true}

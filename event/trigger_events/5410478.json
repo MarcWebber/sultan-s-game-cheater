@@ -1,0 +1,1 @@
+{"id": 5410478, "text": "结局-征服者的奖赏", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010024}, "condition": {"rite": 5110478}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 212}}]}

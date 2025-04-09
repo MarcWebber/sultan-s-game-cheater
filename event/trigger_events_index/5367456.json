@@ -1,0 +1,100 @@
+{
+    "id": 5367456,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367456_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "盖斯声望事件-行脚商走了",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "归乡之径",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "高端服务",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "阁楼里的笑声",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "阁楼里的笑声",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121030,
+                    "prompt": {
+                        "id": "5367456_prompt_1",
+                        "text": "你選擇了盖斯声望事件-行脚商走了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121063,
+                    "prompt": {
+                        "id": "5367456_prompt_2",
+                        "text": "你選擇了归乡之径",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121106,
+                    "prompt": {
+                        "id": "5367456_prompt_3",
+                        "text": "你選擇了高端服务",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121113,
+                    "prompt": {
+                        "id": "5367456_prompt_4",
+                        "text": "你選擇了阁楼里的笑声",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121117,
+                    "prompt": {
+                        "id": "5367456_prompt_5",
+                        "text": "你選擇了阁楼里的笑声",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367457
+                },
+                "case:op7": {
+                    "event_on": 5367455
+                }
+            }
+        }
+    ]
+}

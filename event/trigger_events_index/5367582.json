@@ -1,0 +1,100 @@
+{
+    "id": 5367582,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367582_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "苏丹引导-day2-仪式运行中提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "苏丹引导-day3-弹框8",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹引导-day3-弹框9",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹引导-day3-事件上的气泡提示",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "苏丹引导-day3-仪式运行中提示",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110111,
+                    "prompt": {
+                        "id": "5367582_prompt_1",
+                        "text": "你選擇了苏丹引导-day2-仪式运行中提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110112,
+                    "prompt": {
+                        "id": "5367582_prompt_2",
+                        "text": "你選擇了苏丹引导-day3-弹框8",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110113,
+                    "prompt": {
+                        "id": "5367582_prompt_3",
+                        "text": "你選擇了苏丹引导-day3-弹框9",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110114,
+                    "prompt": {
+                        "id": "5367582_prompt_4",
+                        "text": "你選擇了苏丹引导-day3-事件上的气泡提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110115,
+                    "prompt": {
+                        "id": "5367582_prompt_5",
+                        "text": "你選擇了苏丹引导-day3-仪式运行中提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367583
+                },
+                "case:op7": {
+                    "event_on": 5367581
+                }
+            }
+        }
+    ]
+}

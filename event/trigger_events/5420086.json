@@ -1,0 +1,1 @@
+{"id": 5420086, "text": "权势3的事件--宰相处理政务", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5120086}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6000097, "prompt": {"id": "5420086_prompt_01", "text": "曾经，各地的代表们在苏丹的大殿上陈情乃是一项神圣的传统与权力……但现在大家畏惧苏丹的疯狂，于是他们找到了你。", "icon": "cards/2000001"}}}]}

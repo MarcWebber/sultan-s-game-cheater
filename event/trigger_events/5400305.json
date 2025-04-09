@@ -1,0 +1,1 @@
+{"id": 5400305, "text": "畸恋", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [5, 10]}, "condition": {"rite": 5100305}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002023, "success": {"prompt": {"id": "prompt_5400305_01", "text": "朱娜来找你了，你明知道这很蠢，但就像着了魔一般，无法拒绝。"}, "event_off": 5400305}}}]}

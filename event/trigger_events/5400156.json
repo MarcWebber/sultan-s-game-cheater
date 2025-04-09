@@ -1,0 +1,1 @@
+{"id": 5400156, "text": "远方的乐土", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5100156}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000666, "prompt": {"id": "prompt_5400156_01", "text": "有一位信使来到你的家门前，带来了远方的消息。"}}}]}

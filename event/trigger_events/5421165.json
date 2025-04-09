@@ -1,0 +1,1 @@
+{"id": 5421165, "text": "拜铃耶营业无收益提示", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121165}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "prompt_5421165_01", "text": "拜铃耶找到了一位对刺青好奇的人，不过对方没拿定主意。", "icon": "cards/2000022"}}}]}

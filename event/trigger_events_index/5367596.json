@@ -1,0 +1,45 @@
+{
+    "id": 5367596,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367596_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "steam结局成就",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5160051,
+                    "prompt": {
+                        "id": "5367596_prompt_1",
+                        "text": "你選擇了steam结局成就",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5367595
+                }
+            }
+        }
+    ]
+}

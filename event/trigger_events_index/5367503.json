@@ -1,0 +1,81 @@
+{
+    "id": 5367503,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367503_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "举世无双的爱",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "精打细算",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "剑盾的仪式说明",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "祭品",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120529,
+                    "prompt": {
+                        "id": "5367503_prompt_1",
+                        "text": "你選擇了举世无双的爱",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120538,
+                    "prompt": {
+                        "id": "5367503_prompt_2",
+                        "text": "你選擇了精打细算",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121037,
+                    "prompt": {
+                        "id": "5367503_prompt_3",
+                        "text": "你選擇了剑盾的仪式说明",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121173,
+                    "prompt": {
+                        "id": "5367503_prompt_4",
+                        "text": "你選擇了祭品",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367502
+                }
+            }
+        }
+    ]
+}

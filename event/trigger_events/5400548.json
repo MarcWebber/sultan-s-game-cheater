@@ -1,0 +1,1 @@
+{"id": 5400548, "text": "微妙的感谢", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 10}, "condition": {"rite": 5100548}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"coin": 5, "prompt": {"id": "5400548_prompt_1", "text": "有匿名人士偷偷给你送来一袋金子……没有说是因为什么。", "icon": "cards/2000001"}, "success": {"event_off": 5400548}}}]}

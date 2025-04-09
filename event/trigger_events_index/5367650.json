@@ -1,0 +1,100 @@
+{
+    "id": 5367650,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367650_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "蒸汽社交",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "捉奸",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "装备商人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "真正的报偿",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "捉贼人的调查",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100009,
+                    "prompt": {
+                        "id": "5367650_prompt_1",
+                        "text": "你選擇了蒸汽社交",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100024,
+                    "prompt": {
+                        "id": "5367650_prompt_2",
+                        "text": "你選擇了捉奸",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100035,
+                    "prompt": {
+                        "id": "5367650_prompt_3",
+                        "text": "你選擇了装备商人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100059,
+                    "prompt": {
+                        "id": "5367650_prompt_4",
+                        "text": "你選擇了真正的报偿",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100075,
+                    "prompt": {
+                        "id": "5367650_prompt_5",
+                        "text": "你選擇了捉贼人的调查",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367651
+                },
+                "case:op7": {
+                    "event_on": 5367649
+                }
+            }
+        }
+    ]
+}

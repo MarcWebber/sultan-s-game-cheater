@@ -1,0 +1,1 @@
+{"id": 5420229, "text": "奈费勒声望事件--火焰大王的呼唤", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120229}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006661}}]}

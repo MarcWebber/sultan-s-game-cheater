@@ -1,0 +1,1 @@
+{"id": 5400123, "text": "被羞辱的少女", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": [1, 2]}, "condition": {"rite": 5100123}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000061": 1, "rite": 5000634, "success": {"event_off": 5400123}}}], "auto_start": true}

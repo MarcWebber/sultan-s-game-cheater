@@ -1,0 +1,100 @@
+{
+    "id": 5367559,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367559_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "启动婚礼献歌的幕后",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子的感激声望事件lv1",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "妻子的警惕声望事件",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "妻子的私房钱声望事件lv1",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "妻子亲族的帮助声望事件lv2",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120548,
+                    "prompt": {
+                        "id": "5367559_prompt_1",
+                        "text": "你選擇了启动婚礼献歌的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121001,
+                    "prompt": {
+                        "id": "5367559_prompt_2",
+                        "text": "你選擇了妻子的感激声望事件lv1",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121002,
+                    "prompt": {
+                        "id": "5367559_prompt_3",
+                        "text": "你選擇了妻子的警惕声望事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121003,
+                    "prompt": {
+                        "id": "5367559_prompt_4",
+                        "text": "你選擇了妻子的私房钱声望事件lv1",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121004,
+                    "prompt": {
+                        "id": "5367559_prompt_5",
+                        "text": "你選擇了妻子亲族的帮助声望事件lv2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367560
+                },
+                "case:op7": {
+                    "event_on": 5367558
+                }
+            }
+        }
+    ]
+}

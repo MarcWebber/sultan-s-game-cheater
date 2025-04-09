@@ -1,0 +1,1 @@
+{"id": 5421133, "text": "妻子死亡后哈比卜事件", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121133}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"success": {"loot": 6001067}}}], "auto_start": true}

@@ -1,0 +1,1 @@
+{"id": 5421119, "text": "陌生的妓女来访", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121119}, "settlement": [{"action": {"card": 2000937, "rite": 5008113, "prompt": {"id": "5421119_prompt_01", "text": "最近，一个陌生的妓女来到了你的阁楼找生意。", "icon": "cards/2000937"}, "success": {"event_off": 5421119}}}], "auto_start": true}

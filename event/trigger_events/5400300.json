@@ -1,0 +1,1 @@
+{"id": 5400300, "text": "PPT式新手引导测试", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100300}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"slide": "slide/1-1"}}]}

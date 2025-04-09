@@ -1,0 +1,100 @@
+{
+    "id": 5367449,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367449_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "宫廷-索要妃子-欲望或者野心",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-黄金体验",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-要答应莎姬的请求么",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-莎姬的催促",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-莎姬的催促",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120254,
+                    "prompt": {
+                        "id": "5367449_prompt_1",
+                        "text": "你選擇了宫廷-索要妃子-欲望或者野心",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120255,
+                    "prompt": {
+                        "id": "5367449_prompt_2",
+                        "text": "你選擇了宫廷-索要妃子-黄金体验",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120257,
+                    "prompt": {
+                        "id": "5367449_prompt_3",
+                        "text": "你選擇了宫廷-索要妃子-要答应莎姬的请求么",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120258,
+                    "prompt": {
+                        "id": "5367449_prompt_4",
+                        "text": "你選擇了宫廷-索要妃子-莎姬的催促",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120259,
+                    "prompt": {
+                        "id": "5367449_prompt_5",
+                        "text": "你選擇了宫廷-索要妃子-莎姬的催促",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367450
+                },
+                "case:op7": {
+                    "event_on": 5367448
+                }
+            }
+        }
+    ]
+}

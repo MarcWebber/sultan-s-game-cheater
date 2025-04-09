@@ -1,0 +1,1 @@
+{"id": 5410455, "text": "结局-消除苏丹卡", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110455}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5010031, "prompt": {"id": "prompt_5410455_01", "text": "不过这时候女术士也悄悄送来了低语：她赞美你的邪恶与意志，邀请你进入一个新的职业生涯……"}}}]}

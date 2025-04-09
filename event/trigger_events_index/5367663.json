@@ -1,0 +1,100 @@
+{
+    "id": 5367663,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367663_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "哲瓦德大敌事件-重复阶段",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "哲瓦德死亡或对阿鲁米娜纵欲幕后",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "证婚人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "证婚人再起",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "质子婚礼",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121048,
+                    "prompt": {
+                        "id": "5367663_prompt_1",
+                        "text": "你選擇了哲瓦德大敌事件-重复阶段",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121051,
+                    "prompt": {
+                        "id": "5367663_prompt_2",
+                        "text": "你選擇了哲瓦德死亡或对阿鲁米娜纵欲幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121064,
+                    "prompt": {
+                        "id": "5367663_prompt_3",
+                        "text": "你選擇了证婚人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121065,
+                    "prompt": {
+                        "id": "5367663_prompt_4",
+                        "text": "你選擇了证婚人再起",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121066,
+                    "prompt": {
+                        "id": "5367663_prompt_5",
+                        "text": "你選擇了质子婚礼",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367664
+                },
+                "case:op7": {
+                    "event_on": 5367662
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": 5367548,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367548_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "奈布哈尼声望事件激活提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "内宅的仪式说明",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈费勒的谎言",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "女奴之死",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120554,
+                    "prompt": {
+                        "id": "5367548_prompt_1",
+                        "text": "你選擇了奈布哈尼声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121036,
+                    "prompt": {
+                        "id": "5367548_prompt_2",
+                        "text": "你選擇了内宅的仪式说明",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121134,
+                    "prompt": {
+                        "id": "5367548_prompt_3",
+                        "text": "你選擇了奈费勒的谎言",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121151,
+                    "prompt": {
+                        "id": "5367548_prompt_4",
+                        "text": "你選擇了女奴之死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367547
+                }
+            }
+        }
+    ]
+}

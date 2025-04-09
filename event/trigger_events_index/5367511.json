@@ -1,0 +1,100 @@
+{
+    "id": 5367511,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367511_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "浪子的悲哀前置",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "烂纸头启动",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "领路者",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "廊下的故事",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "鲁梅拉声望事件激活提示",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100527,
+                    "prompt": {
+                        "id": "5367511_prompt_1",
+                        "text": "你選擇了浪子的悲哀前置",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100560,
+                    "prompt": {
+                        "id": "5367511_prompt_2",
+                        "text": "你選擇了烂纸头启动",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120001,
+                    "prompt": {
+                        "id": "5367511_prompt_3",
+                        "text": "你選擇了领路者",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120030,
+                    "prompt": {
+                        "id": "5367511_prompt_4",
+                        "text": "你選擇了廊下的故事",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120045,
+                    "prompt": {
+                        "id": "5367511_prompt_5",
+                        "text": "你選擇了鲁梅拉声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367512
+                },
+                "case:op7": {
+                    "event_on": 5367510
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "id": 5367606,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367606_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "屠龙的勇行开启",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "听说有位贵人……",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "天才少女看书",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "天才少女看书2",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "天才少女看书3",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120544,
+                    "prompt": {
+                        "id": "5367606_prompt_1",
+                        "text": "你選擇了屠龙的勇行开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121040,
+                    "prompt": {
+                        "id": "5367606_prompt_2",
+                        "text": "你選擇了听说有位贵人……",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160038,
+                    "prompt": {
+                        "id": "5367606_prompt_3",
+                        "text": "你選擇了天才少女看书",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5160039,
+                    "prompt": {
+                        "id": "5367606_prompt_4",
+                        "text": "你選擇了天才少女看书2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5160040,
+                    "prompt": {
+                        "id": "5367606_prompt_5",
+                        "text": "你選擇了天才少女看书3",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367607
+                },
+                "case:op7": {
+                    "event_on": 5367605
+                }
+            }
+        }
+    ]
+}

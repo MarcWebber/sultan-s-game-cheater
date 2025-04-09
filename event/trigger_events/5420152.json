@@ -1,0 +1,1 @@
+{"id": 5420152, "text": "娜依拉声望事件--帝国的勇士-重复触发", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120152}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006612}}]}

@@ -1,0 +1,100 @@
+{
+    "id": 5367437,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367437_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "疯狂面具",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "父亲的肉",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "讽刺的歌",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "分羊",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "分身说的话",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100576,
+                    "prompt": {
+                        "id": "5367437_prompt_1",
+                        "text": "你選擇了疯狂面具",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100577,
+                    "prompt": {
+                        "id": "5367437_prompt_2",
+                        "text": "你選擇了父亲的肉",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100602,
+                    "prompt": {
+                        "id": "5367437_prompt_3",
+                        "text": "你選擇了讽刺的歌",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100609,
+                    "prompt": {
+                        "id": "5367437_prompt_4",
+                        "text": "你選擇了分羊",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110010,
+                    "prompt": {
+                        "id": "5367437_prompt_5",
+                        "text": "你選擇了分身说的话",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367438
+                },
+                "case:op7": {
+                    "event_on": 5367436
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": 5367404,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367404_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "阿里木声望事件激活提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121091,
+                    "prompt": {
+                        "id": "5367404_prompt_1",
+                        "text": "你選擇了阿里木声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5367403
+                }
+            }
+        }
+    ]
+}

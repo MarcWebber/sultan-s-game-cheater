@@ -1,0 +1,1 @@
+{"id": 5460001, "text": "完成X局游戏次数（死亡也计数）", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"game_end": -1}, "condition": {"rite": 5160001}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter+7220001": 1}}], "auto_start": true}

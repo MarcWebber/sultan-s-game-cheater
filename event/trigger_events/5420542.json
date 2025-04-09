@@ -1,0 +1,1 @@
+{"id": 5420542, "text": "突然的摊牌妻子的反应", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5000002}, "condition": {"rite": 5120542}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.妻子-事件提示": 1, "counter+7000185": 1, "rite": 5006053, "success": {"event_off": 5420542}}}]}

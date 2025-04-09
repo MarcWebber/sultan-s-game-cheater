@@ -1,0 +1,1 @@
+{"id": 5421050, "text": "阿鲁米娜出场幕后", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121050}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000774, "success": {"event_off": 5421050}}}], "auto_start": true}

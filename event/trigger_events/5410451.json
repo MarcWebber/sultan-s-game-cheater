@@ -1,0 +1,1 @@
+{"id": 5410451, "text": "结局-造反-征服者-铁头-大敌", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010022}, "condition": {"rite": 5110451}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000369": 1, "prompt": {"id": "5410451_prompt_01", "text": "在你攻入苏丹的王宫之后，铁头带着自己幸存的族人离去了——这个城市里再也没有值得他留恋的东西了。", "icon": "cards/2000369"}}}]}

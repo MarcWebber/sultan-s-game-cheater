@@ -1,0 +1,100 @@
+{
+    "id": 5367664,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367664_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "质子声望事件为您效劳",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "贼的志愿生",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "做人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "忠善之人",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宰相的谎言",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121070,
+                    "prompt": {
+                        "id": "5367664_prompt_1",
+                        "text": "你選擇了质子声望事件为您效劳",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121085,
+                    "prompt": {
+                        "id": "5367664_prompt_2",
+                        "text": "你選擇了贼的志愿生",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121087,
+                    "prompt": {
+                        "id": "5367664_prompt_3",
+                        "text": "你選擇了做人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121110,
+                    "prompt": {
+                        "id": "5367664_prompt_4",
+                        "text": "你選擇了忠善之人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121135,
+                    "prompt": {
+                        "id": "5367664_prompt_5",
+                        "text": "你選擇了宰相的谎言",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367665
+                },
+                "case:op7": {
+                    "event_on": 5367663
+                }
+            }
+        }
+    ]
+}

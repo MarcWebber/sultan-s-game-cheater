@@ -1,0 +1,1 @@
+{"id": 5460052, "text": "成就-死于刺杀", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"game_end": [4, 11]}, "condition": {"rite": 5160052}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7200204": 1}}], "auto_start": true}

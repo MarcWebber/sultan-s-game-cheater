@@ -1,0 +1,1 @@
+{"id": 5400025, "text": "死于睡梦中(源自妻子出轨的累积)", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100025}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5003006}}], "auto_start": true}

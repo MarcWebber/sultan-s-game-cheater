@@ -1,0 +1,100 @@
+{
+    "id": 5367639,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367639_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "伊曼的离开",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "要反悔吗",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "要接受吗",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "要接受吗",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "与法图娜的婚礼",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110632,
+                    "prompt": {
+                        "id": "5367639_prompt_1",
+                        "text": "你選擇了伊曼的离开",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110637,
+                    "prompt": {
+                        "id": "5367639_prompt_2",
+                        "text": "你選擇了要反悔吗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110638,
+                    "prompt": {
+                        "id": "5367639_prompt_3",
+                        "text": "你選擇了要接受吗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110642,
+                    "prompt": {
+                        "id": "5367639_prompt_4",
+                        "text": "你選擇了要接受吗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120009,
+                    "prompt": {
+                        "id": "5367639_prompt_5",
+                        "text": "你選擇了与法图娜的婚礼",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367640
+                },
+                "case:op7": {
+                    "event_on": 5367638
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "id": 5367641,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367641_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "一封信",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "岩石舍馆",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "咬了苏丹一口",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "应许时刻",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "一次逃亡",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120051,
+                    "prompt": {
+                        "id": "5367641_prompt_1",
+                        "text": "你選擇了一封信",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120077,
+                    "prompt": {
+                        "id": "5367641_prompt_2",
+                        "text": "你選擇了岩石舍馆",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120508,
+                    "prompt": {
+                        "id": "5367641_prompt_3",
+                        "text": "你選擇了咬了苏丹一口",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121061,
+                    "prompt": {
+                        "id": "5367641_prompt_4",
+                        "text": "你選擇了应许时刻",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121062,
+                    "prompt": {
+                        "id": "5367641_prompt_5",
+                        "text": "你選擇了一次逃亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367642
+                },
+                "case:op7": {
+                    "event_on": 5367640
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410450, "text": "结局-造反-征服者-铁头-非大敌", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010022}, "condition": {"rite": 5110450}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000369.追随者=0+追随者": 1, "prompt": {"id": "5410450_prompt_01", "text": "小圆来了", "icon": "cards/2000369"}}}]}

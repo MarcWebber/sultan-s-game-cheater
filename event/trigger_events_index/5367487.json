@@ -1,0 +1,100 @@
+{
+    "id": 5367487,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367487_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "结局-造反给倒计时",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "结局-新月之书",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "结局-新日之坠",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "结局-日之牢笼",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "结局-直面苏丹的暗道",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110459,
+                    "prompt": {
+                        "id": "5367487_prompt_1",
+                        "text": "你選擇了结局-造反给倒计时",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110460,
+                    "prompt": {
+                        "id": "5367487_prompt_2",
+                        "text": "你選擇了结局-新月之书",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110461,
+                    "prompt": {
+                        "id": "5367487_prompt_3",
+                        "text": "你選擇了结局-新日之坠",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110462,
+                    "prompt": {
+                        "id": "5367487_prompt_4",
+                        "text": "你選擇了结局-日之牢笼",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110463,
+                    "prompt": {
+                        "id": "5367487_prompt_5",
+                        "text": "你選擇了结局-直面苏丹的暗道",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367488
+                },
+                "case:op7": {
+                    "event_on": 5367486
+                }
+            }
+        }
+    ]
+}

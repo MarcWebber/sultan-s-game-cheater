@@ -1,0 +1,100 @@
+{
+    "id": 5367436,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367436_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "废弃",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "法律的底线的第一次开启",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "法律的底线的重复开启",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "父亲的刺客",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100217,
+                    "prompt": {
+                        "id": "5367436_prompt_1",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100218,
+                    "prompt": {
+                        "id": "5367436_prompt_2",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100254,
+                    "prompt": {
+                        "id": "5367436_prompt_3",
+                        "text": "你選擇了法律的底线的第一次开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100255,
+                    "prompt": {
+                        "id": "5367436_prompt_4",
+                        "text": "你選擇了法律的底线的重复开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100311,
+                    "prompt": {
+                        "id": "5367436_prompt_5",
+                        "text": "你選擇了父亲的刺客",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367437
+                },
+                "case:op7": {
+                    "event_on": 5367435
+                }
+            }
+        }
+    ]
+}

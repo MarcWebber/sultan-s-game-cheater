@@ -1,0 +1,100 @@
+{
+    "id": 5367402,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367402_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "暗影神庙",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "艾迪勒受伤养伤",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "俺寻思的自我介绍",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "安全屋的俺寻思提示",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "阿迪莱声望事件激活提示",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100204,
+                    "prompt": {
+                        "id": "5367402_prompt_1",
+                        "text": "你選擇了暗影神庙",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100256,
+                    "prompt": {
+                        "id": "5367402_prompt_2",
+                        "text": "你選擇了艾迪勒受伤养伤",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110008,
+                    "prompt": {
+                        "id": "5367402_prompt_3",
+                        "text": "你選擇了俺寻思的自我介绍",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120081,
+                    "prompt": {
+                        "id": "5367402_prompt_4",
+                        "text": "你選擇了安全屋的俺寻思提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120521,
+                    "prompt": {
+                        "id": "5367402_prompt_5",
+                        "text": "你選擇了阿迪莱声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367403
+                },
+                "case:op7": {
+                    "event_on": 5367401
+                }
+            }
+        }
+    ]
+}

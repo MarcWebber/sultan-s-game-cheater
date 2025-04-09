@@ -1,0 +1,100 @@
+{
+    "id": 5367590,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367590_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神的启示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神圣的会晤",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "神的警告",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "神的警告",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "善名1阶段事件",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110806,
+                    "prompt": {
+                        "id": "5367590_prompt_1",
+                        "text": "你選擇了神的启示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110808,
+                    "prompt": {
+                        "id": "5367590_prompt_2",
+                        "text": "你選擇了神圣的会晤",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110844,
+                    "prompt": {
+                        "id": "5367590_prompt_3",
+                        "text": "你選擇了神的警告",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110845,
+                    "prompt": {
+                        "id": "5367590_prompt_4",
+                        "text": "你選擇了神的警告",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120072,
+                    "prompt": {
+                        "id": "5367590_prompt_5",
+                        "text": "你選擇了善名1阶段事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367591
+                },
+                "case:op7": {
+                    "event_on": 5367589
+                }
+            }
+        }
+    ]
+}

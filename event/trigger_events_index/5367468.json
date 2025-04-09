@@ -1,0 +1,69 @@
+{
+    "id": 5367468,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367468_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "获得并装修1个奇珍",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "获得并装修5个奇珍（废弃）",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "获得并装修10个奇珍（废弃）",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5160027,
+                    "prompt": {
+                        "id": "5367468_prompt_1",
+                        "text": "你選擇了获得并装修1个奇珍",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5160028,
+                    "prompt": {
+                        "id": "5367468_prompt_2",
+                        "text": "你選擇了获得并装修5个奇珍（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160029,
+                    "prompt": {
+                        "id": "5367468_prompt_3",
+                        "text": "你選擇了获得并装修10个奇珍（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5367467
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "id": 5367607,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367607_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "王狮猎场",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "无罪释放",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "无名的暗杀",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "无尽黄沙",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "我不如她吗",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100121,
+                    "prompt": {
+                        "id": "5367607_prompt_1",
+                        "text": "你選擇了王狮猎场",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100132,
+                    "prompt": {
+                        "id": "5367607_prompt_2",
+                        "text": "你選擇了无罪释放",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100133,
+                    "prompt": {
+                        "id": "5367607_prompt_3",
+                        "text": "你選擇了无名的暗杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100202,
+                    "prompt": {
+                        "id": "5367607_prompt_4",
+                        "text": "你選擇了无尽黄沙",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100280,
+                    "prompt": {
+                        "id": "5367607_prompt_5",
+                        "text": "你選擇了我不如她吗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367608
+                },
+                "case:op7": {
+                    "event_on": 5367606
+                }
+            }
+        }
+    ]
+}

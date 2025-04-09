@@ -1,0 +1,1 @@
+{"id": 5460006, "text": "累计消除X张纵欲卡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": [2010005, 2010006, 2010007, 2010008]}, "condition": {"rite": 5160006}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter+7210004": 1, "debug": "消除1张纵欲苏丹卡"}}], "auto_start": true}

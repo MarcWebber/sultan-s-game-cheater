@@ -1,0 +1,100 @@
+{
+    "id": 5367652,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367652_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "质子的请求",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "质子的请求",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "这不是偷",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "足以传世的画像（废弃）",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "资助研究·一",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100163,
+                    "prompt": {
+                        "id": "5367652_prompt_1",
+                        "text": "你選擇了质子的请求",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100164,
+                    "prompt": {
+                        "id": "5367652_prompt_2",
+                        "text": "你選擇了质子的请求",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100176,
+                    "prompt": {
+                        "id": "5367652_prompt_3",
+                        "text": "你選擇了这不是偷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100209,
+                    "prompt": {
+                        "id": "5367652_prompt_4",
+                        "text": "你選擇了足以传世的画像（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100235,
+                    "prompt": {
+                        "id": "5367652_prompt_5",
+                        "text": "你選擇了资助研究·一",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367653
+                },
+                "case:op7": {
+                    "event_on": 5367651
+                }
+            }
+        }
+    ]
+}

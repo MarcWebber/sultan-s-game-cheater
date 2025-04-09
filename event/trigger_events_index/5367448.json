@@ -1,0 +1,100 @@
+{
+    "id": 5367448,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367448_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "给正教打工",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "贵族子弟之死",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "光之训诫",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "孤女复仇记",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-迎接莎姬",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110606,
+                    "prompt": {
+                        "id": "5367448_prompt_1",
+                        "text": "你選擇了给正教打工",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110626,
+                    "prompt": {
+                        "id": "5367448_prompt_2",
+                        "text": "你選擇了贵族子弟之死",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110805,
+                    "prompt": {
+                        "id": "5367448_prompt_3",
+                        "text": "你選擇了光之训诫",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120031,
+                    "prompt": {
+                        "id": "5367448_prompt_4",
+                        "text": "你選擇了孤女复仇记",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120253,
+                    "prompt": {
+                        "id": "5367448_prompt_5",
+                        "text": "你選擇了宫廷-索要妃子-迎接莎姬",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367449
+                },
+                "case:op7": {
+                    "event_on": 5367447
+                }
+            }
+        }
+    ]
+}

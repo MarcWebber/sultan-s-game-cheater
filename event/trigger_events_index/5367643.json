@@ -1,0 +1,100 @@
+{
+    "id": 5367643,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367643_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "原谅的价格",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "羊排与羊肉",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "遥远的瘟疫",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "御厨",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "幽怨的法里斯",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121102,
+                    "prompt": {
+                        "id": "5367643_prompt_1",
+                        "text": "你選擇了原谅的价格",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121108,
+                    "prompt": {
+                        "id": "5367643_prompt_2",
+                        "text": "你選擇了羊排与羊肉",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121120,
+                    "prompt": {
+                        "id": "5367643_prompt_3",
+                        "text": "你選擇了遥远的瘟疫",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121126,
+                    "prompt": {
+                        "id": "5367643_prompt_4",
+                        "text": "你選擇了御厨",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121142,
+                    "prompt": {
+                        "id": "5367643_prompt_5",
+                        "text": "你選擇了幽怨的法里斯",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367644
+                },
+                "case:op7": {
+                    "event_on": 5367642
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410459, "text": "结局-造反给倒计时", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010007}, "condition": {"rite": 5110459}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000914": 5, "card": 2000914, "rite": 5010008}}]}

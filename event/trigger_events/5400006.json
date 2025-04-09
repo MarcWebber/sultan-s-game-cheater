@@ -1,0 +1,1 @@
+{"id": 5400006, "text": "一桩无法追溯的罪行", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100006}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000511}}]}

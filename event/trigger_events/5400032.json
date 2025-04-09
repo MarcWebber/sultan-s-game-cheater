@@ -1,0 +1,1 @@
+{"id": 5400032, "text": "袭杀山狮", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [4, 5]}, "condition": {"rite": 5100032}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002505, "success": {"event_off": 5400032}}}]}

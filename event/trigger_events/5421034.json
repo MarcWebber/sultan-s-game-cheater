@@ -1,0 +1,1 @@
+{"id": 5421034, "text": "《剑盾的仪式图纸》事件激活提示", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121034}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"hand_pop.5421034.2000759": "这本书有一股神秘的力量在涌动，将其放入<color=white><size=172%>俺寻思</size></color>。", "table.2000759+事件提示": 1}}], "auto_start": true}

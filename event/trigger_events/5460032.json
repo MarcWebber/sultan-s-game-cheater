@@ -1,0 +1,1 @@
+{"id": 5460032, "text": "一局游戏内达成连续七天都去上朝", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5160032}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210029": 1, "debug": "一局游戏内达成连续七天都去上朝"}}], "auto_start": true}

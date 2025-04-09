@@ -1,0 +1,100 @@
+{
+    "id": 5367602,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367602_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "铁头大敌事件-重复阶段",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "铁头-善1-救济日重复触发",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "铁头声望事件激活提示",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "铁头声望事件--这粥的味道",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "铁头声望事件--石餐盒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120062,
+                    "prompt": {
+                        "id": "5367602_prompt_1",
+                        "text": "你選擇了铁头大敌事件-重复阶段",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120156,
+                    "prompt": {
+                        "id": "5367602_prompt_2",
+                        "text": "你選擇了铁头-善1-救济日重复触发",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120157,
+                    "prompt": {
+                        "id": "5367602_prompt_3",
+                        "text": "你選擇了铁头声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120158,
+                    "prompt": {
+                        "id": "5367602_prompt_4",
+                        "text": "你選擇了铁头声望事件--这粥的味道",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120159,
+                    "prompt": {
+                        "id": "5367602_prompt_5",
+                        "text": "你選擇了铁头声望事件--石餐盒",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367603
+                },
+                "case:op7": {
+                    "event_on": 5367601
+                }
+            }
+        }
+    ]
+}

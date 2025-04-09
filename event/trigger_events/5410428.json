@@ -1,0 +1,1 @@
+{"id": 5410428, "text": "结局-造反-哲巴尔死亡时补员", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": 2000054}, "condition": {"rite": 5110428}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000925, "prompt": {"id": "5410428_prompt_01", "text": "苏丹补充了一名铁卫。", "icon": "cards/2000925"}}}], "auto_start": true}

@@ -1,0 +1,100 @@
+{
+    "id": 5367555,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367555_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "妻子成为秘教徒后定期消除妻子的不满的仪式",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子的宽容",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "轻易获得快乐",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "青铜舍馆",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "权势2的事件--公文处理-首次处理",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100575,
+                    "prompt": {
+                        "id": "5367555_prompt_1",
+                        "text": "你選擇了妻子成为秘教徒后定期消除妻子的不满的仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120008,
+                    "prompt": {
+                        "id": "5367555_prompt_2",
+                        "text": "你選擇了妻子的宽容",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120014,
+                    "prompt": {
+                        "id": "5367555_prompt_3",
+                        "text": "你選擇了轻易获得快乐",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120078,
+                    "prompt": {
+                        "id": "5367555_prompt_4",
+                        "text": "你選擇了青铜舍馆",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120084,
+                    "prompt": {
+                        "id": "5367555_prompt_5",
+                        "text": "你選擇了权势2的事件--公文处理-首次处理",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367556
+                },
+                "case:op7": {
+                    "event_on": 5367554
+                }
+            }
+        }
+    ]
+}

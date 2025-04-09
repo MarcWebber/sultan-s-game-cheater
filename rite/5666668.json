@@ -27,12 +27,10 @@
                     "s1": 1
                 }
             },
-            "result_title": "全能强化",
-            "result_text": "你提升了能力",
+            "result_title": "事件召唤",
+            "result_text": "命运的齿轮开始转动",
             "result": {
-                "s1+社交": 5,
-                "s1+魔力": 5,
-                "s1+魅力": 5
+                "event_on": 5367800
             },
             "action": {}
         }
@@ -51,31 +49,8 @@
             "is_key": 0,
             "is_empty": 1, // 不能为空
             "is_enemy": 0,
-            "text": "能够毁灭一切",
+            "text": "随便放入什么",
             "pops": [
-                {
-                    "condition": {
-                        "type": "item"
-                    },
-                    "action": {
-                        "pop.5666667_s1_01.self": "可以帮你销毁"
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "char"
-                    },
-                    "action": {
-                        "pop.5666667_s1_01.self": "可以送去往生"
-                    }
-                },{
-                    "condition": {
-                        "type": "sudan"
-                    },
-                    "action": {
-                        "pop.5666667_s1_01.self": "可以帮你折断"
-                    }
-                }
             ]
         }
     }

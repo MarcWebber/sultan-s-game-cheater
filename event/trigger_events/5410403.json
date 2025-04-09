@@ -1,0 +1,1 @@
+{"id": 5410403, "text": "结局-逃跑-最后的苏丹卡", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110403}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5010002, "prompt": {"id": "5410403_prompt_01", "text": "一行人眼看就要离开这个国家，你看到了远处一个女子站在了路中央，是那个女术士。", "icon": "cards/1_char_0"}}}]}

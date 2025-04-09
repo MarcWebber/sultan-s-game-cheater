@@ -1,0 +1,1 @@
+{"id": 5410449, "text": "结局-造反-征服者-小圆-铁头大敌", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010022}, "condition": {"rite": 5110449}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000371": 1, "prompt": {"id": "5410449_prompt_01", "text": "小圆走了", "icon": "cards/2000371"}}}]}

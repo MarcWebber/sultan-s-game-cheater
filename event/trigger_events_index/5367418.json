@@ -1,0 +1,100 @@
+{
+    "id": 5367418,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367418_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "初步调查",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "痴心妄想",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "出让钥匙",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "吃掉他的肝脏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "处置猎奴人",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100344,
+                    "prompt": {
+                        "id": "5367418_prompt_1",
+                        "text": "你選擇了初步调查",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100528,
+                    "prompt": {
+                        "id": "5367418_prompt_2",
+                        "text": "你選擇了痴心妄想",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100530,
+                    "prompt": {
+                        "id": "5367418_prompt_3",
+                        "text": "你選擇了出让钥匙",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100541,
+                    "prompt": {
+                        "id": "5367418_prompt_4",
+                        "text": "你選擇了吃掉他的肝脏",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100547,
+                    "prompt": {
+                        "id": "5367418_prompt_5",
+                        "text": "你選擇了处置猎奴人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367419
+                },
+                "case:op7": {
+                    "event_on": 5367417
+                }
+            }
+        }
+    ]
+}

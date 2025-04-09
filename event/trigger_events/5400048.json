@@ -1,0 +1,1 @@
+{"id": 5400048, "text": "索要物资3", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [2, 5]}, "condition": {"rite": 5100048}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000524, "success": {"event_off": 5400048}}}]}

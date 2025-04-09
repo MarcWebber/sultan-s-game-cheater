@@ -1,0 +1,1 @@
+{"id": 5460030, "text": "一局游戏内触发完洗澡的所有随机事件", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"counter": 7000094}, "condition": {"rite": 5160030}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210027": 1, "debug": "一局游戏内触发完洗澡的所有随机事件"}}], "auto_start": true}

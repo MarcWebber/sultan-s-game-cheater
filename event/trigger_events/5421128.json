@@ -1,0 +1,1 @@
+{"id": 5421128, "text": "冒险者酒吧谋反阶段", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121128}, "settlement": [{"action": {"clean.rite": 5008123, "rite": 5008145, "prompt": {"id": "5421128_prompt_01", "text": "冒险者听说了你要揭竿而起的消息，他们决定报答你对他们的恩情，有需要的话你可以随时去叫他们。"}, "success": {"event_off": 5421128}}}], "auto_start": true}

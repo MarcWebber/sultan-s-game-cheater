@@ -1,0 +1,1 @@
+{"id": 5400073, "text": "激活医院", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100073}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002001, "event_off": 5400073}}], "auto_start": true}

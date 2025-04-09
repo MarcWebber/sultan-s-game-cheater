@@ -1,0 +1,100 @@
+{
+    "id": 5367457,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367457_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "过于尊贵的客人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "盖斯-意想不到的遗产",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "公主的滋味",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "更刺激的比赛",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "更高端的比赛",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121123,
+                    "prompt": {
+                        "id": "5367457_prompt_1",
+                        "text": "你選擇了过于尊贵的客人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121125,
+                    "prompt": {
+                        "id": "5367457_prompt_2",
+                        "text": "你選擇了盖斯-意想不到的遗产",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121129,
+                    "prompt": {
+                        "id": "5367457_prompt_3",
+                        "text": "你選擇了公主的滋味",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121136,
+                    "prompt": {
+                        "id": "5367457_prompt_4",
+                        "text": "你選擇了更刺激的比赛",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121140,
+                    "prompt": {
+                        "id": "5367457_prompt_5",
+                        "text": "你選擇了更高端的比赛",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367458
+                },
+                "case:op7": {
+                    "event_on": 5367456
+                }
+            }
+        }
+    ]
+}

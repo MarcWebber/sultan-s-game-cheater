@@ -1,0 +1,69 @@
+{
+    "id": 5367612,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367612_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "我们都是祭品",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "完成X局游戏次数（死亡也计数）",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "完成所有结局（废弃）",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121181,
+                    "prompt": {
+                        "id": "5367612_prompt_1",
+                        "text": "你選擇了我们都是祭品",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5160001,
+                    "prompt": {
+                        "id": "5367612_prompt_2",
+                        "text": "你選擇了完成X局游戏次数（死亡也计数）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160023,
+                    "prompt": {
+                        "id": "5367612_prompt_3",
+                        "text": "你選擇了完成所有结局（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5367611
+                }
+            }
+        }
+    ]
+}

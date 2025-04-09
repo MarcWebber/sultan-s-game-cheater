@@ -1,0 +1,100 @@
+{
+    "id": 5367472,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367472_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "妓女的游戏前置",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "畸恋",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "决斗",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贾丽拉成为盟友",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "贾丽拉被处死的消息",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100299,
+                    "prompt": {
+                        "id": "5367472_prompt_1",
+                        "text": "你選擇了妓女的游戏前置",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100305,
+                    "prompt": {
+                        "id": "5367472_prompt_2",
+                        "text": "你選擇了畸恋",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100307,
+                    "prompt": {
+                        "id": "5367472_prompt_3",
+                        "text": "你選擇了决斗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100308,
+                    "prompt": {
+                        "id": "5367472_prompt_4",
+                        "text": "你選擇了贾丽拉成为盟友",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100309,
+                    "prompt": {
+                        "id": "5367472_prompt_5",
+                        "text": "你選擇了贾丽拉被处死的消息",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367473
+                },
+                "case:op7": {
+                    "event_on": 5367471
+                }
+            }
+        }
+    ]
+}

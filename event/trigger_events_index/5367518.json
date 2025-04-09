@@ -1,0 +1,100 @@
+{
+    "id": 5367518,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367518_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "密会开启",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "陌生的妓女来访",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "冒险者酒吧谋反阶段",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "密教的援助故事线",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "密教的遗孤",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120545,
+                    "prompt": {
+                        "id": "5367518_prompt_1",
+                        "text": "你選擇了密会开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121119,
+                    "prompt": {
+                        "id": "5367518_prompt_2",
+                        "text": "你選擇了陌生的妓女来访",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121128,
+                    "prompt": {
+                        "id": "5367518_prompt_3",
+                        "text": "你選擇了冒险者酒吧谋反阶段",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121157,
+                    "prompt": {
+                        "id": "5367518_prompt_4",
+                        "text": "你選擇了密教的援助故事线",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121183,
+                    "prompt": {
+                        "id": "5367518_prompt_5",
+                        "text": "你選擇了密教的遗孤",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367519
+                },
+                "case:op7": {
+                    "event_on": 5367517
+                }
+            }
+        }
+    ]
+}

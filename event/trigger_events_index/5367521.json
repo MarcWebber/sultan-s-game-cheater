@@ -1,0 +1,100 @@
+{
+    "id": 5367521,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367521_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "年轻望族的请求",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "年轻望族的请求II",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "年轻望族的请求3",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "你礼貌吗？",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "女妖森林",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100144,
+                    "prompt": {
+                        "id": "5367521_prompt_1",
+                        "text": "你選擇了年轻望族的请求",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100145,
+                    "prompt": {
+                        "id": "5367521_prompt_2",
+                        "text": "你選擇了年轻望族的请求II",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100146,
+                    "prompt": {
+                        "id": "5367521_prompt_3",
+                        "text": "你選擇了年轻望族的请求3",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100177,
+                    "prompt": {
+                        "id": "5367521_prompt_4",
+                        "text": "你選擇了你礼貌吗？",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100205,
+                    "prompt": {
+                        "id": "5367521_prompt_5",
+                        "text": "你選擇了女妖森林",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367522
+                },
+                "case:op7": {
+                    "event_on": 5367520
+                }
+            }
+        }
+    ]
+}

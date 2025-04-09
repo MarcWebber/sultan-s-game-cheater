@@ -1,0 +1,1 @@
+{"id": 5420258, "text": "宫廷-索要妃子-莎姬的催促", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120258}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5420258_prompt_01", "text": "莎姬派人送来了一张字条，催促你赶紧想想办法……现在那些恶犬已经能把爪子伸进来了！", "icon": "cards/2000010"}}}]}

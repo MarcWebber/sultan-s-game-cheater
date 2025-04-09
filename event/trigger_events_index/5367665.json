@@ -1,0 +1,81 @@
+{
+    "id": 5367665,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367665_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "自信的法里斯",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "找人陪新月玩",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "重启拼凑真相",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "在30天内没有获得妻子的不满",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121141,
+                    "prompt": {
+                        "id": "5367665_prompt_1",
+                        "text": "你選擇了自信的法里斯",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121153,
+                    "prompt": {
+                        "id": "5367665_prompt_2",
+                        "text": "你選擇了找人陪新月玩",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121174,
+                    "prompt": {
+                        "id": "5367665_prompt_3",
+                        "text": "你選擇了重启拼凑真相",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5160024,
+                    "prompt": {
+                        "id": "5367665_prompt_4",
+                        "text": "你選擇了在30天内没有获得妻子的不满",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367664
+                }
+            }
+        }
+    ]
+}

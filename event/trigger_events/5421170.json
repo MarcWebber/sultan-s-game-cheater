@@ -1,0 +1,1 @@
+{"id": 5421170, "text": "拜铃耶营业收益提示", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121170}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7100004": 1, "prompt": {"id": "prompt_5421170_01", "text": "一个好勇斗狠的年轻人找到了拜铃耶……据说，刺青以后再也没有人敢随便欺负他了。你的侠名也随之提升。", "icon": "cards/2000022"}}}]}

@@ -1,0 +1,1 @@
+{"id": 5400240, "text": "拒绝逃离", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {}, "condition": {"rite": 5100240}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"success": {"prompt": {"id": "prompt_5400240_01", "text": "你赶紧捂住了妻子的嘴，害怕有苏丹的密探在偷听……这样的念头，让苏丹扫兴的念头，真的永远也不要说出口。"}, "event_off": 5400240}}}]}

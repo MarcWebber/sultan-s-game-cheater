@@ -1,0 +1,1 @@
+{"id": 5460026, "text": "没有及时消除苏丹卡而死亡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"game_end": 12}, "condition": {"rite": 5160026}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"global_counter=7210023": 1, "debug": "没有及时消除苏丹卡而死亡"}}], "auto_start": true}

@@ -1,0 +1,1 @@
+{"id": 5410611, "text": "秘密幽会", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5110611}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5004513, "counter+7000586": 1, "rite": 5004516, "success": {"event_off": 5410611}}}]}

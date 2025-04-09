@@ -1,0 +1,1 @@
+{"id": 5410630, "text": "饥渴", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5110630}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5010053, "prompt": {"id": "5410630_prompt_01", "text": "那神圣的卵被你忽视太久了，祂发出了婴儿一般的啼哭……而听到这个声音的人，将会不由自主地想要哺育祂。", "icon": "cards/2001123"}}}]}

@@ -1,0 +1,100 @@
+{
+    "id": 5367599,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367599_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "脱罪",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "铜妓女处理尸体",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "探访监狱(首次)",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "同日死去",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "偷取苏丹的戒指",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100261,
+                    "prompt": {
+                        "id": "5367599_prompt_1",
+                        "text": "你選擇了脱罪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100306,
+                    "prompt": {
+                        "id": "5367599_prompt_2",
+                        "text": "你選擇了铜妓女处理尸体",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100319,
+                    "prompt": {
+                        "id": "5367599_prompt_3",
+                        "text": "你選擇了探访监狱(首次)",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100350,
+                    "prompt": {
+                        "id": "5367599_prompt_4",
+                        "text": "你選擇了同日死去",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100354,
+                    "prompt": {
+                        "id": "5367599_prompt_5",
+                        "text": "你選擇了偷取苏丹的戒指",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367600
+                },
+                "case:op7": {
+                    "event_on": 5367598
+                }
+            }
+        }
+    ]
+}

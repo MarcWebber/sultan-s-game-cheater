@@ -1,0 +1,1 @@
+{"id": 5410427, "text": "结局-造反-赛里曼死亡时的说明", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"card_clean": 2000012}, "condition": {"rite": 5110427}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410427_prompt_01", "text": "苏丹补充了一名铁卫。", "icon": "cards/sudan"}}}]}

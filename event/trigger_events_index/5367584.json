@@ -1,0 +1,100 @@
+{
+    "id": 5367584,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367584_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "苏丹引导-day5-弹框13",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "苏丹引导-day5-弹框14",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹引导-day5-弹框16",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹引导-day5-弹框17",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "苏丹引导-day5-弹框17",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110121,
+                    "prompt": {
+                        "id": "5367584_prompt_1",
+                        "text": "你選擇了苏丹引导-day5-弹框13",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110122,
+                    "prompt": {
+                        "id": "5367584_prompt_2",
+                        "text": "你選擇了苏丹引导-day5-弹框14",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110123,
+                    "prompt": {
+                        "id": "5367584_prompt_3",
+                        "text": "你選擇了苏丹引导-day5-弹框16",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110124,
+                    "prompt": {
+                        "id": "5367584_prompt_4",
+                        "text": "你選擇了苏丹引导-day5-弹框17",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110125,
+                    "prompt": {
+                        "id": "5367584_prompt_5",
+                        "text": "你選擇了苏丹引导-day5-弹框17",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367585
+                },
+                "case:op7": {
+                    "event_on": 5367583
+                }
+            }
+        }
+    ]
+}

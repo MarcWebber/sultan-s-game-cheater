@@ -1,0 +1,100 @@
+{
+    "id": 5367470,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367470_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "绝地探索",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "激活放迷药仪式",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "监听使用征服卡（再利用）",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "将军的收服",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "仅仅只是有趣而已",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100153,
+                    "prompt": {
+                        "id": "5367470_prompt_1",
+                        "text": "你選擇了绝地探索",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100174,
+                    "prompt": {
+                        "id": "5367470_prompt_2",
+                        "text": "你選擇了激活放迷药仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100201,
+                    "prompt": {
+                        "id": "5367470_prompt_3",
+                        "text": "你選擇了监听使用征服卡（再利用）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100206,
+                    "prompt": {
+                        "id": "5367470_prompt_4",
+                        "text": "你選擇了将军的收服",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100210,
+                    "prompt": {
+                        "id": "5367470_prompt_5",
+                        "text": "你選擇了仅仅只是有趣而已",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367471
+                },
+                "case:op7": {
+                    "event_on": 5367469
+                }
+            }
+        }
+    ]
+}

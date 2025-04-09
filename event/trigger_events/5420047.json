@@ -1,0 +1,1 @@
+{"id": 5420047, "text": "鲁梅拉在阴影中再触发", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5120047}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006528}}]}

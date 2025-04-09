@@ -1,0 +1,1 @@
+{"id": 5410426, "text": "结局-造反-奈布哈尼死亡时补员", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": 2000064}, "condition": {"rite": 5110426}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000923, "prompt": {"id": "5410426_prompt_01", "text": "苏丹补充了一名铁卫。", "icon": "cards/2000923"}}}], "auto_start": true}

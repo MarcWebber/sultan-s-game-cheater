@@ -1,0 +1,1 @@
+{"id": 5410416, "text": "结局-造反-巷战", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010012}, "condition": {"rite": 5110416}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5410416_prompt_01", "text": "你的部队被堵在了城市里，苏丹的士兵像猎犬一样，将你们一块一块的撕开，然后吞噬……最后，你举着旗帜向最高处的宫殿发起了绝望的冲锋。虽然之后还发生了很多私人事件，但历史书上的记录到此为止。"}, "over": 201}}]}

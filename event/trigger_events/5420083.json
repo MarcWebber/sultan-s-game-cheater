@@ -1,0 +1,1 @@
+{"id": 5420083, "text": "侠名2的事件--罪犯的投奔--重复刷", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [5, 10]}, "condition": {"rite": 5120083}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot.罪犯投奔+1": 6000095, "rite": 5006571}}]}

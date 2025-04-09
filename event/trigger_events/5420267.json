@@ -1,0 +1,1 @@
+{"id": 5420267, "text": "宫廷-索要妃子-急迫的欢愉（废弃）", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120267}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {}}]}

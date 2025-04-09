@@ -1,0 +1,1 @@
+{"id": 5420096, "text": "苏丹猜忌正常消解卡牌会重置计数器", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120096}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_off": 5320095, "counter=7000196": 0}}]}

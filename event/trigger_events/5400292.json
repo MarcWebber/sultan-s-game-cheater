@@ -1,0 +1,1 @@
+{"id": 5400292, "text": "苏丹的游戏", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100292}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5001004, "table.2000024=上朝": 0, "rite": 5000796, "success": {"event_off": 5400292}}}]}

@@ -1,0 +1,100 @@
+{
+    "id": 5367435,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367435_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "房屋出租",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "附属领地的难题",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100087,
+                    "prompt": {
+                        "id": "5367435_prompt_1",
+                        "text": "你選擇了房屋出租",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100159,
+                    "prompt": {
+                        "id": "5367435_prompt_2",
+                        "text": "你選擇了附属领地的难题",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100214,
+                    "prompt": {
+                        "id": "5367435_prompt_3",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100215,
+                    "prompt": {
+                        "id": "5367435_prompt_4",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100216,
+                    "prompt": {
+                        "id": "5367435_prompt_5",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367436
+                },
+                "case:op7": {
+                    "event_on": 5367434
+                }
+            }
+        }
+    ]
+}

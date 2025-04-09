@@ -1,0 +1,1 @@
+{"id": 5421132, "text": "流浪剑客的复仇", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121132}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5008127}}]}

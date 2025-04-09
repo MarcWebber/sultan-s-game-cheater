@@ -1,0 +1,1 @@
+{"id": 5410814, "text": "心灵之战-1-重复刷新", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [1, 3]}, "condition": {"rite": 5110814}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004818}}]}

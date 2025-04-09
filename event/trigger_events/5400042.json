@@ -1,0 +1,1 @@
+{"id": 5400042, "text": "奇淫巧技-苏丹的欢愉", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5100042}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002020}}]}

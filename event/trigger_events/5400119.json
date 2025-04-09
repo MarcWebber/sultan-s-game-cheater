@@ -1,0 +1,1 @@
+{"id": 5400119, "text": "受伤的白犀牛", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": [14, 21]}, "condition": {"rite": 5100119}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000630, "prompt": {"id": "prompt_5400119_01", "text": "打猎归来，你无意中发现了一只受伤的白犀牛在河边休息，该怎么办？"}}}], "auto_start": true}

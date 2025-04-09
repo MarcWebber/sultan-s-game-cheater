@@ -1,0 +1,1 @@
+{"id": 5410618, "text": "决裂伊曼存活", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110618}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5004516, "no_prompt": {"card": 2001092}, "rite": 5004521, "success": {"event_off": 5310619}}}]}

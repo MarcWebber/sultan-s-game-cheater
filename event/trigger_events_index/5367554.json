@@ -1,0 +1,100 @@
+{
+    "id": 5367554,
+    "text": "选择事件",
+    "is_replay": 1,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367554_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "欠钱的朋友",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子的梦",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奇异的机械",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "妻子远行的前置",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "枪姬众",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100502,
+                    "prompt": {
+                        "id": "5367554_prompt_1",
+                        "text": "你選擇了欠钱的朋友",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100507,
+                    "prompt": {
+                        "id": "5367554_prompt_2",
+                        "text": "你選擇了妻子的梦",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100522,
+                    "prompt": {
+                        "id": "5367554_prompt_3",
+                        "text": "你選擇了奇异的机械",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100532,
+                    "prompt": {
+                        "id": "5367554_prompt_4",
+                        "text": "你選擇了妻子远行的前置",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100543,
+                    "prompt": {
+                        "id": "5367554_prompt_5",
+                        "text": "你選擇了枪姬众",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367555
+                },
+                "case:op7": {
+                    "event_on": 5367553
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5410115, "text": "苏丹引导-day3-仪式运行中提示", "is_replay": 0, "auto_start_init": [0], "start_trigger": true, "on": {"rite_start": 5005103}, "condition": {"rite": 5110115}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite_pop.5410115_01.5005103": "乞丐带着赏赐离开了，点击<size=86>下一天</size>看看后面发生了什么吧"}}], "auto_start": true}
