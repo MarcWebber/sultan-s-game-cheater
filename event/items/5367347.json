@@ -1,0 +1,124 @@
+{
+    "id": 5367347,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367347_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "湛蓝丝巾",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "哲瓦德的打手",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "哲瓦德的优势",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "哲百集",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "蜘蛛的网",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000779",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367347_prompt_1",
+                        "text": "你選擇了湛蓝丝巾",
+                        "icon": "cards/2000779"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000781",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367347_prompt_2",
+                        "text": "你選擇了哲瓦德的打手",
+                        "icon": "cards/2000781"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000783",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367347_prompt_3",
+                        "text": "你選擇了哲瓦德的优势",
+                        "icon": "cards/2000783"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000806",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367347_prompt_4",
+                        "text": "你選擇了哲百集",
+                        "icon": "cards/2000806"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000808",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367347_prompt_5",
+                        "text": "你選擇了蜘蛛的网",
+                        "icon": "cards/2000808"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367348,
+                    "event_off": 5367347
+                },
+                "case:op7": {
+                    "event_on": 5367346,
+                    "event_off": 5367347
+                },
+                "case:op8": {
+                    "event_off": 5367347
+                }
+            }
+        }
+    ]
+}

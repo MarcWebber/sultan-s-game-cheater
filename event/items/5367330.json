@@ -1,0 +1,78 @@
+{
+    "id": 5367330,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367330_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "星光信标",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "小狗与月亮之歌",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "血池",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001034",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367330_prompt_1",
+                        "text": "你選擇了星光信标",
+                        "icon": "cards/2001034"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001054",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367330_prompt_2",
+                        "text": "你選擇了小狗与月亮之歌",
+                        "icon": "cards/2001054"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001126",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367330_prompt_3",
+                        "text": "你選擇了血池",
+                        "icon": "cards/2001126"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5367329
+                }
+            }
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "id": 5367234,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,61 @@
             "action": {
                 "option": {
                     "id": "5367234_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "净化宝珠",
+                            "text": "废弃",
                             "tag": "op1"
                         },
                         {
-                            "text": "巨狼头颅",
+                            "text": "废弃",
                             "tag": "op2"
                         },
                         {
-                            "text": "将军的宝剑",
+                            "text": "疯狂面具",
                             "tag": "op3"
                         },
                         {
-                            "text": "精致骆驼骨笛",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "激进的军队",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "爵位的下落？",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "激进的军队",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "决心",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "夹在书中的字条",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op4"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000703",
+                        "2001030",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367234_prompt_1",
-                        "text": "你選擇了净化宝珠",
-                        "icon": "cards/2000703"
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2001030"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000711",
+                        "2001030",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367234_prompt_2",
-                        "text": "你選擇了巨狼头颅",
-                        "icon": "cards/2000711"
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2001030"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000733",
+                        "2001113",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367234_prompt_3",
-                        "text": "你選擇了将军的宝剑",
-                        "icon": "cards/2000733"
+                        "text": "你選擇了疯狂面具",
+                        "icon": "cards/2001113"
                     }
                 },
                 "case:op4": {
-                    "g.card": [
-                        "2000734",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_4",
-                        "text": "你選擇了精致骆驼骨笛",
-                        "icon": "cards/2000734"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000744",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_5",
-                        "text": "你選擇了激进的军队",
-                        "icon": "cards/2000744"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000740",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_6",
-                        "text": "你選擇了爵位的下落？",
-                        "icon": "cards/2000740"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000744",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_7",
-                        "text": "你選擇了激进的军队",
-                        "icon": "cards/2000744"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000751",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_8",
-                        "text": "你選擇了决心",
-                        "icon": "cards/2000751"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000753",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367234_prompt_9",
-                        "text": "你選擇了夹在书中的字条",
-                        "icon": "cards/2000753"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367235
-                },
-                "case:op11": {
                     "event_on": 5367233
                 }
             }

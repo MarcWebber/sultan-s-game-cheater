@@ -1,7 +1,7 @@
 {
     "id": 5367263,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367263_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "神圣的声音",
+                            "text": "建造目录",
                             "tag": "op1"
                         },
                         {
-                            "text": "石中火",
+                            "text": "精力套餐",
                             "tag": "op2"
                         },
                         {
-                            "text": "善名的遮掩",
+                            "text": "君王的种子",
                             "tag": "op3"
                         },
                         {
-                            "text": "胜利",
+                            "text": "晋升的认可",
                             "tag": "op4"
                         },
                         {
-                            "text": "沙暴骑士",
+                            "text": "坚固的密室大门",
                             "tag": "op5"
                         },
                         {
-                            "text": "狮子骑士",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "誓言之证",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "杀生者",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "尸骸大军",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000846",
+                        "2000998",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367263_prompt_1",
-                        "text": "你選擇了神圣的声音",
-                        "icon": "cards/2000846"
+                        "text": "你選擇了建造目录",
+                        "icon": "cards/2000998"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000856",
+                        "2001012",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367263_prompt_2",
-                        "text": "你選擇了石中火",
-                        "icon": "cards/2000856"
+                        "text": "你選擇了精力套餐",
+                        "icon": "cards/2001012"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000862",
+                        "2001021",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367263_prompt_3",
-                        "text": "你選擇了善名的遮掩",
-                        "icon": "cards/2000862"
+                        "text": "你選擇了君王的种子",
+                        "icon": "cards/2001021"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000882",
+                        "2001096",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367263_prompt_4",
-                        "text": "你選擇了胜利",
-                        "icon": "cards/2000882"
+                        "text": "你選擇了晋升的认可",
+                        "icon": "cards/2001096"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000904",
+                        "2001108",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367263_prompt_5",
-                        "text": "你選擇了沙暴骑士",
-                        "icon": "cards/2000904"
+                        "text": "你選擇了坚固的密室大门",
+                        "icon": "cards/2001108"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000909",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367263_prompt_6",
-                        "text": "你選擇了狮子骑士",
-                        "icon": "cards/2000909"
-                    }
+                    "event_on": 5367264,
+                    "event_off": 5367263
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000913",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367263_prompt_7",
-                        "text": "你選擇了誓言之证",
-                        "icon": "cards/2000913"
-                    }
+                    "event_on": 5367262,
+                    "event_off": 5367263
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000918",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367263_prompt_8",
-                        "text": "你選擇了杀生者",
-                        "icon": "cards/2000918"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000930",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367263_prompt_9",
-                        "text": "你選擇了尸骸大军",
-                        "icon": "cards/2000930"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367264
-                },
-                "case:op11": {
-                    "event_on": 5367262
+                    "event_off": 5367263
                 }
             }
         }

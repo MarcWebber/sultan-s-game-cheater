@@ -1,7 +1,7 @@
 {
     "id": 5367225,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367225_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "华丽的居所",
+                            "text": "帝国之花",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑街声望",
+                            "text": "帝国之花残页",
                             "tag": "op2"
                         },
                         {
-                            "text": "后宫密道",
+                            "text": "帝国勇士排行榜",
                             "tag": "op3"
                         },
                         {
-                            "text": "黄金断剑",
+                            "text": "帝国勇士排行榜",
                             "tag": "op4"
                         },
                         {
-                            "text": "黑牢深处",
+                            "text": "帝国勇士排行榜",
                             "tag": "op5"
                         },
                         {
-                            "text": "火龙",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "花花公子的肖像",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "火焰喷射器",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "号角耳环",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000179",
+                        "2000690",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367225_prompt_1",
-                        "text": "你選擇了华丽的居所",
-                        "icon": "cards/2000179"
+                        "text": "你選擇了帝国之花",
+                        "icon": "cards/2000690"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000191",
+                        "2000691",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367225_prompt_2",
-                        "text": "你選擇了黑街声望",
-                        "icon": "cards/2000191"
+                        "text": "你選擇了帝国之花残页",
+                        "icon": "cards/2000691"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000283",
+                        "2000706",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367225_prompt_3",
-                        "text": "你選擇了后宫密道",
-                        "icon": "cards/2000283"
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000301",
+                        "2000706",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367225_prompt_4",
-                        "text": "你選擇了黄金断剑",
-                        "icon": "cards/2000301"
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000311",
+                        "2000706",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367225_prompt_5",
-                        "text": "你選擇了黑牢深处",
-                        "icon": "cards/2000311"
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000706"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000332",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367225_prompt_6",
-                        "text": "你選擇了火龙",
-                        "icon": "cards/2000332"
-                    }
+                    "event_on": 5367226,
+                    "event_off": 5367225
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000334",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367225_prompt_7",
-                        "text": "你選擇了花花公子的肖像",
-                        "icon": "cards/2000334"
-                    }
+                    "event_on": 5367224,
+                    "event_off": 5367225
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000386",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367225_prompt_8",
-                        "text": "你選擇了火焰喷射器",
-                        "icon": "cards/2000386"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000436",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367225_prompt_9",
-                        "text": "你選擇了号角耳环",
-                        "icon": "cards/2000436"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367226
-                },
-                "case:op11": {
-                    "event_on": 5367224
+                    "event_off": 5367225
                 }
             }
         }

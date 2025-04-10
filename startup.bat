@@ -41,6 +41,15 @@ if exist "%gamePath%\" (
     set "ceremonyPath=%gamePath%\Sultan's Game_Data\StreamingAssets\config\rite"
     for %%f in ("%~dp0rite\*.json") do (
         set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            echo 正在删除旧仪式文件："!fileName!"
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                timeout /t 10 >nul
+                exit /b 1
+            )
+        )
         echo 正在添加仪式："!fileName!"
         copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
         if errorlevel 1 (
@@ -52,6 +61,15 @@ if exist "%gamePath%\" (
     REM === 添加额外的仪式（用于触发事件） ====
     for %%f in ("%~dp0rite\rites\*.json") do (
         set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            echo 正在删除旧仪式文件："!fileName!"
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧特殊仪式文件失败: "!ceremonyPath!\!fileName!"
+                exit /b 1
+            )
+        )
         echo 正在添加仪式："!fileName!"
         copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
         if errorlevel 1 (
@@ -65,6 +83,15 @@ if exist "%gamePath%\" (
     REM 复制事件文件
     for %%f in ("%~dp0event\*.json") do (
         set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!eventPath!\!fileName!" (
+            echo 正在删除旧事件文件："!fileName!"
+            del /q "!eventPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧事件文件失败: "!eventPath!\!fileName!"
+                exit /b 1
+            )
+        )
         echo 正在添加事件："!fileName!"
         copy /y "%%f" "!eventPath!\!fileName!" >nul
         if errorlevel 1 (
@@ -76,6 +103,14 @@ if exist "%gamePath%\" (
     set "itemsPath=!eventPath!"
     for %%f in ("%~dp0event\items\*.json") do (
         set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!itemsPath!\!fileName!" (
+            del /q "!itemsPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧道具文件失败: "!itemsPath!\!fileName!"
+                exit /b 1
+            )
+        )
         echo 正在添加道具："!fileName!"
         copy /y "%%f" "!itemsPath!\!fileName!" >nul
         if errorlevel 1 (
@@ -87,6 +122,14 @@ if exist "%gamePath%\" (
     set "equipsPath=!eventPath!"
     for %%f in ("%~dp0event\equips\*.json") do (
         set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!equipsPath!\!fileName!" (
+            del /q "!equipsPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧装备文件失败: "!equipsPath!\!fileName!"
+                exit /b 1
+            )
+        )
         echo 正在添加装备："!fileName!"
         copy /y "%%f" "!equipsPath!\!fileName!" >nul
         if errorlevel 1 (
@@ -98,17 +141,33 @@ if exist "%gamePath%\" (
      set "equipsPath=!eventPath!"
      for %%f in ("%~dp0event\trigger_events\*.json") do (
          set "fileName=%%~nxf"
-         echo 正在添加事件触发器："!fileName!"
-         copy /y "%%f" "!equipsPath!\!fileName!" >nul
-         if errorlevel 1 (
-             echo [错误] 事件触发器复制失败: "%%f"
-             exit /b 1
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除旧事件触发器文件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+          echo 正在添加事件触发器："!fileName!"
+          copy /y "%%f" "!equipsPath!\!fileName!" >nul
+          if errorlevel 1 (
+              echo [错误] 事件触发器复制失败: "%%f"
+              exit /b 1
          )
      )
 
     set "equipsPath=!eventPath!"
      for %%f in ("%~dp0event\trigger_events_index\*.json") do (
          set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除旧事件触发器索引文件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
          echo 正在添加事件触发器的索引："!fileName!"
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (

@@ -1,7 +1,7 @@
 {
     "id": 5367277,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,122 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367277_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "熏狮子全餐",
+                            "text": "龙鳞刃",
                             "tag": "op1"
                         },
                         {
-                            "text": "仙人掌蛋糕",
+                            "text": "烂泥众",
                             "tag": "op2"
                         },
                         {
-                            "text": "星神的信仰",
+                            "text": "猎魂众",
                             "tag": "op3"
                         },
                         {
-                            "text": "小狗哨子",
+                            "text": "猎奴队线索",
                             "tag": "op4"
                         },
                         {
-                            "text": "星光信标",
+                            "text": "猎奴队线索",
                             "tag": "op5"
                         },
                         {
-                            "text": "小狗与月亮之歌",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "血池",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "上一页",
+                            "text": "返回",
                             "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2001007",
+                        "2000953",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367277_prompt_1",
-                        "text": "你選擇了熏狮子全餐",
-                        "icon": "cards/2001007"
+                        "text": "你選擇了龙鳞刃",
+                        "icon": "cards/2000953"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2001013",
+                        "2000965",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367277_prompt_2",
-                        "text": "你選擇了仙人掌蛋糕",
-                        "icon": "cards/2001013"
+                        "text": "你選擇了烂泥众",
+                        "icon": "cards/2000965"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2001025",
+                        "2000969",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367277_prompt_3",
-                        "text": "你選擇了星神的信仰",
-                        "icon": "cards/2001025"
+                        "text": "你選擇了猎魂众",
+                        "icon": "cards/2000969"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2001032",
+                        "2000975",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367277_prompt_4",
-                        "text": "你選擇了小狗哨子",
-                        "icon": "cards/2001032"
+                        "text": "你選擇了猎奴队线索",
+                        "icon": "cards/2000975"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2001034",
+                        "2000975",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367277_prompt_5",
-                        "text": "你選擇了星光信标",
-                        "icon": "cards/2001034"
+                        "text": "你選擇了猎奴队线索",
+                        "icon": "cards/2000975"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2001054",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367277_prompt_6",
-                        "text": "你選擇了小狗与月亮之歌",
-                        "icon": "cards/2001054"
-                    }
+                    "event_on": 5367278,
+                    "event_off": 5367277
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2001126",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367277_prompt_7",
-                        "text": "你選擇了血池",
-                        "icon": "cards/2001126"
-                    }
+                    "event_on": 5367276,
+                    "event_off": 5367277
                 },
                 "case:op8": {
-                    "event_on": 5367276
+                    "event_off": 5367277
                 }
             }
         }

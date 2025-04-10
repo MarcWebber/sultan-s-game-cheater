@@ -1,7 +1,7 @@
 {
     "id": 5367300,
-    "text": "起始字母",
-    "is_replay": 1,
+    "text": "选择道具",
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,80 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367300_option_1",
-                    "text": "选择开头字母",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "A",
+                            "text": "神秘的精油",
                             "tag": "op1"
                         },
                         {
-                            "text": "B",
+                            "text": "锁子甲",
                             "tag": "op2"
                         },
                         {
-                            "text": "C",
+                            "text": "丝质盛装",
                             "tag": "op3"
                         },
                         {
-                            "text": "D",
+                            "text": "守卫的承诺",
                             "tag": "op4"
                         },
                         {
-                            "text": "E",
+                            "text": "萨达尔尼的信物",
                             "tag": "op5"
                         },
                         {
-                            "text": "F",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "G",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "H",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "J",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op10"
                         }
                     ]
                 },
                 "case:op1": {
-                    "event_on": 5367200
+                    "g.card": [
+                        "2000238",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367300_prompt_1",
+                        "text": "你選擇了神秘的精油",
+                        "icon": "cards/2000238"
+                    }
                 },
                 "case:op2": {
-                    "event_on": 5367202
+                    "g.card": [
+                        "2000257",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367300_prompt_2",
+                        "text": "你選擇了锁子甲",
+                        "icon": "cards/2000257"
+                    }
                 },
                 "case:op3": {
-                    "event_on": 5367208
+                    "g.card": [
+                        "2000265",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367300_prompt_3",
+                        "text": "你選擇了丝质盛装",
+                        "icon": "cards/2000265"
+                    }
                 },
                 "case:op4": {
-                    "event_on": 5367212
+                    "g.card": [
+                        "2000282",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367300_prompt_4",
+                        "text": "你選擇了守卫的承诺",
+                        "icon": "cards/2000282"
+                    }
                 },
                 "case:op5": {
-                    "event_on": 5367217
+                    "g.card": [
+                        "2000289",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367300_prompt_5",
+                        "text": "你選擇了萨达尔尼的信物",
+                        "icon": "cards/2000289"
+                    }
                 },
                 "case:op6": {
-                    "event_on": 5367218
+                    "event_on": 5367301,
+                    "event_off": 5367300
                 },
                 "case:op7": {
-                    "event_on": 5367221
+                    "event_on": 5367299,
+                    "event_off": 5367300
                 },
                 "case:op8": {
-                    "event_on": 5367225
-                },
-                "case:op9": {
-                    "event_on": 5367230
-                },
-                "case:op10": {
-                    "event_on": 5367301
+                    "event_off": 5367300
                 }
             }
         }

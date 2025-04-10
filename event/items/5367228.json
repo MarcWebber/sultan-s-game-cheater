@@ -1,7 +1,7 @@
 {
     "id": 5367228,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,31 @@
             "action": {
                 "option": {
                     "id": "5367228_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "黄沙之战",
+                            "text": "大母神",
                             "tag": "op1"
                         },
                         {
-                            "text": "赫米尔",
-                            "tag": "op2"
-                        },
-                        {
-                            "text": "黑街面疙瘩",
-                            "tag": "op3"
-                        },
-                        {
-                            "text": "黄金甲",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "火龙鳞片",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "火龙头颅",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "黑暗之眼",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "荒野栖息地",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "灰烬之剑",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op2"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000855",
+                        "2001067",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367228_prompt_1",
-                        "text": "你選擇了黄沙之战",
-                        "icon": "cards/2000855"
+                        "text": "你選擇了大母神",
+                        "icon": "cards/2001067"
                     }
                 },
                 "case:op2": {
-                    "g.card": [
-                        "2000885",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_2",
-                        "text": "你選擇了赫米尔",
-                        "icon": "cards/2000885"
-                    }
-                },
-                "case:op3": {
-                    "g.card": [
-                        "2000895",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_3",
-                        "text": "你選擇了黑街面疙瘩",
-                        "icon": "cards/2000895"
-                    }
-                },
-                "case:op4": {
-                    "g.card": [
-                        "2000917",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_4",
-                        "text": "你選擇了黄金甲",
-                        "icon": "cards/2000917"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000949",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_5",
-                        "text": "你選擇了火龙鳞片",
-                        "icon": "cards/2000949"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000954",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_6",
-                        "text": "你選擇了火龙头颅",
-                        "icon": "cards/2000954"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000961",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_7",
-                        "text": "你選擇了黑暗之眼",
-                        "icon": "cards/2000961"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000984",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_8",
-                        "text": "你選擇了荒野栖息地",
-                        "icon": "cards/2000984"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000997",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367228_prompt_9",
-                        "text": "你選擇了灰烬之剑",
-                        "icon": "cards/2000997"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367229
-                },
-                "case:op11": {
                     "event_on": 5367227
                 }
             }

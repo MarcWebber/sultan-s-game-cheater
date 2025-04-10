@@ -1,7 +1,7 @@
 {
     "id": 5367276,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367276_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "镶嵌宝石的匕首",
+                            "text": "琉璃锋",
                             "tag": "op1"
                         },
                         {
-                            "text": "香草炖兔肉",
+                            "text": "罗织罪名的名单",
                             "tag": "op2"
                         },
                         {
-                            "text": "先人之月胸甲",
+                            "text": "龙鳞盾",
                             "tag": "op3"
                         },
                         {
-                            "text": "信誉",
+                            "text": "龙鳞盔",
                             "tag": "op4"
                         },
                         {
-                            "text": "险峻小径",
+                            "text": "龙鳞铠",
                             "tag": "op5"
                         },
                         {
-                            "text": "侠名的遮掩",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "小贼的哨子",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "稀有的肉干",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "新月",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000793",
+                        "2000921",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367276_prompt_1",
-                        "text": "你選擇了镶嵌宝石的匕首",
-                        "icon": "cards/2000793"
+                        "text": "你選擇了琉璃锋",
+                        "icon": "cards/2000921"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000812",
+                        "2000944",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367276_prompt_2",
-                        "text": "你選擇了香草炖兔肉",
-                        "icon": "cards/2000812"
+                        "text": "你選擇了罗织罪名的名单",
+                        "icon": "cards/2000944"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000838",
+                        "2000950",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367276_prompt_3",
-                        "text": "你選擇了先人之月胸甲",
-                        "icon": "cards/2000838"
+                        "text": "你選擇了龙鳞盾",
+                        "icon": "cards/2000950"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000850",
+                        "2000951",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367276_prompt_4",
-                        "text": "你選擇了信誉",
-                        "icon": "cards/2000850"
+                        "text": "你選擇了龙鳞盔",
+                        "icon": "cards/2000951"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000853",
+                        "2000952",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367276_prompt_5",
-                        "text": "你選擇了险峻小径",
-                        "icon": "cards/2000853"
+                        "text": "你選擇了龙鳞铠",
+                        "icon": "cards/2000952"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000864",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367276_prompt_6",
-                        "text": "你選擇了侠名的遮掩",
-                        "icon": "cards/2000864"
-                    }
+                    "event_on": 5367277,
+                    "event_off": 5367276
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000893",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367276_prompt_7",
-                        "text": "你選擇了小贼的哨子",
-                        "icon": "cards/2000893"
-                    }
+                    "event_on": 5367275,
+                    "event_off": 5367276
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000942",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367276_prompt_8",
-                        "text": "你選擇了稀有的肉干",
-                        "icon": "cards/2000942"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000989",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367276_prompt_9",
-                        "text": "你選擇了新月",
-                        "icon": "cards/2000989"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367277
-                },
-                "case:op11": {
-                    "event_on": 5367275
+                    "event_off": 5367276
                 }
             }
         }

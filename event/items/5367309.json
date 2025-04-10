@@ -1,0 +1,124 @@
+{
+    "id": 5367309,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367309_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "誓言之证",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "杀生者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "尸骸大军",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "盛怒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "苏丹的尸体",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000913",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367309_prompt_1",
+                        "text": "你選擇了誓言之证",
+                        "icon": "cards/2000913"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000918",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367309_prompt_2",
+                        "text": "你選擇了杀生者",
+                        "icon": "cards/2000918"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000930",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367309_prompt_3",
+                        "text": "你選擇了尸骸大军",
+                        "icon": "cards/2000930"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000947",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367309_prompt_4",
+                        "text": "你選擇了盛怒",
+                        "icon": "cards/2000947"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000955",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367309_prompt_5",
+                        "text": "你選擇了苏丹的尸体",
+                        "icon": "cards/2000955"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367310,
+                    "event_off": 5367309
+                },
+                "case:op7": {
+                    "event_on": 5367308,
+                    "event_off": 5367309
+                },
+                "case:op8": {
+                    "event_off": 5367309
+                }
+            }
+        }
+    ]
+}

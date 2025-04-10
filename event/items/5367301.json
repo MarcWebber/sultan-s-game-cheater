@@ -1,7 +1,7 @@
 {
     "id": 5367301,
-    "text": "起始字母",
-    "is_replay": 1,
+    "text": "选择道具",
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,80 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367301_option_1",
-                    "text": "选择开头字母",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "K",
+                            "text": "赛里曼的伪造死讯",
                             "tag": "op1"
                         },
                         {
-                            "text": "L",
+                            "text": "失落荣誉臂环",
                             "tag": "op2"
                         },
                         {
-                            "text": "M",
+                            "text": "受伤的白犀牛",
                             "tag": "op3"
                         },
                         {
-                            "text": "N",
+                            "text": "苏丹的宽恕",
                             "tag": "op4"
                         },
                         {
-                            "text": "P",
+                            "text": "丝绸之路",
                             "tag": "op5"
                         },
                         {
-                            "text": "Q",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "R",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "S",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "T",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op10"
                         }
                     ]
                 },
                 "case:op1": {
-                    "event_on": 5367238
+                    "g.card": [
+                        "2000293",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367301_prompt_1",
+                        "text": "你選擇了赛里曼的伪造死讯",
+                        "icon": "cards/2000293"
+                    }
                 },
                 "case:op2": {
-                    "event_on": 5367241
+                    "g.card": [
+                        "2000297",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367301_prompt_2",
+                        "text": "你選擇了失落荣誉臂环",
+                        "icon": "cards/2000297"
+                    }
                 },
                 "case:op3": {
-                    "event_on": 5367246
+                    "g.card": [
+                        "2000328",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367301_prompt_3",
+                        "text": "你選擇了受伤的白犀牛",
+                        "icon": "cards/2000328"
+                    }
                 },
                 "case:op4": {
-                    "event_on": 5367250
+                    "g.card": [
+                        "2000363",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367301_prompt_4",
+                        "text": "你選擇了苏丹的宽恕",
+                        "icon": "cards/2000363"
+                    }
                 },
                 "case:op5": {
-                    "event_on": 5367252
+                    "g.card": [
+                        "2000367",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367301_prompt_5",
+                        "text": "你選擇了丝绸之路",
+                        "icon": "cards/2000367"
+                    }
                 },
                 "case:op6": {
-                    "event_on": 5367253
+                    "event_on": 5367302,
+                    "event_off": 5367301
                 },
                 "case:op7": {
-                    "event_on": 5367256
+                    "event_on": 5367300,
+                    "event_off": 5367301
                 },
                 "case:op8": {
-                    "event_on": 5367257
-                },
-                "case:op9": {
-                    "event_on": 5367267
-                },
-                "case:op10": {
-                    "event_on": 5367302
+                    "event_off": 5367301
                 }
             }
         }

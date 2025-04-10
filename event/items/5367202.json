@@ -1,7 +1,7 @@
 {
     "id": 5367202,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,61 @@
             "action": {
                 "option": {
                     "id": "5367202_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "被差遣的士兵",
+                            "text": "阿卜德的罪证",
                             "tag": "op1"
                         },
                         {
-                            "text": "被差遣的士兵",
+                            "text": "阿里木的赃物",
                             "tag": "op2"
                         },
                         {
-                            "text": "白蜜琥珀宝珠",
+                            "text": "哀叹之剑",
                             "tag": "op3"
                         },
                         {
-                            "text": "拜铃耶的头颅",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "被俘虏的异教徒",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "匕首与弯刀",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "匕首",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "宝石耳环",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "白银手镯",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op4"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000072",
+                        "2000977",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367202_prompt_1",
-                        "text": "你選擇了被差遣的士兵",
-                        "icon": "cards/2000072"
+                        "text": "你選擇了阿卜德的罪证",
+                        "icon": "cards/2000977"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000072",
+                        "2000987",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367202_prompt_2",
-                        "text": "你選擇了被差遣的士兵",
-                        "icon": "cards/2000072"
+                        "text": "你選擇了阿里木的赃物",
+                        "icon": "cards/2000987"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000187",
+                        "2000995",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367202_prompt_3",
-                        "text": "你選擇了白蜜琥珀宝珠",
-                        "icon": "cards/2000187"
+                        "text": "你選擇了哀叹之剑",
+                        "icon": "cards/2000995"
                     }
                 },
                 "case:op4": {
-                    "g.card": [
-                        "2000189",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_4",
-                        "text": "你選擇了拜铃耶的头颅",
-                        "icon": "cards/2000189"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000190",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_5",
-                        "text": "你選擇了被俘虏的异教徒",
-                        "icon": "cards/2000190"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000203",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_6",
-                        "text": "你選擇了匕首与弯刀",
-                        "icon": "cards/2000203"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000246",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_7",
-                        "text": "你選擇了匕首",
-                        "icon": "cards/2000246"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000262",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_8",
-                        "text": "你選擇了宝石耳环",
-                        "icon": "cards/2000262"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000263",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367202_prompt_9",
-                        "text": "你選擇了白银手镯",
-                        "icon": "cards/2000263"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367203
-                },
-                "case:op11": {
                     "event_on": 5367201
                 }
             }

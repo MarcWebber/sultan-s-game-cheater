@@ -1,7 +1,7 @@
 {
     "id": 5367201,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,77 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367201_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "阿里木的手下",
+                            "text": "昂贵的香料",
                             "tag": "op1"
                         },
                         {
-                            "text": "阿卜德的罪证",
+                            "text": "暗无天日",
                             "tag": "op2"
                         },
                         {
-                            "text": "阿里木的赃物",
+                            "text": "昂贵的金面纱",
                             "tag": "op3"
                         },
                         {
-                            "text": "哀叹之剑",
+                            "text": "阿巴拉战事之盾",
                             "tag": "op4"
                         },
                         {
-                            "text": "上一页",
+                            "text": "阿里木的手下",
                             "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000888",
+                        "2000695",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367201_prompt_1",
-                        "text": "你選擇了阿里木的手下",
-                        "icon": "cards/2000888"
+                        "text": "你選擇了昂贵的香料",
+                        "icon": "cards/2000695"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000977",
+                        "2000720",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367201_prompt_2",
-                        "text": "你選擇了阿卜德的罪证",
-                        "icon": "cards/2000977"
+                        "text": "你選擇了暗无天日",
+                        "icon": "cards/2000720"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000987",
+                        "2000776",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367201_prompt_3",
-                        "text": "你選擇了阿里木的赃物",
-                        "icon": "cards/2000987"
+                        "text": "你選擇了昂贵的金面纱",
+                        "icon": "cards/2000776"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000995",
+                        "2000835",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367201_prompt_4",
-                        "text": "你選擇了哀叹之剑",
-                        "icon": "cards/2000995"
+                        "text": "你選擇了阿巴拉战事之盾",
+                        "icon": "cards/2000835"
                     }
                 },
                 "case:op5": {
-                    "event_on": 5367200
+                    "g.card": [
+                        "2000888",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367201_prompt_5",
+                        "text": "你選擇了阿里木的手下",
+                        "icon": "cards/2000888"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367202,
+                    "event_off": 5367201
+                },
+                "case:op7": {
+                    "event_on": 5367200,
+                    "event_off": 5367201
+                },
+                "case:op8": {
+                    "event_off": 5367201
                 }
             }
         }

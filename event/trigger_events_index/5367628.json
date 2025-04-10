@@ -1,7 +1,7 @@
 {
     "id": 5367628,
     "text": "选择事件",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -45,6 +45,10 @@
                         {
                             "text": "下一页",
                             "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
@@ -89,10 +93,15 @@
                     }
                 },
                 "case:op6": {
-                    "event_on": 5367629
+                    "event_on": 5367629,
+                    "event_off": 5367628
                 },
                 "case:op7": {
-                    "event_on": 5367627
+                    "event_on": 5367627,
+                    "event_off": 5367628
+                },
+                "case:op8": {
+                    "event_off": 5367628
                 }
             }
         }

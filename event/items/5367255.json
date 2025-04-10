@@ -1,7 +1,7 @@
 {
     "id": 5367255,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,32 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367255_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "千面纱裙",
+                            "text": "金刚手套",
                             "tag": "op1"
                         },
                         {
-                            "text": "上一页",
+                            "text": "决斗之前的妆扮",
                             "tag": "op2"
+                        },
+                        {
+                            "text": "健康的妆扮",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "禁忌的古书",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "精巧的讽刺",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2001134",
+                        "2000446",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367255_prompt_1",
-                        "text": "你選擇了千面纱裙",
-                        "icon": "cards/2001134"
+                        "text": "你選擇了金刚手套",
+                        "icon": "cards/2000446"
                     }
                 },
                 "case:op2": {
-                    "event_on": 5367254
+                    "g.card": [
+                        "2000448",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367255_prompt_2",
+                        "text": "你選擇了决斗之前的妆扮",
+                        "icon": "cards/2000448"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000454",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367255_prompt_3",
+                        "text": "你選擇了健康的妆扮",
+                        "icon": "cards/2000454"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000465",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367255_prompt_4",
+                        "text": "你選擇了禁忌的古书",
+                        "icon": "cards/2000465"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000480",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367255_prompt_5",
+                        "text": "你選擇了精巧的讽刺",
+                        "icon": "cards/2000480"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367256,
+                    "event_off": 5367255
+                },
+                "case:op7": {
+                    "event_on": 5367254,
+                    "event_off": 5367255
+                },
+                "case:op8": {
+                    "event_off": 5367255
                 }
             }
         }

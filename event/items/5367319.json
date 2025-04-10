@@ -1,0 +1,124 @@
+{
+    "id": 5367319,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367319_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "万逝戒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "伟大的爱情",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "伟大的史诗",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "伟大的黑暗",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "武器附魔仪式图纸",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000281",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367319_prompt_1",
+                        "text": "你選擇了万逝戒",
+                        "icon": "cards/2000281"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000472",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367319_prompt_2",
+                        "text": "你選擇了伟大的爱情",
+                        "icon": "cards/2000472"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000476",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367319_prompt_3",
+                        "text": "你選擇了伟大的史诗",
+                        "icon": "cards/2000476"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000488",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367319_prompt_4",
+                        "text": "你選擇了伟大的黑暗",
+                        "icon": "cards/2000488"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000490",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367319_prompt_5",
+                        "text": "你選擇了武器附魔仪式图纸",
+                        "icon": "cards/2000490"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367320,
+                    "event_off": 5367319
+                },
+                "case:op7": {
+                    "event_on": 5367318,
+                    "event_off": 5367319
+                },
+                "case:op8": {
+                    "event_off": 5367319
+                }
+            }
+        }
+    ]
+}

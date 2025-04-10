@@ -1,7 +1,7 @@
 {
     "id": 5367203,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367203_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "卑贱囚牢",
+                            "text": "被差遣的士兵",
                             "tag": "op1"
                         },
                         {
-                            "text": "白犀牛皮",
+                            "text": "被差遣的士兵",
                             "tag": "op2"
                         },
                         {
-                            "text": "被找到的绿洲",
+                            "text": "白蜜琥珀宝珠",
                             "tag": "op3"
                         },
                         {
-                            "text": "不稳定的火箭筒",
+                            "text": "拜铃耶的头颅",
                             "tag": "op4"
                         },
                         {
-                            "text": "编织头环",
+                            "text": "被俘虏的异教徒",
                             "tag": "op5"
                         },
                         {
-                            "text": "不引人注意的妆扮",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "被保佑的妆扮",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "不灭的情诗",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "不凡的史诗",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000309",
+                        "2000072",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367203_prompt_1",
-                        "text": "你選擇了卑贱囚牢",
-                        "icon": "cards/2000309"
+                        "text": "你選擇了被差遣的士兵",
+                        "icon": "cards/2000072"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000329",
+                        "2000072",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367203_prompt_2",
-                        "text": "你選擇了白犀牛皮",
-                        "icon": "cards/2000329"
+                        "text": "你選擇了被差遣的士兵",
+                        "icon": "cards/2000072"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000364",
+                        "2000187",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367203_prompt_3",
-                        "text": "你選擇了被找到的绿洲",
-                        "icon": "cards/2000364"
+                        "text": "你選擇了白蜜琥珀宝珠",
+                        "icon": "cards/2000187"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000392",
+                        "2000189",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367203_prompt_4",
-                        "text": "你選擇了不稳定的火箭筒",
-                        "icon": "cards/2000392"
+                        "text": "你選擇了拜铃耶的头颅",
+                        "icon": "cards/2000189"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000435",
+                        "2000190",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367203_prompt_5",
-                        "text": "你選擇了编织头环",
-                        "icon": "cards/2000435"
+                        "text": "你選擇了被俘虏的异教徒",
+                        "icon": "cards/2000190"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000449",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367203_prompt_6",
-                        "text": "你選擇了不引人注意的妆扮",
-                        "icon": "cards/2000449"
-                    }
+                    "event_on": 5367204,
+                    "event_off": 5367203
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000451",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367203_prompt_7",
-                        "text": "你選擇了被保佑的妆扮",
-                        "icon": "cards/2000451"
-                    }
+                    "event_on": 5367202,
+                    "event_off": 5367203
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000470",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367203_prompt_8",
-                        "text": "你選擇了不灭的情诗",
-                        "icon": "cards/2000470"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000474",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367203_prompt_9",
-                        "text": "你選擇了不凡的史诗",
-                        "icon": "cards/2000474"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367204
-                },
-                "case:op11": {
-                    "event_on": 5367202
+                    "event_off": 5367203
                 }
             }
         }

@@ -1,7 +1,7 @@
 {
     "id": 5367414,
     "text": "选择事件",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {

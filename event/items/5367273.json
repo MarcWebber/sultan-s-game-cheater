@@ -1,7 +1,7 @@
 {
     "id": 5367273,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367273_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "邪术的痕迹",
+                            "text": "龙之诅咒的传闻",
                             "tag": "op1"
                         },
                         {
-                            "text": "相面术",
+                            "text": "龙眼宝石",
                             "tag": "op2"
                         },
                         {
-                            "text": "西行记",
+                            "text": "流光溢彩的丝绸",
                             "tag": "op3"
                         },
                         {
-                            "text": "贤者的话语",
+                            "text": "理性",
                             "tag": "op4"
                         },
                         {
-                            "text": "星空学徒",
+                            "text": "狼头围巾",
                             "tag": "op5"
                         },
                         {
-                            "text": "小圆盾",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "修改的证明",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "凶兽的头颅",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "小鳄鱼",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000185",
+                        "2000664",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367273_prompt_1",
-                        "text": "你選擇了邪术的痕迹",
-                        "icon": "cards/2000185"
+                        "text": "你選擇了龙之诅咒的传闻",
+                        "icon": "cards/2000664"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000214",
+                        "2000668",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367273_prompt_2",
-                        "text": "你選擇了相面术",
-                        "icon": "cards/2000214"
+                        "text": "你選擇了龙眼宝石",
+                        "icon": "cards/2000668"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000225",
+                        "2000697",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367273_prompt_3",
-                        "text": "你選擇了西行记",
-                        "icon": "cards/2000225"
+                        "text": "你選擇了流光溢彩的丝绸",
+                        "icon": "cards/2000697"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000232",
+                        "2000723",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367273_prompt_4",
-                        "text": "你選擇了贤者的话语",
-                        "icon": "cards/2000232"
+                        "text": "你選擇了理性",
+                        "icon": "cards/2000723"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000244",
+                        "2000729",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367273_prompt_5",
-                        "text": "你選擇了星空学徒",
-                        "icon": "cards/2000244"
+                        "text": "你選擇了狼头围巾",
+                        "icon": "cards/2000729"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000248",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367273_prompt_6",
-                        "text": "你選擇了小圆盾",
-                        "icon": "cards/2000248"
-                    }
+                    "event_on": 5367274,
+                    "event_off": 5367273
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000285",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367273_prompt_7",
-                        "text": "你選擇了修改的证明",
-                        "icon": "cards/2000285"
-                    }
+                    "event_on": 5367272,
+                    "event_off": 5367273
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000290",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367273_prompt_8",
-                        "text": "你選擇了凶兽的头颅",
-                        "icon": "cards/2000290"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000304",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367273_prompt_9",
-                        "text": "你選擇了小鳄鱼",
-                        "icon": "cards/2000304"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367274
-                },
-                "case:op11": {
-                    "event_on": 5367272
+                    "event_off": 5367273
                 }
             }
         }

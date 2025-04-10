@@ -1,7 +1,7 @@
 {
     "id": 5367241,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,61 @@
             "action": {
                 "option": {
                     "id": "5367241_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "临时帐篷",
+                            "text": "国王烤肉",
                             "tag": "op1"
                         },
                         {
-                            "text": "猎人故事集",
+                            "text": "高原步兵",
                             "tag": "op2"
                         },
                         {
-                            "text": "猎弓",
+                            "text": "高原骑兵",
                             "tag": "op3"
                         },
                         {
-                            "text": "流星锤",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "玲珑香炉",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "炼金炸弹",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "疗伤草药",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "冷淡的骑手",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "廉洁的伪证",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op4"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000178",
+                        "2001015",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367241_prompt_1",
-                        "text": "你選擇了临时帐篷",
-                        "icon": "cards/2000178"
+                        "text": "你選擇了国王烤肉",
+                        "icon": "cards/2001015"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000215",
+                        "2001047",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367241_prompt_2",
-                        "text": "你選擇了猎人故事集",
-                        "icon": "cards/2000215"
+                        "text": "你選擇了高原步兵",
+                        "icon": "cards/2001047"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000254",
+                        "2001048",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367241_prompt_3",
-                        "text": "你選擇了猎弓",
-                        "icon": "cards/2000254"
+                        "text": "你選擇了高原骑兵",
+                        "icon": "cards/2001048"
                     }
                 },
                 "case:op4": {
-                    "g.card": [
-                        "2000258",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_4",
-                        "text": "你選擇了流星锤",
-                        "icon": "cards/2000258"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000270",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_5",
-                        "text": "你選擇了玲珑香炉",
-                        "icon": "cards/2000270"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000275",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_6",
-                        "text": "你選擇了炼金炸弹",
-                        "icon": "cards/2000275"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000306",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_7",
-                        "text": "你選擇了疗伤草药",
-                        "icon": "cards/2000306"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000341",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_8",
-                        "text": "你選擇了冷淡的骑手",
-                        "icon": "cards/2000341"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000359",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367241_prompt_9",
-                        "text": "你選擇了廉洁的伪证",
-                        "icon": "cards/2000359"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367242
-                },
-                "case:op11": {
                     "event_on": 5367240
                 }
             }

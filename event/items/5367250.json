@@ -1,7 +1,7 @@
 {
     "id": 5367250,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,76 @@
             "action": {
                 "option": {
                     "id": "5367250_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "闹鬼宅子的传闻",
+                            "text": "红色君主",
                             "tag": "op1"
                         },
                         {
-                            "text": "女奴",
+                            "text": "黑暗之卵",
                             "tag": "op2"
                         },
                         {
-                            "text": "男奴",
+                            "text": "活皮草",
                             "tag": "op3"
                         },
                         {
-                            "text": "懦夫的头颅",
+                            "text": "骸骨铠甲",
                             "tag": "op4"
                         },
                         {
-                            "text": "懦夫的保证书",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "奈费勒的优势",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "奈费勒的项链",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "娜依拉的不满",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "娜依拉的快乐名单",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op5"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000166",
+                        "2001064",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_1",
-                        "text": "你選擇了闹鬼宅子的传闻",
-                        "icon": "cards/2000166"
+                        "text": "你選擇了红色君主",
+                        "icon": "cards/2001064"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000294",
+                        "2001123",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_2",
-                        "text": "你選擇了女奴",
-                        "icon": "cards/2000294"
+                        "text": "你選擇了黑暗之卵",
+                        "icon": "cards/2001123"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000295",
+                        "2001133",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_3",
-                        "text": "你選擇了男奴",
-                        "icon": "cards/2000295"
+                        "text": "你選擇了活皮草",
+                        "icon": "cards/2001133"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000374",
+                        "2001136",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_4",
-                        "text": "你選擇了懦夫的头颅",
-                        "icon": "cards/2000374"
+                        "text": "你選擇了骸骨铠甲",
+                        "icon": "cards/2001136"
                     }
                 },
                 "case:op5": {
-                    "g.card": [
-                        "2000375",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367250_prompt_5",
-                        "text": "你選擇了懦夫的保证书",
-                        "icon": "cards/2000375"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000570",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367250_prompt_6",
-                        "text": "你選擇了奈费勒的优势",
-                        "icon": "cards/2000570"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000572",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367250_prompt_7",
-                        "text": "你選擇了奈费勒的项链",
-                        "icon": "cards/2000572"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000698",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367250_prompt_8",
-                        "text": "你選擇了娜依拉的不满",
-                        "icon": "cards/2000698"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000702",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367250_prompt_9",
-                        "text": "你選擇了娜依拉的快乐名单",
-                        "icon": "cards/2000702"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367251
-                },
-                "case:op11": {
                     "event_on": 5367249
                 }
             }

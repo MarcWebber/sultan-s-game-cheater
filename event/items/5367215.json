@@ -1,7 +1,7 @@
 {
     "id": 5367215,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367215_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "蠢妓女和活恶棍",
                             "tag": "op1"
                         },
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "草原马",
                             "tag": "op2"
                         },
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "淬火的秘银剑",
                             "tag": "op3"
                         },
                         {
-                            "text": "等待太久",
+                            "text": "财政赤字",
                             "tag": "op4"
                         },
                         {
-                            "text": "弹球游戏",
+                            "text": "常见天象A",
                             "tag": "op5"
                         },
                         {
-                            "text": "镀金铜拖鞋",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "盾与盔",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "对等",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "得利",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000706",
+                        "2000547",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367215_prompt_1",
-                        "text": "你選擇了帝国勇士排行榜",
-                        "icon": "cards/2000706"
+                        "text": "你選擇了蠢妓女和活恶棍",
+                        "icon": "cards/2000547"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000706",
+                        "2000600",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367215_prompt_2",
-                        "text": "你選擇了帝国勇士排行榜",
-                        "icon": "cards/2000706"
+                        "text": "你選擇了草原马",
+                        "icon": "cards/2000600"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000706",
+                        "2000665",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367215_prompt_3",
-                        "text": "你選擇了帝国勇士排行榜",
-                        "icon": "cards/2000706"
+                        "text": "你選擇了淬火的秘银剑",
+                        "icon": "cards/2000665"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000799",
+                        "2000676",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367215_prompt_4",
-                        "text": "你選擇了等待太久",
-                        "icon": "cards/2000799"
+                        "text": "你選擇了财政赤字",
+                        "icon": "cards/2000676"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000805",
+                        "2000685",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367215_prompt_5",
-                        "text": "你選擇了弹球游戏",
-                        "icon": "cards/2000805"
+                        "text": "你選擇了常见天象A",
+                        "icon": "cards/2000685"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000814",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367215_prompt_6",
-                        "text": "你選擇了镀金铜拖鞋",
-                        "icon": "cards/2000814"
-                    }
+                    "event_on": 5367216,
+                    "event_off": 5367215
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000834",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367215_prompt_7",
-                        "text": "你選擇了盾与盔",
-                        "icon": "cards/2000834"
-                    }
+                    "event_on": 5367214,
+                    "event_off": 5367215
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000869",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367215_prompt_8",
-                        "text": "你選擇了对等",
-                        "icon": "cards/2000869"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000875",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367215_prompt_9",
-                        "text": "你選擇了得利",
-                        "icon": "cards/2000875"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367216
-                },
-                "case:op11": {
-                    "event_on": 5367214
+                    "event_off": 5367215
                 }
             }
         }

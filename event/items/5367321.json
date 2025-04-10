@@ -1,0 +1,124 @@
+{
+    "id": 5367321,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367321_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "微笑之盔",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "污渍：天使",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "污渍：念珠",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "污渍：信徒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "污渍：王冠",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000836",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367321_prompt_1",
+                        "text": "你選擇了微笑之盔",
+                        "icon": "cards/2000836"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001039",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367321_prompt_2",
+                        "text": "你選擇了污渍：天使",
+                        "icon": "cards/2001039"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001040",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367321_prompt_3",
+                        "text": "你選擇了污渍：念珠",
+                        "icon": "cards/2001040"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001041",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367321_prompt_4",
+                        "text": "你選擇了污渍：信徒",
+                        "icon": "cards/2001041"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2001042",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367321_prompt_5",
+                        "text": "你選擇了污渍：王冠",
+                        "icon": "cards/2001042"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367322,
+                    "event_off": 5367321
+                },
+                "case:op7": {
+                    "event_on": 5367320,
+                    "event_off": 5367321
+                },
+                "case:op8": {
+                    "event_off": 5367321
+                }
+            }
+        }
+    ]
+}

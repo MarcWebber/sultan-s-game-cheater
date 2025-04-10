@@ -1,7 +1,7 @@
 {
     "id": 5367302,
-    "text": "起始字母",
-    "is_replay": 1,
+    "text": "选择道具",
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,45 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367302_option_1",
-                    "text": "选择开头字母",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "W",
+                            "text": "水晶镜片",
                             "tag": "op1"
                         },
                         {
-                            "text": "X",
+                            "text": "生命之水",
                             "tag": "op2"
                         },
                         {
-                            "text": "Y",
+                            "text": "手摇式电锯剑",
                             "tag": "op3"
                         },
                         {
-                            "text": "Z",
+                            "text": "手摇式长明灯",
                             "tag": "op4"
                         },
                         {
-                            "text": "上一页",
+                            "text": "狮子",
                             "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
-                    "event_on": 5367270
+                    "g.card": [
+                        "2000381",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_1",
+                        "text": "你選擇了水晶镜片",
+                        "icon": "cards/2000381"
+                    }
                 },
                 "case:op2": {
-                    "event_on": 5367273
+                    "g.card": [
+                        "2000382",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_2",
+                        "text": "你選擇了生命之水",
+                        "icon": "cards/2000382"
+                    }
                 },
                 "case:op3": {
-                    "event_on": 5367278
+                    "g.card": [
+                        "2000390",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_3",
+                        "text": "你選擇了手摇式电锯剑",
+                        "icon": "cards/2000390"
+                    }
                 },
                 "case:op4": {
-                    "event_on": 5367284
+                    "g.card": [
+                        "2000394",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_4",
+                        "text": "你選擇了手摇式长明灯",
+                        "icon": "cards/2000394"
+                    }
                 },
                 "case:op5": {
-                    "event_on": 5367301
+                    "g.card": [
+                        "2000426",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_5",
+                        "text": "你選擇了狮子",
+                        "icon": "cards/2000426"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367303,
+                    "event_off": 5367302
+                },
+                "case:op7": {
+                    "event_on": 5367301,
+                    "event_off": 5367302
+                },
+                "case:op8": {
+                    "event_off": 5367302
                 }
             }
         }

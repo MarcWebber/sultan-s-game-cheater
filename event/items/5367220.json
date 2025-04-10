@@ -1,7 +1,7 @@
 {
     "id": 5367220,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,92 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367220_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "蜂蜜蛋饼",
+                            "text": "对苏丹的恐惧",
                             "tag": "op1"
                         },
                         {
-                            "text": "仿制避孕套",
+                            "text": "大盗传奇",
                             "tag": "op2"
                         },
                         {
-                            "text": "废弃",
+                            "text": "地图与边疆",
                             "tag": "op3"
                         },
                         {
-                            "text": "废弃",
+                            "text": "动物与植物图鉴",
                             "tag": "op4"
                         },
                         {
-                            "text": "疯狂面具",
+                            "text": "洞开的思想",
                             "tag": "op5"
                         },
                         {
                             "text": "上一页",
                             "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2001017",
+                        "2000100",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367220_prompt_1",
-                        "text": "你選擇了蜂蜜蛋饼",
-                        "icon": "cards/2001017"
+                        "text": "你選擇了对苏丹的恐惧",
+                        "icon": "cards/2000100"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2001022",
+                        "2000216",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367220_prompt_2",
-                        "text": "你選擇了仿制避孕套",
-                        "icon": "cards/2001022"
+                        "text": "你選擇了大盗传奇",
+                        "icon": "cards/2000216"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2001030",
+                        "2000222",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367220_prompt_3",
-                        "text": "你選擇了废弃",
-                        "icon": "cards/2001030"
+                        "text": "你選擇了地图与边疆",
+                        "icon": "cards/2000222"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2001030",
+                        "2000224",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367220_prompt_4",
-                        "text": "你選擇了废弃",
-                        "icon": "cards/2001030"
+                        "text": "你選擇了动物与植物图鉴",
+                        "icon": "cards/2000224"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2001113",
+                        "2000235",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367220_prompt_5",
-                        "text": "你選擇了疯狂面具",
-                        "icon": "cards/2001113"
+                        "text": "你選擇了洞开的思想",
+                        "icon": "cards/2000235"
                     }
                 },
                 "case:op6": {
-                    "event_on": 5367219
+                    "event_on": 5367221,
+                    "event_off": 5367220
+                },
+                "case:op7": {
+                    "event_on": 5367219,
+                    "event_off": 5367220
+                },
+                "case:op8": {
+                    "event_off": 5367220
                 }
             }
         }

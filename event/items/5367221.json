@@ -1,7 +1,7 @@
 {
     "id": 5367221,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367221_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "古典摔跤",
+                            "text": "第五元素",
                             "tag": "op1"
                         },
                         {
-                            "text": "宫廷礼仪指南",
+                            "text": "大盾",
                             "tag": "op2"
                         },
                         {
-                            "text": "狗皮",
+                            "text": "盗贼鞋",
                             "tag": "op3"
                         },
                         {
-                            "text": "歌声与寂静",
+                            "text": "盗贼斗篷",
                             "tag": "op4"
                         },
                         {
-                            "text": "古代人的呼吸",
+                            "text": "毒蛇毒液",
                             "tag": "op5"
                         },
                         {
-                            "text": "古王国之刃",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "贵族囚牢",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "高傲的骑手",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "贵族的尸体",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000204",
+                        "2000241",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367221_prompt_1",
-                        "text": "你選擇了古典摔跤",
-                        "icon": "cards/2000204"
+                        "text": "你選擇了第五元素",
+                        "icon": "cards/2000241"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000211",
+                        "2000251",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367221_prompt_2",
-                        "text": "你選擇了宫廷礼仪指南",
-                        "icon": "cards/2000211"
+                        "text": "你選擇了大盾",
+                        "icon": "cards/2000251"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000219",
+                        "2000271",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367221_prompt_3",
-                        "text": "你選擇了狗皮",
-                        "icon": "cards/2000219"
+                        "text": "你選擇了盗贼鞋",
+                        "icon": "cards/2000271"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000220",
+                        "2000272",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367221_prompt_4",
-                        "text": "你選擇了歌声与寂静",
-                        "icon": "cards/2000220"
+                        "text": "你選擇了盗贼斗篷",
+                        "icon": "cards/2000272"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000230",
+                        "2000305",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367221_prompt_5",
-                        "text": "你選擇了古代人的呼吸",
-                        "icon": "cards/2000230"
+                        "text": "你選擇了毒蛇毒液",
+                        "icon": "cards/2000305"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000261",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367221_prompt_6",
-                        "text": "你選擇了古王国之刃",
-                        "icon": "cards/2000261"
-                    }
+                    "event_on": 5367222,
+                    "event_off": 5367221
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000310",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367221_prompt_7",
-                        "text": "你選擇了贵族囚牢",
-                        "icon": "cards/2000310"
-                    }
+                    "event_on": 5367220,
+                    "event_off": 5367221
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000340",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367221_prompt_8",
-                        "text": "你選擇了高傲的骑手",
-                        "icon": "cards/2000340"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000378",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367221_prompt_9",
-                        "text": "你選擇了贵族的尸体",
-                        "icon": "cards/2000378"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367222
-                },
-                "case:op11": {
-                    "event_on": 5367220
+                    "event_off": 5367221
                 }
             }
         }

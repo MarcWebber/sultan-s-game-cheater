@@ -1,7 +1,7 @@
 {
     "id": 5367208,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367208_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "谗言",
+                            "text": "不洁的思绪",
                             "tag": "op1"
                         },
                         {
-                            "text": "斥候训练手册",
+                            "text": "不朽者之吻",
                             "tag": "op2"
                         },
                         {
-                            "text": "草药学入门",
+                            "text": "白鼬的宫廷",
                             "tag": "op3"
                         },
                         {
-                            "text": "传承挂毯",
+                            "text": "不要凝视群星",
                             "tag": "op4"
                         },
                         {
-                            "text": "传奇宝剑",
+                            "text": "被俘的异教徒",
                             "tag": "op5"
                         },
                         {
-                            "text": "朝觐的承诺",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "超臭香水",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "错乱学习机",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "超大龙卷风",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000168",
+                        "2000724",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367208_prompt_1",
-                        "text": "你選擇了谗言",
-                        "icon": "cards/2000168"
+                        "text": "你選擇了不洁的思绪",
+                        "icon": "cards/2000724"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000217",
+                        "2000800",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367208_prompt_2",
-                        "text": "你選擇了斥候训练手册",
-                        "icon": "cards/2000217"
+                        "text": "你選擇了不朽者之吻",
+                        "icon": "cards/2000800"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000221",
+                        "2000804",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367208_prompt_3",
-                        "text": "你選擇了草药学入门",
-                        "icon": "cards/2000221"
+                        "text": "你選擇了白鼬的宫廷",
+                        "icon": "cards/2000804"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000302",
+                        "2000807",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367208_prompt_4",
-                        "text": "你選擇了传承挂毯",
-                        "icon": "cards/2000302"
+                        "text": "你選擇了不要凝视群星",
+                        "icon": "cards/2000807"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000331",
+                        "2000840",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367208_prompt_5",
-                        "text": "你選擇了传奇宝剑",
-                        "icon": "cards/2000331"
+                        "text": "你選擇了被俘的异教徒",
+                        "icon": "cards/2000840"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000373",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367208_prompt_6",
-                        "text": "你選擇了朝觐的承诺",
-                        "icon": "cards/2000373"
-                    }
+                    "event_on": 5367209,
+                    "event_off": 5367208
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000391",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367208_prompt_7",
-                        "text": "你選擇了超臭香水",
-                        "icon": "cards/2000391"
-                    }
+                    "event_on": 5367207,
+                    "event_off": 5367208
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000393",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367208_prompt_8",
-                        "text": "你選擇了错乱学习机",
-                        "icon": "cards/2000393"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000431",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367208_prompt_9",
-                        "text": "你選擇了超大龙卷风",
-                        "icon": "cards/2000431"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367209
-                },
-                "case:op11": {
-                    "event_on": 5367207
+                    "event_off": 5367208
                 }
             }
         }

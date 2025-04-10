@@ -1,7 +1,7 @@
 {
     "id": 5367281,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367281_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "雨林！雨林！",
+                            "text": "魔力增长仪式图纸",
                             "tag": "op1"
                         },
                         {
-                            "text": "烟熏野禽配酸浆菜",
+                            "text": "魅力护符",
                             "tag": "op2"
                         },
                         {
-                            "text": "银质香炉",
+                            "text": "魅惑",
                             "tag": "op3"
                         },
                         {
-                            "text": "玉石臂环",
+                            "text": "免于恐惧的自由",
                             "tag": "op4"
                         },
                         {
-                            "text": "鸳鸯戒指",
+                            "text": "蛮人社团",
                             "tag": "op5"
                         },
                         {
-                            "text": "伊喀尔与胡塞",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "翼肩甲",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "遥远的声音",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "异乡人军队",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000801",
+                        "2000491",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367281_prompt_1",
-                        "text": "你選擇了雨林！雨林！",
-                        "icon": "cards/2000801"
+                        "text": "你選擇了魔力增长仪式图纸",
+                        "icon": "cards/2000491"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000810",
+                        "2000521",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367281_prompt_2",
-                        "text": "你選擇了烟熏野禽配酸浆菜",
-                        "icon": "cards/2000810"
+                        "text": "你選擇了魅力护符",
+                        "icon": "cards/2000521"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000816",
+                        "2000528",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367281_prompt_3",
-                        "text": "你選擇了银质香炉",
-                        "icon": "cards/2000816"
+                        "text": "你選擇了魅惑",
+                        "icon": "cards/2000528"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000820",
+                        "2000541",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367281_prompt_4",
-                        "text": "你選擇了玉石臂环",
-                        "icon": "cards/2000820"
+                        "text": "你選擇了免于恐惧的自由",
+                        "icon": "cards/2000541"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000823",
+                        "2000573",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367281_prompt_5",
-                        "text": "你選擇了鸳鸯戒指",
-                        "icon": "cards/2000823"
+                        "text": "你選擇了蛮人社团",
+                        "icon": "cards/2000573"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000919",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367281_prompt_6",
-                        "text": "你選擇了伊喀尔与胡塞",
-                        "icon": "cards/2000919"
-                    }
+                    "event_on": 5367282,
+                    "event_off": 5367281
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000832",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367281_prompt_7",
-                        "text": "你選擇了翼肩甲",
-                        "icon": "cards/2000832"
-                    }
+                    "event_on": 5367280,
+                    "event_off": 5367281
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000842",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367281_prompt_8",
-                        "text": "你選擇了遥远的声音",
-                        "icon": "cards/2000842"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000859",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367281_prompt_9",
-                        "text": "你選擇了异乡人军队",
-                        "icon": "cards/2000859"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367282
-                },
-                "case:op11": {
-                    "event_on": 5367280
+                    "event_off": 5367281
                 }
             }
         }

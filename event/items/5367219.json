@@ -1,7 +1,7 @@
 {
     "id": 5367219,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,158 +15,61 @@
             "action": {
                 "option": {
                     "id": "5367219_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "复仇的滋味",
+                            "text": "豺狼帮",
                             "tag": "op1"
                         },
                         {
-                            "text": "复仇的滋味",
+                            "text": "纯净之刃",
                             "tag": "op2"
                         },
                         {
-                            "text": "复仇的滋味",
+                            "text": "纯净者的祭司们",
                             "tag": "op3"
                         },
                         {
-                            "text": "防火衣",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "丰产的仪式图纸",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "丰产的祝福",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "腐败之神",
-                            "tag": "op7"
-                        },
-                        {
-                            "text": "蝮蛇武士团",
-                            "tag": "op8"
-                        },
-                        {
-                            "text": "复国的斗志",
-                            "tag": "op9"
-                        },
-                        {
                             "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
+                            "tag": "op4"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000551",
+                        "2001057",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367219_prompt_1",
-                        "text": "你選擇了复仇的滋味",
-                        "icon": "cards/2000551"
+                        "text": "你選擇了豺狼帮",
+                        "icon": "cards/2001057"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000551",
+                        "2001081",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367219_prompt_2",
-                        "text": "你選擇了复仇的滋味",
-                        "icon": "cards/2000551"
+                        "text": "你選擇了纯净之刃",
+                        "icon": "cards/2001081"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000551",
+                        "2001092",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367219_prompt_3",
-                        "text": "你選擇了复仇的滋味",
-                        "icon": "cards/2000551"
+                        "text": "你選擇了纯净者的祭司们",
+                        "icon": "cards/2001092"
                     }
                 },
                 "case:op4": {
-                    "g.card": [
-                        "2000666",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_4",
-                        "text": "你選擇了防火衣",
-                        "icon": "cards/2000666"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000757",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_5",
-                        "text": "你選擇了丰产的仪式图纸",
-                        "icon": "cards/2000757"
-                    }
-                },
-                "case:op6": {
-                    "g.card": [
-                        "2000760",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_6",
-                        "text": "你選擇了丰产的祝福",
-                        "icon": "cards/2000760"
-                    }
-                },
-                "case:op7": {
-                    "g.card": [
-                        "2000844",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_7",
-                        "text": "你選擇了腐败之神",
-                        "icon": "cards/2000844"
-                    }
-                },
-                "case:op8": {
-                    "g.card": [
-                        "2000905",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_8",
-                        "text": "你選擇了蝮蛇武士团",
-                        "icon": "cards/2000905"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2001002",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367219_prompt_9",
-                        "text": "你選擇了复国的斗志",
-                        "icon": "cards/2001002"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367220
-                },
-                "case:op11": {
                     "event_on": 5367218
                 }
             }

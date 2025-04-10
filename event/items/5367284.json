@@ -1,7 +1,7 @@
 {
     "id": 5367284,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,159 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367284_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "诅咒",
+                            "text": "梅姬的画像",
                             "tag": "op1"
                         },
                         {
-                            "text": "治理家业",
+                            "text": "密神的庇护",
                             "tag": "op2"
                         },
                         {
-                            "text": "纵欲的痕迹-浴场",
+                            "text": "密教的群众",
                             "tag": "op3"
                         },
                         {
-                            "text": "纵欲的痕迹-书店",
+                            "text": "茉莉花之焰",
                             "tag": "op4"
                         },
                         {
-                            "text": "捉贼人回忆录",
+                            "text": "密教的信徒",
                             "tag": "op5"
                         },
                         {
-                            "text": "指虎",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "长剑",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "长矛",
+                            "text": "返回",
                             "tag": "op8"
-                        },
-                        {
-                            "text": "重剑",
-                            "tag": "op9"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op10"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op11"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000163",
+                        "2001065",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367284_prompt_1",
-                        "text": "你選擇了诅咒",
-                        "icon": "cards/2000163"
+                        "text": "你選擇了梅姬的画像",
+                        "icon": "cards/2001065"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000175",
+                        "2001080",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367284_prompt_2",
-                        "text": "你選擇了治理家业",
-                        "icon": "cards/2000175"
+                        "text": "你選擇了密神的庇护",
+                        "icon": "cards/2001080"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000192",
+                        "2001094",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367284_prompt_3",
-                        "text": "你選擇了纵欲的痕迹-浴场",
-                        "icon": "cards/2000192"
+                        "text": "你選擇了密教的群众",
+                        "icon": "cards/2001094"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000200",
+                        "2001095",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367284_prompt_4",
-                        "text": "你選擇了纵欲的痕迹-书店",
-                        "icon": "cards/2000200"
+                        "text": "你選擇了茉莉花之焰",
+                        "icon": "cards/2001095"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000218",
+                        "2001104",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367284_prompt_5",
-                        "text": "你選擇了捉贼人回忆录",
-                        "icon": "cards/2000218"
+                        "text": "你選擇了密教的信徒",
+                        "icon": "cards/2001104"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2000247",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367284_prompt_6",
-                        "text": "你選擇了指虎",
-                        "icon": "cards/2000247"
-                    }
+                    "event_on": 5367285,
+                    "event_off": 5367284
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2000252",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367284_prompt_7",
-                        "text": "你選擇了长剑",
-                        "icon": "cards/2000252"
-                    }
+                    "event_on": 5367283,
+                    "event_off": 5367284
                 },
                 "case:op8": {
-                    "g.card": [
-                        "2000255",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367284_prompt_8",
-                        "text": "你選擇了长矛",
-                        "icon": "cards/2000255"
-                    }
-                },
-                "case:op9": {
-                    "g.card": [
-                        "2000256",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367284_prompt_9",
-                        "text": "你選擇了重剑",
-                        "icon": "cards/2000256"
-                    }
-                },
-                "case:op10": {
-                    "event_on": 5367285
-                },
-                "case:op11": {
-                    "event_on": 5367283
+                    "event_off": 5367284
                 }
             }
         }

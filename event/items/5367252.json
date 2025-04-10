@@ -1,7 +1,7 @@
 {
     "id": 5367252,
     "text": "选择道具",
-    "is_replay": 1,
+    "is_replay": 0,
     "auto_start": false,
     "start_trigger": true,
     "on": {
@@ -15,122 +15,108 @@
             "action": {
                 "option": {
                     "id": "5367252_option_1",
-                    "text": "你想要什麽？",
+                    "text": "选择道具",
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "皮甲",
+                            "text": "军用长矛指南",
                             "tag": "op1"
                         },
                         {
-                            "text": "皮靴",
+                            "text": "健身手册",
                             "tag": "op2"
                         },
                         {
-                            "text": "贫民区的孤儿",
+                            "text": "金项链",
                             "tag": "op3"
                         },
                         {
-                            "text": "平民军队",
+                            "text": "金丝盛装",
                             "tag": "op4"
                         },
                         {
-                            "text": "平民军队",
+                            "text": "巨大宝石项链",
                             "tag": "op5"
                         },
                         {
-                            "text": "漂亮的花束",
+                            "text": "上一页",
                             "tag": "op6"
                         },
                         {
-                            "text": "贫民聚居地",
+                            "text": "下一页",
                             "tag": "op7"
                         },
                         {
-                            "text": "上一页",
+                            "text": "返回",
                             "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000250",
+                        "2000205",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367252_prompt_1",
-                        "text": "你選擇了皮甲",
-                        "icon": "cards/2000250"
+                        "text": "你選擇了军用长矛指南",
+                        "icon": "cards/2000205"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000267",
+                        "2000227",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367252_prompt_2",
-                        "text": "你選擇了皮靴",
-                        "icon": "cards/2000267"
+                        "text": "你選擇了健身手册",
+                        "icon": "cards/2000227"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000867",
+                        "2000264",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367252_prompt_3",
-                        "text": "你選擇了贫民区的孤儿",
-                        "icon": "cards/2000867"
+                        "text": "你選擇了金项链",
+                        "icon": "cards/2000264"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000891",
+                        "2000268",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367252_prompt_4",
-                        "text": "你選擇了平民军队",
-                        "icon": "cards/2000891"
+                        "text": "你選擇了金丝盛装",
+                        "icon": "cards/2000268"
                     }
                 },
                 "case:op5": {
                     "g.card": [
-                        "2000891",
+                        "2000269",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367252_prompt_5",
-                        "text": "你選擇了平民军队",
-                        "icon": "cards/2000891"
+                        "text": "你選擇了巨大宝石项链",
+                        "icon": "cards/2000269"
                     }
                 },
                 "case:op6": {
-                    "g.card": [
-                        "2001114",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367252_prompt_6",
-                        "text": "你選擇了漂亮的花束",
-                        "icon": "cards/2001114"
-                    }
+                    "event_on": 5367253,
+                    "event_off": 5367252
                 },
                 "case:op7": {
-                    "g.card": [
-                        "2001125",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367252_prompt_7",
-                        "text": "你選擇了贫民聚居地",
-                        "icon": "cards/2001125"
-                    }
+                    "event_on": 5367251,
+                    "event_off": 5367252
                 },
                 "case:op8": {
-                    "event_on": 5367251
+                    "event_off": 5367252
                 }
             }
         }
