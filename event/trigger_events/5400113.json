@@ -1,1 +1,1 @@
-{"id": 5400113, "text": "贵妇的邀请", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": [2010005, 2010006, 2010007, 2010008]}, "condition": {"rite": 5100113}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5300114}}], "auto_start": true}
+{"id": 5400113, "text": "贵妇的邀请", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100113}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5300114}}], "auto_start": false}

@@ -1,1 +1,1 @@
-{"id": 5400259, "text": "调查施加压力归0", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 4}, "condition": {"rite": 5100259}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter-7000161": 1, "success": {"event_off": 5400259}}}]}
+{"id": 5400259, "text": "调查施加压力归0", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100259}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter-7000161": 1, "success": {"event_off": 5400259}}}]}

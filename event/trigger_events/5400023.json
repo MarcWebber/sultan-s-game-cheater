@@ -1,1 +1,1 @@
-{"id": 5400023, "text": "妻子正在酝酿不满", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 7}, "condition": {"rite": 5100023}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5003001}}], "auto_start": true}
+{"id": 5400023, "text": "妻子正在酝酿不满", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100023}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5003001}}], "auto_start": false}

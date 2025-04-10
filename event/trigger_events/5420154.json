@@ -1,1 +1,1 @@
-{"id": 5420154, "text": "娜依拉声望事件-促成交欢", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120154}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006609}}]}
+{"id": 5420154, "text": "娜依拉声望事件-促成交欢", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120154}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006609}}]}

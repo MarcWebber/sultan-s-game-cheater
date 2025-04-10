@@ -1,1 +1,1 @@
-{"id": 5400284, "text": "久违的清静", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100284}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000778, "success": {"event_off": 5400284}}}]}
+{"id": 5400284, "text": "久违的清静", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100284}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000778, "success": {"event_off": 5400284}}}]}

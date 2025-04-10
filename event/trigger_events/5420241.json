@@ -1,1 +1,1 @@
-{"id": 5420241, "text": "奈费勒声望事件--伏击", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120241}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"no_prompt": {"table.2000349+等死吧阿卜德": 1}, "rite": 5006671}}]}
+{"id": 5420241, "text": "奈费勒声望事件--伏击", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120241}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"no_prompt": {"table.2000349+等死吧阿卜德": 1}, "rite": 5006671}}]}

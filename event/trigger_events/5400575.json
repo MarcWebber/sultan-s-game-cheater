@@ -1,1 +1,1 @@
-{"id": 5400575, "text": "妻子成为秘教徒后定期消除妻子的不满的仪式", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100575}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004901}}]}
+{"id": 5400575, "text": "妻子成为秘教徒后定期消除妻子的不满的仪式", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100575}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004901}}]}

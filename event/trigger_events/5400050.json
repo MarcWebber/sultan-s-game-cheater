@@ -1,1 +1,1 @@
-{"id": 5400050, "text": "东窗事发", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"card_clean": 1}, "condition": {"rite": 5100050}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000527, "success": {"event_off": 5400050}}}]}
+{"id": 5400050, "text": "东窗事发", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100050}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000527, "success": {"event_off": 5400050}}}]}

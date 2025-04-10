@@ -1,1 +1,1 @@
-{"id": 5400078, "text": "狼王的踪迹", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100078}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002508, "success": {"event_off": 5400078}}}]}
+{"id": 5400078, "text": "狼王的踪迹", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100078}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002508, "success": {"event_off": 5400078}}}]}

@@ -1,1 +1,1 @@
-{"id": 5400320, "text": "和野狗对决", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100320}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000424, "rite": 5001019, "success": {"event_off": 5400320}}}]}
+{"id": 5400320, "text": "和野狗对决", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100320}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000424, "rite": 5001019, "success": {"event_off": 5400320}}}]}

@@ -1,1 +1,1 @@
-{"id": 5421089, "text": "废弃", "is_replay": 0, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121089}, "settlement": [{"action": {}}], "auto_start": true}
+{"id": 5421089, "text": "废弃", "is_replay": 0, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121089}, "settlement": [{"action": {}}], "auto_start": false}

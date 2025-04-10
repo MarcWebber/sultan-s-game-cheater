@@ -1,1 +1,1 @@
-{"id": 5410125, "text": "苏丹引导-day5-弹框17", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110125}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 999}}]}
+{"id": 5410125, "text": "苏丹引导-day5-弹框17", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110125}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 999}}]}

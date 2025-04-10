@@ -1,1 +1,1 @@
-{"id": 5410609, "text": "伊曼的祈祷开启的幕后", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5110609}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004513}}]}
+{"id": 5410609, "text": "伊曼的祈祷开启的幕后", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110609}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004513}}]}

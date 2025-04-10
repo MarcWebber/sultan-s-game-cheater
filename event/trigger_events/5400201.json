@@ -1,1 +1,1 @@
-{"id": 5400201, "text": "监听使用征服卡（再利用）", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": [2010013, 2010014, 2010015, 2010016]}, "condition": {"rite": 5100201}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000342": 1}}], "auto_start": true}
+{"id": 5400201, "text": "监听使用征服卡（再利用）", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100201}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000342": 1}}], "auto_start": false}

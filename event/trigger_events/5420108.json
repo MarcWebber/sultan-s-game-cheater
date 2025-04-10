@@ -1,1 +1,1 @@
-{"id": 5420108, "text": "娜依拉声望事件--妻子死亡的回应1", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"card_clean": 2000458}, "condition": {"rite": 5120108}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320109}}]}
+{"id": 5420108, "text": "娜依拉声望事件--妻子死亡的回应1", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120108}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320109}}]}

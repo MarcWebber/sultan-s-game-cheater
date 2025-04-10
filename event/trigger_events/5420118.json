@@ -1,1 +1,1 @@
-{"id": 5420118, "text": "娜依拉声望事件--贾丽拉死亡的回应1", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"card_clean": 2000081}, "condition": {"rite": 5120118}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320119}}]}
+{"id": 5420118, "text": "娜依拉声望事件--贾丽拉死亡的回应1", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120118}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320119}}]}

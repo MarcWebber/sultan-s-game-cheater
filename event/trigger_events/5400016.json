@@ -1,1 +1,1 @@
-{"id": 5400016, "text": "普通妓院（石铜美人死了）", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [1, 2]}, "condition": {"rite": 5100016}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002005}}]}
+{"id": 5400016, "text": "普通妓院（石铜美人死了）", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100016}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5002005}}]}

@@ -1,1 +1,1 @@
-{"id": 5400155, "text": "麦娜尔的道别", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5100155}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000665, "success": {"event_off": 5400155}}}]}
+{"id": 5400155, "text": "麦娜尔的道别", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100155}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000665, "success": {"event_off": 5400155}}}]}

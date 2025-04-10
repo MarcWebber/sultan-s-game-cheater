@@ -1,1 +1,1 @@
-{"id": 5420179, "text": "小圆声望事件--成婚", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120179}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006630}}]}
+{"id": 5420179, "text": "小圆声望事件--成婚", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120179}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006630}}]}

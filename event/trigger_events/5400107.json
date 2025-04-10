@@ -1,1 +1,1 @@
-{"id": 5400107, "text": "绑架年轻望族", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5100107}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000063": 1}}]}
+{"id": 5400107, "text": "绑架年轻望族", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100107}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000063": 1}}]}

@@ -1,1 +1,1 @@
-{"id": 5421164, "text": "拜铃耶刺青", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121164}, "settlement": [{"action": {"rite": 5008178, "success": {"event_off": 5421164}}}]}
+{"id": 5421164, "text": "拜铃耶刺青", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121164}, "settlement": [{"action": {"rite": 5008178, "success": {"event_off": 5421164}}}]}

@@ -1,1 +1,1 @@
-{"id": 5400096, "text": "根据度过的回合计数", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100096}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000060": 1}}], "auto_start": true}
+{"id": 5400096, "text": "根据度过的回合计数", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100096}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000060": 1}}], "auto_start": false}

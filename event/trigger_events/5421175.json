@@ -1,1 +1,1 @@
-{"id": 5421175, "text": "苏丹的女奴", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121175}, "settlement": [{"action": {"rite": 5008154, "success": {"event_off": 5421175}}}]}
+{"id": 5421175, "text": "苏丹的女奴", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121175}, "settlement": [{"action": {"rite": 5008154, "success": {"event_off": 5421175}}}]}

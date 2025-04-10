@@ -93,11 +93,11 @@
                     }
                 },
                 "case:op6": {
-                    "event_on": 5367442,
+                    "event_on": 5367440,
                     "event_off": 5367441
                 },
                 "case:op7": {
-                    "event_on": 5367440,
+                    "event_on": 5367442,
                     "event_off": 5367441
                 },
                 "case:op8": {

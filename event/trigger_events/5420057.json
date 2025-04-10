@@ -1,1 +1,1 @@
-{"id": 5420057, "text": "铁头大敌事件", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5120057}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000574, "loot": 6000091}}]}
+{"id": 5420057, "text": "铁头大敌事件", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120057}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2000574, "loot": 6000091}}]}

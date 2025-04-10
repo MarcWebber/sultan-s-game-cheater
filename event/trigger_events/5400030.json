@@ -1,1 +1,1 @@
-{"id": 5400030, "text": "书店营业", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100030}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5002006, "rite": 5002006}}], "auto_start": true}
+{"id": 5400030, "text": "书店营业", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100030}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"clean.rite": 5002006, "rite": 5002006}}], "auto_start": false}

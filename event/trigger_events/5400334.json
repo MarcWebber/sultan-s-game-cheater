@@ -1,1 +1,1 @@
-{"id": 5400334, "text": "舞姬偷戒指事发-重试", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100334}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5001104, "success": {"event_off": 5400334}}}]}
+{"id": 5400334, "text": "舞姬偷戒指事发-重试", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100334}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5001104, "success": {"event_off": 5400334}}}]}

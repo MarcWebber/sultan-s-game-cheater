@@ -1,1 +1,1 @@
-{"id": 5420134, "text": "娜依拉声望事件--恶毒的花嫁-不满意", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 7}, "condition": {"rite": 5120134}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320135}}]}
+{"id": 5420134, "text": "娜依拉声望事件--恶毒的花嫁-不满意", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120134}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5320135}}]}

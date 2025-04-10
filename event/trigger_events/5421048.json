@@ -1,1 +1,1 @@
-{"id": 5421048, "text": "哲瓦德大敌事件-重复阶段", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": [3, 5]}, "condition": {"rite": 5121048}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6001054}}]}
+{"id": 5421048, "text": "哲瓦德大敌事件-重复阶段", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121048}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6001054}}]}

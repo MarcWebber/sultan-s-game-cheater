@@ -1,1 +1,1 @@
-{"id": 5420156, "text": "铁头-善1-救济日重复触发", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 14}, "condition": {"rite": 5120156}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006616}}]}
+{"id": 5420156, "text": "铁头-善1-救济日重复触发", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120156}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5006616}}]}

@@ -1,1 +1,1 @@
-{"id": 5410521, "text": "结局-遭窃的果实", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010024}, "condition": {"rite": 5110521}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 249}}]}
+{"id": 5410521, "text": "结局-遭窃的果实", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110521}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 249}}]}

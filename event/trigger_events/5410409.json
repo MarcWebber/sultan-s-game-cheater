@@ -1,1 +1,1 @@
-{"id": 5410409, "text": "结局-逃跑-最后的苏丹卡", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010001}, "condition": {"rite": 5110409}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5310407}}]}
+{"id": 5410409, "text": "结局-逃跑-最后的苏丹卡", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110409}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": 5310407}}]}

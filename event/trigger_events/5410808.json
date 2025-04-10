@@ -1,1 +1,1 @@
-{"id": 5410808, "text": "神圣的会晤", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110808}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004808}}], "auto_start": true}
+{"id": 5410808, "text": "神圣的会晤", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110808}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004808}}], "auto_start": false}

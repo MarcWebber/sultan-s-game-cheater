@@ -1,1 +1,1 @@
-{"id": 5410507, "text": "结局-灯影下", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010024}, "condition": {"rite": 5110507}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 235}}]}
+{"id": 5410507, "text": "结局-灯影下", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110507}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"over": 235}}]}

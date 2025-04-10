@@ -1,1 +1,1 @@
-{"id": 5400241, "text": "珍奇之家", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100241}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000062}}]}
+{"id": 5400241, "text": "珍奇之家", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100241}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000062}}]}

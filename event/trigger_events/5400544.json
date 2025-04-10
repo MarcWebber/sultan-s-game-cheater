@@ -1,1 +1,1 @@
-{"id": 5400544, "text": "我白嫖前置", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100544}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000817, "success": {"event_off": 5400544}}}]}
+{"id": 5400544, "text": "我白嫖前置", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100544}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000817, "success": {"event_off": 5400544}}}]}

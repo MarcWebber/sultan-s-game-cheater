@@ -1,1 +1,1 @@
-{"id": 5400238, "text": "逃离", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": [2010001, 2010002, 2010003, 2010004]}, "condition": {"rite": 5100238}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000089": 1}}], "auto_start": true}
+{"id": 5400238, "text": "逃离", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100238}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000089": 1}}], "auto_start": false}

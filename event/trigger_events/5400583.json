@@ -1,1 +1,1 @@
-{"id": 5400583, "text": "密教基地启动", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100583}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004910, "success": {"event_off": 5400583}}}]}
+{"id": 5400583, "text": "密教基地启动", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100583}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5004910, "success": {"event_off": 5400583}}}]}

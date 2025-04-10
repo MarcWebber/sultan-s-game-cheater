@@ -1,1 +1,1 @@
-{"id": 5410412, "text": "结局-逃跑-激活结局弹框", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"rite_end": 5010001}, "condition": {"rite": 5110412}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"steam_achievement": "ACHIEVEMENT_010", "over": 101}}]}
+{"id": 5410412, "text": "结局-逃跑-激活结局弹框", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110412}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"steam_achievement": "ACHIEVEMENT_010", "over": 101}}]}

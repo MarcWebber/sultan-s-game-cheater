@@ -1,1 +1,1 @@
-{"id": 5410809, "text": "疯癫与幻觉", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": [3, 7]}, "condition": {"rite": 5110809}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6000505}}], "auto_start": true}
+{"id": 5410809, "text": "疯癫与幻觉", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5110809}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"loot": 6000505}}], "auto_start": false}

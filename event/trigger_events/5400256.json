@@ -1,1 +1,1 @@
-{"id": 5400256, "text": "艾迪勒受伤养伤", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 5}, "condition": {"rite": 5100256}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter-7000160": 1, "success": {"event_off": 5400256}}}]}
+{"id": 5400256, "text": "艾迪勒受伤养伤", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100256}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter-7000160": 1, "success": {"event_off": 5400256}}}]}

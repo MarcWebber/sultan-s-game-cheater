@@ -1,1 +1,1 @@
-{"id": 5400105, "text": "造访2", "is_replay": 0, "auto_start": true, "start_trigger": true, "on": {"round_begin_ba": 2}, "condition": {"rite": 5100105}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000607, "success": {"event_off": 5400105}}}]}
+{"id": 5400105, "text": "造访2", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100105}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000607, "success": {"event_off": 5400105}}}]}

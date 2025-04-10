@@ -1,1 +1,1 @@
-{"id": 5421086, "text": "孩子们的胃口-循环", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 3}, "condition": {"rite": 5121086}, "settlement": [{"action": {"rite": 5008078}}], "auto_start": true}
+{"id": 5421086, "text": "孩子们的胃口-循环", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121086}, "settlement": [{"action": {"rite": 5008078}}], "auto_start": false}

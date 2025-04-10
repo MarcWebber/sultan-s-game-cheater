@@ -1,1 +1,1 @@
-{"id": 5420123, "text": "娜依拉声望事件--死亡计数", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"card_clean": 2000010}, "condition": {"rite": 5120123}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000213": 1}}], "auto_start": true}
+{"id": 5420123, "text": "娜依拉声望事件--死亡计数", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120123}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000213": 1}}], "auto_start": false}
