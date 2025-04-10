@@ -1,7 +1,7 @@
 {
     "id": 5367002,
     "text": "添加情报",
-    "is_replay": 1, 
+    "is_replay": 0, 
     "auto_start": false,
     "start_trigger": true, 
     "on": { 
@@ -46,6 +46,10 @@
                         {
                             "text": "秘氛",
                             "tag": "op7"
+                        },
+                        {
+                            "text": "空气",
+                            "tag": "op8"
                         }
                     ]
                 },
@@ -104,6 +108,9 @@
                         "text": "你選擇了秘氛",
                         "icon": "cards/2000001"
                     }
+                },
+                "case:op8": {
+                    "event_off":5367002
                 }
             }
         }
