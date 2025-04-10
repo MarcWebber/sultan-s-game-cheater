@@ -1,0 +1,92 @@
+{
+    "id": 5366669,
+    "text": "金钱",
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366669_option_1",
+                    "text": "你想要多少钱？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "1枚金币就够了",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "5枚金币",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "10枚金币",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "50枚金币",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "100枚金币",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "我还要更多",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op7"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "coin": 1,
+                    "event_off": 5366669
+                },
+                "case:op2": {
+                    "coin": 5,
+                    "event_off": 5366669
+                },
+                "case:op3": {
+                    "coin": 10,
+                    "event_off": 5366669
+                },
+                "case:op4": {
+                    "coin": 50,
+                    "event_off": 5366669
+                },
+                "case:op5": {
+                    "coin": 100,
+                    "event_off": 5366669
+                },
+                "case:op6": {
+                    "coin": 999,
+                    "prompt": {
+                        "id": "5366669_prompt_1",
+                        "text": "你似乎比我还不知足",
+                        "icon": "cards/2000024"
+                    },
+                    "event_off": 5366669
+                },
+                "case:op7": {
+                    "prompt": {
+                        "id": "5366669_prompt_2",
+                        "text": "人生没有重来的机会，谨记",
+                        "icon": "cards/2000024"
+                    },
+                    "event_off": 5366669
+                }
+            }
+        }
+    ]
+}

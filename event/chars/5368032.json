@@ -1,0 +1,124 @@
+{
+    "id": 5368032,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368032_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "老库克",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "掠食者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "掠食者",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "掠食者",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "掠食者",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000992",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368032_prompt_1",
+                        "text": "你選擇了老库克",
+                        "icon": "cards/2000992"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2001085",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368032_prompt_2",
+                        "text": "你選擇了掠食者",
+                        "icon": "cards/2001085"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2001085",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368032_prompt_3",
+                        "text": "你選擇了掠食者",
+                        "icon": "cards/2001085"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2001085",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368032_prompt_4",
+                        "text": "你選擇了掠食者",
+                        "icon": "cards/2001085"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2001085",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368032_prompt_5",
+                        "text": "你選擇了掠食者",
+                        "icon": "cards/2001085"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368031,
+                    "event_off": 5368032
+                },
+                "case:op7": {
+                    "event_on": 5368033,
+                    "event_off": 5368032
+                },
+                "case:op8": {
+                    "event_off": 5368032
+                }
+            }
+        }
+    ]
+}

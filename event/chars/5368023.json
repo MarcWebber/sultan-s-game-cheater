@@ -1,0 +1,124 @@
+{
+    "id": 5368023,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368023_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "剑客",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "畸形人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "畸形人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "畸形人",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "畸形人",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000628",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368023_prompt_1",
+                        "text": "你選擇了剑客",
+                        "icon": "cards/2000628"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000652",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368023_prompt_2",
+                        "text": "你選擇了畸形人",
+                        "icon": "cards/2000652"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000652",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368023_prompt_3",
+                        "text": "你選擇了畸形人",
+                        "icon": "cards/2000652"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000652",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368023_prompt_4",
+                        "text": "你選擇了畸形人",
+                        "icon": "cards/2000652"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2000652",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368023_prompt_5",
+                        "text": "你選擇了畸形人",
+                        "icon": "cards/2000652"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368022,
+                    "event_off": 5368023
+                },
+                "case:op7": {
+                    "event_on": 5368024,
+                    "event_off": 5368023
+                },
+                "case:op8": {
+                    "event_off": 5368023
+                }
+            }
+        }
+    ]
+}

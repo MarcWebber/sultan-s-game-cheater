@@ -1,11 +1,13 @@
 @echo off
 REM 设置控制台代码页为 UTF-8
 chcp 65001 >nul
+if errorlevel 1 (
+                timeout /t 10 >nul
+                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
+                exit /b 1
+            )
+            
 setlocal enabledelayedexpansion
-
-
-
-
 
 @REM REM 检查git命令是否可用
 @REM where git >nul 2>&1
@@ -23,7 +25,11 @@ setlocal enabledelayedexpansion
 @REM @REM     echo Git 命令不存在，跳过 git pull 操作。
 @REM @REM )
 
-REM 接收用户输入：苏丹的游戏路径
+if errorlevel 1 (
+                timeout /t 10 >nul
+                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
+                exit /b 1
+            )
 set /p "gamePath=请输入苏丹的游戏路径（例如：E:\Games\Steam\steamapps\common\Sultan's Game）："
 REM 检查路径是否存在（添加双引号避免空格问题）
 if exist "%gamePath%\" (
@@ -172,6 +178,25 @@ if exist "%gamePath%\" (
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (
              echo [错误] 事件触发器复制失败: "%%f"
+             exit /b 1
+         )
+     )
+
+    set "equipsPath=!eventPath!"
+     for %%f in ("%~dp0event\chars\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除旧添加角色事件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+         echo 正在添加添加角色事件的索引："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 添加角色事件复制失败: "%%f"
              exit /b 1
          )
      )

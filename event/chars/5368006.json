@@ -1,0 +1,63 @@
+{
+    "id": 5368006,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368006_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "不满的贵族",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "卑微仆役",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000991",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368006_prompt_1",
+                        "text": "你選擇了不满的贵族",
+                        "icon": "cards/2000991"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2001099",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368006_prompt_2",
+                        "text": "你選擇了卑微仆役",
+                        "icon": "cards/2001099"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5368005
+                }
+            }
+        }
+    ]
+}

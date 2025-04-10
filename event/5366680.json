@@ -1,0 +1,64 @@
+{
+    "id": 5366680,
+    "text": "你想要什么",
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366689_option_1",
+                    "text": "你想要什么？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "金骰子",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "回退次数",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5366680_prompt_1",
+                        "text": "你获得了十枚金骰子",
+                        "icon": "cards/2000001"
+                    },
+                    "counter+7100006": 10,
+                    "event_off": 5366680
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5366680_prompt_2",
+                        "text": "你获得了十次回退次数"
+                    },
+                    "counter+7100007": 10,
+                    "event_off": 5366680
+                },
+                "case:op7": {
+                    "prompt": {
+                        "id": "5366680_prompt_3",
+                        "text": "人生没有重来的机会，谨记",
+                        "icon": "cards/2000001"
+                    },
+                    "event_off": 5366680
+                }
+            }
+        }
+    ]
+}

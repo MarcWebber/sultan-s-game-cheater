@@ -1,0 +1,93 @@
+{
+    "id": 5368003,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368003_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "阿鲁米娜",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "阿木剌·图斯",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "阿卜德的盾卫",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "阿卜德的剑卫",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000774",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368003_prompt_1",
+                        "text": "你選擇了阿鲁米娜",
+                        "icon": "cards/2000774"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000794",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368003_prompt_2",
+                        "text": "你選擇了阿木剌·图斯",
+                        "icon": "cards/2000794"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000897",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368003_prompt_3",
+                        "text": "你選擇了阿卜德的盾卫",
+                        "icon": "cards/2000897"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000898",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368003_prompt_4",
+                        "text": "你選擇了阿卜德的剑卫",
+                        "icon": "cards/2000898"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368002
+                }
+            }
+        }
+    ]
+}

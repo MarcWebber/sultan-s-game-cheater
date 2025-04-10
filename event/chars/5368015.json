@@ -1,0 +1,63 @@
+{
+    "id": 5368015,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368015_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "富家子弟",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "复生月牙",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2001097",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368015_prompt_1",
+                        "text": "你選擇了富家子弟",
+                        "icon": "cards/2001097"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2001119",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368015_prompt_2",
+                        "text": "你選擇了复生月牙",
+                        "icon": "cards/2001119"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5368014
+                }
+            }
+        }
+    ]
+}

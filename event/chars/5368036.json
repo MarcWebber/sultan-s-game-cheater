@@ -1,0 +1,93 @@
+{
+    "id": 5368036,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368036_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "美艳的妓女",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "蒙面风流客",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "冒险者佣兵",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "冒险者佣兵",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000789",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368036_prompt_1",
+                        "text": "你選擇了美艳的妓女",
+                        "icon": "cards/2000789"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000791",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368036_prompt_2",
+                        "text": "你選擇了蒙面风流客",
+                        "icon": "cards/2000791"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2001018",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368036_prompt_3",
+                        "text": "你選擇了冒险者佣兵",
+                        "icon": "cards/2001018"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2001018",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368036_prompt_4",
+                        "text": "你選擇了冒险者佣兵",
+                        "icon": "cards/2001018"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368035
+                }
+            }
+        }
+    ]
+}

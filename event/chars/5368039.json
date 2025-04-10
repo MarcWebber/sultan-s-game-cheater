@@ -1,0 +1,124 @@
+{
+    "id": 5368039,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368039_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "女护卫",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "男人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "女人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "年老的女奴",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "年轻的贵族",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000569",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_1",
+                        "text": "你選擇了女护卫",
+                        "icon": "cards/2000569"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000582",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_2",
+                        "text": "你選擇了男人",
+                        "icon": "cards/2000582"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000584",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_3",
+                        "text": "你選擇了女人",
+                        "icon": "cards/2000584"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000699",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_4",
+                        "text": "你選擇了年老的女奴",
+                        "icon": "cards/2000699"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2000764",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_5",
+                        "text": "你選擇了年轻的贵族",
+                        "icon": "cards/2000764"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368038,
+                    "event_off": 5368039
+                },
+                "case:op7": {
+                    "event_on": 5368040,
+                    "event_off": 5368039
+                },
+                "case:op8": {
+                    "event_off": 5368039
+                }
+            }
+        }
+    ]
+}

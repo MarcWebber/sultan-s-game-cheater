@@ -1,0 +1,79 @@
+{
+    "id": 5366670,
+    "text": "名声",
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366670_option_1",
+                    "text": "你要哪方面的名声？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "善名",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "恶名",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "侠名",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "权势",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "灵视",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op6"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5366671,
+                    "event_off": 5366670
+                },
+                "case:op2": {
+                    "event_on": 5366672,
+                    "event_off": 5366670
+                },
+                "case:op3": {
+                    "event_on": 5366673,
+                    "event_off": 5366670
+                },
+                "case:op4": {
+                    "event_on": 5366674,
+                    "event_off": 5366670
+                },
+                "case:op5": {
+                    "event_on": 5366675,
+                    "event_off": 5366670
+                },
+                "case:op6": {
+                    "prompt": {
+                        "id": "5366670_prompt_1",
+                        "text": "人生没有重来的机会，谨记",
+                        "icon": "cards/2000024"
+                    },
+                    "event_off": 5366670
+                }
+            }
+        }
+    ]
+}

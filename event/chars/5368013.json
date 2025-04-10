@@ -1,0 +1,124 @@
+{
+    "id": 5368013,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368013_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "肥胖的囚徒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "法拉杰",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "法拉杰",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "法拉杰",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "复活的行尸",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000361",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368013_prompt_1",
+                        "text": "你選擇了肥胖的囚徒",
+                        "icon": "cards/2000361"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000523",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368013_prompt_2",
+                        "text": "你選擇了法拉杰",
+                        "icon": "cards/2000523"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000523",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368013_prompt_3",
+                        "text": "你選擇了法拉杰",
+                        "icon": "cards/2000523"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000523",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368013_prompt_4",
+                        "text": "你選擇了法拉杰",
+                        "icon": "cards/2000523"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2000554",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368013_prompt_5",
+                        "text": "你選擇了复活的行尸",
+                        "icon": "cards/2000554"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368012,
+                    "event_off": 5368013
+                },
+                "case:op7": {
+                    "event_on": 5368014,
+                    "event_off": 5368013
+                },
+                "case:op8": {
+                    "event_off": 5368013
+                }
+            }
+        }
+    ]
+}

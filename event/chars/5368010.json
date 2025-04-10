@@ -1,0 +1,48 @@
+{
+    "id": 5368010,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368010_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "大魅魔",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2001111",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368010_prompt_1",
+                        "text": "你選擇了大魅魔",
+                        "icon": "cards/2001111"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5368009
+                }
+            }
+        }
+    ]
+}

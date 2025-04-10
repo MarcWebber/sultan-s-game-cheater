@@ -1,0 +1,124 @@
+{
+    "id": 5368000,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368000_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "阿尔图",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "阿尔图",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "阿尔图",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "安苏亚",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "阿迪莱",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000003",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368000_prompt_1",
+                        "text": "你選擇了阿尔图",
+                        "icon": "cards/2000003"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000003",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368000_prompt_2",
+                        "text": "你選擇了阿尔图",
+                        "icon": "cards/2000003"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000003",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368000_prompt_3",
+                        "text": "你選擇了阿尔图",
+                        "icon": "cards/2000003"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000008",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368000_prompt_4",
+                        "text": "你選擇了安苏亚",
+                        "icon": "cards/2000008"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2000061",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368000_prompt_5",
+                        "text": "你選擇了阿迪莱",
+                        "icon": "cards/2000061"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367999,
+                    "event_off": 5368000
+                },
+                "case:op7": {
+                    "event_on": 5368001,
+                    "event_off": 5368000
+                },
+                "case:op8": {
+                    "event_off": 5368000
+                }
+            }
+        }
+    ]
+}

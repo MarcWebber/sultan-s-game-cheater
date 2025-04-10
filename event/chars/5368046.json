@@ -1,0 +1,124 @@
+{
+    "id": 5368046,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368046_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "深紫色的女士（钻）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "萨达尔尼的侍女",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "死囚",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "蛇女",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "书记官",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000148",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368046_prompt_1",
+                        "text": "你選擇了深紫色的女士（钻）",
+                        "icon": "cards/2000148"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000176",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368046_prompt_2",
+                        "text": "你選擇了萨达尔尼的侍女",
+                        "icon": "cards/2000176"
+                    }
+                },
+                "case:op3": {
+                    "card": [
+                        "2000425",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368046_prompt_3",
+                        "text": "你選擇了死囚",
+                        "icon": "cards/2000425"
+                    }
+                },
+                "case:op4": {
+                    "card": [
+                        "2000495",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368046_prompt_4",
+                        "text": "你選擇了蛇女",
+                        "icon": "cards/2000495"
+                    }
+                },
+                "case:op5": {
+                    "card": [
+                        "2000507",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368046_prompt_5",
+                        "text": "你選擇了书记官",
+                        "icon": "cards/2000507"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368045,
+                    "event_off": 5368046
+                },
+                "case:op7": {
+                    "event_on": 5368047,
+                    "event_off": 5368046
+                },
+                "case:op8": {
+                    "event_off": 5368046
+                }
+            }
+        }
+    ]
+}

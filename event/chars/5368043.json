@@ -1,0 +1,63 @@
+{
+    "id": 5368043,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368043_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "热娜",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "芮尔",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "card": [
+                        "2000019",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368043_prompt_1",
+                        "text": "你選擇了热娜",
+                        "icon": "cards/2000019"
+                    }
+                },
+                "case:op2": {
+                    "card": [
+                        "2000771",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368043_prompt_2",
+                        "text": "你選擇了芮尔",
+                        "icon": "cards/2000771"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5368042
+                }
+            }
+        }
+    ]
+}
