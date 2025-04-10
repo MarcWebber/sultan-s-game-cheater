@@ -176,7 +176,7 @@ if exist "%gamePath%\" (
          )
      )
 
-    echo 所有文件已成功复制到 E 盘游戏目录！
+    echo 所有文件已成功复制到游戏目录！
     timeout /t 5 >nul
 ) else (
     echo 游戏路径不存在，请检查输入的路径是否正确："%gamePath%"
