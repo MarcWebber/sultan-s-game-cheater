@@ -1,0 +1,92 @@
+{
+    "id": 5366668,
+    "text": "神燈作弊",
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+        "counter.7366668<":1
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366668_option_1",
+                    "text": "获得作弊道具？",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神灯",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "召唤卡",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "撒旦的种子",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5366668_prompt_1",
+                        "text": "你获得了一盏神灯",
+                        "icon": "cards/2000001"
+                    },
+                    "g.card": [
+                        2666666,
+                        "已拥有+1"
+                    ],
+                    "event_off": 5366668
+                    // 可以通過事件觸發別的選項
+                    //"event_on": 5320101, //检定，如果妻子已经不在了，会额外有个弹框
+                    //"event_on": 5320102 //如果妻子存活会关掉上面的检定，避免在其他场景无端触发
+                },
+                "case:op2": {
+                    "g.card": [
+                        2666667,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5366668_prompt_2",
+                        "text": "你获得了撒旦的种子",
+                        "icon": "cards/2001021"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op3": {
+                    "g.card": [
+                        2666668,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5366668_prompt_3",
+                        "text": "你获得了事件召唤卡",
+                        "icon": "cards/2000524"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5366668_prompt_4",
+                        "text": "希望你不要反悔",
+                        "icon": "cards/2000524"
+                    },
+                    "counter+7366668":1,
+                    "event_off": 5366668
+                }
+            }
+        }
+    ]
+}
