@@ -121,7 +121,7 @@
             "result_text": "延长了一些卡牌时间",
             "result": {},
             "action": {
-                "s7+life": -10
+                "rebirth.s1":0
             }
         }
     ],
