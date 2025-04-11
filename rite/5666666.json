@@ -114,14 +114,14 @@
         {
             "condition": {
                 "any": {
-                    "s7+life": -10
+                    "s7":1
                 }
             },
             "result_title": "神的耐心",
             "result_text": "延长了一些卡牌时间",
             "result": {},
             "action": {
-                "event_on": 5367000
+                "s7+life": -10
             }
         }
     ],

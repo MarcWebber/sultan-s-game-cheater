@@ -7,10 +7,10 @@
     "on": { //时机
         "round_begin_ba": 1
     },
-    "condition": { //条件
-        "counter.7366668<":1
+    "condition": {
+        "counter.7366668<": 1
     },
-    "settlement": [ //效果 
+    "settlement": [
         {
             "tips_resource": "",
             "tips_text": "",
@@ -33,8 +33,16 @@
                             "tag": "op3"
                         },
                         {
-                            "text": "我不会和魔鬼做交易",
+                            "text": "阿尔普的戒指",
                             "tag": "op4"
+                        },
+                        {
+                            "text": "存档酒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op6"
                         }
                     ]
                 },
@@ -49,9 +57,6 @@
                         "已拥有+1"
                     ],
                     "event_off": 5366668
-                    // 可以通過事件觸發別的選項
-                    //"event_on": 5320101, //检定，如果妻子已经不在了，会额外有个弹框
-                    //"event_on": 5320102 //如果妻子存活会关掉上面的检定，避免在其他场景无端触发
                 },
                 "case:op2": {
                     "g.card": [
@@ -78,12 +83,36 @@
                     "event_off": 5366668
                 },
                 "case:op4": {
+                    "g.card": [
+                        2666669,
+                        "已拥有+1"
+                    ],
                     "prompt": {
                         "id": "5366668_prompt_4",
+                        "text": "你获得了阿尔普的戒指",
+                        "icon": "cards/2000281"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op5": {
+                    "g.card": [
+                        2666670,
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5366668_prompt_5",
+                        "text": "你获得了存档酒",
+                        "icon": "cards/2000383"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op6": {
+                    "prompt": {
+                        "id": "5366668_prompt_6",
                         "text": "希望你不要反悔",
                         "icon": "cards/2000524"
                     },
-                    "counter+7366668":1,
+                    "counter+7366668": 1,
                     "event_off": 5366668
                 }
             }
