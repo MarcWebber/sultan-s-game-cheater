@@ -1,0 +1,71 @@
+{
+    "id": 5366690,
+    "text": "苏丹卡",
+    "is_replay": 0, //是否可以重复触发
+    "auto_start": false,
+    "start_trigger": true, // 是否启动就立即开始校验条件
+    "on": { //时机
+        "round_begin_ba": 1
+    },
+    "condition": { //条件
+    },
+    "settlement": [ //效果 
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5366690_option_1",
+                    "text": "你要什么苏丹卡？",
+                    "icon": "cards/2000024",
+                    "items": [
+                        {
+                            "text": "杀戮",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "征服",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奢靡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "纵欲",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5366691,
+                    "event_off": 5366690
+                },
+                "case:op2": {
+                    "event_on": 5366692,
+                    "event_off": 5366690
+                },
+                "case:op3": {
+                    "event_on": 5366693,
+                    "event_off": 5366690
+                },
+                "case:op4": {
+                    "event_on": 5366694,
+                    "event_off": 5366690
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5366690_prompt_1",
+                        "text": "游戏可以重开，人生没有重来的机会，谨记",
+                        "icon": "cards/2000024"
+                    },
+                    "event_off": 5366690
+                }
+            }
+        }
+    ]
+}

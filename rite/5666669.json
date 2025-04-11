@@ -1,0 +1,199 @@
+{
+  "id": 5666669,
+  "name": "属性提升",
+  "text": "提升一些屬性",
+  "tips": "",
+  "mapping_id": 8001005,
+  "once_new": 1,
+  "round_number": 0,
+  "waiting_round": 1,
+  "waiting_round_end_action": [],
+  "method_settlement": "",
+  "auto_begin": 1,
+  "auto_result": 1,
+  "location": "神殿区:[2,10]",
+  "icon": "rite_15",
+  "tag_tips": [],
+  "tag_tips_up": {},
+  "tips_text": [],
+  "open_conditions": [],
+  "random_text": {},
+  "random_text_up": {},
+  "settlement_prior": [],
+  "settlement": [
+    {
+      "condition": {
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1,
+          "s5": 1,
+          "s6": 1,
+          "s7": 1,
+          "s8": 1,
+          "s9": 1,
+          "s10": 1
+        }
+      },
+      "result_title": "属性提升",
+      "result_text": "提升了一些属性",
+      "result": {
+        "s1+社交": 1,
+        "s2+魔力": 1,
+        "s3+魅力": 1,
+        "s4+体魄": 1,
+        "s5+战斗": 1,
+        "s6+智慧": 1,
+        "s7+隐匿": 1,
+        "s8+生存": 1,
+        "s9+激情": 1,
+        "s10+重投": 1
+      },
+      "action": {}
+    }
+  ],
+  "settlement_extre": [],
+  "cards_slot": {
+    "s1": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升社交"
+    },
+    "s2": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升魔力"
+    },
+    "s3": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升魅力"
+    },
+    "s4": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升体魄"
+    },
+    "s5": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升战斗"
+    },
+    "s6": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升智慧"
+    },
+    "s7": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升隐匿"
+    },
+    "s8": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "提升生存"
+    },
+    "s9": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "迸发激情"
+    },
+    "s10": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "获得重投"
+    }
+  }
+}

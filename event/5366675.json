@@ -58,12 +58,12 @@
                     "event_off": 5366675
                 },
                 "case:op3": {
-                "counter+7100005": 10,
-                "event_off": 5366675
+                    "counter+7100005": 10,
+                    "event_off": 5366675
                 },
                 "case:op4": {
-                "counter-7100005": 1,
-                "event_off": 5366675
+                    "counter-7100005": 1,
+                    "event_off": 5366675
                 },
                 "case:op5": {
                     "counter-7100005": 5,

@@ -72,12 +72,53 @@
         },
         {
             "condition": {
+
+                "s4": 1,
+                "s4.rare>=":2
+
+            },
+            "result_title": "降低品质",
+            "result_text": "[s4.name]降低了品质",
+            "result": {
+                "s4.uprare": -1
+            },
+            "action": {
+            }
+        },
+        {
+            "condition": {
                 "any": {
-                    "s4": 1
+                    "s5": 1
+                }
+            },
+            "result_title": "克隆",
+            "result_text": "可以克隆卡",
+            "result": {},
+            "action": {
+                "copy.s5": 1
+            }
+        },
+        {
+            "condition": {
+                "any": {
+                    "s6": 1
                 }
             },
             "result_title": "神的贈禮",
             "result_text": "你可以向神索要装备，道具或者情报，也可以邀请角色",
+            "result": {},
+            "action": {
+                "event_on": 5367000
+            }
+        },
+        {
+            "condition": {
+                "any": {
+                    "s7+life": -10
+                }
+            },
+            "result_title": "神的耐心",
+            "result_text": "延长了一些卡牌时间",
             "result": {},
             "action": {
                 "event_on": 5367000
@@ -88,7 +129,8 @@
     "cards_slot": {
         "s1": {
             "condition": {
-                "type": "char"
+                "type": "char",
+                "type": "item"
             },
             "open_adsorb": 0,
             "is_key": 0,
@@ -98,7 +140,8 @@
         },
         "s2": {
             "condition": {
-                "type": "char"
+                "type": "char",
+                "type": "item"
             },
             "open_adsorb": 0,
             "is_key": 0,
@@ -140,6 +183,51 @@
         },
         "s4": {
             "condition": {
+                "any": {
+                    "type": "char",
+                    "type": "item",
+                    "type": "sudan"
+                }
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1, // 不能为空
+            "is_enemy": 0,
+            "text": "可以降低品质",
+            "pops": [
+                {
+                    "condition": {
+                        "s4.rare>=": 2
+                    },
+                    "action": {
+                        "pop.5666666_s1_01.self": "可以降低品质"
+                    }
+                },
+                {
+                    "condition": {
+                        "s4.rare=": 1
+                    },
+                    "action": {
+                        "pop.5666666_s1_02.self": "无能为力"
+                    }
+                }
+            ]
+        },
+        "s5": {
+            "condition": {
+                "any": {
+                    "type": "item",
+                    "type": "sudan"
+                }
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1, // 不能为空
+            "is_enemy": 0,
+            "text": "可以复制"
+        },
+        "s6": {
+            "condition": {
                 "type": "char"
             },
             "open_adsorb": 0,
@@ -147,6 +235,19 @@
             "is_empty": 1,
             "is_enemy": 0,
             "text": "你可以向神索要装备，道具或者情报，也可以邀请角色"
+        },
+        "s7": {
+            "condition": {
+                "any": {
+                    "type": "item",
+                    "type": "sudan"
+                }
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1, // 不能为空
+            "is_enemy": 0,
+            "text": "可以延长时间"
         }
     }
 }

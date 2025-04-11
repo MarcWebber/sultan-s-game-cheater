@@ -16,7 +16,7 @@
             "action": {
                 "option": {
                     "id": "5366674_option_1",
-                    "text": "你想要多少侠名？",
+                    "text": "你想要多少权势？",
                     "icon": "cards/2000001",
                     "items": [
                         {
@@ -58,12 +58,12 @@
                     "event_off": 5366674
                 },
                 "case:op3": {
-                "counter+7100004": 10,
-                "event_off": 5366674
+                    "counter+7100004": 10,
+                    "event_off": 5366674
                 },
                 "case:op4": {
-                "counter-7100004": 1,
-                "event_off": 5366674
+                    "counter-7100004": 1,
+                    "event_off": 5366674
                 },
                 "case:op5": {
                     "counter-7100004": 5,
