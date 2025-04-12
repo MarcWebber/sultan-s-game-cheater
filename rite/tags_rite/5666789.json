@@ -3,7 +3,7 @@
     "name": "家务标记",
     "text": "添加或移除家务标记标签",
     "tips": "",
-    "mapping_id": 8001187,
+    "mapping_id": 8001200,
     "once_new": 1,
     "round_number": 0,
     "waiting_round": 1,
@@ -11,7 +11,7 @@
     "method_settlement": "",
     "auto_begin": 1,
     "auto_result": 1,
-    "location": "家宅:[2,10]",
+    "location": "野外:[1,6]",
     "icon": "rite_15",
     "tag_tips": [],
     "tag_tips_up": {},
@@ -20,7 +20,8 @@
     "random_text": {},
     "random_text_up": {},
     "settlement_prior": [],
-    "settlement": [
+    "settlement": [],
+    "settlement_extre": [
         {
             "condition": {
                 "any": {
@@ -48,12 +49,9 @@
             "action": {}
         }
     ],
-    "settlement_extre": [],
     "cards_slot": {
         "s1": {
-            "condition": {
-                "!s2.家务标记": 1
-            },
+            "condition": {},
             "open_adsorb": 0,
             "is_key": 0,
             "is_empty": 1,
@@ -61,9 +59,7 @@
             "text": "添加家务标记标签"
         },
         "s2": {
-            "condition": {
-                "s2.家务标记": 1
-            },
+            "condition": {},
             "open_adsorb": 0,
             "is_key": 0,
             "is_empty": 1,
