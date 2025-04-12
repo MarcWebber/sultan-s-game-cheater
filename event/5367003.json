@@ -1,6 +1,6 @@
 {
   "id": 5367003,
-  "text": "你可以召唤血池,调整时间流速，卡牌整理，",
+  "text": "你可以召唤血池,调整时间流速，卡牌整理，目前后两个功能不生效",
   "is_replay": 0,
   //是否可以重复触发
   "auto_start": false,
@@ -21,7 +21,7 @@
       "action": {
         "option": {
           "id": "5367003_option_1",
-          "text": "你想要什麽？",
+          "text": "此功能不生效",
           "icon": "cards/2000001",
           "items": [
             {
@@ -50,7 +50,23 @@
           "prompt": {
             "id": "5367003_prompt_1",
             "text": "预设一"
-          }
+          },
+          "auto_classify": true,
+          "auto_classify_bag_tags": [
+            [
+              "char",
+              "sudan"
+            ],
+            [
+              "consumable"
+            ],
+            [
+              "equipment"
+            ],
+            [
+              "read"
+            ]
+          ]
         },
         "case:op2": {
           "prompt": {
@@ -62,7 +78,7 @@
           "prompt": {
             "id": "5367003_prompt_3",
             "text": "预设三"
-          },
+          }
         },
         "case:op4": {
           "prompt": {
@@ -72,7 +88,7 @@
         },
         "case:op5": {
           "prompt": {
-            "id": "5367003_prompt_4",
+            "id": "5367003_prompt_5",
             "text": "预设五"
           }
         }
