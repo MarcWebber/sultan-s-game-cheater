@@ -1,36 +1,8 @@
 @echo off
 REM 设置控制台代码页为 UTF-8
 chcp 65001 >nul
-if errorlevel 1 (
-                timeout /t 10 >nul
-                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
-                exit /b 1
-            )
-            
 setlocal enabledelayedexpansion
-
-@REM REM 检查git命令是否可用
-@REM where git >nul 2>&1
-@REM @REM if %errorlevel% equ 0 (
-@REM @REM     echo Git 命令存在，开始执行 git pull 操作...
-@REM @REM     cd /d "%~dp0"
-@REM @REM     REM 拉取远程master分支
-@REM @REM     git pull origin master
-@REM @REM     if %errorlevel% equ 0 (
-@REM @REM         echo 成功拉取远程 master 分支。
-@REM @REM     ) else (
-@REM @REM         echo 拉取远程 master 分支时出错。
-@REM @REM     )
-@REM @REM ) else (
-@REM @REM     echo Git 命令不存在，跳过 git pull 操作。
-@REM @REM )
-
-if errorlevel 1 (
-                timeout /t 10 >nul
-                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
-                exit /b 1
-            )
-set /p "gamePath=请输入苏丹的游戏路径（例如：E:\Games\Steam\steamapps\common\Sultan's Game）："
+set /p "gamePath=请输入游戏路径（eg：E:\Games\Steam\steamapps\common\Sultan's Game）："
 REM 检查路径是否存在（添加双引号避免空格问题）
 if exist "%gamePath%\" (
     echo 游戏路径存在，开始执行文件替换操作.
@@ -207,3 +179,5 @@ if exist "%gamePath%\" (
     echo 游戏路径不存在，请检查输入的路径是否正确："%gamePath%"
 )
 endlocal
+
+pause

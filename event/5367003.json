@@ -1,5 +1,5 @@
 {
-  "id": 5367001,
+  "id": 5367003,
   "text": "你可以召唤血池,调整时间流速，卡牌整理，",
   "is_replay": 0,
   //是否可以重复触发
@@ -20,57 +20,60 @@
       "tips_text": "",
       "action": {
         "option": {
-          "id": "5367001_option_1",
+          "id": "5367003_option_1",
           "text": "你想要什麽？",
           "icon": "cards/2000001",
           "items": [
             {
-              "text": "召唤血池",
+              "text": "预设一",
               "tag": "op1"
             },
             {
-              "text": "调整时间流速",
+              "text": "预设二",
               "tag": "op2"
             },
             {
-              "text": "调整卡牌整理方式",
+              "text": "预设三",
               "tag": "op3"
             },
             {
-              "text": "我不會和豺狼做交易",
+              "text": "预设四",
               "tag": "op4"
+            },
+            {
+              "text": "原来的挺好",
+              "tag": "op5"
             }
           ]
         },
         "case:op1": {
           "prompt": {
-            "id": "5367001_prompt_1",
-            "text": "血池出现了",
-            "icon": "cards/2000001"
-          },
-          "rite": 5666669
+            "id": "5367003_prompt_1",
+            "text": "预设一"
+          }
         },
         "case:op2": {
           "prompt": {
-            "id": "5367001_prompt_2",
-            "text": "请选择你的卡牌整理模板--暂时只支持预设的整理方式",
-            "icon": "cards/2000001"
-          },
-          "event_on": 5367003
+            "id": "5367003_prompt_2",
+            "text": "预设二"
+          }
         },
         "case:op3": {
           "prompt": {
-            "id": "5367001_prompt_3",
-            "text": "请选择时间流速",
-            "icon": "cards/2000001"
+            "id": "5367003_prompt_3",
+            "text": "预设三"
           },
-          "event_on": 5367004
         },
-        "case:op6": {
+        "case:op4": {
           "prompt": {
-            "id": "5367001_prompt_4",
-            "text": "你拒絕了大苏丹的恩典",
-            "icon": "cards/2000001"
+            "id": "5367003_prompt_4",
+            "text": "预设四"
+          }
+        },
+        "case:op5": {
+          "prompt": {
+            "id": "5367003_prompt_4",
+            "text": "预设五"
           }
         }
       }
