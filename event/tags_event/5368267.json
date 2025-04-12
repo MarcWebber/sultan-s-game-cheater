@@ -1,0 +1,109 @@
+{
+    "id": 5368267,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368267_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "战斗的痕迹",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "重投",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "质子",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "正教的信徒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "妆扮",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666807,
+                    "prompt": {
+                        "id": "5368267_prompt_1",
+                        "text": "你選擇了战斗的痕迹,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666809,
+                    "prompt": {
+                        "id": "5368267_prompt_2",
+                        "text": "你選擇了重投,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666810,
+                    "prompt": {
+                        "id": "5368267_prompt_3",
+                        "text": "你選擇了质子,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666812,
+                    "prompt": {
+                        "id": "5368267_prompt_4",
+                        "text": "你選擇了正教的信徒,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666822,
+                    "prompt": {
+                        "id": "5368267_prompt_5",
+                        "text": "你選擇了妆扮,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368266,
+                    "event_off": 5368267
+                },
+                "case:op7": {
+                    "event_on": 5368268,
+                    "event_off": 5368267
+                },
+                "case:op8": {
+                    "event_off": 5368267
+                }
+            }
+        }
+    ]
+}

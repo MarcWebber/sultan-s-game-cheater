@@ -1,0 +1,81 @@
+{
+    "id": 5368226,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368226_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "可雇佣",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "可堆叠",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "开启",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "空屋",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666732,
+                    "prompt": {
+                        "id": "5368226_prompt_1",
+                        "text": "你選擇了可雇佣,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666740,
+                    "prompt": {
+                        "id": "5368226_prompt_2",
+                        "text": "你選擇了可堆叠,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666765,
+                    "prompt": {
+                        "id": "5368226_prompt_3",
+                        "text": "你選擇了开启,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666856,
+                    "prompt": {
+                        "id": "5368226_prompt_4",
+                        "text": "你選擇了空屋,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368225
+                }
+            }
+        }
+    ]
+}

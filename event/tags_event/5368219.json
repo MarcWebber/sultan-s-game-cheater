@@ -1,0 +1,69 @@
+{
+    "id": 5368219,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368219_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "孤儿",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "古老的誓约",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "改革",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666931,
+                    "prompt": {
+                        "id": "5368219_prompt_1",
+                        "text": "你選擇了孤儿,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666950,
+                    "prompt": {
+                        "id": "5368219_prompt_2",
+                        "text": "你選擇了古老的誓约,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666958,
+                    "prompt": {
+                        "id": "5368219_prompt_3",
+                        "text": "你選擇了改革,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5368218
+                }
+            }
+        }
+    ]
+}

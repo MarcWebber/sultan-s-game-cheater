@@ -1,0 +1,45 @@
+{
+    "id": 5368208,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368208_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "刺青",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5667006,
+                    "prompt": {
+                        "id": "5368208_prompt_1",
+                        "text": "你選擇了刺青,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5368207
+                }
+            }
+        }
+    ]
+}

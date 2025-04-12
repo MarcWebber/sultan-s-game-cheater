@@ -1,0 +1,109 @@
+{
+    "id": 5368240,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368240_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "食物",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "饰品",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "饰品存货",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "受伤",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "思潮",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666738,
+                    "prompt": {
+                        "id": "5368240_prompt_1",
+                        "text": "你選擇了食物,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666751,
+                    "prompt": {
+                        "id": "5368240_prompt_2",
+                        "text": "你選擇了饰品,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666761,
+                    "prompt": {
+                        "id": "5368240_prompt_3",
+                        "text": "你選擇了饰品存货,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666770,
+                    "prompt": {
+                        "id": "5368240_prompt_4",
+                        "text": "你選擇了受伤,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666778,
+                    "prompt": {
+                        "id": "5368240_prompt_5",
+                        "text": "你選擇了思潮,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368239,
+                    "event_off": 5368240
+                },
+                "case:op7": {
+                    "event_on": 5368241,
+                    "event_off": 5368240
+                },
+                "case:op8": {
+                    "event_off": 5368240
+                }
+            }
+        }
+    ]
+}

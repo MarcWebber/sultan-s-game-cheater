@@ -1,0 +1,109 @@
+{
+    "id": 5368254,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368254_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "邪神的连接",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "信誉",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "新婚",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "侠名的遮掩",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "信",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666910,
+                    "prompt": {
+                        "id": "5368254_prompt_1",
+                        "text": "你選擇了邪神的连接,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666911,
+                    "prompt": {
+                        "id": "5368254_prompt_2",
+                        "text": "你選擇了信誉,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666914,
+                    "prompt": {
+                        "id": "5368254_prompt_3",
+                        "text": "你選擇了新婚,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666917,
+                    "prompt": {
+                        "id": "5368254_prompt_4",
+                        "text": "你選擇了侠名的遮掩,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666926,
+                    "prompt": {
+                        "id": "5368254_prompt_5",
+                        "text": "你選擇了信,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368253,
+                    "event_off": 5368254
+                },
+                "case:op7": {
+                    "event_on": 5368255,
+                    "event_off": 5368254
+                },
+                "case:op8": {
+                    "event_off": 5368254
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 5368257,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368257_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "隐匿",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "影响力",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "已拥有",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "浴场",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "淫具",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666703,
+                    "prompt": {
+                        "id": "5368257_prompt_1",
+                        "text": "你選擇了隐匿,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666709,
+                    "prompt": {
+                        "id": "5368257_prompt_2",
+                        "text": "你選擇了影响力,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666712,
+                    "prompt": {
+                        "id": "5368257_prompt_3",
+                        "text": "你選擇了已拥有,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666726,
+                    "prompt": {
+                        "id": "5368257_prompt_4",
+                        "text": "你選擇了浴场,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666758,
+                    "prompt": {
+                        "id": "5368257_prompt_5",
+                        "text": "你選擇了淫具,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368256,
+                    "event_off": 5368257
+                },
+                "case:op7": {
+                    "event_on": 5368258,
+                    "event_off": 5368257
+                },
+                "case:op8": {
+                    "event_off": 5368257
+                }
+            }
+        }
+    ]
+}

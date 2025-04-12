@@ -1,0 +1,74 @@
+{
+    "id": 5666754,
+    "name": "专属",
+    "text": "添加或移除专属标签",
+    "tips": "",
+    "mapping_id": 8001187,
+    "once_new": 1,
+    "round_number": 0,
+    "waiting_round": 1,
+    "waiting_round_end_action": [],
+    "method_settlement": "",
+    "auto_begin": 1,
+    "auto_result": 1,
+    "location": "家宅:[2,10]",
+    "icon": "rite_15",
+    "tag_tips": [],
+    "tag_tips_up": {},
+    "tips_text": [],
+    "open_conditions": [],
+    "random_text": {},
+    "random_text_up": {},
+    "settlement_prior": [],
+    "settlement": [
+        {
+            "condition": {
+                "any": {
+                    "s1": 1
+                }
+            },
+            "result_title": "添加专属标签",
+            "result_text": "[s1.name]添加了移除专属标签",
+            "result": {
+                "s1+专属": 1
+            },
+            "action": {}
+        },
+        {
+            "condition": {
+                "any": {
+                    "s2": 1
+                }
+            },
+            "result_title": "移除专属标签",
+            "result_text": "[s2.name]移除了专属标签",
+            "result": {
+                "s2-专属": 1
+            },
+            "action": {}
+        }
+    ],
+    "settlement_extre": [],
+    "cards_slot": {
+        "s1": {
+            "condition": {
+                "!s2.专属": 1
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "添加专属标签"
+        },
+        "s2": {
+            "condition": {
+                "s2.专属": 1
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "移除专属标签"
+        }
+    }
+}

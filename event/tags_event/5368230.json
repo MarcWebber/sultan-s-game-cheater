@@ -1,0 +1,109 @@
+{
+    "id": 5368230,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368230_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "密教徒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "命运点",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "魅力护符",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "命运的羁绊",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "免疫",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666816,
+                    "prompt": {
+                        "id": "5368230_prompt_1",
+                        "text": "你選擇了密教徒,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666823,
+                    "prompt": {
+                        "id": "5368230_prompt_2",
+                        "text": "你選擇了命运点,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666835,
+                    "prompt": {
+                        "id": "5368230_prompt_3",
+                        "text": "你選擇了魅力护符,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666840,
+                    "prompt": {
+                        "id": "5368230_prompt_4",
+                        "text": "你選擇了命运的羁绊,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666852,
+                    "prompt": {
+                        "id": "5368230_prompt_5",
+                        "text": "你選擇了免疫,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368229,
+                    "event_off": 5368230
+                },
+                "case:op7": {
+                    "event_on": 5368231,
+                    "event_off": 5368230
+                },
+                "case:op8": {
+                    "event_off": 5368230
+                }
+            }
+        }
+    ]
+}

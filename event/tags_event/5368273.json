@@ -1,0 +1,109 @@
+{
+    "id": 5368273,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368273_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "最重要的人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "祝福",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "正教的乙太",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "长寿的印记",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "扎齐伊",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666977,
+                    "prompt": {
+                        "id": "5368273_prompt_1",
+                        "text": "你選擇了最重要的人,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666996,
+                    "prompt": {
+                        "id": "5368273_prompt_2",
+                        "text": "你選擇了祝福,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5667003,
+                    "prompt": {
+                        "id": "5368273_prompt_3",
+                        "text": "你選擇了正教的乙太,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5667005,
+                    "prompt": {
+                        "id": "5368273_prompt_4",
+                        "text": "你選擇了长寿的印记,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5667018,
+                    "prompt": {
+                        "id": "5368273_prompt_5",
+                        "text": "你選擇了扎齐伊,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368272,
+                    "event_off": 5368273
+                },
+                "case:op7": {
+                    "event_on": 5368274,
+                    "event_off": 5368273
+                },
+                "case:op8": {
+                    "event_off": 5368273
+                }
+            }
+        }
+    ]
+}

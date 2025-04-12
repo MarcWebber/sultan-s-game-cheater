@@ -1,0 +1,69 @@
+{
+    "id": 5368228,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368228_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "乐",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "烂泥训练",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "猎魂训练",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666929,
+                    "prompt": {
+                        "id": "5368228_prompt_1",
+                        "text": "你選擇了乐,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666963,
+                    "prompt": {
+                        "id": "5368228_prompt_2",
+                        "text": "你選擇了烂泥训练,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666967,
+                    "prompt": {
+                        "id": "5368228_prompt_3",
+                        "text": "你選擇了猎魂训练,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5368227
+                }
+            }
+        }
+    ]
+}

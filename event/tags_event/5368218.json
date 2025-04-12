@@ -1,0 +1,109 @@
+{
+    "id": 5368218,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368218_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "怪物",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "改造次数",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "国民的好感",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "官吏的好感",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "盖斯",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666826,
+                    "prompt": {
+                        "id": "5368218_prompt_1",
+                        "text": "你選擇了怪物,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666843,
+                    "prompt": {
+                        "id": "5368218_prompt_2",
+                        "text": "你選擇了改造次数,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666868,
+                    "prompt": {
+                        "id": "5368218_prompt_3",
+                        "text": "你選擇了国民的好感,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666869,
+                    "prompt": {
+                        "id": "5368218_prompt_4",
+                        "text": "你選擇了官吏的好感,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666888,
+                    "prompt": {
+                        "id": "5368218_prompt_5",
+                        "text": "你選擇了盖斯,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368217,
+                    "event_off": 5368218
+                },
+                "case:op7": {
+                    "event_on": 5368219,
+                    "event_off": 5368218
+                },
+                "case:op8": {
+                    "event_off": 5368218
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 5368259,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368259_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "已获掠夺之欢",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "已获亵渎之欢",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "已获放浪之欢",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "已获勇士之欢",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "已获异域之欢",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666878,
+                    "prompt": {
+                        "id": "5368259_prompt_1",
+                        "text": "你選擇了已获掠夺之欢,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666879,
+                    "prompt": {
+                        "id": "5368259_prompt_2",
+                        "text": "你選擇了已获亵渎之欢,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666880,
+                    "prompt": {
+                        "id": "5368259_prompt_3",
+                        "text": "你選擇了已获放浪之欢,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666881,
+                    "prompt": {
+                        "id": "5368259_prompt_4",
+                        "text": "你選擇了已获勇士之欢,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666882,
+                    "prompt": {
+                        "id": "5368259_prompt_5",
+                        "text": "你選擇了已获异域之欢,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368258,
+                    "event_off": 5368259
+                },
+                "case:op7": {
+                    "event_on": 5368260,
+                    "event_off": 5368259
+                },
+                "case:op8": {
+                    "event_off": 5368259
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 5368255,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368255_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "小偷",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "新月",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "驯兽",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "吸收天使",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "吸收念珠",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666942,
+                    "prompt": {
+                        "id": "5368255_prompt_1",
+                        "text": "你選擇了小偷,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666974,
+                    "prompt": {
+                        "id": "5368255_prompt_2",
+                        "text": "你選擇了新月,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666990,
+                    "prompt": {
+                        "id": "5368255_prompt_3",
+                        "text": "你選擇了驯兽,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5667014,
+                    "prompt": {
+                        "id": "5368255_prompt_4",
+                        "text": "你選擇了吸收天使,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5667015,
+                    "prompt": {
+                        "id": "5368255_prompt_5",
+                        "text": "你選擇了吸收念珠,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368254,
+                    "event_off": 5368255
+                },
+                "case:op7": {
+                    "event_on": 5368256,
+                    "event_off": 5368255
+                },
+                "case:op8": {
+                    "event_off": 5368255
+                }
+            }
+        }
+    ]
+}

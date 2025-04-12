@@ -65,8 +65,7 @@
       "result": {
         "s3.uprare": 1
       },
-      "action": {
-      }
+      "action": {}
     },
     {
       "condition": {
@@ -78,8 +77,7 @@
       "result": {
         "s4.uprare": -1
       },
-      "action": {
-      }
+      "action": {}
     },
     {
       "condition": {
@@ -145,9 +143,24 @@
       "action": {
         "s9-贵族": 1
       }
+    },
+    {
+      "condition": {
+        "any": {
+          "s10": 1
+        }
+      },
+      "result_title": "添加或移除TAG",
+      "result_text": "现在你可以给卡牌添加或移除TAG了，这个功能十分离谱，你可以大胆尝试。至于会出什么样的结果？谁知道呢",
+      "result": {
+        "clean.rite":5666666,
+        "event_on": 5368300
+      },
+      "action": {
+        
+      }
     }
   ],
-
   "settlement_extre": [],
   "cards_slot": {
     "s1": {
@@ -300,6 +313,14 @@
       "is_empty": 1,
       "is_enemy": 0,
       "text": "剥夺贵族头衔"
+    },
+    "s10": {
+      "condition": {},
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "添加或移除指定TAG"
     }
   }
 }

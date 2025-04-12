@@ -1,0 +1,81 @@
+{
+    "id": 5368200,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368200_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "爱书人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "爱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "安全屋",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "暗示的印记",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666757,
+                    "prompt": {
+                        "id": "5368200_prompt_1",
+                        "text": "你選擇了爱书人,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666925,
+                    "prompt": {
+                        "id": "5368200_prompt_2",
+                        "text": "你選擇了爱,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666937,
+                    "prompt": {
+                        "id": "5368200_prompt_3",
+                        "text": "你選擇了安全屋,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5667004,
+                    "prompt": {
+                        "id": "5368200_prompt_4",
+                        "text": "你選擇了暗示的印记,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368199
+                }
+            }
+        }
+    ]
+}

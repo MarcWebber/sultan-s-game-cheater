@@ -1,0 +1,109 @@
+{
+    "id": 5368235,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368235_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "情报",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "囚徒",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "奇珍",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "虔信",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666741,
+                    "prompt": {
+                        "id": "5368235_prompt_1",
+                        "text": "你選擇了情报,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666746,
+                    "prompt": {
+                        "id": "5368235_prompt_2",
+                        "text": "你選擇了妻子,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666755,
+                    "prompt": {
+                        "id": "5368235_prompt_3",
+                        "text": "你選擇了囚徒,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666792,
+                    "prompt": {
+                        "id": "5368235_prompt_4",
+                        "text": "你選擇了奇珍,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666893,
+                    "prompt": {
+                        "id": "5368235_prompt_5",
+                        "text": "你選擇了虔信,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368234,
+                    "event_off": 5368235
+                },
+                "case:op7": {
+                    "event_on": 5368236,
+                    "event_off": 5368235
+                },
+                "case:op8": {
+                    "event_off": 5368235
+                }
+            }
+        }
+    ]
+}

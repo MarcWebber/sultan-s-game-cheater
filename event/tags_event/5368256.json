@@ -1,0 +1,57 @@
+{
+    "id": 5368256,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368256_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "吸收信徒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "吸收王冠",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5667016,
+                    "prompt": {
+                        "id": "5368256_prompt_1",
+                        "text": "你選擇了吸收信徒,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5667017,
+                    "prompt": {
+                        "id": "5368256_prompt_2",
+                        "text": "你選擇了吸收王冠,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5368255
+                }
+            }
+        }
+    ]
+}

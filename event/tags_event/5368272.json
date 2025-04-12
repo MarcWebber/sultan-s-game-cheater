@@ -1,0 +1,109 @@
+{
+    "id": 5368272,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368272_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "障眼法",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "追随的人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "智",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "正当性",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "滋长",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666920,
+                    "prompt": {
+                        "id": "5368272_prompt_1",
+                        "text": "你選擇了障眼法,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666923,
+                    "prompt": {
+                        "id": "5368272_prompt_2",
+                        "text": "你選擇了追随的人,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666927,
+                    "prompt": {
+                        "id": "5368272_prompt_3",
+                        "text": "你選擇了智,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666944,
+                    "prompt": {
+                        "id": "5368272_prompt_4",
+                        "text": "你選擇了正当性,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666951,
+                    "prompt": {
+                        "id": "5368272_prompt_5",
+                        "text": "你選擇了滋长,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368271,
+                    "event_off": 5368272
+                },
+                "case:op7": {
+                    "event_on": 5368273,
+                    "event_off": 5368272
+                },
+                "case:op8": {
+                    "event_off": 5368272
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 5368229,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368229_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "魅力",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "魔力",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "盟友",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "美德",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "魔力戒指",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666701,
+                    "prompt": {
+                        "id": "5368229_prompt_1",
+                        "text": "你選擇了魅力,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666708,
+                    "prompt": {
+                        "id": "5368229_prompt_2",
+                        "text": "你選擇了魔力,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666720,
+                    "prompt": {
+                        "id": "5368229_prompt_3",
+                        "text": "你選擇了盟友,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666731,
+                    "prompt": {
+                        "id": "5368229_prompt_4",
+                        "text": "你選擇了美德,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666762,
+                    "prompt": {
+                        "id": "5368229_prompt_5",
+                        "text": "你選擇了魔力戒指,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368228,
+                    "event_off": 5368229
+                },
+                "case:op7": {
+                    "event_on": 5368230,
+                    "event_off": 5368229
+                },
+                "case:op8": {
+                    "event_off": 5368229
+                }
+            }
+        }
+    ]
+}

@@ -21,7 +21,6 @@ if exist "%gamePath%\" (
         set "fileName=%%~nxf"
         REM 清理旧文件
         if exist "!ceremonyPath!\!fileName!" (
-            echo 正在删除旧仪式文件："!fileName!"
             del /q "!ceremonyPath!\!fileName!"
             if errorlevel 1 (
                 timeout /t 10 >nul
@@ -41,7 +40,6 @@ if exist "%gamePath%\" (
         set "fileName=%%~nxf"
         REM 清理旧文件
         if exist "!ceremonyPath!\!fileName!" (
-            echo 正在删除旧仪式文件："!fileName!"
             del /q "!ceremonyPath!\!fileName!"
             if errorlevel 1 (
                 echo [错误] 删除旧特殊仪式文件失败: "!ceremonyPath!\!fileName!"
@@ -56,6 +54,25 @@ if exist "%gamePath%\" (
         )
     )
 
+    REM === 添加额外的仪式（用于触发tag添加） ====
+    for %%f in ("%~dp0rite\tags_rite\*.json") do (
+        set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧TAG仪式文件失败: "!ceremonyPath!\!fileName!"
+                exit /b 1
+            )
+        )
+        echo 正在添加TAG仪式："!fileName!"
+        copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
+        if errorlevel 1 (
+            echo [错误] TAG仪式文件复制失败: "%%f"
+            exit /b 1
+        )
+    )
+
     REM === 3. 添加事件、道具和装备文件 ===
     set "eventPath=%gamePath%\Sultan's Game_Data\StreamingAssets\config\event"
     REM 复制事件文件
@@ -63,7 +80,6 @@ if exist "%gamePath%\" (
         set "fileName=%%~nxf"
         REM 清理旧文件
         if exist "!eventPath!\!fileName!" (
-            echo 正在删除旧事件文件："!fileName!"
             del /q "!eventPath!\!fileName!"
             if errorlevel 1 (
                 echo [错误] 删除旧事件文件失败: "!eventPath!\!fileName!"
@@ -173,6 +189,25 @@ if exist "%gamePath%\" (
          )
      )
 
+    @REM 复制TAG文件（确保目标子目录存在）
+    set "equipsPath=!eventPath!"
+    for %%f in ("%~dp0event\tags_event\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除旧TAG事件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+         echo 正在添加TAG事件的索引："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 添加TAG事件索引失败: "%%f"
+             exit /b 1
+         )
+     )
     echo 所有文件已成功复制到游戏目录！
     timeout /t 5 >nul
 ) else (

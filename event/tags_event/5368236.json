@@ -1,0 +1,81 @@
+{
+    "id": 5368236,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368236_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "囚徒奈费勒",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "权势的遮掩",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "旗手",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "枪姬训练",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666896,
+                    "prompt": {
+                        "id": "5368236_prompt_1",
+                        "text": "你選擇了囚徒奈费勒,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666916,
+                    "prompt": {
+                        "id": "5368236_prompt_2",
+                        "text": "你選擇了权势的遮掩,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666948,
+                    "prompt": {
+                        "id": "5368236_prompt_3",
+                        "text": "你選擇了旗手,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666965,
+                    "prompt": {
+                        "id": "5368236_prompt_4",
+                        "text": "你選擇了枪姬训练,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368235
+                }
+            }
+        }
+    ]
+}

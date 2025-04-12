@@ -1,0 +1,81 @@
+{
+    "id": 5368233,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368233_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "奈费勒的优势",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "娜依拉的不满",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈布哈尼准备银趴",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "你的圣主",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666847,
+                    "prompt": {
+                        "id": "5368233_prompt_1",
+                        "text": "你選擇了奈费勒的优势,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666877,
+                    "prompt": {
+                        "id": "5368233_prompt_2",
+                        "text": "你選擇了娜依拉的不满,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666939,
+                    "prompt": {
+                        "id": "5368233_prompt_3",
+                        "text": "你選擇了奈布哈尼准备银趴,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666985,
+                    "prompt": {
+                        "id": "5368233_prompt_4",
+                        "text": "你選擇了你的圣主,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5368232
+                }
+            }
+        }
+    ]
+}

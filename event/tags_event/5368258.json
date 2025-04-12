@@ -1,0 +1,109 @@
+{
+    "id": 5368258,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368258_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "幽秘的爱意",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "抑郁",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "异国商人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "已和骑兵队长对决过",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "有跟班",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666763,
+                    "prompt": {
+                        "id": "5368258_prompt_1",
+                        "text": "你選擇了幽秘的爱意,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666787,
+                    "prompt": {
+                        "id": "5368258_prompt_2",
+                        "text": "你選擇了抑郁,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666801,
+                    "prompt": {
+                        "id": "5368258_prompt_3",
+                        "text": "你選擇了异国商人,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666805,
+                    "prompt": {
+                        "id": "5368258_prompt_4",
+                        "text": "你選擇了已和骑兵队长对决过,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666874,
+                    "prompt": {
+                        "id": "5368258_prompt_5",
+                        "text": "你選擇了有跟班,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368257,
+                    "event_off": 5368258
+                },
+                "case:op7": {
+                    "event_on": 5368259,
+                    "event_off": 5368258
+                },
+                "case:op8": {
+                    "event_off": 5368258
+                }
+            }
+        }
+    ]
+}

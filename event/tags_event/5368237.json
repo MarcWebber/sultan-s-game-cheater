@@ -1,0 +1,109 @@
+{
+    "id": 5368237,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368237_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "人类",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "入圣",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "入梦",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "芮尔",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "芮尔手下",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666714,
+                    "prompt": {
+                        "id": "5368237_prompt_1",
+                        "text": "你選擇了人类,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666841,
+                    "prompt": {
+                        "id": "5368237_prompt_2",
+                        "text": "你選擇了入圣,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666936,
+                    "prompt": {
+                        "id": "5368237_prompt_3",
+                        "text": "你選擇了入梦,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666960,
+                    "prompt": {
+                        "id": "5368237_prompt_4",
+                        "text": "你選擇了芮尔,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666961,
+                    "prompt": {
+                        "id": "5368237_prompt_5",
+                        "text": "你選擇了芮尔手下,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368236,
+                    "event_off": 5368237
+                },
+                "case:op7": {
+                    "event_on": 5368238,
+                    "event_off": 5368237
+                },
+                "case:op8": {
+                    "event_off": 5368237
+                }
+            }
+        }
+    ]
+}

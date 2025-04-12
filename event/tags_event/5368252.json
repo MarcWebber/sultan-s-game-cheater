@@ -1,0 +1,109 @@
+{
+    "id": 5368252,
+    "text": "选择标签",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368252_option_1",
+                    "text": "选择标签",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "学识",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "消耗品",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "选妃标记",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "休息",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "血肉附魔",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5666706,
+                    "prompt": {
+                        "id": "5368252_prompt_1",
+                        "text": "你選擇了学识,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5666724,
+                    "prompt": {
+                        "id": "5368252_prompt_2",
+                        "text": "你選擇了消耗品,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5666782,
+                    "prompt": {
+                        "id": "5368252_prompt_3",
+                        "text": "你選擇了选妃标记,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5666804,
+                    "prompt": {
+                        "id": "5368252_prompt_4",
+                        "text": "你選擇了休息,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666827,
+                    "prompt": {
+                        "id": "5368252_prompt_5",
+                        "text": "你選擇了血肉附魔,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368251,
+                    "event_off": 5368252
+                },
+                "case:op7": {
+                    "event_on": 5368253,
+                    "event_off": 5368252
+                },
+                "case:op8": {
+                    "event_off": 5368252
+                }
+            }
+        }
+    ]
+}
