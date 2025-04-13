@@ -153,21 +153,21 @@
       "result_title": "添加或移除TAG",
       "result_text": "现在你可以给卡牌添加或移除TAG了，这个功能十分离谱，你可以大胆尝试。至于会出什么样的结果？谁知道呢",
       "result": {
-        "clean.rite":5666666,
+        "clean.rite": 5666666,
         "event_on": 5368300
       },
-      "action": {
-        
-      }
+      "action": {}
     }
   ],
   "settlement_extre": [],
   "cards_slot": {
     "s1": {
       "condition": {
-        "type": "char",
-        "type": "item"
-      },
+        "any": {
+          "type": "char",
+          "type": "item"
+        }
+      }
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
@@ -176,8 +176,10 @@
     },
     "s2": {
       "condition": {
-        "type": "char",
-        "type": "item"
+        "any": {
+          "type": "char",
+          "type": "item"
+        }
       },
       "open_adsorb": 0,
       "is_key": 0,
@@ -196,7 +198,6 @@
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
-      // 不能为空
       "is_enemy": 0,
       "text": "可以提升品质",
       "pops": [
