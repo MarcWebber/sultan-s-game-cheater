@@ -112,10 +112,10 @@
         }
       },
       "result_title": "神的耐心",
-      "result_text": "延长了一些卡牌时间",
+      "result_text": "卡牌被冻结了",
       "result": {},
       "action": {
-        "s1=life": 0
+        "s7+冻结": 1
       }
     },
     {
@@ -287,7 +287,7 @@
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "可以延长时间"
+      "text": "可以冻结卡牌时间"
     },
     "s8": {
       "condition": {
