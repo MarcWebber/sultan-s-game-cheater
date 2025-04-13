@@ -1,35 +1,8 @@
 @echo off
 REM 设置控制台代码页为 UTF-8
 chcp 65001 >nul
-if errorlevel 1 (
-                timeout /t 10 >nul
-                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
-                exit /b 1
-            )
-            
 setlocal enabledelayedexpansion
 
-@REM REM 检查git命令是否可用
-@REM where git >nul 2>&1
-@REM @REM if %errorlevel% equ 0 (
-@REM @REM     echo Git 命令存在，开始执行 git pull 操作...
-@REM @REM     cd /d "%~dp0"
-@REM @REM     REM 拉取远程master分支
-@REM @REM     git pull origin master
-@REM @REM     if %errorlevel% equ 0 (
-@REM @REM         echo 成功拉取远程 master 分支。
-@REM @REM     ) else (
-@REM @REM         echo 拉取远程 master 分支时出错。
-@REM @REM     )
-@REM @REM ) else (
-@REM @REM     echo Git 命令不存在，跳过 git pull 操作。
-@REM @REM )
-
-if errorlevel 1 (
-                timeout /t 10 >nul
-                echo the bat file may be incompatiable with your pc, please contact mod maker for information,  or you can copy files mannually
-                exit /b 1
-            )
 set /p "gamePath=请输入苏丹的游戏路径（例如：E:\Games\Steam\steamapps\common\Sultan's Game）："
 REM 检查路径是否存在（移除双引号避免空格问题）
 if exist "%gamePath%\" (
@@ -68,9 +41,22 @@ if exist "%gamePath%\" (
         )
     )
 
+    REM === 移除额外的TAG仪式（用于触发事件） ====
+    for %%f in ("%~dp0rite\tags_rite\*.json") do (
+        set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            echo 正在删除旧TAG仪式文件："!fileName!"
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除旧TAG特殊仪式文件失败: "!ceremonyPath!\!fileName!"
+                exit /b 1
+            )
+        )
+    )
+
     REM === 3. 移除事件、道具和装备文件 ===
     set "eventPath=%gamePath%\Sultan's Game_Data\StreamingAssets\config\event"
-    REM 复制事件文件
     for %%f in ("%~dp0event\*.json") do (
         set "fileName=%%~nxf"
         REM 清理旧文件
@@ -147,12 +133,38 @@ if exist "%gamePath%\" (
                  exit /b 1
              )
          )
-
      )
 
-    echo 所有文件已删除，cards和upgrades请手动处理
-    timeout /t 5 >nul
+     set "equipsPath=!eventPath!"
+     for %%f in ("%~dp0event\tags_event\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             echo 正在删除旧TAG事件文件
+             if errorlevel 1 (
+                 echo [错误] 删除旧tag事件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+     )
+
+    @REM 替换回upgrades和cards
+    set "backupPath=%~dp0DON'T_EDIT_THIS"
+    echo !backupPath!
+    echo 正在修复upgrade.json
+    copy /y "!backupPath!\upgrade.json" "!dataPath!\upgrade.json" >nul
+    echo 正在修复cards.json
+    copy /y "!backupPath!\cards.json" "!dataPath!\cards.json" >nul
+    echo 正在修复俺寻思
+    copy /y "!backupPath!\rite\5000002.json" "!dataPath!\rite\5000002.json" >nul
+    echo 正在修复开始事件
+    copy /y "!backupPath!\event\5310003.json" "!dataPath!\event\5310003.json" >nul
+
+    echo mod已经移除
+    timeout /t 2 >nul
 ) else (
     echo 游戏路径不存在，请检查输入的路径是否正确："%gamePath%"
 )
 endlocal
+pause
