@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加豺狼训练标签",
-            "result_text": "[s1.name]添加了移除豺狼训练标签",
+            "result_text": "[s1.name]添加了豺狼训练标签",
             "result": {
                 "s1+豺狼训练": 1
             },

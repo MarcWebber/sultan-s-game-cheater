@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加逃跑的方法标签",
-            "result_text": "[s1.name]添加了移除逃跑的方法标签",
+            "result_text": "[s1.name]添加了逃跑的方法标签",
             "result": {
                 "s1+逃跑的方法": 1
             },

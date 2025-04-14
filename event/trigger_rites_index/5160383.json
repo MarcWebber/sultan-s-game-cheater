@@ -1,0 +1,109 @@
+{
+    "id": 5160383,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160383_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "消除妻子的不满",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "相面术",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "西行记",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贤者的话语",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "星空学徒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160383_prompt_1",
+                        "text": "你選擇了消除妻子的不满",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200009
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160383_prompt_2",
+                        "text": "你選擇了相面术",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200023
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160383_prompt_3",
+                        "text": "你選擇了西行记",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200034
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160383_prompt_4",
+                        "text": "你選擇了贤者的话语",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200041
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160383_prompt_5",
+                        "text": "你選擇了星空学徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200053
+                },
+                "case:op6": {
+                    "event_on": 5160382,
+                    "event_off": 5160383
+                },
+                "case:op7": {
+                    "event_on": 5160384,
+                    "event_off": 5160383
+                },
+                "case:op8": {
+                    "event_off": 5160383
+                }
+            }
+        }
+    ]
+}

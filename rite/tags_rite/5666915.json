@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加善名的遮掩标签",
-            "result_text": "[s1.name]添加了移除善名的遮掩标签",
+            "result_text": "[s1.name]添加了善名的遮掩标签",
             "result": {
                 "s1+善名的遮掩": 1
             },

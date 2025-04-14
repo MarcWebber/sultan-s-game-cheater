@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加对邪神的怀疑标签",
-            "result_text": "[s1.name]添加了移除对邪神的怀疑标签",
+            "result_text": "[s1.name]添加了对邪神的怀疑标签",
             "result": {
                 "s1+对邪神的怀疑": 1
             },

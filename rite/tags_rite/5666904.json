@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加苏丹的怒火标签",
-            "result_text": "[s1.name]添加了移除苏丹的怒火标签",
+            "result_text": "[s1.name]添加了苏丹的怒火标签",
             "result": {
                 "s1+苏丹的怒火": 1
             },

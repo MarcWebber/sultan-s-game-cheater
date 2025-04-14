@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加吸收天使标签",
-            "result_text": "[s1.name]添加了移除吸收天使标签",
+            "result_text": "[s1.name]添加了吸收天使标签",
             "result": {
                 "s1+吸收天使": 1
             },

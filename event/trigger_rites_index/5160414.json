@@ -1,0 +1,109 @@
+{
+    "id": 5160414,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160414_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "郁郁寡欢",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "勇气与团结",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "一则蹊跷的新闻",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "异想天开的构思",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "欲望与幸福",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160414_prompt_1",
+                        "text": "你選擇了郁郁寡欢",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206638
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160414_prompt_2",
+                        "text": "你選擇了勇气与团结",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206660
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160414_prompt_3",
+                        "text": "你選擇了一则蹊跷的新闻",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206673
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160414_prompt_4",
+                        "text": "你選擇了异想天开的构思",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206675
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160414_prompt_5",
+                        "text": "你選擇了欲望与幸福",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208008
+                },
+                "case:op6": {
+                    "event_on": 5160413,
+                    "event_off": 5160414
+                },
+                "case:op7": {
+                    "event_on": 5160415,
+                    "event_off": 5160414
+                },
+                "case:op8": {
+                    "event_off": 5160414
+                }
+            }
+        }
+    ]
+}

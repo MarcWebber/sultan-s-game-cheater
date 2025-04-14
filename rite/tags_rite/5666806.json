@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加坐骑标签",
-            "result_text": "[s1.name]添加了移除坐骑标签",
+            "result_text": "[s1.name]添加了坐骑标签",
             "result": {
                 "s1+坐骑": 1
             },

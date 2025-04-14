@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加征服标签",
-            "result_text": "[s1.name]添加了移除征服标签",
+            "result_text": "[s1.name]添加了征服标签",
             "result": {
                 "s1+征服": 1
             },

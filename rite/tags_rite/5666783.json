@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加装潢标签",
-            "result_text": "[s1.name]添加了移除装潢标签",
+            "result_text": "[s1.name]添加了装潢标签",
             "result": {
                 "s1+装潢": 1
             },

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加斗技场冠军标签",
-            "result_text": "[s1.name]添加了移除斗技场冠军标签",
+            "result_text": "[s1.name]添加了斗技场冠军标签",
             "result": {
                 "s1+斗技场冠军": 1
             },

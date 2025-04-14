@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加黑暗知识标签",
-            "result_text": "[s1.name]添加了移除黑暗知识标签",
+            "result_text": "[s1.name]添加了黑暗知识标签",
             "result": {
                 "s1+黑暗知识": 1
             },

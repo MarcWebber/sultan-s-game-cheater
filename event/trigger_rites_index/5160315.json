@@ -1,0 +1,109 @@
+{
+    "id": 5160315,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160315_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "怒火蔓延",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "你不再被黑街信任",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "念念不忘",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "你需要多少钱",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "那剧毒的果实",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160315_prompt_1",
+                        "text": "你選擇了怒火蔓延",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202032
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160315_prompt_2",
+                        "text": "你選擇了你不再被黑街信任",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204012
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160315_prompt_3",
+                        "text": "你選擇了念念不忘",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204511
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160315_prompt_4",
+                        "text": "你選擇了你需要多少钱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206070
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160315_prompt_5",
+                        "text": "你選擇了那剧毒的果实",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206503
+                },
+                "case:op6": {
+                    "event_on": 5160314,
+                    "event_off": 5160315
+                },
+                "case:op7": {
+                    "event_on": 5160316,
+                    "event_off": 5160315
+                },
+                "case:op8": {
+                    "event_off": 5160315
+                }
+            }
+        }
+    ]
+}

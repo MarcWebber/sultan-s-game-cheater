@@ -1,0 +1,109 @@
+{
+    "id": 5160397,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160397_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "下次还敢吗？",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "享用美酒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "销毁图纸",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "先钱后货",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "小贼的命运",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160397_prompt_1",
+                        "text": "你選擇了下次还敢吗？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206636
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160397_prompt_2",
+                        "text": "你選擇了享用美酒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206664
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160397_prompt_3",
+                        "text": "你選擇了销毁图纸",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208024
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160397_prompt_4",
+                        "text": "你選擇了先钱后货",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208069
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160397_prompt_5",
+                        "text": "你選擇了小贼的命运",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208070
+                },
+                "case:op6": {
+                    "event_on": 5160396,
+                    "event_off": 5160397
+                },
+                "case:op7": {
+                    "event_on": 5160398,
+                    "event_off": 5160397
+                },
+                "case:op8": {
+                    "event_off": 5160397
+                }
+            }
+        }
+    ]
+}

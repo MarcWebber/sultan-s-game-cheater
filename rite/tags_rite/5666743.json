@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加弓箭标签",
-            "result_text": "[s1.name]添加了移除弓箭标签",
+            "result_text": "[s1.name]添加了弓箭标签",
             "result": {
                 "s1+弓箭": 1
             },

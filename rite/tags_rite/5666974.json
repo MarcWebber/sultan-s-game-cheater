@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加新月标签",
-            "result_text": "[s1.name]添加了移除新月标签",
+            "result_text": "[s1.name]添加了新月标签",
             "result": {
                 "s1+新月": 1
             },

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加传统标签",
-            "result_text": "[s1.name]添加了移除传统标签",
+            "result_text": "[s1.name]添加了传统标签",
             "result": {
                 "s1+传统": 1
             },

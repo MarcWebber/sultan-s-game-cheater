@@ -1,0 +1,64 @@
+{
+    "id": 5160321,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160321_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "拼凑真相",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "破除洁净",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160321_prompt_1",
+                        "text": "你選擇了拼凑真相",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208150
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160321_prompt_2",
+                        "text": "你選擇了破除洁净",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208164
+                },
+                "case:op3": {
+                    "event_on": 5160320
+                },
+                "case:op4": {
+                    "event_off": 5160321
+                }
+            }
+        }
+    ]
+}

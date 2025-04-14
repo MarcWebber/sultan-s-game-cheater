@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加杀戮标签",
-            "result_text": "[s1.name]添加了移除杀戮标签",
+            "result_text": "[s1.name]添加了杀戮标签",
             "result": {
                 "s1+杀戮": 1
             },

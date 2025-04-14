@@ -1,0 +1,109 @@
+{
+    "id": 5160231,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160231_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "赌马",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "丢失的钱财",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "盗窃范例",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "地底的呼唤",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "独自前行",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160231_prompt_1",
+                        "text": "你選擇了赌马",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202515
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160231_prompt_2",
+                        "text": "你選擇了丢失的钱财",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204003
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160231_prompt_3",
+                        "text": "你選擇了盗窃范例",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204014
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160231_prompt_4",
+                        "text": "你選擇了地底的呼唤",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204802
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160231_prompt_5",
+                        "text": "你選擇了独自前行",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206033
+                },
+                "case:op6": {
+                    "event_on": 5160230,
+                    "event_off": 5160231
+                },
+                "case:op7": {
+                    "event_on": 5160232,
+                    "event_off": 5160231
+                },
+                "case:op8": {
+                    "event_off": 5160231
+                }
+            }
+        }
+    ]
+}

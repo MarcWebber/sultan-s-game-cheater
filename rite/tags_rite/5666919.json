@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加目的地标签",
-            "result_text": "[s1.name]添加了移除目的地标签",
+            "result_text": "[s1.name]添加了目的地标签",
             "result": {
                 "s1+目的地": 1
             },

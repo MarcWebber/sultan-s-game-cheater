@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加刺杀事件标签",
-            "result_text": "[s1.name]添加了移除刺杀事件标签",
+            "result_text": "[s1.name]添加了刺杀事件标签",
             "result": {
                 "s1+刺杀事件": 1
             },

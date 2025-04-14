@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加灵视的遮掩标签",
-            "result_text": "[s1.name]添加了移除灵视的遮掩标签",
+            "result_text": "[s1.name]添加了灵视的遮掩标签",
             "result": {
                 "s1+灵视的遮掩": 1
             },

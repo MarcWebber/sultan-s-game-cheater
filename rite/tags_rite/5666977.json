@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加最重要的人标签",
-            "result_text": "[s1.name]添加了移除最重要的人标签",
+            "result_text": "[s1.name]添加了最重要的人标签",
             "result": {
                 "s1+最重要的人": 1
             },

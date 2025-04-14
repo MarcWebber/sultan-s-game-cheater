@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加剑客暗杀目标标签",
-            "result_text": "[s1.name]添加了移除剑客暗杀目标标签",
+            "result_text": "[s1.name]添加了剑客暗杀目标标签",
             "result": {
                 "s1+剑客暗杀目标": 1
             },

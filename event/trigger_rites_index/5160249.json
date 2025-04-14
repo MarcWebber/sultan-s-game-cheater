@@ -1,0 +1,109 @@
+{
+    "id": 5160249,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160249_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "诡异的幻听",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "挂毯长廊",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宫廷处刑",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "寡妇的友谊",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "公开的拳斗",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160249_prompt_1",
+                        "text": "你選擇了诡异的幻听",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200124
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160249_prompt_2",
+                        "text": "你選擇了挂毯长廊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200137
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160249_prompt_3",
+                        "text": "你選擇了宫廷处刑",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200505
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160249_prompt_4",
+                        "text": "你選擇了寡妇的友谊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200624
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160249_prompt_5",
+                        "text": "你選擇了公开的拳斗",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200762
+                },
+                "case:op6": {
+                    "event_on": 5160248,
+                    "event_off": 5160249
+                },
+                "case:op7": {
+                    "event_on": 5160250,
+                    "event_off": 5160249
+                },
+                "case:op8": {
+                    "event_off": 5160249
+                }
+            }
+        }
+    ]
+}

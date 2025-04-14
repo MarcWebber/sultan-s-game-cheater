@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加正教的信徒标签",
-            "result_text": "[s1.name]添加了移除正教的信徒标签",
+            "result_text": "[s1.name]添加了正教的信徒标签",
             "result": {
                 "s1+正教的信徒": 1
             },

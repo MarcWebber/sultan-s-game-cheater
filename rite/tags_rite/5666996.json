@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加祝福标签",
-            "result_text": "[s1.name]添加了移除祝福标签",
+            "result_text": "[s1.name]添加了祝福标签",
             "result": {
                 "s1+祝福": 1
             },

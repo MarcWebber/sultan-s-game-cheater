@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加正当性标签",
-            "result_text": "[s1.name]添加了移除正当性标签",
+            "result_text": "[s1.name]添加了正当性标签",
             "result": {
                 "s1+正当性": 1
             },

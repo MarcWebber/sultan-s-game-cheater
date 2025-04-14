@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加大餐标签",
-            "result_text": "[s1.name]添加了移除大餐标签",
+            "result_text": "[s1.name]添加了大餐标签",
             "result": {
                 "s1+大餐": 1
             },

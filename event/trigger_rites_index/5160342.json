@@ -1,0 +1,109 @@
+{
+    "id": 5160342,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160342_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "深入调查",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "收服盖斯",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "散尽家财",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "收服玛希尔",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "深夜访客",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160342_prompt_1",
+                        "text": "你選擇了深入调查",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200687
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160342_prompt_2",
+                        "text": "你選擇了收服盖斯",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200688
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160342_prompt_3",
+                        "text": "你選擇了散尽家财",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200729
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160342_prompt_4",
+                        "text": "你選擇了收服玛希尔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200733
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160342_prompt_5",
+                        "text": "你選擇了深夜访客",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200770
+                },
+                "case:op6": {
+                    "event_on": 5160341,
+                    "event_off": 5160342
+                },
+                "case:op7": {
+                    "event_on": 5160343,
+                    "event_off": 5160342
+                },
+                "case:op8": {
+                    "event_off": 5160342
+                }
+            }
+        }
+    ]
+}

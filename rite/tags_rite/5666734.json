@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加部队标签",
-            "result_text": "[s1.name]添加了移除部队标签",
+            "result_text": "[s1.name]添加了部队标签",
             "result": {
                 "s1+部队": 1
             },

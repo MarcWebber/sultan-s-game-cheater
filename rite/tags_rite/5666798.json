@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加犯罪号召标签",
-            "result_text": "[s1.name]添加了移除犯罪号召标签",
+            "result_text": "[s1.name]添加了犯罪号召标签",
             "result": {
                 "s1+犯罪号召": 1
             },

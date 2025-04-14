@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加金血之证标签",
-            "result_text": "[s1.name]添加了移除金血之证标签",
+            "result_text": "[s1.name]添加了金血之证标签",
             "result": {
                 "s1+金血之证": 1
             },

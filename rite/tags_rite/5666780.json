@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加决斗标记标签",
-            "result_text": "[s1.name]添加了移除决斗标记标签",
+            "result_text": "[s1.name]添加了决斗标记标签",
             "result": {
                 "s1+决斗标记": 1
             },

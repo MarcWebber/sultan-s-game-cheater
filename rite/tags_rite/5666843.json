@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加改造次数标签",
-            "result_text": "[s1.name]添加了移除改造次数标签",
+            "result_text": "[s1.name]添加了改造次数标签",
             "result": {
                 "s1+改造次数": 1
             },

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加主旋律标签",
-            "result_text": "[s1.name]添加了移除主旋律标签",
+            "result_text": "[s1.name]添加了主旋律标签",
             "result": {
                 "s1+主旋律": 1
             },

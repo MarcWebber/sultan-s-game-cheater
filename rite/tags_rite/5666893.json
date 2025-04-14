@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加虔信标签",
-            "result_text": "[s1.name]添加了移除虔信标签",
+            "result_text": "[s1.name]添加了虔信标签",
             "result": {
                 "s1+虔信": 1
             },

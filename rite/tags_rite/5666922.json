@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加打包的财物标签",
-            "result_text": "[s1.name]添加了移除打包的财物标签",
+            "result_text": "[s1.name]添加了打包的财物标签",
             "result": {
                 "s1+打包的财物": 1
             },

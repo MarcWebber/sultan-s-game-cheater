@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加贵族标签",
-            "result_text": "[s1.name]添加了移除贵族标签",
+            "result_text": "[s1.name]添加了贵族标签",
             "result": {
                 "s1+贵族": 1
             },

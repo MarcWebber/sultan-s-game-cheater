@@ -1,0 +1,109 @@
+{
+    "id": 5160415,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160415_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "永世流传之物",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "隐身幕后",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "一次暗杀",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "一次愉快的回忆",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "应许时刻",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160415_prompt_1",
+                        "text": "你選擇了永世流传之物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208020
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160415_prompt_2",
+                        "text": "你選擇了隐身幕后",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208035
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160415_prompt_3",
+                        "text": "你選擇了一次暗杀",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208043
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160415_prompt_4",
+                        "text": "你選擇了一次愉快的回忆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208048
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160415_prompt_5",
+                        "text": "你選擇了应许时刻",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208056
+                },
+                "case:op6": {
+                    "event_on": 5160414,
+                    "event_off": 5160415
+                },
+                "case:op7": {
+                    "event_on": 5160416,
+                    "event_off": 5160415
+                },
+                "case:op8": {
+                    "event_off": 5160415
+                }
+            }
+        }
+    ]
+}

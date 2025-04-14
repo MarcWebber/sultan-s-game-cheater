@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加抑郁标签",
-            "result_text": "[s1.name]添加了移除抑郁标签",
+            "result_text": "[s1.name]添加了抑郁标签",
             "result": {
                 "s1+抑郁": 1
             },

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加恶名谋杀者标签",
-            "result_text": "[s1.name]添加了移除恶名谋杀者标签",
+            "result_text": "[s1.name]添加了恶名谋杀者标签",
             "result": {
                 "s1+恶名谋杀者": 1
             },

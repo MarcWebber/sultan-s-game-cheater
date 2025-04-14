@@ -1,0 +1,109 @@
+{
+    "id": 5160359,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160359_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "生命布丁",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "圣餐饼",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的特使？",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "神啊，降临吧！",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "誓师",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160359_prompt_1",
+                        "text": "你選擇了生命布丁",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208135
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160359_prompt_2",
+                        "text": "你選擇了圣餐饼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208141
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160359_prompt_3",
+                        "text": "你選擇了苏丹的特使？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208155
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160359_prompt_4",
+                        "text": "你選擇了神啊，降临吧！",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208181
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160359_prompt_5",
+                        "text": "你選擇了誓师",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210009
+                },
+                "case:op6": {
+                    "event_on": 5160358,
+                    "event_off": 5160359
+                },
+                "case:op7": {
+                    "event_on": 5160360,
+                    "event_off": 5160359
+                },
+                "case:op8": {
+                    "event_off": 5160359
+                }
+            }
+        }
+    ]
+}

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加银趴绝缘者标签",
-            "result_text": "[s1.name]添加了移除银趴绝缘者标签",
+            "result_text": "[s1.name]添加了银趴绝缘者标签",
             "result": {
                 "s1+银趴绝缘者": 1
             },

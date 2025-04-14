@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加改革标签",
-            "result_text": "[s1.name]添加了移除改革标签",
+            "result_text": "[s1.name]添加了改革标签",
             "result": {
                 "s1+改革": 1
             },

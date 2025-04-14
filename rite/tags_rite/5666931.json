@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加孤儿标签",
-            "result_text": "[s1.name]添加了移除孤儿标签",
+            "result_text": "[s1.name]添加了孤儿标签",
             "result": {
                 "s1+孤儿": 1
             },

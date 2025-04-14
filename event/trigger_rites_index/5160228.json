@@ -1,0 +1,109 @@
+{
+    "id": 5160228,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160228_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "第五元素",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "打碎提灯",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "等待太久",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "弹球游戏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "刀剑问答",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160228_prompt_1",
+                        "text": "你選擇了第五元素",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200050
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160228_prompt_2",
+                        "text": "你選擇了打碎提灯",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200064
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160228_prompt_3",
+                        "text": "你選擇了等待太久",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200144
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160228_prompt_4",
+                        "text": "你選擇了弹球游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200150
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160228_prompt_5",
+                        "text": "你選擇了刀剑问答",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200709
+                },
+                "case:op6": {
+                    "event_on": 5160227,
+                    "event_off": 5160228
+                },
+                "case:op7": {
+                    "event_on": 5160229,
+                    "event_off": 5160228
+                },
+                "case:op8": {
+                    "event_off": 5160228
+                }
+            }
+        }
+    ]
+}

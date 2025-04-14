@@ -1,0 +1,109 @@
+{
+    "id": 5160328,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160328_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "囚犯与绑匪",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "妻子的忧虑",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "妻子的茶会",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "青年的帷幕",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "恰当的价码",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160328_prompt_1",
+                        "text": "你選擇了囚犯与绑匪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206672
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160328_prompt_2",
+                        "text": "你選擇了妻子的忧虑",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208001
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160328_prompt_3",
+                        "text": "你選擇了妻子的茶会",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208005
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160328_prompt_4",
+                        "text": "你選擇了青年的帷幕",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208010
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160328_prompt_5",
+                        "text": "你選擇了恰当的价码",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208017
+                },
+                "case:op6": {
+                    "event_on": 5160327,
+                    "event_off": 5160328
+                },
+                "case:op7": {
+                    "event_on": 5160329,
+                    "event_off": 5160328
+                },
+                "case:op8": {
+                    "event_off": 5160328
+                }
+            }
+        }
+    ]
+}

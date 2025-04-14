@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加见证者标签",
-            "result_text": "[s1.name]添加了移除见证者标签",
+            "result_text": "[s1.name]添加了见证者标签",
             "result": {
                 "s1+见证者": 1
             },

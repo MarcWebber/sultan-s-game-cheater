@@ -1,0 +1,109 @@
+{
+    "id": 5160256,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160256_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "狗窝",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "贵族也想吃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宫廷华宴",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "阁楼里的笑声",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "阁楼里熟悉的笑声",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160256_prompt_1",
+                        "text": "你選擇了狗窝",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208087
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160256_prompt_2",
+                        "text": "你選擇了贵族也想吃",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208092
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160256_prompt_3",
+                        "text": "你選擇了宫廷华宴",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208104
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160256_prompt_4",
+                        "text": "你選擇了阁楼里的笑声",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208107
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160256_prompt_5",
+                        "text": "你選擇了阁楼里熟悉的笑声",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208109
+                },
+                "case:op6": {
+                    "event_on": 5160255,
+                    "event_off": 5160256
+                },
+                "case:op7": {
+                    "event_on": 5160257,
+                    "event_off": 5160256
+                },
+                "case:op8": {
+                    "event_off": 5160256
+                }
+            }
+        }
+    ]
+}

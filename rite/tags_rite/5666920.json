@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加障眼法标签",
-            "result_text": "[s1.name]添加了移除障眼法标签",
+            "result_text": "[s1.name]添加了障眼法标签",
             "result": {
                 "s1+障眼法": 1
             },

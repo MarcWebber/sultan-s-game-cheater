@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加国民的好感标签",
-            "result_text": "[s1.name]添加了移除国民的好感标签",
+            "result_text": "[s1.name]添加了国民的好感标签",
             "result": {
                 "s1+国民的好感": 1
             },

@@ -1,0 +1,109 @@
+{
+    "id": 5160305,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160305_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "末日火山（废弃）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "魔力增长仪式",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "酩酊一醉",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "蛮野之心",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "迷失于灰烬中",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160305_prompt_1",
+                        "text": "你選擇了末日火山（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200707
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160305_prompt_2",
+                        "text": "你選擇了魔力增长仪式",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200742
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160305_prompt_3",
+                        "text": "你選擇了酩酊一醉",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200773
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160305_prompt_4",
+                        "text": "你選擇了蛮野之心",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200827
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160305_prompt_5",
+                        "text": "你選擇了迷失于灰烬中",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200837
+                },
+                "case:op6": {
+                    "event_on": 5160304,
+                    "event_off": 5160305
+                },
+                "case:op7": {
+                    "event_on": 5160306,
+                    "event_off": 5160305
+                },
+                "case:op8": {
+                    "event_off": 5160305
+                }
+            }
+        }
+    ]
+}

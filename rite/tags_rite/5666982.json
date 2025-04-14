@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加疯狂标签",
-            "result_text": "[s1.name]添加了移除疯狂标签",
+            "result_text": "[s1.name]添加了疯狂标签",
             "result": {
                 "s1+疯狂": 1
             },

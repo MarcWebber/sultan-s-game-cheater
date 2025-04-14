@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加死仇标签",
-            "result_text": "[s1.name]添加了移除死仇标签",
+            "result_text": "[s1.name]添加了死仇标签",
             "result": {
                 "s1+死仇": 1
             },

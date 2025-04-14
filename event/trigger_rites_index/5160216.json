@@ -1,0 +1,109 @@
+{
+    "id": 5160216,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160216_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "处置阿迪莱",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "处置阿迪莱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "促成谈判",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "初步调查",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "虫豸怎敢",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160216_prompt_1",
+                        "text": "你選擇了处置阿迪莱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200633
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160216_prompt_2",
+                        "text": "你選擇了处置阿迪莱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200639
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160216_prompt_3",
+                        "text": "你選擇了促成谈判",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200674
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160216_prompt_4",
+                        "text": "你選擇了初步调查",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200686
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160216_prompt_5",
+                        "text": "你選擇了虫豸怎敢",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200724
+                },
+                "case:op6": {
+                    "event_on": 5160215,
+                    "event_off": 5160216
+                },
+                "case:op7": {
+                    "event_on": 5160217,
+                    "event_off": 5160216
+                },
+                "case:op8": {
+                    "event_off": 5160216
+                }
+            }
+        }
+    ]
+}

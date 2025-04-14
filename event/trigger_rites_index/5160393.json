@@ -1,0 +1,109 @@
+{
+    "id": 5160393,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160393_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "信与理的战争",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "行尸动力工坊",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "行尸动力工坊",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "休憩的方法",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "血的渴求",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160393_prompt_1",
+                        "text": "你選擇了信与理的战争",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204908
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160393_prompt_2",
+                        "text": "你選擇了行尸动力工坊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206015
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160393_prompt_3",
+                        "text": "你選擇了行尸动力工坊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206017
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160393_prompt_4",
+                        "text": "你選擇了休憩的方法",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206044
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160393_prompt_5",
+                        "text": "你選擇了血的渴求",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206071
+                },
+                "case:op6": {
+                    "event_on": 5160392,
+                    "event_off": 5160393
+                },
+                "case:op7": {
+                    "event_on": 5160394,
+                    "event_off": 5160393
+                },
+                "case:op8": {
+                    "event_off": 5160393
+                }
+            }
+        }
+    ]
+}

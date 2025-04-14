@@ -1,0 +1,109 @@
+{
+    "id": 5160372,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160372_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "文书的工作",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "舞乐之宴",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "伟大的爱情",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "伟大的史诗",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "伟大的黑暗",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160372_prompt_1",
+                        "text": "你選擇了文书的工作",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200021
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160372_prompt_2",
+                        "text": "你選擇了舞乐之宴",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200102
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160372_prompt_3",
+                        "text": "你選擇了伟大的爱情",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200113
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160372_prompt_4",
+                        "text": "你選擇了伟大的史诗",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200117
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160372_prompt_5",
+                        "text": "你選擇了伟大的黑暗",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200127
+                },
+                "case:op6": {
+                    "event_on": 5160371,
+                    "event_off": 5160372
+                },
+                "case:op7": {
+                    "event_on": 5160373,
+                    "event_off": 5160372
+                },
+                "case:op8": {
+                    "event_off": 5160372
+                }
+            }
+        }
+    ]
+}

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加战斗的痕迹标签",
-            "result_text": "[s1.name]添加了移除战斗的痕迹标签",
+            "result_text": "[s1.name]添加了战斗的痕迹标签",
             "result": {
                 "s1+战斗的痕迹": 1
             },

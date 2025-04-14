@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加已收容标签",
-            "result_text": "[s1.name]添加了移除已收容标签",
+            "result_text": "[s1.name]添加了已收容标签",
             "result": {
                 "s1+已收容": 1
             },

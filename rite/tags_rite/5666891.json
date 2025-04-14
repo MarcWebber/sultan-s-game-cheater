@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加模糊的思绪标签",
-            "result_text": "[s1.name]添加了移除模糊的思绪标签",
+            "result_text": "[s1.name]添加了模糊的思绪标签",
             "result": {
                 "s1+模糊的思绪": 1
             },

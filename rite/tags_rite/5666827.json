@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加血肉附魔标签",
-            "result_text": "[s1.name]添加了移除血肉附魔标签",
+            "result_text": "[s1.name]添加了血肉附魔标签",
             "result": {
                 "s1+血肉附魔": 1
             },

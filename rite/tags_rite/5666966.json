@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加刀风训练标签",
-            "result_text": "[s1.name]添加了移除刀风训练标签",
+            "result_text": "[s1.name]添加了刀风训练标签",
             "result": {
                 "s1+刀风训练": 1
             },

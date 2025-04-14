@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加已拖延标签",
-            "result_text": "[s1.name]添加了移除已拖延标签",
+            "result_text": "[s1.name]添加了已拖延标签",
             "result": {
                 "s1+已拖延": 1
             },

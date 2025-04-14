@@ -99,7 +99,7 @@
         }
       },
       "result_title": "神的贈禮",
-      "result_text": "你可以向神索要装备，道具或者情报，也可以邀请角色",
+      "result_text": "你可以向神索要装备，道具或者情报，也可以邀请角色，获取苏丹卡",
       "result": {},
       "action": {
         "event_on": 5367000
@@ -112,7 +112,7 @@
         }
       },
       "result_title": "神的耐心",
-      "result_text": "卡牌被冻结了",
+      "result_text": "可以冻结卡牌",
       "result": {},
       "action": {
         "s7+冻结": 1
@@ -167,7 +167,7 @@
           "type": "char",
           "type": "item"
         }
-      }
+      },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,

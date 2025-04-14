@@ -1,0 +1,109 @@
+{
+    "id": 5160388,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160388_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "寻欢作乐的高手",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "香消玉殒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "夏玛的葬礼",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "袭杀凶狮",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "凶狮肆虐",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160388_prompt_1",
+                        "text": "你選擇了寻欢作乐的高手",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200862
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160388_prompt_2",
+                        "text": "你選擇了香消玉殒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201104
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160388_prompt_3",
+                        "text": "你選擇了夏玛的葬礼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202029
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160388_prompt_4",
+                        "text": "你選擇了袭杀凶狮",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202505
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160388_prompt_5",
+                        "text": "你選擇了凶狮肆虐",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202507
+                },
+                "case:op6": {
+                    "event_on": 5160387,
+                    "event_off": 5160388
+                },
+                "case:op7": {
+                    "event_on": 5160389,
+                    "event_off": 5160388
+                },
+                "case:op8": {
+                    "event_off": 5160388
+                }
+            }
+        }
+    ]
+}

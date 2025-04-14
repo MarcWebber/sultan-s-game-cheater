@@ -1,0 +1,109 @@
+{
+    "id": 5160409,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160409_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "浴场约会",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "医馆",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "远近闻名的哈马尔兄弟",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "远行访友",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "酝酿中的阴谋",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160409_prompt_1",
+                        "text": "你選擇了浴场约会",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201503
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160409_prompt_2",
+                        "text": "你選擇了医馆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202001
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160409_prompt_3",
+                        "text": "你選擇了远近闻名的哈马尔兄弟",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202503
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160409_prompt_4",
+                        "text": "你選擇了远行访友",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203002
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160409_prompt_5",
+                        "text": "你選擇了酝酿中的阴谋",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203010
+                },
+                "case:op6": {
+                    "event_on": 5160408,
+                    "event_off": 5160409
+                },
+                "case:op7": {
+                    "event_on": 5160410,
+                    "event_off": 5160409
+                },
+                "case:op8": {
+                    "event_off": 5160409
+                }
+            }
+        }
+    ]
+}

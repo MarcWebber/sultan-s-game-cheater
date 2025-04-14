@@ -1,0 +1,109 @@
+{
+    "id": 5160387,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160387_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "项目投资·二",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "血炼熔炉",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "寻欢作乐的高手",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "夏玛的游戏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "夏玛的游戏",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160387_prompt_1",
+                        "text": "你選擇了项目投资·二",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200732
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160387_prompt_2",
+                        "text": "你選擇了血炼熔炉",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200740
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160387_prompt_3",
+                        "text": "你選擇了寻欢作乐的高手",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200799
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160387_prompt_4",
+                        "text": "你選擇了夏玛的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200803
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160387_prompt_5",
+                        "text": "你選擇了夏玛的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200808
+                },
+                "case:op6": {
+                    "event_on": 5160386,
+                    "event_off": 5160387
+                },
+                "case:op7": {
+                    "event_on": 5160388,
+                    "event_off": 5160387
+                },
+                "case:op8": {
+                    "event_off": 5160387
+                }
+            }
+        }
+    ]
+}

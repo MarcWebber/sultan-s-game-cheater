@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加主角专属5标签",
-            "result_text": "[s1.name]添加了移除主角专属5标签",
+            "result_text": "[s1.name]添加了主角专属5标签",
             "result": {
                 "s1+主角专属5": 1
             },

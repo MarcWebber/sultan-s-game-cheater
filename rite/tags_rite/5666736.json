@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加将领标签",
-            "result_text": "[s1.name]添加了移除将领标签",
+            "result_text": "[s1.name]添加了将领标签",
             "result": {
                 "s1+将领": 1
             },

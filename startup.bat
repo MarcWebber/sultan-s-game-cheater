@@ -2,7 +2,7 @@
 REM 设置控制台代码页为 UTF-8
 chcp 65001 >nul
 setlocal enabledelayedexpansion
-set /p "gamePath=请输入游戏路径（eg：E:\Games\Steam\steamapps\common\Sultan's Game）："
+set /p "gamePath=请输入游戏路径（eg：E:\Games\Steam\steamapps\common\Sultan's Game，注意不要带双引号）："
 REM 检查路径是否存在（添加双引号避免空格问题）
 if exist "%gamePath%\" (
     echo 游戏路径存在，开始执行文件替换操作.
@@ -27,7 +27,7 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加仪式："!fileName!"
+        echo [INFO] 正在添加仪式："!fileName!"
         copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] 仪式文件复制失败: "%%f"
@@ -46,7 +46,7 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加仪式："!fileName!"
+        echo [INFO] 正在添加仪式："!fileName!"
         copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] 仪式文件复制失败: "%%f"
@@ -65,10 +65,29 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加TAG仪式："!fileName!"
+        echo [INFO] 正在添加TAG仪式："!fileName!"
         copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] TAG仪式文件复制失败: "%%f"
+            exit /b 1
+        )
+    )
+
+    REM === 复制可触发仪式（本质上是对于原本仪式的一套备份） ====
+    for %%f in ("%~dp0rite\trigger_rites\*.json") do (
+        set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除可触发仪式失败: "!ceremonyPath!\!fileName!"
+                exit /b 1
+            )
+        )
+        echo [INFO] 正在添加可触发仪式："!fileName!"
+        copy /y "%%f" "!ceremonyPath!\!fileName!" >nul
+        if errorlevel 1 (
+            echo [错误] 可触发仪式文件复制失败: "%%f"
             exit /b 1
         )
     )
@@ -86,7 +105,7 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加事件："!fileName!"
+        echo [INFO] 正在添加事件："!fileName!"
         copy /y "%%f" "!eventPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] 事件文件复制失败: "%%f"
@@ -105,7 +124,7 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加道具："!fileName!"
+        echo [INFO] 正在添加道具："!fileName!"
         copy /y "%%f" "!itemsPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] 道具文件复制失败: "%%f"
@@ -124,7 +143,7 @@ if exist "%gamePath%\" (
                 exit /b 1
             )
         )
-        echo 正在添加装备："!fileName!"
+        echo [INFO] 正在添加装备："!fileName!"
         copy /y "%%f" "!equipsPath!\!fileName!" >nul
         if errorlevel 1 (
             echo [错误] 装备文件复制失败: "%%f"
@@ -143,7 +162,7 @@ if exist "%gamePath%\" (
                  exit /b 1
              )
          )
-          echo 正在添加事件触发器："!fileName!"
+          echo [INFO] 正在添加事件触发器："!fileName!"
           copy /y "%%f" "!equipsPath!\!fileName!" >nul
           if errorlevel 1 (
               echo [错误] 事件触发器复制失败: "%%f"
@@ -162,7 +181,7 @@ if exist "%gamePath%\" (
                  exit /b 1
              )
          )
-         echo 正在添加事件触发器的索引："!fileName!"
+         echo [INFO] 正在添加事件触发器的索引："!fileName!"
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (
              echo [错误] 事件触发器复制失败: "%%f"
@@ -181,7 +200,7 @@ if exist "%gamePath%\" (
                  exit /b 1
              )
          )
-         echo 正在添加添加角色事件的索引："!fileName!"
+         echo [INFO] 正在添加添加角色事件的索引："!fileName!"
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (
              echo [错误] 添加角色事件复制失败: "%%f"
@@ -201,10 +220,31 @@ if exist "%gamePath%\" (
                  exit /b 1
              )
          )
-         echo 正在添加TAG事件的索引："!fileName!"
+         echo [INFO] 正在添加TAG事件的索引："!fileName!"
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (
              echo [错误] 添加TAG事件索引失败: "%%f"
+             exit /b 1
+         )
+     )
+
+     
+    @REM 复制可触发rite索引
+    set "equipsPath=!eventPath!"
+    for %%f in ("%~dp0event\trigger_rites_index\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除可触发rite索引失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+         echo [INFO] 正在添加可触发rite索引的索引："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 添加可触发rite索引失败: "%%f"
              exit /b 1
          )
      )
@@ -214,5 +254,3 @@ if exist "%gamePath%\" (
     echo 游戏路径不存在，请检查输入的路径是否正确："%gamePath%"
 )
 endlocal
-
-pause

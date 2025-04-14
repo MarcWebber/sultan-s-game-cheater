@@ -1,0 +1,109 @@
+{
+    "id": 5160363,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160363_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "特殊的餐点",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "体面",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "挑战歌",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "天文台",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "探访奈费勒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160363_prompt_1",
+                        "text": "你選擇了特殊的餐点",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200011
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160363_prompt_2",
+                        "text": "你選擇了体面",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200018
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160363_prompt_3",
+                        "text": "你選擇了挑战歌",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200121
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160363_prompt_4",
+                        "text": "你選擇了天文台",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200131
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160363_prompt_5",
+                        "text": "你選擇了探访奈费勒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200640
+                },
+                "case:op6": {
+                    "event_on": 5160362,
+                    "event_off": 5160363
+                },
+                "case:op7": {
+                    "event_on": 5160364,
+                    "event_off": 5160363
+                },
+                "case:op8": {
+                    "event_off": 5160363
+                }
+            }
+        }
+    ]
+}

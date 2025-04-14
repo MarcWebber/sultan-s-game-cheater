@@ -1,0 +1,109 @@
+{
+    "id": 5160276,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160276_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "将军夜猎",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "久违的清净",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "决裂",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "金屋藏娇",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "精致的礼物",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160276_prompt_1",
+                        "text": "你選擇了将军夜猎",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200754
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160276_prompt_2",
+                        "text": "你選擇了久违的清净",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200778
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160276_prompt_3",
+                        "text": "你選擇了决裂",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200782
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160276_prompt_4",
+                        "text": "你選擇了金屋藏娇",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200783
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160276_prompt_5",
+                        "text": "你選擇了精致的礼物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200785
+                },
+                "case:op6": {
+                    "event_on": 5160275,
+                    "event_off": 5160276
+                },
+                "case:op7": {
+                    "event_on": 5160277,
+                    "event_off": 5160276
+                },
+                "case:op8": {
+                    "event_off": 5160276
+                }
+            }
+        }
+    ]
+}

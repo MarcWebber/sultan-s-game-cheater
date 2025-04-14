@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加鳄鱼标签",
-            "result_text": "[s1.name]添加了移除鳄鱼标签",
+            "result_text": "[s1.name]添加了鳄鱼标签",
             "result": {
                 "s1+鳄鱼": 1
             },

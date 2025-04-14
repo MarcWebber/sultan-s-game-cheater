@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加驯兽标签",
-            "result_text": "[s1.name]添加了移除驯兽标签",
+            "result_text": "[s1.name]添加了驯兽标签",
             "result": {
                 "s1+驯兽": 1
             },

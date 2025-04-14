@@ -29,6 +29,10 @@
                         {
                             "text": "上一页",
                             "tag": "op3"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op4"
                         }
                     ]
                 },
@@ -38,8 +42,11 @@
                 "case:op2": {
                     "event_on": 5367650
                 },
-                "case:op23": {
+                "case:op3": {
                     "event_on": 5367803
+                },
+                "case:op4": {
+                    "event_off": 5367804
                 }
             }
         }

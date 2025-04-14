@@ -1,0 +1,109 @@
+{
+    "id": 5160224,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160224_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "惩罚之火",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "沉重的代价",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "伺机伤人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "策划袭击",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "策划诉讼",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160224_prompt_1",
+                        "text": "你選擇了惩罚之火",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206656
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160224_prompt_2",
+                        "text": "你選擇了沉重的代价",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206668
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160224_prompt_3",
+                        "text": "你選擇了伺机伤人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5207012
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160224_prompt_4",
+                        "text": "你選擇了策划袭击",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208036
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160224_prompt_5",
+                        "text": "你選擇了策划诉讼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208041
+                },
+                "case:op6": {
+                    "event_on": 5160223,
+                    "event_off": 5160224
+                },
+                "case:op7": {
+                    "event_on": 5160225,
+                    "event_off": 5160224
+                },
+                "case:op8": {
+                    "event_off": 5160224
+                }
+            }
+        }
+    ]
+}

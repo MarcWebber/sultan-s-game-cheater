@@ -1,0 +1,103 @@
+{
+  "id": 5666670,
+  "name": "解锁栏位",
+  "text": "获得了额外的装备槽",
+  "tips": "",
+  "mapping_id": 8001019,
+  "once_new": 1,
+  "round_number": 0,
+  "waiting_round": 1,
+  "waiting_round_end_action": [],
+  "method_settlement": "",
+  "auto_begin": 1,
+  "auto_result": 1,
+  "location": "神殿区:[2,10]",
+  "icon": "rite_15",
+  "tag_tips": [],
+  "tag_tips_up": {},
+  "tips_text": [],
+  "open_conditions": [],
+  "random_text": {},
+  "random_text_up": {},
+  "settlement_prior": [],
+  "settlement": [
+    {
+      "condition": {
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1
+        }
+      },
+      "result_title": "额外的装备槽",
+      "result_text": "获得了额外的装备槽",
+      "result": {
+        "s1+equip_slot": "weapon",
+        "s2+equip_slot": "cloth",
+        "s3+equip_slot": "accessory",
+        "s4+equip_slot": "animal_handling"
+      },
+      "action": {}
+    }
+  ],
+  "settlement_extre": [],
+  "cards_slot": {
+    "s1": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "解锁额外武器栏"
+    },
+    "s2": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "解锁额外服装栏"
+    },
+    "s3": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "解锁额外饰品栏"
+    },
+    "s4": {
+      "condition": {
+        "any": {
+          "type": "char",
+          "type": "item",
+          "type": "sudan"
+        }
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "解锁额外驯兽栏"
+    }
+  }
+}

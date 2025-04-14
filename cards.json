@@ -26051,5 +26051,22 @@
         "vanish": {},
         "equips": [],
         "is_only": 1
+    },
+    "2666671": {
+        "id": 2666671,
+        "name": "仪式召唤卡",
+        "title": "特殊",
+        "text": "用于召唤仪式",
+        "pops": [],
+        "card_favour": "",
+        "type": "item",
+        "tips": "",
+        "rare": 4,
+        "resource": "cards/2000525",
+        "tag": {},
+        "card_vanishing": 0,
+        "vanish": {},
+        "equips": [],
+        "is_only": 1
     }
 }

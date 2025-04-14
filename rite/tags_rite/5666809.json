@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加重投标签",
-            "result_text": "[s1.name]添加了移除重投标签",
+            "result_text": "[s1.name]添加了重投标签",
             "result": {
                 "s1+重投": 1
             },

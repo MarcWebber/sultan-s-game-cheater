@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加暗示的印记标签",
-            "result_text": "[s1.name]添加了移除暗示的印记标签",
+            "result_text": "[s1.name]添加了暗示的印记标签",
             "result": {
                 "s1+暗示的印记": 1
             },

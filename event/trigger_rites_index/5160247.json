@@ -1,0 +1,76 @@
+{
+    "id": 5160247,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160247_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "废弃",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160247_prompt_1",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208170
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160247_prompt_2",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208185
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160247_prompt_3",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210035
+                },
+                "case:op4": {
+                    "event_on": 5160246
+                },
+                "case:op5": {
+                    "event_off": 5160247
+                }
+            }
+        }
+    ]
+}

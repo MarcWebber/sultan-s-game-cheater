@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加神临主持标签",
-            "result_text": "[s1.name]添加了移除神临主持标签",
+            "result_text": "[s1.name]添加了神临主持标签",
             "result": {
                 "s1+神临主持": 1
             },

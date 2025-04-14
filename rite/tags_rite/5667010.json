@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加已安利标签",
-            "result_text": "[s1.name]添加了移除已安利标签",
+            "result_text": "[s1.name]添加了已安利标签",
             "result": {
                 "s1+已安利": 1
             },

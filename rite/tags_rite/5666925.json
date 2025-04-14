@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加爱标签",
-            "result_text": "[s1.name]添加了移除爱标签",
+            "result_text": "[s1.name]添加了爱标签",
             "result": {
                 "s1+爱": 1
             },

@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加罪犯投奔标签",
-            "result_text": "[s1.name]添加了移除罪犯投奔标签",
+            "result_text": "[s1.name]添加了罪犯投奔标签",
             "result": {
                 "s1+罪犯投奔": 1
             },

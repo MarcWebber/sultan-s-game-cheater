@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加事件提示标签",
-            "result_text": "[s1.name]添加了移除事件提示标签",
+            "result_text": "[s1.name]添加了事件提示标签",
             "result": {
                 "s1+事件提示": 1
             },

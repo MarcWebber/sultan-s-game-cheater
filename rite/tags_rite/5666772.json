@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加诅咒标签",
-            "result_text": "[s1.name]添加了移除诅咒标签",
+            "result_text": "[s1.name]添加了诅咒标签",
             "result": {
                 "s1+诅咒": 1
             },

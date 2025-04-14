@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加不举的传言标签",
-            "result_text": "[s1.name]添加了移除不举的传言标签",
+            "result_text": "[s1.name]添加了不举的传言标签",
             "result": {
                 "s1+不举的传言": 1
             },

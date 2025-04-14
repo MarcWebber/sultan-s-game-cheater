@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加使用过的标签",
-            "result_text": "[s1.name]添加了移除使用过的标签",
+            "result_text": "[s1.name]添加了使用过的标签",
             "result": {
                 "s1+使用过的": 1
             },

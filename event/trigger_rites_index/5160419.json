@@ -1,0 +1,109 @@
+{
+    "id": 5160419,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160419_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "珠宝设计",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "赃物商人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "追忆过去荣光",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "做好准备",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "哲百集",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160419_prompt_1",
+                        "text": "你選擇了珠宝设计",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200100
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160419_prompt_2",
+                        "text": "你選擇了赃物商人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200109
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160419_prompt_3",
+                        "text": "你選擇了追忆过去荣光",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200116
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160419_prompt_4",
+                        "text": "你選擇了做好准备",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200129
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160419_prompt_5",
+                        "text": "你選擇了哲百集",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200151
+                },
+                "case:op6": {
+                    "event_on": 5160418,
+                    "event_off": 5160419
+                },
+                "case:op7": {
+                    "event_on": 5160420,
+                    "event_off": 5160419
+                },
+                "case:op8": {
+                    "event_off": 5160419
+                }
+            }
+        }
+    ]
+}

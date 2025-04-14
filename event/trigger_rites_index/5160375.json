@@ -1,0 +1,109 @@
+{
+    "id": 5160375,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160375_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "王狮猎场",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "无尽黄沙",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "无故缺勤的臣子",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "未被满足的渴求",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "微小的麻烦",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160375_prompt_1",
+                        "text": "你選擇了王狮猎场",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200632
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160375_prompt_2",
+                        "text": "你選擇了无尽黄沙",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200702
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160375_prompt_3",
+                        "text": "你選擇了无故缺勤的臣子",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200721
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160375_prompt_4",
+                        "text": "你選擇了未被满足的渴求",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200779
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160375_prompt_5",
+                        "text": "你選擇了微小的麻烦",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200784
+                },
+                "case:op6": {
+                    "event_on": 5160374,
+                    "event_off": 5160375
+                },
+                "case:op7": {
+                    "event_on": 5160376,
+                    "event_off": 5160375
+                },
+                "case:op8": {
+                    "event_off": 5160375
+                }
+            }
+        }
+    ]
+}

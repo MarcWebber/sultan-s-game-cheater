@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加有跟班标签",
-            "result_text": "[s1.name]添加了移除有跟班标签",
+            "result_text": "[s1.name]添加了有跟班标签",
             "result": {
                 "s1+有跟班": 1
             },

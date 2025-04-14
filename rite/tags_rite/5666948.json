@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加旗手标签",
-            "result_text": "[s1.name]添加了移除旗手标签",
+            "result_text": "[s1.name]添加了旗手标签",
             "result": {
                 "s1+旗手": 1
             },

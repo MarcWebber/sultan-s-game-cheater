@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加治疗者标签",
-            "result_text": "[s1.name]添加了移除治疗者标签",
+            "result_text": "[s1.name]添加了治疗者标签",
             "result": {
                 "s1+治疗者": 1
             },

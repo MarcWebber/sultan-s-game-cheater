@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加未被苏丹所知标签",
-            "result_text": "[s1.name]添加了移除未被苏丹所知标签",
+            "result_text": "[s1.name]添加了未被苏丹所知标签",
             "result": {
                 "s1+未被苏丹所知": 1
             },

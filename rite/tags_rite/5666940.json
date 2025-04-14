@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加被覆者标签",
-            "result_text": "[s1.name]添加了移除被覆者标签",
+            "result_text": "[s1.name]添加了被覆者标签",
             "result": {
                 "s1+被覆者": 1
             },

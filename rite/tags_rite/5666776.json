@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加谗言标签",
-            "result_text": "[s1.name]添加了移除谗言标签",
+            "result_text": "[s1.name]添加了谗言标签",
             "result": {
                 "s1+谗言": 1
             },

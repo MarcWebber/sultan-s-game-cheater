@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加大敌标签",
-            "result_text": "[s1.name]添加了移除大敌标签",
+            "result_text": "[s1.name]添加了大敌标签",
             "result": {
                 "s1+大敌": 1
             },

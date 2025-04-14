@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加离间标签",
-            "result_text": "[s1.name]添加了移除离间标签",
+            "result_text": "[s1.name]添加了离间标签",
             "result": {
                 "s1+离间": 1
             },

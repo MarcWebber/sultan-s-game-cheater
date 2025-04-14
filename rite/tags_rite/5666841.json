@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加入圣标签",
-            "result_text": "[s1.name]添加了移除入圣标签",
+            "result_text": "[s1.name]添加了入圣标签",
             "result": {
                 "s1+入圣": 1
             },

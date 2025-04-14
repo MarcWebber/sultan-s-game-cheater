@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加金屋藏娇标签",
-            "result_text": "[s1.name]添加了移除金屋藏娇标签",
+            "result_text": "[s1.name]添加了金屋藏娇标签",
             "result": {
                 "s1+金屋藏娇": 1
             },

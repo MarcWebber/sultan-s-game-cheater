@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加无用标签",
-            "result_text": "[s1.name]添加了移除无用标签",
+            "result_text": "[s1.name]添加了无用标签",
             "result": {
                 "s1+无用": 1
             },

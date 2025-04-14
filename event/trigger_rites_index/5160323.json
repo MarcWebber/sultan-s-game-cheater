@@ -1,0 +1,109 @@
+{
+    "id": 5160323,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160323_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "祈雨献祭",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "悄无声息的离去",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "寝食单",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "趋炎附势之徒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "欺软怕硬之徒",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160323_prompt_1",
+                        "text": "你選擇了祈雨献祭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200682
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160323_prompt_2",
+                        "text": "你選擇了悄无声息的离去",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200683
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160323_prompt_3",
+                        "text": "你選擇了寝食单",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200834
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160323_prompt_4",
+                        "text": "你選擇了趋炎附势之徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200844
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160323_prompt_5",
+                        "text": "你選擇了欺软怕硬之徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200847
+                },
+                "case:op6": {
+                    "event_on": 5160322,
+                    "event_off": 5160323
+                },
+                "case:op7": {
+                    "event_on": 5160324,
+                    "event_off": 5160323
+                },
+                "case:op8": {
+                    "event_off": 5160323
+                }
+            }
+        }
+    ]
+}

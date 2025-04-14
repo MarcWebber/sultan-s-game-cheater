@@ -1,0 +1,109 @@
+{
+    "id": 5160227,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160227_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "大兴土木",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "大盗传奇",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "地图与边疆",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "动物与植物图鉴",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "洞开的思想",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160227_prompt_1",
+                        "text": "你選擇了大兴土木",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200008
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160227_prompt_2",
+                        "text": "你選擇了大盗传奇",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200025
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160227_prompt_3",
+                        "text": "你選擇了地图与边疆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200031
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160227_prompt_4",
+                        "text": "你選擇了动物与植物图鉴",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200033
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160227_prompt_5",
+                        "text": "你選擇了洞开的思想",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200044
+                },
+                "case:op6": {
+                    "event_on": 5160226,
+                    "event_off": 5160227
+                },
+                "case:op7": {
+                    "event_on": 5160228,
+                    "event_off": 5160227
+                },
+                "case:op8": {
+                    "event_off": 5160227
+                }
+            }
+        }
+    ]
+}

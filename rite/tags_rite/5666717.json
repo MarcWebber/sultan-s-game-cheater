@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加男性标签",
-            "result_text": "[s1.name]添加了移除男性标签",
+            "result_text": "[s1.name]添加了男性标签",
             "result": {
                 "s1+男性": 1
             },

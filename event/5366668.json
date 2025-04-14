@@ -41,8 +41,12 @@
                             "tag": "op5"
                         },
                         {
-                            "text": "我不会和魔鬼做交易",
+                            "text": "仪式召唤卡",
                             "tag": "op6"
+                        },
+                        {
+                            "text": "我不会和魔鬼做交易",
+                            "tag": "op_refuse"
                         }
                     ]
                 },
@@ -107,10 +111,22 @@
                     "event_off": 5366668
                 },
                 "case:op6": {
+                    "g.card": [
+                        2666671,
+                        "已拥有+1"
+                    ],
                     "prompt": {
                         "id": "5366668_prompt_6",
+                        "text": "你获得了仪式召唤卡",
+                        "icon": "cards/2000525"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op_refuse": {
+                    "prompt": {
+                        "id": "5366668_prompt_7",
                         "text": "希望你不要反悔",
-                        "icon": "cards/2000524"
+                        "icon": "cards/2000001"
                     },
                     "counter+7366668": 1,
                     "event_off": 5366668

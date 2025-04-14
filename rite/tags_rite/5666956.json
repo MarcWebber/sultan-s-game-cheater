@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加承阳标签",
-            "result_text": "[s1.name]添加了移除承阳标签",
+            "result_text": "[s1.name]添加了承阳标签",
             "result": {
                 "s1+承阳": 1
             },

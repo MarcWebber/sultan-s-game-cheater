@@ -1,0 +1,109 @@
+{
+    "id": 5160214,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160214_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "残忍的牺牲",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "斥候训练手册",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "草药学入门",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "裁缝店",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "蠢妓女和活恶棍",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160214_prompt_1",
+                        "text": "你選擇了残忍的牺牲",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200004
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160214_prompt_2",
+                        "text": "你選擇了斥候训练手册",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200026
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160214_prompt_3",
+                        "text": "你選擇了草药学入门",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200030
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160214_prompt_4",
+                        "text": "你選擇了裁缝店",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200101
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160214_prompt_5",
+                        "text": "你選擇了蠢妓女和活恶棍",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200130
+                },
+                "case:op6": {
+                    "event_on": 5160213,
+                    "event_off": 5160214
+                },
+                "case:op7": {
+                    "event_on": 5160215,
+                    "event_off": 5160214
+                },
+                "case:op8": {
+                    "event_off": 5160214
+                }
+            }
+        }
+    ]
+}

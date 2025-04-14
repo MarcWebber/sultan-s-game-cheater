@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加侍奉苏丹2标签",
-            "result_text": "[s1.name]添加了移除侍奉苏丹2标签",
+            "result_text": "[s1.name]添加了侍奉苏丹2标签",
             "result": {
                 "s1+侍奉苏丹2": 1
             },

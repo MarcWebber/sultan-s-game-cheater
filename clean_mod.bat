@@ -55,6 +55,20 @@ if exist "%gamePath%\" (
         )
     )
 
+    REM === 清理复制可触发仪式====
+    for %%f in ("%~dp0rite\trigger_rites\*.json") do (
+        set "fileName=%%~nxf"
+        REM 清理旧文件
+        if exist "!ceremonyPath!\!fileName!" (
+            echo 正在删除旧可触发仪式文件："!fileName!"
+            del /q "!ceremonyPath!\!fileName!"
+            if errorlevel 1 (
+                echo [错误] 删除可触发仪式失败: "!ceremonyPath!\!fileName!"
+                exit /b 1
+            )
+        )
+    )
+
     REM === 3. 移除事件、道具和装备文件 ===
     set "eventPath=%gamePath%\Sultan's Game_Data\StreamingAssets\config\event"
     for %%f in ("%~dp0event\*.json") do (
@@ -101,6 +115,7 @@ if exist "%gamePath%\" (
          set "fileName=%%~nxf"
          REM 清理旧文件
          if exist "!equipsPath!\!fileName!" (
+             echo 正在删除旧事件触发器文件"!fileName!"
              del /q "!equipsPath!\!fileName!"
              if errorlevel 1 (
                  echo [错误] 删除旧事件触发器文件失败: "!equipsPath!\!fileName!"
@@ -141,9 +156,25 @@ if exist "%gamePath%\" (
          REM 清理旧文件
          if exist "!equipsPath!\!fileName!" (
              del /q "!equipsPath!\!fileName!"
-             echo 正在删除旧TAG事件文件
+             echo 正在删除旧TAG事件文件"!fileName!"
              if errorlevel 1 (
                  echo [错误] 删除旧tag事件失败: "!equipsPath!\!fileName!"
+                 exit /b 1
+             )
+         )
+     )
+
+
+    @REM 清理可触发rite索引
+    set "equipsPath=!eventPath!"
+    for %%f in ("%~dp0event\trigger_rites_index\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             echo 正在删除旧可触发rite索引文件"!fileName!"
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除可触发rite索引失败: "!equipsPath!\!fileName!"
                  exit /b 1
              )
          )

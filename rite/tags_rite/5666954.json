@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加被流放标签",
-            "result_text": "[s1.name]添加了移除被流放标签",
+            "result_text": "[s1.name]添加了被流放标签",
             "result": {
                 "s1+被流放": 1
             },

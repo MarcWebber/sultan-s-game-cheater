@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加任意处置标签",
-            "result_text": "[s1.name]添加了移除任意处置标签",
+            "result_text": "[s1.name]添加了任意处置标签",
             "result": {
                 "s1+任意处置": 1
             },

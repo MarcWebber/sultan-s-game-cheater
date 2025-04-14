@@ -1,0 +1,109 @@
+{
+    "id": 5160262,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160262_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "护花使者",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "花花公子的收服（废弃）",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "回报宰相",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "回报宰相",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "回报宰相",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160262_prompt_1",
+                        "text": "你選擇了护花使者",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200710
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160262_prompt_2",
+                        "text": "你選擇了花花公子的收服（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200714
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160262_prompt_3",
+                        "text": "你選擇了回报宰相",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200722
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160262_prompt_4",
+                        "text": "你選擇了回报宰相",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200726
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160262_prompt_5",
+                        "text": "你選擇了回报宰相",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200730
+                },
+                "case:op6": {
+                    "event_on": 5160261,
+                    "event_off": 5160262
+                },
+                "case:op7": {
+                    "event_on": 5160263,
+                    "event_off": 5160262
+                },
+                "case:op8": {
+                    "event_off": 5160262
+                }
+            }
+        }
+    ]
+}

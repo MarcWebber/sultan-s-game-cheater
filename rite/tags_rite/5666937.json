@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加安全屋标签",
-            "result_text": "[s1.name]添加了移除安全屋标签",
+            "result_text": "[s1.name]添加了安全屋标签",
             "result": {
                 "s1+安全屋": 1
             },

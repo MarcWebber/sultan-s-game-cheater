@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加妻子标签",
-            "result_text": "[s1.name]添加了移除妻子标签",
+            "result_text": "[s1.name]添加了妻子标签",
             "result": {
                 "s1+妻子": 1
             },

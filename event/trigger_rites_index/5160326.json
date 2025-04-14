@@ -1,0 +1,109 @@
+{
+    "id": 5160326,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160326_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "强者待遇",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "祈福仪式",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "强夺凋零之花",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "轻易获得快乐",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "清流与浊流",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160326_prompt_1",
+                        "text": "你選擇了强者待遇",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206021
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160326_prompt_2",
+                        "text": "你選擇了祈福仪式",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206052
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160326_prompt_3",
+                        "text": "你選擇了强夺凋零之花",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206502
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160326_prompt_4",
+                        "text": "你選擇了轻易获得快乐",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206510
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160326_prompt_5",
+                        "text": "你選擇了清流与浊流",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206538
+                },
+                "case:op6": {
+                    "event_on": 5160325,
+                    "event_off": 5160326
+                },
+                "case:op7": {
+                    "event_on": 5160327,
+                    "event_off": 5160326
+                },
+                "case:op8": {
+                    "event_off": 5160326
+                }
+            }
+        }
+    ]
+}

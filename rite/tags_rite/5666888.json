@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加盖斯标签",
-            "result_text": "[s1.name]添加了移除盖斯标签",
+            "result_text": "[s1.name]添加了盖斯标签",
             "result": {
                 "s1+盖斯": 1
             },

@@ -1,0 +1,109 @@
+{
+    "id": 5160318,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160318_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "闹事的老鼠",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "你是最后一个",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "能吃吗？好吃吗？怎么吃？",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "奈费勒的毒箭",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "娜依拉的索求",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160318_prompt_1",
+                        "text": "你選擇了闹事的老鼠",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208097
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160318_prompt_2",
+                        "text": "你選擇了你是最后一个",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208127
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160318_prompt_3",
+                        "text": "你選擇了能吃吗？好吃吗？怎么吃？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208132
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160318_prompt_4",
+                        "text": "你選擇了奈费勒的毒箭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210020
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160318_prompt_5",
+                        "text": "你選擇了娜依拉的索求",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210021
+                },
+                "case:op6": {
+                    "event_on": 5160317,
+                    "event_off": 5160318
+                },
+                "case:op7": {
+                    "event_on": 5160319,
+                    "event_off": 5160318
+                },
+                "case:op8": {
+                    "event_off": 5160318
+                }
+            }
+        }
+    ]
+}

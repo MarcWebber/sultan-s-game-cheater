@@ -1,0 +1,76 @@
+{
+    "id": 5160399,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160399_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "小狗和月亮之歌",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "新月升起",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "献祭",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160399_prompt_1",
+                        "text": "你選擇了小狗和月亮之歌",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208162
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160399_prompt_2",
+                        "text": "你選擇了新月升起",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208163
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160399_prompt_3",
+                        "text": "你選擇了献祭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210056
+                },
+                "case:op4": {
+                    "event_on": 5160398
+                },
+                "case:op5": {
+                    "event_off": 5160399
+                }
+            }
+        }
+    ]
+}

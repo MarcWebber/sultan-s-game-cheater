@@ -29,7 +29,7 @@
                 }
             },
             "result_title": "添加忏悔标签",
-            "result_text": "[s1.name]添加了移除忏悔标签",
+            "result_text": "[s1.name]添加了忏悔标签",
             "result": {
                 "s1+忏悔": 1
             },

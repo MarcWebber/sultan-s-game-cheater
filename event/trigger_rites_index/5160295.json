@@ -1,0 +1,109 @@
+{
+    "id": 5160295,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160295_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "浪子的思绪",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "浪子的思绪",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "另谋出路",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "蓝巾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "浪子的悲哀",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160295_prompt_1",
+                        "text": "你選擇了浪子的思绪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200771
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160295_prompt_2",
+                        "text": "你選擇了浪子的思绪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200775
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160295_prompt_3",
+                        "text": "你選擇了另谋出路",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200780
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160295_prompt_4",
+                        "text": "你選擇了蓝巾",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200790
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160295_prompt_5",
+                        "text": "你選擇了浪子的悲哀",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200805
+                },
+                "case:op6": {
+                    "event_on": 5160294,
+                    "event_off": 5160295
+                },
+                "case:op7": {
+                    "event_on": 5160296,
+                    "event_off": 5160295
+                },
+                "case:op8": {
+                    "event_off": 5160295
+                }
+            }
+        }
+    ]
+}

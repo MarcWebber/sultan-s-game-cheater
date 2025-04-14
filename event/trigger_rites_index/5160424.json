@@ -1,0 +1,109 @@
+{
+    "id": 5160424,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160424_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "朱娜的游戏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "朱娜的游戏",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "追猎豺狼",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "追查猎奴人",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宰相的暗示",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160424_prompt_1",
+                        "text": "你選擇了朱娜的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200801
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160424_prompt_2",
+                        "text": "你選擇了朱娜的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200806
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160424_prompt_3",
+                        "text": "你選擇了追猎豺狼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200813
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160424_prompt_4",
+                        "text": "你選擇了追查猎奴人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200818
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160424_prompt_5",
+                        "text": "你選擇了宰相的暗示",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200821
+                },
+                "case:op6": {
+                    "event_on": 5160423,
+                    "event_off": 5160424
+                },
+                "case:op7": {
+                    "event_on": 5160425,
+                    "event_off": 5160424
+                },
+                "case:op8": {
+                    "event_off": 5160424
+                }
+            }
+        }
+    ]
+}

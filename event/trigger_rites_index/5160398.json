@@ -1,0 +1,109 @@
+{
+    "id": 5160398,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160398_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "谢肉祭",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "熏狮子全餐",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "仙人掌蛋糕",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "稀有的肉干",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "新月想出去玩",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160398_prompt_1",
+                        "text": "你選擇了谢肉祭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208106
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160398_prompt_2",
+                        "text": "你選擇了熏狮子全餐",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208134
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160398_prompt_3",
+                        "text": "你選擇了仙人掌蛋糕",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208140
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160398_prompt_4",
+                        "text": "你選擇了稀有的肉干",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208152
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160398_prompt_5",
+                        "text": "你選擇了新月想出去玩",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208161
+                },
+                "case:op6": {
+                    "event_on": 5160397,
+                    "event_off": 5160398
+                },
+                "case:op7": {
+                    "event_on": 5160399,
+                    "event_off": 5160398
+                },
+                "case:op8": {
+                    "event_off": 5160398
+                }
+            }
+        }
+    ]
+}
