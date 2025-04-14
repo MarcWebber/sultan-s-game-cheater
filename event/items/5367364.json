@@ -27,6 +27,10 @@
                             "tag": "op2"
                         },
                         {
+                            "text": "其他",
+                            "tag": "op_other"
+                        },
+                        {
                             "text": "上一页",
                             "tag": "op3"
                         }
@@ -37,6 +41,9 @@
                 },
                 "case:op2": {
                     "event_on": 5367341
+                },
+                "case:op_other":{
+                    "event_on": 5367354
                 },
                 "case:op23": {
                     "event_on": 5367363
