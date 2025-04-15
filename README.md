@@ -89,7 +89,7 @@
 
 ## 使用説明
 
-### 准备
+### 准备（Windows）
 
 双击startup.bat，输入游戏路径，一键使用
 
@@ -104,6 +104,12 @@
 >
 > 然后，如果你手动复制文件，一定要关注rite和event中的子文件夹，正确的做法是先把rite,event中子文件夹下所有的json文件放到rite或者event中，然后再整个拖到游戏文件下。
 >
+
+### 准备（Mac）
+
+双击startup.command，一键使用
+
+双击clean_mod.command，一键卸载
 
 ### 开始使用
 
