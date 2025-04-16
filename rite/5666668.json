@@ -32,7 +32,9 @@
             "result": {
                 "event_on": 5367800
             },
-            "action": {}
+            "action": {
+                "rite":5666668
+            }
         }
     ],
     "settlement_extre": [],

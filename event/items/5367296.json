@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "如何取悦你的爱人",
+                            "text": "热气球",
                             "tag": "op1"
                         },
                         {
-                            "text": "蠕虫密卷",
+                            "text": "日月臂环",
                             "tag": "op2"
                         },
                         {
-                            "text": "热气球",
+                            "text": "肉欲",
                             "tag": "op3"
                         },
                         {
-                            "text": "日月臂环",
+                            "text": "如何取悦你的爱人",
                             "tag": "op4"
                         },
                         {
-                            "text": "肉欲",
+                            "text": "蠕虫密卷",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000236",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367296_prompt_1",
-                        "text": "你選擇了如何取悦你的爱人",
-                        "icon": "cards/2000236"
-                    }
-                },
-                "case:op2": {
-                    "g.card": [
-                        "2000243",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367296_prompt_2",
-                        "text": "你選擇了蠕虫密卷",
-                        "icon": "cards/2000243"
-                    }
-                },
-                "case:op3": {
-                    "g.card": [
                         "2000388",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367296_prompt_3",
+                        "id": "5367296_prompt_1",
                         "text": "你選擇了热气球",
                         "icon": "cards/2000388"
                     }
                 },
-                "case:op4": {
+                "case:op2": {
                     "g.card": [
                         "2000442",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367296_prompt_4",
+                        "id": "5367296_prompt_2",
                         "text": "你選擇了日月臂环",
                         "icon": "cards/2000442"
                     }
                 },
-                "case:op5": {
+                "case:op3": {
                     "g.card": [
                         "2001063",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367296_prompt_5",
+                        "id": "5367296_prompt_3",
                         "text": "你選擇了肉欲",
                         "icon": "cards/2001063"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000236",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367296_prompt_4",
+                        "text": "你選擇了如何取悦你的爱人",
+                        "icon": "cards/2000236"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000243",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367296_prompt_5",
+                        "text": "你選擇了蠕虫密卷",
+                        "icon": "cards/2000243"
                     }
                 },
                 "case:op6": {

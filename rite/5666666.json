@@ -40,7 +40,9 @@
         "s1+生存": 5,
         "s1+重投": 1
       },
-      "action": {}
+      "action": {
+        "rite": 5666666
+      }
     },
     {
       "condition": {
@@ -52,7 +54,8 @@
       "result_text": "你可以向神索要一笔钱，一些金骰子，倒回次数或者一些好的坏的名声",
       "result": {},
       "action": {
-        "event_on": 5366667
+        "event_on": 5366667,
+        "rite": 5666666
       }
     },
     {
@@ -63,7 +66,8 @@
       "result_title": "提升品质",
       "result_text": "[s3.name]提升了品质",
       "result": {
-        "s3.uprare": 1
+        "s3.uprare": 1,
+        "rite": 5666666
       },
       "action": {}
     },
@@ -75,7 +79,8 @@
       "result_title": "降低品质",
       "result_text": "[s4.name]降低了品质",
       "result": {
-        "s4.uprare": -1
+        "s4.uprare": -1,
+        "rite": 5666666
       },
       "action": {}
     },
@@ -89,7 +94,8 @@
       "result_text": "可以克隆卡",
       "result": {},
       "action": {
-        "copy.s5": 1
+        "copy.s5": 1,
+        "rite": 5666666
       }
     },
     {
@@ -102,7 +108,8 @@
       "result_text": "你可以向神索要装备，道具或者情报，也可以邀请角色，获取苏丹卡",
       "result": {},
       "action": {
-        "event_on": 5367000
+        "event_on": 5367000,
+        "rite": 5666666
       }
     },
     {
@@ -115,7 +122,8 @@
       "result_text": "可以冻结卡牌",
       "result": {},
       "action": {
-        "s7+冻结": 1
+        "s7+冻结": 1,
+        "rite": 5666666
       }
     },
     {
@@ -128,7 +136,8 @@
       "result_text": "[s8.name]成为了贵族",
       "result": {},
       "action": {
-        "s8+贵族": 1
+        "s8+贵族": 1,
+        "rite": 5666666
       }
     },
     {
@@ -141,7 +150,8 @@
       "result_text": "[s9.name]不再是贵族",
       "result": {},
       "action": {
-        "s9-贵族": 1
+        "s9-贵族": 1,
+        "rite": 5666666
       }
     },
     {
@@ -156,7 +166,9 @@
         "clean.rite": 5666666,
         "event_on": 5368300
       },
-      "action": {}
+      "action": {
+        "rite": 5666666
+      }
     }
   ],
   "settlement_extre": [
@@ -172,14 +184,15 @@
           "s7":1,
           "s8":1,
           "s9":1,
-          "s10":10
+          "s10":1
         }
       },
       "result":{
-        "clean.rite":5666666,
+        // "clean.rite":5666666,
         // 事件自启动，避免循环操作
-        "rite":566666
-      }
+        "rite":5666666
+      },
+      "action": {}
     }
   ],
   "cards_slot": {

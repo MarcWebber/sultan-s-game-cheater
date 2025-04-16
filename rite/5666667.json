@@ -40,7 +40,9 @@
         "clean.s4": 1,
         "clean.s5": 1
       },
-      "action": {}
+      "action": {
+        "rite": 5666667
+      }
     }
   ],
   "settlement_extre": [],

@@ -51,7 +51,9 @@
         "s9+激情": 1,
         "s10+重投": 1
       },
-      "action": {}
+      "action": {
+        "rite": 5666669
+      }
     },
     {
       "condition": {
@@ -83,7 +85,9 @@
         "s9+激情": 2,
         "s10+重投": 2
       },
-      "action": {}
+      "action": {
+        "rite": 5666669
+      }
     },
     {
       "condition": {
@@ -115,7 +119,9 @@
         "s9+激情": 5,
         "s10+重投": 5
       },
-      "action": {}
+      "action": {
+        "rite": 5666669
+      }
     },
     {
       "condition": {
@@ -147,13 +153,14 @@
         "s9+激情": 10,
         "s10+重投": 10
       },
-      "action": {}
+      "action": {
+        "rite": 5666669
+      }
     }
   ],
   "settlement_extre": [
     {
       "condition": {
-        "s11.rare=": 1,
         "any": {
           "s1": 1,
           "s2": 1,
@@ -168,7 +175,7 @@
         }
       },
       "result": {
-        "clean.rite": 5666669,
+        // "clean.rite": 5666669,
         "rite": 5666669
       }
     }

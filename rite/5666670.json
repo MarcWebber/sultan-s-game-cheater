@@ -38,7 +38,9 @@
         "s3+equip_slot": "accessory",
         "s4+equip_slot": "animal_handling"
       },
-      "action": {}
+      "action": {
+        "rite": 5666670
+      }
     }
   ],
   "settlement_extre": [
@@ -53,7 +55,7 @@
       },
       "result": {
         // 自关闭
-        "clean.rite": 5666670,
+        // "clean.rite": 5666670,
         "rite": 5666670
       }
     }

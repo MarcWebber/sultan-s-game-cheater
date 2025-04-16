@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "情报",
+                            "text": "妻子",
                             "tag": "op1"
                         },
                         {
-                            "text": "妻子",
+                            "text": "奇珍",
                             "tag": "op2"
                         },
                         {
-                            "text": "囚徒",
+                            "text": "旗手",
                             "tag": "op3"
                         },
                         {
-                            "text": "奇珍",
+                            "text": "虔信",
                             "tag": "op4"
                         },
                         {
-                            "text": "虔信",
+                            "text": "枪姬训练",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5666741,
-                    "prompt": {
-                        "id": "5368235_prompt_1",
-                        "text": "你選擇了情报,值得注意的事件发生了",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
                     "rite": 5666746,
                     "prompt": {
-                        "id": "5368235_prompt_2",
+                        "id": "5368235_prompt_1",
                         "text": "你選擇了妻子,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op3": {
-                    "rite": 5666755,
-                    "prompt": {
-                        "id": "5368235_prompt_3",
-                        "text": "你選擇了囚徒,值得注意的事件发生了",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op4": {
+                "case:op2": {
                     "rite": 5666792,
                     "prompt": {
-                        "id": "5368235_prompt_4",
+                        "id": "5368235_prompt_2",
                         "text": "你選擇了奇珍,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op3": {
+                    "rite": 5666948,
+                    "prompt": {
+                        "id": "5368235_prompt_3",
+                        "text": "你選擇了旗手,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
                     "rite": 5666893,
                     "prompt": {
-                        "id": "5368235_prompt_5",
+                        "id": "5368235_prompt_4",
                         "text": "你選擇了虔信,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666965,
+                    "prompt": {
+                        "id": "5368235_prompt_5",
+                        "text": "你選擇了枪姬训练,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },

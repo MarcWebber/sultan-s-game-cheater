@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "拷问工具",
+                            "text": "坎佩尔末刃",
                             "tag": "op1"
                         },
                         {
-                            "text": "烤火鸡",
+                            "text": "拷问工具",
                             "tag": "op2"
                         },
                         {
-                            "text": "扩建的居所",
+                            "text": "烤火鸡",
                             "tag": "op3"
                         },
                         {
-                            "text": "恐吓计划",
+                            "text": "烤全驼",
                             "tag": "op4"
                         },
                         {
-                            "text": "窥视黑暗",
+                            "text": "恐吓计划",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000077",
+                        "2000854",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367265_prompt_1",
+                        "text": "你選擇了坎佩尔末刃",
+                        "icon": "cards/2000854"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000077",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367265_prompt_2",
                         "text": "你選擇了拷问工具",
                         "icon": "cards/2000077"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000159",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367265_prompt_2",
+                        "id": "5367265_prompt_3",
                         "text": "你選擇了烤火鸡",
                         "icon": "cards/2000159"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
-                        "2000182",
+                        "2001011",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367265_prompt_3",
-                        "text": "你選擇了扩建的居所",
-                        "icon": "cards/2000182"
+                        "id": "5367265_prompt_4",
+                        "text": "你選擇了烤全驼",
+                        "icon": "cards/2001011"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000308",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367265_prompt_4",
+                        "id": "5367265_prompt_5",
                         "text": "你選擇了恐吓计划",
                         "icon": "cards/2000308"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000410",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367265_prompt_5",
-                        "text": "你選擇了窥视黑暗",
-                        "icon": "cards/2000410"
                     }
                 },
                 "case:op6": {

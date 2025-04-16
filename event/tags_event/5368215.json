@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "服装",
+                            "text": "法拉杰",
                             "tag": "op1"
                         },
                         {
-                            "text": "服装存货",
+                            "text": "反对",
                             "tag": "op2"
                         },
                         {
-                            "text": "反对",
+                            "text": "犯罪计划",
                             "tag": "op3"
                         },
                         {
-                            "text": "犯罪计划",
+                            "text": "犯罪号召",
                             "tag": "op4"
                         },
                         {
-                            "text": "犯罪号召",
+                            "text": "疯狂",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5666750,
+                    "rite": 5666885,
                     "prompt": {
                         "id": "5368215_prompt_1",
-                        "text": "你選擇了服装,值得注意的事件发生了",
+                        "text": "你選擇了法拉杰,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5666760,
-                    "prompt": {
-                        "id": "5368215_prompt_2",
-                        "text": "你選擇了服装存货,值得注意的事件发生了",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
                     "rite": 5666775,
                     "prompt": {
-                        "id": "5368215_prompt_3",
+                        "id": "5368215_prompt_2",
                         "text": "你選擇了反对,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op4": {
+                "case:op3": {
                     "rite": 5666795,
                     "prompt": {
-                        "id": "5368215_prompt_4",
+                        "id": "5368215_prompt_3",
                         "text": "你選擇了犯罪计划,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op4": {
                     "rite": 5666798,
                     "prompt": {
-                        "id": "5368215_prompt_5",
+                        "id": "5368215_prompt_4",
                         "text": "你選擇了犯罪号召,值得注意的事件发生了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5666982,
+                    "prompt": {
+                        "id": "5368215_prompt_5",
+                        "text": "你選擇了疯狂,值得注意的事件发生了",
                         "icon": "cards/2000001"
                     }
                 },
