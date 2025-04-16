@@ -159,7 +159,29 @@
       "action": {}
     }
   ],
-  "settlement_extre": [],
+  "settlement_extre": [
+    {
+      "condition":{
+        "any":{
+          "s1":1,
+          "s2":1,
+          "s3":1,
+          "s4":1,
+          "s5":1,
+          "s6":1,
+          "s7":1,
+          "s8":1,
+          "s9":1,
+          "s10":10
+        }
+      },
+      "result":{
+        "clean.rite":5666666,
+        // 事件自启动，避免循环操作
+        "rite":566666
+      }
+    }
+  ],
   "cards_slot": {
     "s1": {
       "condition": {

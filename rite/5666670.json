@@ -41,7 +41,23 @@
       "action": {}
     }
   ],
-  "settlement_extre": [],
+  "settlement_extre": [
+    {
+      "condition": {
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1
+        }
+      },
+      "result": {
+        // 自关闭
+        "clean.rite": 5666670,
+        "rite": 5666670
+      }
+    }
+  ],
   "cards_slot": {
     "s1": {
       "condition": {

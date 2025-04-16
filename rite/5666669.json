@@ -150,7 +150,29 @@
       "action": {}
     }
   ],
-  "settlement_extre": [],
+  "settlement_extre": [
+    {
+      "condition": {
+        "s11.rare=": 1,
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1,
+          "s5": 1,
+          "s6": 1,
+          "s7": 1,
+          "s8": 1,
+          "s9": 1,
+          "s10": 1
+        }
+      },
+      "result": {
+        "clean.rite": 5666669,
+        "rite": 5666669
+      }
+    }
+  ],
   "cards_slot": {
     "s1": {
       "condition": {
