@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "父亲的肉",
+                            "text": "疯癫与幻觉",
                             "tag": "op1"
                         },
                         {
-                            "text": "夫妻正应如此",
+                            "text": "疯癫与幻觉",
                             "tag": "op2"
                         },
                         {
-                            "text": "复仇",
+                            "text": "疯癫与幻觉",
                             "tag": "op3"
                         },
                         {
-                            "text": "复仇的滋味",
+                            "text": "疯癫与幻觉",
                             "tag": "op4"
                         },
                         {
-                            "text": "复仇的滋味",
+                            "text": "疯癫与幻觉",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160243_prompt_1",
-                        "text": "你選擇了父亲的肉",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204904
+                    "rite": 5204809
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160243_prompt_2",
-                        "text": "你選擇了夫妻正应如此",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206050
+                    "rite": 5204810
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160243_prompt_3",
-                        "text": "你選擇了复仇",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206522
+                    "rite": 5204811
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160243_prompt_4",
-                        "text": "你選擇了复仇的滋味",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206529
+                    "rite": 5204812
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160243_prompt_5",
-                        "text": "你選擇了复仇的滋味",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206530
+                    "rite": 5204813
                 },
                 "case:op6": {
                     "event_on": 5160242,

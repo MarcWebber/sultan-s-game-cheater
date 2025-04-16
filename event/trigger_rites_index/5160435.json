@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "做羔羊",
+                            "text": "最后的愿望",
                             "tag": "op1"
                         },
                         {
-                            "text": "做狗",
+                            "text": "最后的道别",
                             "tag": "op2"
                         },
                         {
-                            "text": "做羔羊？",
+                            "text": "最后的纵欲卡",
                             "tag": "op3"
                         },
                         {
-                            "text": "做老鼠",
+                            "text": "最后的杀戮卡",
                             "tag": "op4"
                         },
                         {
-                            "text": "做人",
+                            "text": "最后的征服卡",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160435_prompt_1",
-                        "text": "你選擇了做羔羊",
+                        "text": "你選擇了最后的愿望",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208081
+                    "rite": 5206678
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160435_prompt_2",
-                        "text": "你選擇了做狗",
+                        "text": "你選擇了最后的道别",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208082
+                    "rite": 5208016
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160435_prompt_3",
-                        "text": "你選擇了做羔羊？",
+                        "text": "你選擇了最后的纵欲卡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208083
+                    "rite": 5210003
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160435_prompt_4",
-                        "text": "你選擇了做老鼠",
+                        "text": "你選擇了最后的杀戮卡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208084
+                    "rite": 5210004
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160435_prompt_5",
-                        "text": "你選擇了做人",
+                        "text": "你選擇了最后的征服卡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208085
+                    "rite": 5210005
                 },
                 "case:op6": {
                     "event_on": 5160434,

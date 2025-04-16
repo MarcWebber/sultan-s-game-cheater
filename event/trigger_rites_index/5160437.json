@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "直面苏丹",
+                            "text": "最后的诱惑",
                             "tag": "op1"
                         },
                         {
-                            "text": "最后的纵欲卡",
+                            "text": "做好准备",
                             "tag": "op2"
                         },
                         {
-                            "text": "最后的杀戮卡",
+                            "text": "做鸡",
                             "tag": "op3"
                         },
                         {
-                            "text": "最后的奢靡卡",
+                            "text": "做牛马",
                             "tag": "op4"
                         },
                         {
-                            "text": "最后的征服卡",
+                            "text": "做羔羊",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160437_prompt_1",
-                        "text": "你選擇了直面苏丹",
+                        "text": "你選擇了最后的诱惑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210014
+                    "rite": 5210041
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160437_prompt_2",
-                        "text": "你選擇了最后的纵欲卡",
+                        "text": "你選擇了做好准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210026
+                    "rite": 5200129
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160437_prompt_3",
-                        "text": "你選擇了最后的杀戮卡",
+                        "text": "你選擇了做鸡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210027
+                    "rite": 5208079
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160437_prompt_4",
-                        "text": "你選擇了最后的奢靡卡",
+                        "text": "你選擇了做牛马",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210028
+                    "rite": 5208080
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160437_prompt_5",
-                        "text": "你選擇了最后的征服卡",
+                        "text": "你選擇了做羔羊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210029
+                    "rite": 5208081
                 },
                 "case:op6": {
                     "event_on": 5160436,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "神的秘密",
+                            "text": "弑君者",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹的诘问",
+                            "text": "石餐盒",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹的索要",
+                            "text": "失踪的快脚",
                             "tag": "op3"
                         },
                         {
-                            "text": "苏丹的报复",
+                            "text": "食物中毒",
                             "tag": "op4"
                         },
                         {
-                            "text": "盛大恩赐",
+                            "text": "誓师",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160350_prompt_1",
-                        "text": "你選擇了神的秘密",
+                        "text": "你選擇了弑君者",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204907
+                    "rite": 5206541
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160350_prompt_2",
-                        "text": "你選擇了苏丹的诘问",
+                        "text": "你選擇了石餐盒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206012
+                    "rite": 5206622
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160350_prompt_3",
-                        "text": "你選擇了苏丹的索要",
+                        "text": "你選擇了失踪的快脚",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206018
+                    "rite": 5208053
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160350_prompt_4",
-                        "text": "你選擇了苏丹的报复",
+                        "text": "你選擇了食物中毒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206019
+                    "rite": 5208129
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160350_prompt_5",
-                        "text": "你選擇了盛大恩赐",
+                        "text": "你選擇了誓师",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206039
+                    "rite": 5210009
                 },
                 "case:op6": {
                     "event_on": 5160349,

@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "御厨",
+                            "text": "愿你安息",
                             "tag": "op1"
                         },
                         {
@@ -27,11 +27,11 @@
                             "tag": "op2"
                         },
                         {
-                            "text": "于黎明前",
+                            "text": "月牙，我心爱的月牙",
                             "tag": "op3"
                         },
                         {
-                            "text": "引火物",
+                            "text": "酝酿中的阴谋",
                             "tag": "op4"
                         },
                         {
@@ -47,10 +47,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160417_prompt_1",
-                        "text": "你選擇了御厨",
+                        "text": "你選擇了愿你安息",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208119
+                    "rite": 5206077
                 },
                 "case:op2": {
                     "prompt": {
@@ -63,18 +63,18 @@
                 "case:op3": {
                     "prompt": {
                         "id": "5160417_prompt_3",
-                        "text": "你選擇了于黎明前",
+                        "text": "你選擇了月牙，我心爱的月牙",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210007
+                    "rite": 5204906
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160417_prompt_4",
-                        "text": "你選擇了引火物",
+                        "text": "你選擇了酝酿中的阴谋",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210039
+                    "rite": 5203010
                 },
                 "case:op5": {
                     "event_on": 5160416

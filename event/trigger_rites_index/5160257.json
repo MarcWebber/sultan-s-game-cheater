@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "阁楼里熟悉的笑声",
+                            "text": "光之舞",
                             "tag": "op1"
                         },
                         {
-                            "text": "阁楼里偶尔的笑声",
+                            "text": "诡异的幻听",
                             "tag": "op2"
                         },
                         {
-                            "text": "阁楼里的笑声",
+                            "text": "归乡之径（作废）",
                             "tag": "op3"
                         },
                         {
-                            "text": "过于尊贵的客人",
+                            "text": "归乡之路",
                             "tag": "op4"
                         },
                         {
-                            "text": "国王烤肉",
+                            "text": "贵族也想吃",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160257_prompt_1",
-                        "text": "你選擇了阁楼里熟悉的笑声",
+                        "text": "你選擇了光之舞",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208110
+                    "rite": 5210017
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160257_prompt_2",
-                        "text": "你選擇了阁楼里偶尔的笑声",
+                        "text": "你選擇了诡异的幻听",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208111
+                    "rite": 5200124
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160257_prompt_3",
-                        "text": "你選擇了阁楼里的笑声",
+                        "text": "你選擇了归乡之径（作废）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208112
+                    "rite": 5208055
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160257_prompt_4",
-                        "text": "你選擇了过于尊贵的客人",
+                        "text": "你選擇了归乡之路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208117
+                    "rite": 5208064
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160257_prompt_5",
-                        "text": "你選擇了国王烤肉",
+                        "text": "你選擇了贵族也想吃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208142
+                    "rite": 5208092
                 },
                 "case:op6": {
                     "event_on": 5160256,

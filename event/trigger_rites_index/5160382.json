@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "为所欲为",
+                            "text": "无谋的复仇",
                             "tag": "op1"
                         },
                         {
-                            "text": "王之舞",
+                            "text": "武装娇妻",
                             "tag": "op2"
                         },
                         {
-                            "text": "帷幕之后",
+                            "text": "午夜利刃",
                             "tag": "op3"
                         },
                         {
-                            "text": "喂食",
+                            "text": "无妄之灾",
                             "tag": "op4"
                         },
                         {
@@ -47,34 +47,34 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160382_prompt_1",
-                        "text": "你選擇了为所欲为",
+                        "text": "你選擇了无谋的复仇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210016
+                    "rite": 5207015
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160382_prompt_2",
-                        "text": "你選擇了王之舞",
+                        "text": "你選擇了武装娇妻",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210019
+                    "rite": 5208002
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160382_prompt_3",
-                        "text": "你選擇了帷幕之后",
+                        "text": "你選擇了午夜利刃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210022
+                    "rite": 5208125
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160382_prompt_4",
-                        "text": "你選擇了喂食",
+                        "text": "你選擇了无妄之灾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210052
+                    "rite": 5208177
                 },
                 "case:op5": {
                     "event_on": 5160381

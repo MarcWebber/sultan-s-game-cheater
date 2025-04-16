@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "预言诗",
+                            "text": "妖精森林",
                             "tag": "op1"
                         },
                         {
-                            "text": "有趣的情诗",
+                            "text": "妖精国游记",
                             "tag": "op2"
                         },
                         {
-                            "text": "有趣的史诗",
+                            "text": "夜间的战斗",
                             "tag": "op3"
                         },
                         {
-                            "text": "雨林！雨林！",
+                            "text": "夜的栖身地",
                             "tag": "op4"
                         },
                         {
-                            "text": "异国的魔法书",
+                            "text": "夜间工作",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160401_prompt_1",
-                        "text": "你選擇了预言诗",
+                        "text": "你選擇了妖精森林",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200108
+                    "rite": 5200705
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160401_prompt_2",
-                        "text": "你選擇了有趣的情诗",
+                        "text": "你選擇了妖精国游记",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200110
+                    "rite": 5200753
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160401_prompt_3",
-                        "text": "你選擇了有趣的史诗",
+                        "text": "你選擇了夜间的战斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200114
+                    "rite": 5200016
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160401_prompt_4",
-                        "text": "你選擇了雨林！雨林！",
+                        "text": "你選擇了夜的栖身地",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200146
+                    "rite": 5200507
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160401_prompt_5",
-                        "text": "你選擇了异国的魔法书",
+                        "text": "你選擇了夜间工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200155
+                    "rite": 5200857
                 },
                 "case:op6": {
                     "event_on": 5160400,

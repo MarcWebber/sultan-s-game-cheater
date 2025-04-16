@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "学术专著",
+                            "text": "夏玛的游戏",
                             "tag": "op1"
                         },
                         {
-                            "text": "谐音谩骂",
+                            "text": "夏玛的游戏",
                             "tag": "op2"
                         },
                         {
-                            "text": "小圆的日记",
+                            "text": "夏玛的葬礼",
                             "tag": "op3"
                         },
                         {
-                            "text": "邪恶的线索",
+                            "text": "下水道的鳄鱼",
                             "tag": "op4"
                         },
                         {
-                            "text": "消除隐患",
+                            "text": "下次还敢吗？",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160384_prompt_1",
-                        "text": "你選擇了学术专著",
+                        "text": "你選擇了夏玛的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200065
+                    "rite": 5200803
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160384_prompt_2",
-                        "text": "你選擇了谐音谩骂",
+                        "text": "你選擇了夏玛的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200119
+                    "rite": 5200808
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160384_prompt_3",
-                        "text": "你選擇了小圆的日记",
+                        "text": "你選擇了夏玛的葬礼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200128
+                    "rite": 5202029
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160384_prompt_4",
-                        "text": "你選擇了邪恶的线索",
+                        "text": "你選擇了下水道的鳄鱼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200509
+                    "rite": 5202510
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160384_prompt_5",
-                        "text": "你選擇了消除隐患",
+                        "text": "你選擇了下次还敢吗？",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200561
+                    "rite": 5206636
                 },
                 "case:op6": {
                     "event_on": 5160383,

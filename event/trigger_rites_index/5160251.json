@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "盖斯家的协助",
+                            "text": "宫廷处刑",
                             "tag": "op1"
                         },
                         {
-                            "text": "改朝换代",
+                            "text": "公开的拳斗",
                             "tag": "op2"
                         },
                         {
-                            "text": "宫廷决斗",
+                            "text": "共襄盛举",
                             "tag": "op3"
                         },
                         {
-                            "text": "宫中传信",
+                            "text": "宫廷决斗",
                             "tag": "op4"
                         },
                         {
-                            "text": "孤注一掷",
+                            "text": "宫廷决斗",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160251_prompt_1",
-                        "text": "你選擇了盖斯家的协助",
+                        "text": "你選擇了宫廷处刑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201015
+                    "rite": 5200505
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160251_prompt_2",
-                        "text": "你選擇了改朝换代",
+                        "text": "你選擇了公开的拳斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201023
+                    "rite": 5200762
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160251_prompt_3",
-                        "text": "你選擇了宫廷决斗",
+                        "text": "你選擇了共襄盛举",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201029
+                    "rite": 5200855
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160251_prompt_4",
-                        "text": "你選擇了宫中传信",
+                        "text": "你選擇了宫廷决斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201100
+                    "rite": 5201005
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160251_prompt_5",
-                        "text": "你選擇了孤注一掷",
+                        "text": "你選擇了宫廷决斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202028
+                    "rite": 5201029
                 },
                 "case:op6": {
                     "event_on": 5160250,

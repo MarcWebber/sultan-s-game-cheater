@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "暗杀",
+                            "text": "暗潮涌动",
                             "tag": "op1"
                         },
                         {
-                            "text": "阿图娜尔的约定",
+                            "text": "暗潮涌动",
                             "tag": "op2"
                         },
                         {
-                            "text": "阿迪莱正在寻龙",
+                            "text": "暗影神殿",
                             "tag": "op3"
                         },
                         {
-                            "text": "阿迪莱正在冒险",
+                            "text": "暗杀",
                             "tag": "op4"
                         },
                         {
@@ -55,34 +55,34 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160203_prompt_1",
-                        "text": "你選擇了暗杀",
+                        "text": "你選擇了暗潮涌动",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200843
+                    "rite": 5200661
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160203_prompt_2",
-                        "text": "你選擇了阿图娜尔的约定",
+                        "text": "你選擇了暗潮涌动",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201102
+                    "rite": 5200664
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160203_prompt_3",
-                        "text": "你選擇了阿迪莱正在寻龙",
+                        "text": "你選擇了暗影神殿",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206048
+                    "rite": 5200704
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160203_prompt_4",
-                        "text": "你選擇了阿迪莱正在冒险",
+                        "text": "你選擇了暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206051
+                    "rite": 5200843
                 },
                 "case:op5": {
                     "prompt": {

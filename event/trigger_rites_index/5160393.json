@@ -23,19 +23,19 @@
                             "tag": "op1"
                         },
                         {
-                            "text": "行尸动力工坊",
+                            "text": "心有余悸",
                             "tag": "op2"
                         },
                         {
-                            "text": "行尸动力工坊",
+                            "text": "新月想出去玩",
                             "tag": "op3"
                         },
                         {
-                            "text": "休憩的方法",
+                            "text": "新月升起",
                             "tag": "op4"
                         },
                         {
-                            "text": "血的渴求",
+                            "text": "星空学徒",
                             "tag": "op5"
                         },
                         {
@@ -63,34 +63,34 @@
                 "case:op2": {
                     "prompt": {
                         "id": "5160393_prompt_2",
-                        "text": "你選擇了行尸动力工坊",
+                        "text": "你選擇了心有余悸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206015
+                    "rite": 5206596
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160393_prompt_3",
-                        "text": "你選擇了行尸动力工坊",
+                        "text": "你選擇了新月想出去玩",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206017
+                    "rite": 5208161
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160393_prompt_4",
-                        "text": "你選擇了休憩的方法",
+                        "text": "你選擇了新月升起",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206044
+                    "rite": 5208163
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160393_prompt_5",
-                        "text": "你選擇了血的渴求",
+                        "text": "你選擇了星空学徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206071
+                    "rite": 5200053
                 },
                 "case:op6": {
                     "event_on": 5160392,

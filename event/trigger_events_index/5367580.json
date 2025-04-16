@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹引导-day1-弹框2",
+                            "text": "收买头衔",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹引导-day1-卡牌发言",
+                            "text": "书店约会",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹引导-day1-弹框3",
+                            "text": "书店门口的乞丐",
                             "tag": "op3"
                         },
                         {
-                            "text": "苏丹引导-day1-弹框4",
+                            "text": "书店营业",
                             "tag": "op4"
                         },
                         {
-                            "text": "苏丹引导-day1-弹框5",
+                            "text": "书店营业",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110101,
+                    "rite": 5121020,
                     "prompt": {
                         "id": "5367580_prompt_1",
-                        "text": "你選擇了苏丹引导-day1-弹框2",
+                        "text": "你選擇了收买头衔",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5110102,
+                    "rite": 5100026,
                     "prompt": {
                         "id": "5367580_prompt_2",
-                        "text": "你選擇了苏丹引导-day1-卡牌发言",
+                        "text": "你選擇了书店约会",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5110103,
+                    "rite": 5100027,
                     "prompt": {
                         "id": "5367580_prompt_3",
-                        "text": "你選擇了苏丹引导-day1-弹框3",
+                        "text": "你選擇了书店门口的乞丐",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5110104,
+                    "rite": 5100029,
                     "prompt": {
                         "id": "5367580_prompt_4",
-                        "text": "你選擇了苏丹引导-day1-弹框4",
+                        "text": "你選擇了书店营业",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5110105,
+                    "rite": 5100030,
                     "prompt": {
                         "id": "5367580_prompt_5",
-                        "text": "你選擇了苏丹引导-day1-弹框5",
+                        "text": "你選擇了书店营业",
                         "icon": "cards/2000001"
                     }
                 },

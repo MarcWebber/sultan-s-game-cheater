@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "孤高之人",
+                            "text": "宫中传信",
                             "tag": "op1"
                         },
                         {
@@ -27,15 +27,15 @@
                             "tag": "op2"
                         },
                         {
-                            "text": "光之训诫",
+                            "text": "宫门募捐",
                             "tag": "op3"
                         },
                         {
-                            "text": "古语教学",
+                            "text": "宫廷暗流",
                             "tag": "op4"
                         },
                         {
-                            "text": "孤女复仇记",
+                            "text": "宫廷华宴",
                             "tag": "op5"
                         },
                         {
@@ -55,10 +55,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160252_prompt_1",
-                        "text": "你選擇了孤高之人",
+                        "text": "你選擇了宫中传信",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203019
+                    "rite": 5201100
                 },
                 "case:op2": {
                     "prompt": {
@@ -71,26 +71,26 @@
                 "case:op3": {
                     "prompt": {
                         "id": "5160252_prompt_3",
-                        "text": "你選擇了光之训诫",
+                        "text": "你選擇了宫门募捐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204805
+                    "rite": 5206644
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160252_prompt_4",
-                        "text": "你選擇了古语教学",
+                        "text": "你選擇了宫廷暗流",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206517
+                    "rite": 5207004
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160252_prompt_5",
-                        "text": "你選擇了孤女复仇记",
+                        "text": "你選擇了宫廷华宴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206523
+                    "rite": 5208104
                 },
                 "case:op6": {
                     "event_on": 5160251,

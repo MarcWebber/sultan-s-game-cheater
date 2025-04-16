@@ -19,15 +19,15 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "法尔达克的友谊",
+                            "text": "放过他",
                             "tag": "op1"
                         },
                         {
-                            "text": "废弃",
+                            "text": "纺织教室",
                             "tag": "op2"
                         },
                         {
-                            "text": "废弃",
+                            "text": "放你自由",
                             "tag": "op3"
                         },
                         {
@@ -55,26 +55,26 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160239_prompt_1",
-                        "text": "你選擇了法尔达克的友谊",
+                        "text": "你選擇了放过他",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200680
+                    "rite": 5200727
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160239_prompt_2",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了纺织教室",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200715
+                    "rite": 5200789
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160239_prompt_3",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了放你自由",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200716
+                    "rite": 5203007
                 },
                 "case:op4": {
                     "prompt": {
@@ -82,7 +82,7 @@
                         "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200717
+                    "rite": 5200715
                 },
                 "case:op5": {
                     "prompt": {
@@ -90,7 +90,7 @@
                         "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200718
+                    "rite": 5200716
                 },
                 "case:op6": {
                     "event_on": 5160238,

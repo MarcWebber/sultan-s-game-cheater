@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "一手拿货",
+                            "text": "御厨",
                             "tag": "op1"
                         },
                         {
-                            "text": "夜盗",
+                            "text": "于黎明前",
                             "tag": "op2"
                         },
                         {
-                            "text": "有人没吃到",
+                            "text": "远方的乐土",
                             "tag": "op3"
                         },
                         {
-                            "text": "一罐蜜饯",
+                            "text": "远近闻名的哈马尔兄弟",
                             "tag": "op4"
                         },
                         {
-                            "text": "勇士欢宴",
+                            "text": "远行访友",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160416_prompt_1",
-                        "text": "你選擇了一手拿货",
+                        "text": "你選擇了御厨",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208068
+                    "rite": 5208119
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160416_prompt_2",
-                        "text": "你選擇了夜盗",
+                        "text": "你選擇了于黎明前",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208071
+                    "rite": 5210007
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160416_prompt_3",
-                        "text": "你選擇了有人没吃到",
+                        "text": "你選擇了远方的乐土",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208091
+                    "rite": 5200666
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160416_prompt_4",
-                        "text": "你選擇了一罐蜜饯",
+                        "text": "你選擇了远近闻名的哈马尔兄弟",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208095
+                    "rite": 5202503
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160416_prompt_5",
-                        "text": "你選擇了勇士欢宴",
+                        "text": "你選擇了远行访友",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208103
+                    "rite": 5203002
                 },
                 "case:op6": {
                     "event_on": 5160415,

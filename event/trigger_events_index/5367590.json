@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "神的启示",
+                            "text": "苏丹引导-day5-弹框13",
                             "tag": "op1"
                         },
                         {
-                            "text": "神圣的会晤",
+                            "text": "苏丹引导-day5-弹框14",
                             "tag": "op2"
                         },
                         {
-                            "text": "神的警告",
+                            "text": "苏丹引导-day5-弹框16",
                             "tag": "op3"
                         },
                         {
-                            "text": "神的警告",
+                            "text": "苏丹引导-day5-弹框17",
                             "tag": "op4"
                         },
                         {
-                            "text": "善名1阶段事件",
+                            "text": "苏丹引导-day5-弹框17",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110806,
+                    "rite": 5110121,
                     "prompt": {
                         "id": "5367590_prompt_1",
-                        "text": "你選擇了神的启示",
+                        "text": "你選擇了苏丹引导-day5-弹框13",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5110808,
+                    "rite": 5110122,
                     "prompt": {
                         "id": "5367590_prompt_2",
-                        "text": "你選擇了神圣的会晤",
+                        "text": "你選擇了苏丹引导-day5-弹框14",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5110844,
+                    "rite": 5110123,
                     "prompt": {
                         "id": "5367590_prompt_3",
-                        "text": "你選擇了神的警告",
+                        "text": "你選擇了苏丹引导-day5-弹框16",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5110845,
+                    "rite": 5110124,
                     "prompt": {
                         "id": "5367590_prompt_4",
-                        "text": "你選擇了神的警告",
+                        "text": "你選擇了苏丹引导-day5-弹框17",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120072,
+                    "rite": 5110125,
                     "prompt": {
                         "id": "5367590_prompt_5",
-                        "text": "你選擇了善名1阶段事件",
+                        "text": "你選擇了苏丹引导-day5-弹框17",
                         "icon": "cards/2000001"
                     }
                 },

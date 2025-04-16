@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "不朽者之吻",
+                            "text": "白肚皮",
                             "tag": "op1"
                         },
                         {
-                            "text": "白鼬的宫廷",
+                            "text": "帮派斗争",
                             "tag": "op2"
                         },
                         {
-                            "text": "不要凝视群星",
+                            "text": "保守秘密",
                             "tag": "op3"
                         },
                         {
-                            "text": "拜铃耶",
+                            "text": "包税人之死",
                             "tag": "op4"
                         },
                         {
-                            "text": "白蜜琥珀宝珠",
+                            "text": "暴食者雕像",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160206_prompt_1",
-                        "text": "你選擇了不朽者之吻",
+                        "text": "你選擇了白肚皮",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200145
+                    "rite": 5208074
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160206_prompt_2",
-                        "text": "你選擇了白鼬的宫廷",
+                        "text": "你選擇了帮派斗争",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200149
+                    "rite": 5200810
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160206_prompt_3",
-                        "text": "你選擇了不要凝视群星",
+                        "text": "你選擇了保守秘密",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200152
+                    "rite": 5200558
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160206_prompt_4",
-                        "text": "你選擇了拜铃耶",
+                        "text": "你選擇了包税人之死",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200514
+                    "rite": 5206578
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160206_prompt_5",
-                        "text": "你選擇了白蜜琥珀宝珠",
+                        "text": "你選擇了暴食者雕像",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200515
+                    "rite": 5208176
                 },
                 "case:op6": {
                     "event_on": 5160205,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "黄金体验",
+                            "text": "合伙金",
                             "tag": "op1"
                         },
                         {
-                            "text": "黄金体验",
+                            "text": "黑暗根源",
                             "tag": "op2"
                         },
                         {
-                            "text": "黄金的赠礼",
+                            "text": "黑暗的召唤",
                             "tag": "op3"
                         },
                         {
-                            "text": "核查漏洞",
+                            "text": "黑暗火锅仪式",
                             "tag": "op4"
                         },
                         {
-                            "text": "火山魔龙",
+                            "text": "黑街的拳斗士？",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160261_prompt_1",
-                        "text": "你選擇了黄金体验",
+                        "text": "你選擇了合伙金",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200572
+                    "rite": 5208108
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160261_prompt_2",
-                        "text": "你選擇了黄金体验",
+                        "text": "你選擇了黑暗根源",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200584
+                    "rite": 5200126
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160261_prompt_3",
-                        "text": "你選擇了黄金的赠礼",
+                        "text": "你選擇了黑暗的召唤",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200652
+                    "rite": 5200513
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160261_prompt_4",
-                        "text": "你選擇了核查漏洞",
+                        "text": "你選擇了黑暗火锅仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200676
+                    "rite": 5200743
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160261_prompt_5",
-                        "text": "你選擇了火山魔龙",
+                        "text": "你選擇了黑街的拳斗士？",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200708
+                    "rite": 5200760
                 },
                 "case:op6": {
                     "event_on": 5160260,

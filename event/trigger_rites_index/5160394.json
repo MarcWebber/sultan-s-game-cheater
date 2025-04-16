@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "星灵咒文残卷",
+                            "text": "星神的契约",
                             "tag": "op1"
                         },
                         {
-                            "text": "星灵之夜",
+                            "text": "星之衰",
                             "tag": "op2"
                         },
                         {
-                            "text": "星灵之夜",
+                            "text": "兴修宫殿",
                             "tag": "op3"
                         },
                         {
-                            "text": "血之墙",
+                            "text": "行尸动力工坊",
                             "tag": "op4"
                         },
                         {
-                            "text": "殉情的请求",
+                            "text": "行尸动力工坊",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160394_prompt_1",
-                        "text": "你選擇了星灵咒文残卷",
+                        "text": "你選擇了星神的契约",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206519
+                    "rite": 5200579
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160394_prompt_2",
-                        "text": "你選擇了星灵之夜",
+                        "text": "你選擇了星之衰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206520
+                    "rite": 5200583
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160394_prompt_3",
-                        "text": "你選擇了星灵之夜",
+                        "text": "你選擇了兴修宫殿",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206521
+                    "rite": 5200670
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160394_prompt_4",
-                        "text": "你選擇了血之墙",
+                        "text": "你選擇了行尸动力工坊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206533
+                    "rite": 5206015
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160394_prompt_5",
-                        "text": "你選擇了殉情的请求",
+                        "text": "你選擇了行尸动力工坊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206543
+                    "rite": 5206017
                 },
                 "case:op6": {
                     "event_on": 5160393,

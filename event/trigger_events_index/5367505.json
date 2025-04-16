@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "狂风峡谷",
+                            "text": "开场演出2测试",
                             "tag": "op1"
                         },
                         {
-                            "text": "苦水",
+                            "text": "开场演出3测试",
                             "tag": "op2"
                         },
                         {
-                            "text": "开场演出1测试",
+                            "text": "开场演出4测试",
                             "tag": "op3"
                         },
                         {
-                            "text": "开场演出2测试",
+                            "text": "开场演出5测试",
                             "tag": "op4"
                         },
                         {
-                            "text": "开场演出3测试",
+                            "text": "开场演出1-最开始",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100203,
-                    "prompt": {
-                        "id": "5367505_prompt_1",
-                        "text": "你選擇了狂风峡谷",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
-                    "rite": 5100526,
-                    "prompt": {
-                        "id": "5367505_prompt_2",
-                        "text": "你選擇了苦水",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
-                    "rite": 5110000,
-                    "prompt": {
-                        "id": "5367505_prompt_3",
-                        "text": "你選擇了开场演出1测试",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op4": {
                     "rite": 5110001,
                     "prompt": {
-                        "id": "5367505_prompt_4",
+                        "id": "5367505_prompt_1",
                         "text": "你選擇了开场演出2测试",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op2": {
                     "rite": 5110002,
                     "prompt": {
-                        "id": "5367505_prompt_5",
+                        "id": "5367505_prompt_2",
                         "text": "你選擇了开场演出3测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5110003,
+                    "prompt": {
+                        "id": "5367505_prompt_3",
+                        "text": "你選擇了开场演出4测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110004,
+                    "prompt": {
+                        "id": "5367505_prompt_4",
+                        "text": "你選擇了开场演出5测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110006,
+                    "prompt": {
+                        "id": "5367505_prompt_5",
+                        "text": "你選擇了开场演出1-最开始",
                         "icon": "cards/2000001"
                     }
                 },

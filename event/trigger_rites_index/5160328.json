@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "囚犯与绑匪",
+                            "text": "囚牢",
                             "tag": "op1"
                         },
                         {
-                            "text": "妻子的忧虑",
+                            "text": "囚犯与绑匪",
                             "tag": "op2"
                         },
                         {
-                            "text": "妻子的茶会",
+                            "text": "趋炎附势之徒",
                             "tag": "op3"
                         },
                         {
-                            "text": "青年的帷幕",
+                            "text": "全面整修",
                             "tag": "op4"
                         },
                         {
-                            "text": "恰当的价码",
+                            "text": "权力的游戏",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160328_prompt_1",
+                        "text": "你選擇了囚牢",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201008
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160328_prompt_2",
                         "text": "你選擇了囚犯与绑匪",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206672
                 },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160328_prompt_2",
-                        "text": "你選擇了妻子的忧虑",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208001
-                },
                 "case:op3": {
                     "prompt": {
                         "id": "5160328_prompt_3",
-                        "text": "你選擇了妻子的茶会",
+                        "text": "你選擇了趋炎附势之徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208005
+                    "rite": 5200844
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160328_prompt_4",
-                        "text": "你選擇了青年的帷幕",
+                        "text": "你選擇了全面整修",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208010
+                    "rite": 5200006
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160328_prompt_5",
-                        "text": "你選擇了恰当的价码",
+                        "text": "你選擇了权力的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208017
+                    "rite": 5201001
                 },
                 "case:op6": {
                     "event_on": 5160327,

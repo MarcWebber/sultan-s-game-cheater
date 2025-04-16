@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "饕餮之欲",
+                            "text": "屠龙的勇行",
                             "tag": "op1"
                         },
                         {
-                            "text": "饕餮之欲",
+                            "text": "突袭贫民窟",
                             "tag": "op2"
                         },
                         {
-                            "text": "逃亡倒计时",
+                            "text": "突袭",
                             "tag": "op3"
                         },
                         {
-                            "text": "天空之火",
+                            "text": "突袭贪官宅邸",
                             "tag": "op4"
                         },
                         {
-                            "text": "讨伐",
+                            "text": "脱罪的希望",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160371_prompt_1",
-                        "text": "你選擇了饕餮之欲",
+                        "text": "你選擇了屠龙的勇行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208174
+                    "rite": 5206067
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160371_prompt_2",
-                        "text": "你選擇了饕餮之欲",
+                        "text": "你選擇了突袭贫民窟",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208175
+                    "rite": 5207008
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160371_prompt_3",
-                        "text": "你選擇了逃亡倒计时",
+                        "text": "你選擇了突袭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210000
+                    "rite": 5208037
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160371_prompt_4",
-                        "text": "你選擇了天空之火",
+                        "text": "你選擇了突袭贪官宅邸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210048
+                    "rite": 5208045
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160371_prompt_5",
-                        "text": "你選擇了讨伐",
+                        "text": "你選擇了脱罪的希望",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210058
+                    "rite": 5201014
                 },
                 "case:op6": {
                     "event_on": 5160370,

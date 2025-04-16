@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "奢侈的欢欣",
+                            "text": "神的真容",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹的游戏",
+                            "text": "神的启示",
                             "tag": "op2"
                         },
                         {
-                            "text": "索拉薇儿的游戏",
+                            "text": "神的面容",
                             "tag": "op3"
                         },
                         {
-                            "text": "索拉薇儿的游戏",
+                            "text": "神圣的会晤",
                             "tag": "op4"
                         },
                         {
-                            "text": "誓言的呼唤",
+                            "text": "神的秘密",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160343_prompt_1",
-                        "text": "你選擇了奢侈的欢欣",
+                        "text": "你選擇了神的真容",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200777
+                    "rite": 5204804
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160343_prompt_2",
-                        "text": "你選擇了苏丹的游戏",
+                        "text": "你選擇了神的启示",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200796
+                    "rite": 5204806
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160343_prompt_3",
-                        "text": "你選擇了索拉薇儿的游戏",
+                        "text": "你選擇了神的面容",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200804
+                    "rite": 5204807
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160343_prompt_4",
-                        "text": "你選擇了索拉薇儿的游戏",
+                        "text": "你選擇了神圣的会晤",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200809
+                    "rite": 5204808
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160343_prompt_5",
-                        "text": "你選擇了誓言的呼唤",
+                        "text": "你選擇了神的秘密",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200842
+                    "rite": 5204907
                 },
                 "case:op6": {
                     "event_on": 5160342,

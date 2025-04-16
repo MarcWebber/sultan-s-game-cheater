@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "举世无双的爱",
+                            "text": "决裂伊曼存活",
                             "tag": "op1"
                         },
                         {
-                            "text": "精打细算",
+                            "text": "决裂伊曼死亡",
                             "tag": "op2"
                         },
                         {
-                            "text": "剑盾的仪式说明",
+                            "text": "抉择",
                             "tag": "op3"
                         },
                         {
-                            "text": "祭品",
+                            "text": "抉择",
                             "tag": "op4"
                         },
                         {
@@ -45,34 +45,34 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5120529,
+                    "rite": 5110618,
                     "prompt": {
                         "id": "5367503_prompt_1",
-                        "text": "你選擇了举世无双的爱",
+                        "text": "你選擇了决裂伊曼存活",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5120538,
+                    "rite": 5110619,
                     "prompt": {
                         "id": "5367503_prompt_2",
-                        "text": "你選擇了精打细算",
+                        "text": "你選擇了决裂伊曼死亡",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5121037,
+                    "rite": 5110622,
                     "prompt": {
                         "id": "5367503_prompt_3",
-                        "text": "你選擇了剑盾的仪式说明",
+                        "text": "你選擇了抉择",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5121173,
+                    "rite": 5120003,
                     "prompt": {
                         "id": "5367503_prompt_4",
-                        "text": "你選擇了祭品",
+                        "text": "你選擇了抉择",
                         "icon": "cards/2000001"
                     }
                 },

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "背叛",
+                            "text": "不留后患",
                             "tag": "op1"
                         },
                         {
-                            "text": "别人的女儿",
+                            "text": "不是故意",
                             "tag": "op2"
                         },
                         {
-                            "text": "白肚皮",
+                            "text": "不归之路",
                             "tag": "op3"
                         },
                         {
-                            "text": "饼夹一切",
+                            "text": "不谐之音",
                             "tag": "op4"
                         },
                         {
-                            "text": "比嘬嘬嘬更有用",
+                            "text": "不再被认可的信仰",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160212_prompt_1",
-                        "text": "你選擇了背叛",
+                        "text": "你選擇了不留后患",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208009
+                    "rite": 5200565
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160212_prompt_2",
-                        "text": "你選擇了别人的女儿",
+                        "text": "你選擇了不是故意",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208033
+                    "rite": 5200776
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160212_prompt_3",
-                        "text": "你選擇了白肚皮",
+                        "text": "你選擇了不归之路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208074
+                    "rite": 5201103
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160212_prompt_4",
-                        "text": "你選擇了饼夹一切",
+                        "text": "你選擇了不谐之音",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208143
+                    "rite": 5203001
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160212_prompt_5",
-                        "text": "你選擇了比嘬嘬嘬更有用",
+                        "text": "你選擇了不再被认可的信仰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208147
+                    "rite": 5204509
                 },
                 "case:op6": {
                     "event_on": 5160211,

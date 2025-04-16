@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "永世流传之物",
+                            "text": "于夕色中蔓延……",
                             "tag": "op1"
                         },
                         {
-                            "text": "隐身幕后",
+                            "text": "与神沟通",
                             "tag": "op2"
                         },
                         {
-                            "text": "一次暗杀",
+                            "text": "浴池里的波澜",
                             "tag": "op3"
                         },
                         {
-                            "text": "一次愉快的回忆",
+                            "text": "郁郁寡欢",
                             "tag": "op4"
                         },
                         {
-                            "text": "应许时刻",
+                            "text": "欲望与幸福",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160415_prompt_1",
-                        "text": "你選擇了永世流传之物",
+                        "text": "你選擇了于夕色中蔓延……",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208020
+                    "rite": 5206055
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160415_prompt_2",
-                        "text": "你選擇了隐身幕后",
+                        "text": "你選擇了与神沟通",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208035
+                    "rite": 5206073
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160415_prompt_3",
-                        "text": "你選擇了一次暗杀",
+                        "text": "你選擇了浴池里的波澜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208043
+                    "rite": 5206514
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160415_prompt_4",
-                        "text": "你選擇了一次愉快的回忆",
+                        "text": "你選擇了郁郁寡欢",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208048
+                    "rite": 5206638
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160415_prompt_5",
-                        "text": "你選擇了应许时刻",
+                        "text": "你選擇了欲望与幸福",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208056
+                    "rite": 5208008
                 },
                 "case:op6": {
                     "event_on": 5160414,

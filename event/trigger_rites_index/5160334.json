@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "如露散",
+                            "text": "芮尔的匪帮",
                             "tag": "op1"
                         },
                         {
-                            "text": "燃烧的城市",
+                            "text": "锐草之原",
                             "tag": "op2"
                         },
                         {
@@ -39,18 +39,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160334_prompt_1",
-                        "text": "你選擇了如露散",
+                        "text": "你選擇了芮尔的匪帮",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208128
+                    "rite": 5200812
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160334_prompt_2",
-                        "text": "你選擇了燃烧的城市",
+                        "text": "你選擇了锐草之原",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210012
+                    "rite": 5200835
                 },
                 "case:op3": {
                     "event_on": 5160333

@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "气急败坏",
+                            "text": "全民公敌",
                             "tag": "op1"
                         },
                         {
-                            "text": "乞儿们",
+                            "text": "权势之盾",
                             "tag": "op2"
                         },
                         {
@@ -31,11 +31,11 @@
                             "tag": "op3"
                         },
                         {
-                            "text": "禽肉炒蘑菇",
+                            "text": "群星的研究",
                             "tag": "op4"
                         },
                         {
-                            "text": "清洗异端",
+                            "text": "群龙无首",
                             "tag": "op5"
                         },
                         {
@@ -55,18 +55,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160329_prompt_1",
-                        "text": "你選擇了气急败坏",
+                        "text": "你選擇了全民公敌",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208030
+                    "rite": 5204512
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160329_prompt_2",
-                        "text": "你選擇了乞儿们",
+                        "text": "你選擇了权势之盾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208073
+                    "rite": 5206590
                 },
                 "case:op3": {
                     "prompt": {
@@ -79,18 +79,18 @@
                 "case:op4": {
                     "prompt": {
                         "id": "5160329_prompt_4",
-                        "text": "你選擇了禽肉炒蘑菇",
+                        "text": "你選擇了群星的研究",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208159
+                    "rite": 5200140
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160329_prompt_5",
-                        "text": "你選擇了清洗异端",
+                        "text": "你選擇了群龙无首",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208179
+                    "rite": 5201004
                 },
                 "case:op6": {
                     "event_on": 5160328,

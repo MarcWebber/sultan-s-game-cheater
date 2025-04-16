@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "突袭贪官宅邸",
+                            "text": "投注资金",
                             "tag": "op1"
                         },
                         {
-                            "text": "同一场风暴",
+                            "text": "屠龙的勇行",
                             "tag": "op2"
                         },
                         {
-                            "text": "她不开心",
+                            "text": "屠龙之书",
                             "tag": "op3"
                         },
                         {
-                            "text": "饕餮之欲",
+                            "text": "屠龙的勇行",
                             "tag": "op4"
                         },
                         {
-                            "text": "饕餮之欲",
+                            "text": "屠龙之书",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160370_prompt_1",
-                        "text": "你選擇了突袭贪官宅邸",
+                        "text": "你選擇了投注资金",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208045
+                    "rite": 5206008
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160370_prompt_2",
-                        "text": "你選擇了同一场风暴",
+                        "text": "你選擇了屠龙的勇行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208057
+                    "rite": 5206038
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160370_prompt_3",
-                        "text": "你選擇了她不开心",
+                        "text": "你選擇了屠龙之书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208089
+                    "rite": 5206046
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160370_prompt_4",
-                        "text": "你選擇了饕餮之欲",
+                        "text": "你選擇了屠龙的勇行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208172
+                    "rite": 5206054
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160370_prompt_5",
-                        "text": "你選擇了饕餮之欲",
+                        "text": "你選擇了屠龙之书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208173
+                    "rite": 5206058
                 },
                 "case:op6": {
                     "event_on": 5160369,

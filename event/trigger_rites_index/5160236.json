@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "耳语之书",
+                            "text": "鳄鱼池",
                             "tag": "op1"
                         },
                         {
-                            "text": "鳄鱼池",
+                            "text": "恶毒的花嫁",
                             "tag": "op2"
                         },
                         {
-                            "text": "儿子的索要",
+                            "text": "恶意的捉弄",
                             "tag": "op3"
                         },
                         {
-                            "text": "恶毒的花嫁",
+                            "text": "恶意的玩笑",
                             "tag": "op4"
                         },
                         {
-                            "text": "恶意的捉弄",
+                            "text": "恶臭的阁楼",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160236_prompt_1",
-                        "text": "你選擇了耳语之书",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200051
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160236_prompt_2",
                         "text": "你選擇了鳄鱼池",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200134
                 },
-                "case:op3": {
+                "case:op2": {
                     "prompt": {
-                        "id": "5160236_prompt_3",
-                        "text": "你選擇了儿子的索要",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200838
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160236_prompt_4",
+                        "id": "5160236_prompt_2",
                         "text": "你選擇了恶毒的花嫁",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206599
                 },
-                "case:op5": {
+                "case:op3": {
                     "prompt": {
-                        "id": "5160236_prompt_5",
+                        "id": "5160236_prompt_3",
                         "text": "你選擇了恶意的捉弄",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206669
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160236_prompt_4",
+                        "text": "你選擇了恶意的玩笑",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206670
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160236_prompt_5",
+                        "text": "你選擇了恶臭的阁楼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208115
                 },
                 "case:op6": {
                     "event_on": 5160235,

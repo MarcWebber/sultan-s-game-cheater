@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "带来希望的",
+                            "text": "赌马",
                             "tag": "op1"
                         },
                         {
-                            "text": "第一眼",
+                            "text": "独自前行",
                             "tag": "op2"
                         },
                         {
-                            "text": "大家一起来！",
+                            "text": "镀金",
                             "tag": "op3"
                         },
                         {
-                            "text": "等待一餐",
+                            "text": "锻造龙鳞装备",
                             "tag": "op4"
                         },
                         {
-                            "text": "镀金",
+                            "text": "敦请圣像",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160234_prompt_1",
-                        "text": "你選擇了带来希望的",
+                        "text": "你選擇了赌马",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206655
+                    "rite": 5202515
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160234_prompt_2",
-                        "text": "你選擇了第一眼",
+                        "text": "你選擇了独自前行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208062
+                    "rite": 5206033
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160234_prompt_3",
-                        "text": "你選擇了大家一起来！",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208090
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160234_prompt_4",
-                        "text": "你選擇了等待一餐",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208100
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160234_prompt_5",
                         "text": "你選擇了镀金",
                         "icon": "cards/2000001"
                     },
                     "rite": 5210038
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160234_prompt_4",
+                        "text": "你選擇了锻造龙鳞装备",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206078
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160234_prompt_5",
+                        "text": "你選擇了敦请圣像",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200850
                 },
                 "case:op6": {
                     "event_on": 5160233,

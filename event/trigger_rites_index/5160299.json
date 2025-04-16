@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "龙头的归属",
+                            "text": "猎团余党",
                             "tag": "op1"
                         },
                         {
-                            "text": "连你也……",
+                            "text": "猎团余党",
                             "tag": "op2"
                         },
                         {
-                            "text": "老兵不死",
+                            "text": "烈焰呼唤",
                             "tag": "op3"
                         },
                         {
-                            "text": "烈焰呼唤",
+                            "text": "裂魂之夜",
                             "tag": "op4"
                         },
                         {
-                            "text": "流浊之地",
+                            "text": "临行之前",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160299_prompt_1",
-                        "text": "你選擇了龙头的归属",
+                        "text": "你選擇了猎团余党",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206079
+                    "rite": 5200823
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160299_prompt_2",
-                        "text": "你選擇了连你也……",
+                        "text": "你選擇了猎团余党",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206556
+                    "rite": 5200824
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160299_prompt_3",
-                        "text": "你選擇了老兵不死",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206572
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160299_prompt_4",
                         "text": "你選擇了烈焰呼唤",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206661
                 },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160299_prompt_4",
+                        "text": "你選擇了裂魂之夜",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210002
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160299_prompt_5",
-                        "text": "你選擇了流浊之地",
+                        "text": "你選擇了临行之前",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206671
+                    "rite": 5206049
                 },
                 "case:op6": {
                     "event_on": 5160298,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "我要去妓院！",
+                            "text": "危险的聚会",
                             "tag": "op1"
                         },
                         {
-                            "text": "我，白嫖",
+                            "text": "为您效劳",
                             "tag": "op2"
                         },
                         {
-                            "text": "无妄之灾",
+                            "text": "唯一的答案",
                             "tag": "op3"
                         },
                         {
-                            "text": "无名的暗杀",
+                            "text": "为所欲为",
                             "tag": "op4"
                         },
                         {
-                            "text": "为朱娜赎身",
+                            "text": "帷幕之后",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160376_prompt_1",
-                        "text": "你選擇了我要去妓院！",
+                        "text": "你選擇了危险的聚会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200815
+                    "rite": 5208011
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160376_prompt_2",
-                        "text": "你選擇了我，白嫖",
+                        "text": "你選擇了为您效劳",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200817
+                    "rite": 5208066
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160376_prompt_3",
-                        "text": "你選擇了无妄之灾",
+                        "text": "你選擇了唯一的答案",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200854
+                    "rite": 5208151
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160376_prompt_4",
-                        "text": "你選擇了无名的暗杀",
+                        "text": "你選擇了为所欲为",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201011
+                    "rite": 5210016
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160376_prompt_5",
-                        "text": "你選擇了为朱娜赎身",
+                        "text": "你選擇了帷幕之后",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202022
+                    "rite": 5210022
                 },
                 "case:op6": {
                     "event_on": 5160375,

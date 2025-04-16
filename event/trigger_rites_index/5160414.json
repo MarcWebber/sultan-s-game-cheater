@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "郁郁寡欢",
+                            "text": "浴场约会",
                             "tag": "op1"
                         },
                         {
-                            "text": "勇气与团结",
+                            "text": "浴血玫瑰",
                             "tag": "op2"
                         },
                         {
-                            "text": "一则蹊跷的新闻",
+                            "text": "御前试合",
                             "tag": "op3"
                         },
                         {
-                            "text": "异想天开的构思",
+                            "text": "浴场的焦点",
                             "tag": "op4"
                         },
                         {
-                            "text": "欲望与幸福",
+                            "text": "与龙相关的会面",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160414_prompt_1",
-                        "text": "你選擇了郁郁寡欢",
+                        "text": "你選擇了浴场约会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206638
+                    "rite": 5201503
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160414_prompt_2",
-                        "text": "你選擇了勇气与团结",
+                        "text": "你選擇了浴血玫瑰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206660
+                    "rite": 5204905
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160414_prompt_3",
-                        "text": "你選擇了一则蹊跷的新闻",
+                        "text": "你選擇了御前试合",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206673
+                    "rite": 5206027
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160414_prompt_4",
-                        "text": "你選擇了异想天开的构思",
+                        "text": "你選擇了浴场的焦点",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206675
+                    "rite": 5206028
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160414_prompt_5",
-                        "text": "你選擇了欲望与幸福",
+                        "text": "你選擇了与龙相关的会面",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208008
+                    "rite": 5206031
                 },
                 "case:op6": {
                     "event_on": 5160413,

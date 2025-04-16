@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "复仇的滋味1",
+                            "text": "废弃",
                             "tag": "op1"
                         },
                         {
-                            "text": "复仇的滋味2",
+                            "text": "废弃",
                             "tag": "op2"
                         },
                         {
-                            "text": "复仇的滋味3",
+                            "text": "废弃",
                             "tag": "op3"
                         },
                         {
-                            "text": "复仇的滋味3",
+                            "text": "废弃",
                             "tag": "op4"
                         },
                         {
-                            "text": "法图娜声望事件激活提示",
+                            "text": "废弃",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5120037,
+                    "rite": 5100214,
                     "prompt": {
                         "id": "5367439_prompt_1",
-                        "text": "你選擇了复仇的滋味1",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5120038,
+                    "rite": 5100215,
                     "prompt": {
                         "id": "5367439_prompt_2",
-                        "text": "你選擇了复仇的滋味2",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5120039,
+                    "rite": 5100216,
                     "prompt": {
                         "id": "5367439_prompt_3",
-                        "text": "你選擇了复仇的滋味3",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120041,
+                    "rite": 5100217,
                     "prompt": {
                         "id": "5367439_prompt_4",
-                        "text": "你選擇了复仇的滋味3",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120043,
+                    "rite": 5100218,
                     "prompt": {
                         "id": "5367439_prompt_5",
-                        "text": "你選擇了法图娜声望事件激活提示",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     }
                 },

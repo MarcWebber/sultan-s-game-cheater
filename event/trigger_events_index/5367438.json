@@ -23,19 +23,19 @@
                             "tag": "op1"
                         },
                         {
-                            "text": "腐化真容",
+                            "text": "房屋出租",
                             "tag": "op2"
                         },
                         {
-                            "text": "疯癫与幻觉",
+                            "text": "妃子A来访",
                             "tag": "op3"
                         },
                         {
-                            "text": "发现的诱惑",
+                            "text": "妃子B来访",
                             "tag": "op4"
                         },
                         {
-                            "text": "腐臭的生意人",
+                            "text": "妃子B的请求",
                             "tag": "op5"
                         },
                         {
@@ -61,34 +61,34 @@
                     }
                 },
                 "case:op2": {
-                    "rite": 5110804,
+                    "rite": 5100087,
                     "prompt": {
                         "id": "5367438_prompt_2",
-                        "text": "你選擇了腐化真容",
+                        "text": "你選擇了房屋出租",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5110809,
+                    "rite": 5100045,
                     "prompt": {
                         "id": "5367438_prompt_3",
-                        "text": "你選擇了疯癫与幻觉",
+                        "text": "你選擇了妃子A来访",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120025,
+                    "rite": 5100052,
                     "prompt": {
                         "id": "5367438_prompt_4",
-                        "text": "你選擇了发现的诱惑",
+                        "text": "你選擇了妃子B来访",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120035,
+                    "rite": 5100055,
                     "prompt": {
                         "id": "5367438_prompt_5",
-                        "text": "你選擇了腐臭的生意人",
+                        "text": "你選擇了妃子B的请求",
                         "icon": "cards/2000001"
                     }
                 },

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "打密神君临",
+                            "text": "第一个牺牲者",
                             "tag": "op1"
                         },
                         {
-                            "text": "地底的呼唤",
+                            "text": "第一次帮助",
                             "tag": "op2"
                         },
                         {
-                            "text": "第二次机会",
+                            "text": "第二次帮助",
                             "tag": "op3"
                         },
                         {
-                            "text": "读书会",
+                            "text": "第三次帮助",
                             "tag": "op4"
                         },
                         {
-                            "text": "帝国之花",
+                            "text": "第四次帮助",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110641,
+                    "rite": 5121130,
                     "prompt": {
                         "id": "5367428_prompt_1",
-                        "text": "你選擇了打密神君临",
+                        "text": "你選擇了第一个牺牲者",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5110802,
+                    "rite": 5121146,
                     "prompt": {
                         "id": "5367428_prompt_2",
-                        "text": "你選擇了地底的呼唤",
+                        "text": "你選擇了第一次帮助",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5120020,
+                    "rite": 5121147,
                     "prompt": {
                         "id": "5367428_prompt_3",
-                        "text": "你選擇了第二次机会",
+                        "text": "你選擇了第二次帮助",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120022,
+                    "rite": 5121148,
                     "prompt": {
                         "id": "5367428_prompt_4",
-                        "text": "你選擇了读书会",
+                        "text": "你選擇了第三次帮助",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120104,
+                    "rite": 5121149,
                     "prompt": {
                         "id": "5367428_prompt_5",
-                        "text": "你選擇了帝国之花",
+                        "text": "你選擇了第四次帮助",
                         "icon": "cards/2000001"
                     }
                 },

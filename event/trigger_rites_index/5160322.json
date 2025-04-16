@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "全面整修",
+                            "text": "祈雨献祭",
                             "tag": "op1"
                         },
                         {
-                            "text": "群星的研究",
+                            "text": "祈雨献祭",
                             "tag": "op2"
                         },
                         {
-                            "text": "潜入篡改",
+                            "text": "欺软怕硬之徒",
                             "tag": "op3"
                         },
                         {
-                            "text": "祈雨献祭",
+                            "text": "奇淫巧技-苏丹的欢愉",
                             "tag": "op4"
                         },
                         {
-                            "text": "强硬驱逐",
+                            "text": "奇淫巧技-刺杀苏丹",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160322_prompt_1",
-                        "text": "你選擇了全面整修",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200006
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160322_prompt_2",
-                        "text": "你選擇了群星的研究",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200140
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160322_prompt_3",
-                        "text": "你選擇了潜入篡改",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200559
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160322_prompt_4",
                         "text": "你選擇了祈雨献祭",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200669
                 },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160322_prompt_2",
+                        "text": "你選擇了祈雨献祭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200682
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160322_prompt_3",
+                        "text": "你選擇了欺软怕硬之徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200847
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160322_prompt_4",
+                        "text": "你選擇了奇淫巧技-苏丹的欢愉",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202020
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160322_prompt_5",
-                        "text": "你選擇了强硬驱逐",
+                        "text": "你選擇了奇淫巧技-刺杀苏丹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200675
+                    "rite": 5202021
                 },
                 "case:op6": {
                     "event_on": 5160321,

@@ -23,19 +23,19 @@
                             "tag": "op1"
                         },
                         {
-                            "text": "放过他",
+                            "text": "废弃",
                             "tag": "op2"
                         },
                         {
-                            "text": "纺织教室",
+                            "text": "废弃",
                             "tag": "op3"
                         },
                         {
-                            "text": "服装商人",
+                            "text": "废弃",
                             "tag": "op4"
                         },
                         {
-                            "text": "服装商人",
+                            "text": "废弃",
                             "tag": "op5"
                         },
                         {
@@ -58,39 +58,39 @@
                         "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200719
+                    "rite": 5200717
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160240_prompt_2",
-                        "text": "你選擇了放过他",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200727
+                    "rite": 5200718
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160240_prompt_3",
-                        "text": "你選擇了纺织教室",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200789
+                    "rite": 5200719
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160240_prompt_4",
-                        "text": "你選擇了服装商人",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202012
+                    "rite": 5208021
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160240_prompt_5",
-                        "text": "你選擇了服装商人",
+                        "text": "你選擇了废弃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202013
+                    "rite": 5208022
                 },
                 "case:op6": {
                     "event_on": 5160239,

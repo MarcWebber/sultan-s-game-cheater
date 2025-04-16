@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "火中的自由",
+                            "text": "花园景观残本",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑街勇士讨伐战",
+                            "text": "花园里唯一的花",
                             "tag": "op2"
                         },
                         {
-                            "text": "花园景观残本",
+                            "text": "欢愉的代价",
                             "tag": "op3"
                         },
                         {
-                            "text": "回收金血之证",
+                            "text": "欢愉的代价",
                             "tag": "op4"
                         },
                         {
-                            "text": "黑牢深处（废弃）",
+                            "text": "欢愉之馆的新人",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160265_prompt_1",
-                        "text": "你選擇了火中的自由",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200786
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160265_prompt_2",
-                        "text": "你選擇了黑街勇士讨伐战",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200791
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160265_prompt_3",
                         "text": "你選擇了花园景观残本",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200833
                 },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160265_prompt_2",
+                        "text": "你選擇了花园里唯一的花",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206507
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160265_prompt_3",
+                        "text": "你選擇了欢愉的代价",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200553
+                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160265_prompt_4",
-                        "text": "你選擇了回收金血之证",
+                        "text": "你選擇了欢愉的代价",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200851
+                    "rite": 5200568
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160265_prompt_5",
-                        "text": "你選擇了黑牢深处（废弃）",
+                        "text": "你選擇了欢愉之馆的新人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201009
+                    "rite": 5200774
                 },
                 "case:op6": {
                     "event_on": 5160264,

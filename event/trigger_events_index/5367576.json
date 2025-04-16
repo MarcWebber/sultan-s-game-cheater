@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "诉冤的女人3",
+                            "text": "圣主驾到",
                             "tag": "op1"
                         },
                         {
-                            "text": "是我做的",
+                            "text": "食人的流浪狗",
                             "tag": "op2"
                         },
                         {
-                            "text": "算你识相",
+                            "text": "饰品商人",
                             "tag": "op3"
                         },
                         {
-                            "text": "商队投资",
+                            "text": "弑君",
                             "tag": "op4"
                         },
                         {
-                            "text": "神秘的符号",
+                            "text": "失去",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100348,
+                    "rite": 5110639,
                     "prompt": {
                         "id": "5367576_prompt_1",
-                        "text": "你選擇了诉冤的女人3",
+                        "text": "你選擇了圣主驾到",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100351,
+                    "rite": 5100019,
                     "prompt": {
                         "id": "5367576_prompt_2",
-                        "text": "你選擇了是我做的",
+                        "text": "你選擇了食人的流浪狗",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100352,
+                    "rite": 5100037,
                     "prompt": {
                         "id": "5367576_prompt_3",
-                        "text": "你選擇了算你识相",
+                        "text": "你選擇了饰品商人",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100512,
+                    "rite": 5100051,
                     "prompt": {
                         "id": "5367576_prompt_4",
-                        "text": "你選擇了商队投资",
+                        "text": "你選擇了弑君",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100514,
+                    "rite": 5100063,
                     "prompt": {
                         "id": "5367576_prompt_5",
-                        "text": "你選擇了神秘的符号",
+                        "text": "你選擇了失去",
                         "icon": "cards/2000001"
                     }
                 },

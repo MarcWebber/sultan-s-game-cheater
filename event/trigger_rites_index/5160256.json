@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "狗窝",
+                            "text": "挂毯长廊",
                             "tag": "op1"
                         },
                         {
-                            "text": "贵族也想吃",
+                            "text": "寡妇的友谊",
                             "tag": "op2"
                         },
                         {
-                            "text": "宫廷华宴",
+                            "text": "怪异的降临",
                             "tag": "op3"
                         },
                         {
-                            "text": "阁楼里的笑声",
+                            "text": "管不住的老婆",
                             "tag": "op4"
                         },
                         {
-                            "text": "阁楼里熟悉的笑声",
+                            "text": "光之训诫",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160256_prompt_1",
-                        "text": "你選擇了狗窝",
+                        "text": "你選擇了挂毯长廊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208087
+                    "rite": 5200137
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160256_prompt_2",
-                        "text": "你選擇了贵族也想吃",
+                        "text": "你選擇了寡妇的友谊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208092
+                    "rite": 5200624
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160256_prompt_3",
-                        "text": "你選擇了宫廷华宴",
+                        "text": "你選擇了怪异的降临",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208104
+                    "rite": 5208183
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160256_prompt_4",
-                        "text": "你選擇了阁楼里的笑声",
+                        "text": "你選擇了管不住的老婆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208107
+                    "rite": 5206593
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160256_prompt_5",
-                        "text": "你選擇了阁楼里熟悉的笑声",
+                        "text": "你選擇了光之训诫",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208109
+                    "rite": 5204805
                 },
                 "case:op6": {
                     "event_on": 5160255,

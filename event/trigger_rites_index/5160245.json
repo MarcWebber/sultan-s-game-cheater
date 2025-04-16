@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "废弃",
+                            "text": "服装商人",
                             "tag": "op1"
                         },
                         {
-                            "text": "丰产的仪式",
+                            "text": "复仇的利刃",
                             "tag": "op2"
                         },
                         {
-                            "text": "腐烂之巢",
+                            "text": "父亲的肉",
                             "tag": "op3"
                         },
                         {
-                            "text": "废弃",
+                            "text": "夫妻正应如此",
                             "tag": "op4"
                         },
                         {
-                            "text": "腐败的玫瑰",
+                            "text": "复仇",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160245_prompt_1",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了服装商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208022
+                    "rite": 5202013
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160245_prompt_2",
-                        "text": "你選擇了丰产的仪式",
+                        "text": "你選擇了复仇的利刃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208023
+                    "rite": 5203015
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160245_prompt_3",
-                        "text": "你選擇了腐烂之巢",
+                        "text": "你選擇了父亲的肉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208072
+                    "rite": 5204904
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160245_prompt_4",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了夫妻正应如此",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208086
+                    "rite": 5206050
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160245_prompt_5",
-                        "text": "你選擇了腐败的玫瑰",
+                        "text": "你選擇了复仇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208113
+                    "rite": 5206522
                 },
                 "case:op6": {
                     "event_on": 5160244,

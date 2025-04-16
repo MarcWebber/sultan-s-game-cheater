@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "末路",
+                            "text": "酩酊一醉",
                             "tag": "op1"
                         },
                         {
-                            "text": "免费的盛宴",
+                            "text": "命运之死",
                             "tag": "op2"
                         },
                         {
-                            "text": "冒险者酒吧",
+                            "text": "魔幻诗歌",
                             "tag": "op3"
                         },
                         {
-                            "text": "冒险者们的报恩",
+                            "text": "末日火山（废弃）",
                             "tag": "op4"
                         },
                         {
-                            "text": "命运之死",
+                            "text": "魔力增长仪式",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160310_prompt_1",
-                        "text": "你選擇了末路",
+                        "text": "你選擇了酩酊一醉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208032
+                    "rite": 5200773
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160310_prompt_2",
-                        "text": "你選擇了免费的盛宴",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208096
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160310_prompt_3",
-                        "text": "你選擇了冒险者酒吧",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208123
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160310_prompt_4",
-                        "text": "你選擇了冒险者们的报恩",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208145
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160310_prompt_5",
                         "text": "你選擇了命运之死",
                         "icon": "cards/2000001"
                     },
                     "rite": 5208168
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160310_prompt_3",
+                        "text": "你選擇了魔幻诗歌",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200123
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160310_prompt_4",
+                        "text": "你選擇了末日火山（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200707
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160310_prompt_5",
+                        "text": "你選擇了魔力增长仪式",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200742
                 },
                 "case:op6": {
                     "event_on": 5160309,

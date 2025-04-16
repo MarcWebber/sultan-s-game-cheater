@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "锻造龙鳞装备",
+                            "text": "调查罪证",
                             "tag": "op1"
                         },
                         {
-                            "text": "打击腐败",
+                            "text": "丢失的钱财",
                             "tag": "op2"
                         },
                         {
-                            "text": "帝国的勇士",
+                            "text": "动物与植物图鉴",
                             "tag": "op3"
                         },
                         {
-                            "text": "帝国的勇士",
+                            "text": "洞开的思想",
                             "tag": "op4"
                         },
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "懂的都懂",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160232_prompt_1",
-                        "text": "你選擇了锻造龙鳞装备",
+                        "text": "你選擇了调查罪证",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206078
+                    "rite": 5201024
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160232_prompt_2",
-                        "text": "你選擇了打击腐败",
+                        "text": "你選擇了丢失的钱财",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206581
+                    "rite": 5204003
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160232_prompt_3",
-                        "text": "你選擇了帝国的勇士",
+                        "text": "你選擇了动物与植物图鉴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206611
+                    "rite": 5200033
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160232_prompt_4",
-                        "text": "你選擇了帝国的勇士",
+                        "text": "你選擇了洞开的思想",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206612
+                    "rite": 5200044
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160232_prompt_5",
-                        "text": "你選擇了帝国勇士排行榜",
+                        "text": "你選擇了懂的都懂",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206613
+                    "rite": 5200781
                 },
                 "case:op6": {
                     "event_on": 5160231,

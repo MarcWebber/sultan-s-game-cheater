@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "我的主人",
+                            "text": "喂食",
                             "tag": "op1"
                         },
                         {
-                            "text": "喂养凶狮",
+                            "text": "文书的工作",
                             "tag": "op2"
                         },
                         {
@@ -31,11 +31,11 @@
                             "tag": "op3"
                         },
                         {
-                            "text": "我全都要",
+                            "text": "我要去妓院！",
                             "tag": "op4"
                         },
                         {
-                            "text": "我只要最好的",
+                            "text": "我，白嫖",
                             "tag": "op5"
                         },
                         {
@@ -55,18 +55,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160377_prompt_1",
-                        "text": "你選擇了我的主人",
+                        "text": "你選擇了喂食",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202033
+                    "rite": 5210052
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160377_prompt_2",
-                        "text": "你選擇了喂养凶狮",
+                        "text": "你選擇了文书的工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202516
+                    "rite": 5200021
                 },
                 "case:op3": {
                     "prompt": {
@@ -79,18 +79,18 @@
                 "case:op4": {
                     "prompt": {
                         "id": "5160377_prompt_4",
-                        "text": "你選擇了我全都要",
+                        "text": "你選擇了我要去妓院！",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206003
+                    "rite": 5200815
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160377_prompt_5",
-                        "text": "你選擇了我只要最好的",
+                        "text": "你選擇了我，白嫖",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206004
+                    "rite": 5200817
                 },
                 "case:op6": {
                     "event_on": 5160376,

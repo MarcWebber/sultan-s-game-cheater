@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "重罪",
+                            "text": "直面苏丹",
                             "tag": "op1"
                         },
                         {
-                            "text": "组织犯罪",
+                            "text": "致命主妇",
                             "tag": "op2"
                         },
                         {
-                            "text": "整理智库",
+                            "text": "直面苏丹",
                             "tag": "op3"
                         },
                         {
-                            "text": "招募信徒",
+                            "text": "终结苦痛",
                             "tag": "op4"
                         },
                         {
-                            "text": "在茉莉花香中……",
+                            "text": "忠贞正义之徒",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160427_prompt_1",
-                        "text": "你選擇了重罪",
+                        "text": "你選擇了直面苏丹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204007
+                    "rite": 5206080
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160427_prompt_2",
-                        "text": "你選擇了组织犯罪",
+                        "text": "你選擇了致命主妇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204013
+                    "rite": 5206540
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160427_prompt_3",
-                        "text": "你選擇了整理智库",
+                        "text": "你選擇了直面苏丹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204505
+                    "rite": 5210014
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160427_prompt_4",
-                        "text": "你選擇了招募信徒",
+                        "text": "你選擇了终结苦痛",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204506
+                    "rite": 5200725
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160427_prompt_5",
-                        "text": "你選擇了在茉莉花香中……",
+                        "text": "你選擇了忠贞正义之徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204518
+                    "rite": 5200845
                 },
                 "case:op6": {
                     "event_on": 5160426,

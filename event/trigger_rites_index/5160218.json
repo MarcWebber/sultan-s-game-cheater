@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "处理尸体",
+                            "text": "斥候训练手册",
                             "tag": "op1"
                         },
                         {
-                            "text": "沉入梦中",
+                            "text": "赤裸的茶会",
                             "tag": "op2"
                         },
                         {
-                            "text": "处刑",
+                            "text": "赤字滔天",
                             "tag": "op3"
                         },
                         {
-                            "text": "超级大撒币",
+                            "text": "持刀的绵羊",
                             "tag": "op4"
                         },
                         {
-                            "text": "出卖苦力",
+                            "text": "虫豸怎敢",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160218_prompt_1",
-                        "text": "你選擇了处理尸体",
+                        "text": "你選擇了斥候训练手册",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202024
+                    "rite": 5200026
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160218_prompt_2",
-                        "text": "你選擇了沉入梦中",
+                        "text": "你選擇了赤裸的茶会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203006
+                    "rite": 5200819
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160218_prompt_3",
-                        "text": "你選擇了处刑",
+                        "text": "你選擇了赤字滔天",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203009
+                    "rite": 5206585
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160218_prompt_4",
-                        "text": "你選擇了超级大撒币",
+                        "text": "你選擇了持刀的绵羊",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203017
+                    "rite": 5208130
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160218_prompt_5",
-                        "text": "你選擇了出卖苦力",
+                        "text": "你選擇了虫豸怎敢",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203022
+                    "rite": 5200724
                 },
                 "case:op6": {
                     "event_on": 5160217,

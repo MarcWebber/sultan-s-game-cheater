@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "在阴影中",
+                            "text": "追猎豺狼",
                             "tag": "op1"
                         },
                         {
-                            "text": "正义必须……",
+                            "text": "追查猎奴人",
                             "tag": "op2"
                         },
                         {
-                            "text": "致命主妇",
+                            "text": "赘婿的金币",
                             "tag": "op3"
                         },
                         {
-                            "text": "罪犯的投奔",
+                            "text": "捉贼人回忆录",
                             "tag": "op4"
                         },
                         {
-                            "text": "战争迷雾",
+                            "text": "捉贼人的调查",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160431_prompt_1",
-                        "text": "你選擇了在阴影中",
+                        "text": "你選擇了追猎豺狼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206532
+                    "rite": 5200813
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160431_prompt_2",
-                        "text": "你選擇了正义必须……",
+                        "text": "你選擇了追查猎奴人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206535
+                    "rite": 5200818
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160431_prompt_3",
-                        "text": "你選擇了致命主妇",
+                        "text": "你選擇了赘婿的金币",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206540
+                    "rite": 5208050
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160431_prompt_4",
-                        "text": "你選擇了罪犯的投奔",
+                        "text": "你選擇了捉贼人回忆录",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206571
+                    "rite": 5200027
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160431_prompt_5",
-                        "text": "你選擇了战争迷雾",
+                        "text": "你選擇了捉贼人的调查",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206588
+                    "rite": 5204004
                 },
                 "case:op6": {
                     "event_on": 5160430,

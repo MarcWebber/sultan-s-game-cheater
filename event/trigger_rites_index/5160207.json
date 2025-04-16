@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "保守秘密",
+                            "text": "被供奉的木雕",
                             "tag": "op1"
                         },
                         {
-                            "text": "不留后患",
+                            "text": "被供奉的木雕",
                             "tag": "op2"
                         },
                         {
-                            "text": "避避风头",
+                            "text": "卑贱囚牢",
                             "tag": "op3"
                         },
                         {
-                            "text": "不是故意",
+                            "text": "被流民侵占的宅邸",
                             "tag": "op4"
                         },
                         {
-                            "text": "帮派斗争",
+                            "text": "被魔鬼蛊惑之人",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160207_prompt_1",
-                        "text": "你選擇了保守秘密",
+                        "text": "你選擇了被供奉的木雕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200558
+                    "rite": 5200138
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160207_prompt_2",
-                        "text": "你選擇了不留后患",
+                        "text": "你選擇了被供奉的木雕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200565
+                    "rite": 5200139
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160207_prompt_3",
-                        "text": "你選擇了避避风头",
+                        "text": "你選擇了卑贱囚牢",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200766
+                    "rite": 5201007
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160207_prompt_4",
-                        "text": "你選擇了不是故意",
+                        "text": "你選擇了被流民侵占的宅邸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200776
+                    "rite": 5202502
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160207_prompt_5",
-                        "text": "你選擇了帮派斗争",
+                        "text": "你選擇了被魔鬼蛊惑之人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200810
+                    "rite": 5206075
                 },
                 "case:op6": {
                     "event_on": 5160206,

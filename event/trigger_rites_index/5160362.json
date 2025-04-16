@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹的诘问",
+                            "text": "索拉薇儿的游戏",
                             "tag": "op1"
                         },
                         {
-                            "text": "神的诞生",
+                            "text": "所有人的宴会",
                             "tag": "op2"
                         },
                         {
@@ -39,18 +39,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160362_prompt_1",
-                        "text": "你選擇了苏丹的诘问",
+                        "text": "你選擇了索拉薇儿的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210057
+                    "rite": 5200809
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160362_prompt_2",
-                        "text": "你選擇了神的诞生",
+                        "text": "你選擇了所有人的宴会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210059
+                    "rite": 5206627
                 },
                 "case:op3": {
                     "event_on": 5160361

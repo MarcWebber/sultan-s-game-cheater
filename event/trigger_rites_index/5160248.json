@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "古典摔跤",
+                            "text": "盖斯家的协助",
                             "tag": "op1"
                         },
                         {
-                            "text": "宫廷礼仪指南",
+                            "text": "改朝换代",
                             "tag": "op2"
                         },
                         {
-                            "text": "狗皮",
+                            "text": "肝胆相照",
                             "tag": "op3"
                         },
                         {
-                            "text": "歌声与寂静",
+                            "text": "干净的队伍",
                             "tag": "op4"
                         },
                         {
-                            "text": "古代人的呼吸",
+                            "text": "干净的队伍",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160248_prompt_1",
-                        "text": "你選擇了古典摔跤",
+                        "text": "你選擇了盖斯家的协助",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200013
+                    "rite": 5201015
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160248_prompt_2",
-                        "text": "你選擇了宫廷礼仪指南",
+                        "text": "你選擇了改朝换代",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200020
+                    "rite": 5201023
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160248_prompt_3",
-                        "text": "你選擇了狗皮",
+                        "text": "你選擇了肝胆相照",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200028
+                    "rite": 5200814
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160248_prompt_4",
-                        "text": "你選擇了歌声与寂静",
+                        "text": "你選擇了干净的队伍",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200029
+                    "rite": 5206663
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160248_prompt_5",
-                        "text": "你選擇了古代人的呼吸",
+                        "text": "你選擇了干净的队伍",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200039
+                    "rite": 5206666
                 },
                 "case:op6": {
                     "event_on": 5160247,

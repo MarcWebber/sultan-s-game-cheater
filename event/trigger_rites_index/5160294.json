@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "猎人故事集",
+                            "text": "拉磨",
                             "tag": "op1"
                         },
                         {
-                            "text": "历史洪流",
+                            "text": "蓝巾",
                             "tag": "op2"
                         },
                         {
-                            "text": "老花园",
+                            "text": "烂纸头",
                             "tag": "op3"
                         },
                         {
-                            "text": "列王纪",
+                            "text": "浪子的思绪",
                             "tag": "op4"
                         },
                         {
-                            "text": "猎神",
+                            "text": "浪子的思绪",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160294_prompt_1",
-                        "text": "你選擇了猎人故事集",
+                        "text": "你選擇了拉磨",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200024
+                    "rite": 5208075
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160294_prompt_2",
-                        "text": "你選擇了历史洪流",
+                        "text": "你選擇了蓝巾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200118
+                    "rite": 5200790
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160294_prompt_3",
-                        "text": "你選擇了老花园",
+                        "text": "你選擇了烂纸头",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200142
+                    "rite": 5200831
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160294_prompt_4",
-                        "text": "你選擇了列王纪",
+                        "text": "你選擇了浪子的思绪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200143
+                    "rite": 5200771
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160294_prompt_5",
-                        "text": "你選擇了猎神",
+                        "text": "你選擇了浪子的思绪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200581
+                    "rite": 5200775
                 },
                 "case:op6": {
                     "event_on": 5160293,

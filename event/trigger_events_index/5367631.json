@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "想做人",
+                            "text": "休憩的方法",
                             "tag": "op1"
                         },
                         {
-                            "text": "小小的快乐",
+                            "text": "选择如何处理禁卫队长",
                             "tag": "op2"
                         },
                         {
-                            "text": "新月升起",
+                            "text": "选光者",
                             "tag": "op3"
                         },
                         {
-                            "text": "新月长大了",
+                            "text": "选择",
                             "tag": "op4"
                         },
                         {
-                            "text": "献给阿尔图的花束",
+                            "text": "血墙",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5121103,
+                    "rite": 5120533,
                     "prompt": {
                         "id": "5367631_prompt_1",
-                        "text": "你選擇了想做人",
+                        "text": "你選擇了休憩的方法",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5121111,
+                    "rite": 5100064,
                     "prompt": {
                         "id": "5367631_prompt_2",
-                        "text": "你選擇了小小的快乐",
+                        "text": "你選擇了选择如何处理禁卫队长",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5121152,
+                    "rite": 5110624,
                     "prompt": {
                         "id": "5367631_prompt_3",
-                        "text": "你選擇了新月升起",
+                        "text": "你選擇了选光者",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5121154,
+                    "rite": 5120007,
                     "prompt": {
                         "id": "5367631_prompt_4",
-                        "text": "你選擇了新月长大了",
+                        "text": "你選擇了选择",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5121182,
+                    "rite": 5120040,
                     "prompt": {
                         "id": "5367631_prompt_5",
-                        "text": "你選擇了献给阿尔图的花束",
+                        "text": "你選擇了血墙",
                         "icon": "cards/2000001"
                     }
                 },

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "浴场的焦点",
+                            "text": "有趣的史诗",
                             "tag": "op1"
                         },
                         {
-                            "text": "与龙相关的会面",
+                            "text": "有人准备挑战你",
                             "tag": "op2"
                         },
                         {
-                            "text": "于夕色中蔓延……",
+                            "text": "游戏的准备",
                             "tag": "op3"
                         },
                         {
-                            "text": "研读结果",
+                            "text": "有人没吃到",
                             "tag": "op4"
                         },
                         {
-                            "text": "与神沟通",
+                            "text": "预言诗",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160412_prompt_1",
-                        "text": "你選擇了浴场的焦点",
+                        "text": "你選擇了有趣的史诗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206028
+                    "rite": 5200114
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160412_prompt_2",
-                        "text": "你選擇了与龙相关的会面",
+                        "text": "你選擇了有人准备挑战你",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206031
+                    "rite": 5200764
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160412_prompt_3",
-                        "text": "你選擇了于夕色中蔓延……",
+                        "text": "你選擇了游戏的准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206055
+                    "rite": 5200797
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160412_prompt_4",
-                        "text": "你選擇了研读结果",
+                        "text": "你選擇了有人没吃到",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206063
+                    "rite": 5208091
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160412_prompt_5",
-                        "text": "你選擇了与神沟通",
+                        "text": "你選擇了预言诗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206073
+                    "rite": 5200108
                 },
                 "case:op6": {
                     "event_on": 5160411,

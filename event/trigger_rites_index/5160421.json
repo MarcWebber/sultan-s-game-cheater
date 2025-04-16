@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "扎齐伊的请求",
+                            "text": "贼的志愿生",
                             "tag": "op1"
                         },
                         {
-                            "text": "最后的解惑",
+                            "text": "扎齐伊的请求",
                             "tag": "op2"
                         },
                         {
-                            "text": "最后的解惑",
+                            "text": "扎齐伊的请求",
                             "tag": "op3"
                         },
                         {
-                            "text": "最后的解惑",
+                            "text": "战士不需要的东西",
                             "tag": "op4"
                         },
                         {
-                            "text": "诸地暴乱",
+                            "text": "战斗的目的",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160421_prompt_1",
+                        "text": "你選擇了贼的志愿生",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208076
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160421_prompt_2",
+                        "text": "你選擇了扎齐伊的请求",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200614
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160421_prompt_3",
                         "text": "你選擇了扎齐伊的请求",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200618
                 },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160421_prompt_2",
-                        "text": "你選擇了最后的解惑",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200619
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160421_prompt_3",
-                        "text": "你選擇了最后的解惑",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200620
-                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160421_prompt_4",
-                        "text": "你選擇了最后的解惑",
+                        "text": "你選擇了战士不需要的东西",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200621
+                    "rite": 5206032
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160421_prompt_5",
-                        "text": "你選擇了诸地暴乱",
+                        "text": "你選擇了战斗的目的",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200679
+                    "rite": 5206045
                 },
                 "case:op6": {
                     "event_on": 5160420,

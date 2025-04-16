@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "毁尸灭迹",
+                            "text": "荒诞之欢",
                             "tag": "op1"
                         },
                         {
-                            "text": "黄金的工具",
+                            "text": "皇宫",
                             "tag": "op2"
                         },
                         {
-                            "text": "还来？",
+                            "text": "贿赂主管",
                             "tag": "op3"
                         },
                         {
-                            "text": "欢宴",
+                            "text": "回报宰相",
                             "tag": "op4"
                         },
                         {
-                            "text": "欢快的访客",
+                            "text": "回报宰相",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160270_prompt_1",
-                        "text": "你選擇了毁尸灭迹",
+                        "text": "你選擇了荒诞之欢",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206511
+                    "rite": 5208171
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160270_prompt_2",
-                        "text": "你選擇了黄金的工具",
+                        "text": "你選擇了皇宫",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206653
+                    "rite": 5210013
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160270_prompt_3",
-                        "text": "你選擇了还来？",
+                        "text": "你選擇了贿赂主管",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208046
+                    "rite": 5200560
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160270_prompt_4",
-                        "text": "你選擇了欢宴",
+                        "text": "你選擇了回报宰相",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208047
+                    "rite": 5200722
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160270_prompt_5",
-                        "text": "你選擇了欢快的访客",
+                        "text": "你選擇了回报宰相",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208051
+                    "rite": 5200726
                 },
                 "case:op6": {
                     "event_on": 5160269,

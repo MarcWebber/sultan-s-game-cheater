@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "秘密幽会",
+                            "text": "没有决裂伊曼存活",
                             "tag": "op1"
                         },
                         {
-                            "text": "没有决裂伊曼存活",
+                            "text": "没有决裂伊曼死亡",
                             "tag": "op2"
                         },
                         {
-                            "text": "没有决裂伊曼死亡",
+                            "text": "没别人，进来吧",
                             "tag": "op3"
                         },
                         {
-                            "text": "没别人，进来吧",
+                            "text": "每5天判定一次强者待遇",
                             "tag": "op4"
                         },
                         {
-                            "text": "每5天判定一次强者待遇",
+                            "text": "没有及时消除苏丹卡而死亡",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110611,
-                    "prompt": {
-                        "id": "5367517_prompt_1",
-                        "text": "你選擇了秘密幽会",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
                     "rite": 5110616,
                     "prompt": {
-                        "id": "5367517_prompt_2",
+                        "id": "5367517_prompt_1",
                         "text": "你選擇了没有决裂伊曼存活",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op3": {
+                "case:op2": {
                     "rite": 5110617,
                     "prompt": {
-                        "id": "5367517_prompt_3",
+                        "id": "5367517_prompt_2",
                         "text": "你選擇了没有决裂伊曼死亡",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op4": {
+                "case:op3": {
                     "rite": 5120502,
                     "prompt": {
-                        "id": "5367517_prompt_4",
+                        "id": "5367517_prompt_3",
                         "text": "你選擇了没别人，进来吧",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op4": {
                     "rite": 5120513,
                     "prompt": {
-                        "id": "5367517_prompt_5",
+                        "id": "5367517_prompt_4",
                         "text": "你選擇了每5天判定一次强者待遇",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5160026,
+                    "prompt": {
+                        "id": "5367517_prompt_5",
+                        "text": "你選擇了没有及时消除苏丹卡而死亡",
                         "icon": "cards/2000001"
                     }
                 },

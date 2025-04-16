@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "稍加整修",
+                            "text": "萨达尔尼来访",
                             "tag": "op1"
                         },
                         {
-                            "text": "圣训六十篇",
+                            "text": "散尽家财",
                             "tag": "op2"
                         },
                         {
-                            "text": "沙漠之书",
+                            "text": "三角漩涡",
                             "tag": "op3"
                         },
                         {
-                            "text": "士兵的训练",
+                            "text": "散布谣言",
                             "tag": "op4"
                         },
                         {
-                            "text": "水银之血",
+                            "text": "沙漠之书",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160335_prompt_1",
-                        "text": "你選擇了稍加整修",
+                        "text": "你選擇了萨达尔尼来访",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200005
+                    "rite": 5200552
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160335_prompt_2",
-                        "text": "你選擇了圣训六十篇",
+                        "text": "你選擇了散尽家财",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200019
+                    "rite": 5200729
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160335_prompt_3",
-                        "text": "你選擇了沙漠之书",
+                        "text": "你選擇了三角漩涡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200035
+                    "rite": 5206539
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160335_prompt_4",
-                        "text": "你選擇了士兵的训练",
+                        "text": "你選擇了散布谣言",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200037
+                    "rite": 5207005
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160335_prompt_5",
-                        "text": "你選擇了水银之血",
+                        "text": "你選擇了沙漠之书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200040
+                    "rite": 5200035
                 },
                 "case:op6": {
                     "event_on": 5160334,

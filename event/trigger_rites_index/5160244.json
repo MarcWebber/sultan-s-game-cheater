@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "复仇的滋味",
+                            "text": "疯癫与幻觉",
                             "tag": "op1"
                         },
                         {
-                            "text": "富有的巨魔",
+                            "text": "丰产的仪式",
                             "tag": "op2"
                         },
                         {
-                            "text": "复原的神迹",
+                            "text": "蜂蜜蛋饼",
                             "tag": "op3"
                         },
                         {
-                            "text": "焚书",
+                            "text": "复仇的伊始",
                             "tag": "op4"
                         },
                         {
-                            "text": "废弃",
+                            "text": "服装商人",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160244_prompt_1",
-                        "text": "你選擇了复仇的滋味",
+                        "text": "你選擇了疯癫与幻觉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206531
+                    "rite": 5204814
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160244_prompt_2",
-                        "text": "你選擇了富有的巨魔",
+                        "text": "你選擇了丰产的仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206554
+                    "rite": 5208023
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160244_prompt_3",
-                        "text": "你選擇了复原的神迹",
+                        "text": "你選擇了蜂蜜蛋饼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206558
+                    "rite": 5208144
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160244_prompt_4",
-                        "text": "你選擇了焚书",
+                        "text": "你選擇了复仇的伊始",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206592
+                    "rite": 5200526
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160244_prompt_5",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了服装商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208021
+                    "rite": 5202012
                 },
                 "case:op6": {
                     "event_on": 5160243,

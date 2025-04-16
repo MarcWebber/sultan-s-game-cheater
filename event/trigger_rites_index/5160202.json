@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "爱的伪证",
+                            "text": "俺寻思",
                             "tag": "op1"
                         },
                         {
-                            "text": "阿迪莱的战书",
+                            "text": "安苏亚妃来访",
                             "tag": "op2"
                         },
                         {
-                            "text": "暗潮涌动",
+                            "text": "安苏亚的请求I",
                             "tag": "op3"
                         },
                         {
-                            "text": "暗潮涌动",
+                            "text": "安苏亚的请求",
                             "tag": "op4"
                         },
                         {
-                            "text": "暗影神殿",
+                            "text": "安苏亚的请求",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160202_prompt_1",
-                        "text": "你選擇了爱的伪证",
+                        "text": "你選擇了俺寻思",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200550
+                    "rite": 5200002
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160202_prompt_2",
-                        "text": "你選擇了阿迪莱的战书",
+                        "text": "你選擇了安苏亚妃来访",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200631
+                    "rite": 5200521
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160202_prompt_3",
-                        "text": "你選擇了暗潮涌动",
+                        "text": "你選擇了安苏亚的请求I",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200661
+                    "rite": 5200522
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160202_prompt_4",
-                        "text": "你選擇了暗潮涌动",
+                        "text": "你選擇了安苏亚的请求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200664
+                    "rite": 5200523
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160202_prompt_5",
-                        "text": "你選擇了暗影神殿",
+                        "text": "你選擇了安苏亚的请求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200704
+                    "rite": 5200524
                 },
                 "case:op6": {
                     "event_on": 5160201,

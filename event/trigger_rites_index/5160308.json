@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "梦中的考验",
+                            "text": "密神的诅咒",
                             "tag": "op1"
                         },
                         {
-                            "text": "梦中的考验",
+                            "text": "迷梦之刃",
                             "tag": "op2"
                         },
                         {
-                            "text": "梦中的考验",
+                            "text": "面具的秘密",
                             "tag": "op3"
                         },
                         {
-                            "text": "民间集资",
+                            "text": "面对现实",
                             "tag": "op4"
                         },
                         {
-                            "text": "民众的代表",
+                            "text": "免费的盛宴",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160308_prompt_1",
-                        "text": "你選擇了梦中的考验",
+                        "text": "你選擇了密神的诅咒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206060
+                    "rite": 5208188
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160308_prompt_2",
-                        "text": "你選擇了梦中的考验",
+                        "text": "你選擇了迷梦之刃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206061
+                    "rite": 5210062
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160308_prompt_3",
-                        "text": "你選擇了梦中的考验",
+                        "text": "你選擇了面具的秘密",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206062
+                    "rite": 5200048
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160308_prompt_4",
-                        "text": "你選擇了民间集资",
+                        "text": "你選擇了面对现实",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206577
+                    "rite": 5203008
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160308_prompt_5",
-                        "text": "你選擇了民众的代表",
+                        "text": "你選擇了免费的盛宴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206586
+                    "rite": 5208096
                 },
                 "case:op6": {
                     "event_on": 5160307,

@@ -19,15 +19,15 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "废弃",
+                            "text": "腐烂之巢",
                             "tag": "op1"
                         },
                         {
-                            "text": "废弃",
+                            "text": "腐败的玫瑰",
                             "tag": "op2"
                         },
                         {
-                            "text": "废弃",
+                            "text": "复仇的请求",
                             "tag": "op3"
                         },
                         {
@@ -43,26 +43,26 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160247_prompt_1",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了腐烂之巢",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208170
+                    "rite": 5208072
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160247_prompt_2",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了腐败的玫瑰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208185
+                    "rite": 5208113
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160247_prompt_3",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了复仇的请求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210035
+                    "rite": 5208149
                 },
                 "case:op4": {
                     "event_on": 5160246

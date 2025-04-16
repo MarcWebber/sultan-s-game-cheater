@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "天下武学验证战？",
+                            "text": "谈判",
                             "tag": "op1"
                         },
                         {
@@ -27,15 +27,15 @@
                             "tag": "op2"
                         },
                         {
-                            "text": "偷窃圣血",
+                            "text": "淘书",
                             "tag": "op3"
                         },
                         {
-                            "text": "探访监狱",
+                            "text": "淘书",
                             "tag": "op4"
                         },
                         {
-                            "text": "脱罪的希望",
+                            "text": "淘书",
                             "tag": "op5"
                         },
                         {
@@ -55,10 +55,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160365_prompt_1",
-                        "text": "你選擇了天下武学验证战？",
+                        "text": "你選擇了谈判",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200794
+                    "rite": 5206512
                 },
                 "case:op2": {
                     "prompt": {
@@ -71,26 +71,26 @@
                 "case:op3": {
                     "prompt": {
                         "id": "5160365_prompt_3",
-                        "text": "你選擇了偷窃圣血",
+                        "text": "你選擇了淘书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200863
+                    "rite": 5202036
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160365_prompt_4",
-                        "text": "你選擇了探访监狱",
+                        "text": "你選擇了淘书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201006
+                    "rite": 5202037
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160365_prompt_5",
-                        "text": "你選擇了脱罪的希望",
+                        "text": "你選擇了淘书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201014
+                    "rite": 5202038
                 },
                 "case:op6": {
                     "event_on": 5160364,

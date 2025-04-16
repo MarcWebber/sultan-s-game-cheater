@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "文书的工作",
+                            "text": "玩泥巴的异族",
                             "tag": "op1"
                         },
                         {
-                            "text": "舞乐之宴",
+                            "text": "挽回的余地",
                             "tag": "op2"
                         },
                         {
-                            "text": "伟大的爱情",
+                            "text": "挽回的余地",
                             "tag": "op3"
                         },
                         {
-                            "text": "伟大的史诗",
+                            "text": "王狮猎场",
                             "tag": "op4"
                         },
                         {
-                            "text": "伟大的黑暗",
+                            "text": "王之舞",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160372_prompt_1",
-                        "text": "你選擇了文书的工作",
+                        "text": "你選擇了玩泥巴的异族",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200021
+                    "rite": 5206551
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160372_prompt_2",
-                        "text": "你選擇了舞乐之宴",
+                        "text": "你選擇了挽回的余地",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200102
+                    "rite": 5208026
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160372_prompt_3",
-                        "text": "你選擇了伟大的爱情",
+                        "text": "你選擇了挽回的余地",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200113
+                    "rite": 5208027
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160372_prompt_4",
-                        "text": "你選擇了伟大的史诗",
+                        "text": "你選擇了王狮猎场",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200117
+                    "rite": 5200632
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160372_prompt_5",
-                        "text": "你選擇了伟大的黑暗",
+                        "text": "你選擇了王之舞",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200127
+                    "rite": 5210019
                 },
                 "case:op6": {
                     "event_on": 5160371,

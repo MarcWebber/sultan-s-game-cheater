@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "妓女的游戏开起不来的其它状况",
+                            "text": "剑客问询",
                             "tag": "op1"
                         },
                         {
-                            "text": "监听奈布哈尼追随者tag，移除时关闭不可靠的盟友系列",
+                            "text": "剑客有可杀之人",
                             "tag": "op2"
                         },
                         {
-                            "text": "剑客问询",
+                            "text": "剑客无可杀之人",
                             "tag": "op3"
                         },
                         {
-                            "text": "剑客有可杀之人",
+                            "text": "检定每日囚牢是否开启",
                             "tag": "op4"
                         },
                         {
-                            "text": "剑客无可杀之人",
+                            "text": "剑盾的仪式说明",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100535,
-                    "prompt": {
-                        "id": "5367474_prompt_1",
-                        "text": "你選擇了妓女的游戏开起不来的其它状况",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
-                    "rite": 5100536,
-                    "prompt": {
-                        "id": "5367474_prompt_2",
-                        "text": "你選擇了监听奈布哈尼追随者tag，移除时关闭不可靠的盟友系列",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
                     "rite": 5100565,
                     "prompt": {
-                        "id": "5367474_prompt_3",
+                        "id": "5367474_prompt_1",
                         "text": "你選擇了剑客问询",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op4": {
+                "case:op2": {
                     "rite": 5100566,
                     "prompt": {
-                        "id": "5367474_prompt_4",
+                        "id": "5367474_prompt_2",
                         "text": "你選擇了剑客有可杀之人",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op3": {
                     "rite": 5100567,
                     "prompt": {
-                        "id": "5367474_prompt_5",
+                        "id": "5367474_prompt_3",
                         "text": "你選擇了剑客无可杀之人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120100,
+                    "prompt": {
+                        "id": "5367474_prompt_4",
+                        "text": "你選擇了检定每日囚牢是否开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121037,
+                    "prompt": {
+                        "id": "5367474_prompt_5",
+                        "text": "你選擇了剑盾的仪式说明",
                         "icon": "cards/2000001"
                     }
                 },

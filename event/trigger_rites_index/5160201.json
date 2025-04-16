@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "爱情诗",
+                            "text": "阿迪莱正在冒险",
                             "tag": "op1"
                         },
                         {
-                            "text": "安苏亚妃来访",
+                            "text": "阿里木的大餐",
                             "tag": "op2"
                         },
                         {
-                            "text": "安苏亚的请求I",
+                            "text": "艾娃日记",
                             "tag": "op3"
                         },
                         {
-                            "text": "安苏亚的请求",
+                            "text": "爱情诗",
                             "tag": "op4"
                         },
                         {
-                            "text": "安苏亚的请求",
+                            "text": "爱的伪证",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160201_prompt_1",
+                        "text": "你選擇了阿迪莱正在冒险",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206051
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160201_prompt_2",
+                        "text": "你選擇了阿里木的大餐",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208077
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160201_prompt_3",
+                        "text": "你選擇了艾娃日记",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200022
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160201_prompt_4",
                         "text": "你選擇了爱情诗",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200105
                 },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160201_prompt_2",
-                        "text": "你選擇了安苏亚妃来访",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200521
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160201_prompt_3",
-                        "text": "你選擇了安苏亚的请求I",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200522
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160201_prompt_4",
-                        "text": "你選擇了安苏亚的请求",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200523
-                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160201_prompt_5",
-                        "text": "你選擇了安苏亚的请求",
+                        "text": "你選擇了爱的伪证",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200524
+                    "rite": 5200550
                 },
                 "case:op6": {
                     "event_on": 5160200,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "丝绒暗室",
+                            "text": "苏丹的女奴",
                             "tag": "op1"
                         },
                         {
-                            "text": "丝绒暗室的掉落",
+                            "text": "算你识相",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹的欢愉",
+                            "text": "随机小事件",
                             "tag": "op3"
                         },
                         {
-                            "text": "赛狗循环",
+                            "text": "索要物资I",
                             "tag": "op4"
                         },
                         {
-                            "text": "苏丹的女奴",
+                            "text": "索要物资2",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5121121,
+                    "rite": 5121175,
                     "prompt": {
                         "id": "5367595_prompt_1",
-                        "text": "你選擇了丝绒暗室",
+                        "text": "你選擇了苏丹的女奴",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5121122,
+                    "rite": 5100352,
                     "prompt": {
                         "id": "5367595_prompt_2",
-                        "text": "你選擇了丝绒暗室的掉落",
+                        "text": "你選擇了算你识相",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5121127,
+                    "rite": 5100601,
                     "prompt": {
                         "id": "5367595_prompt_3",
-                        "text": "你選擇了苏丹的欢愉",
+                        "text": "你選擇了随机小事件",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5121139,
+                    "rite": 5100046,
                     "prompt": {
                         "id": "5367595_prompt_4",
-                        "text": "你選擇了赛狗循环",
+                        "text": "你選擇了索要物资I",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5121175,
+                    "rite": 5100047,
                     "prompt": {
                         "id": "5367595_prompt_5",
-                        "text": "你選擇了苏丹的女奴",
+                        "text": "你選擇了索要物资2",
                         "icon": "cards/2000001"
                     }
                 },

@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "处置俘虏",
+                            "text": "寸步不离",
                             "tag": "op1"
                         },
                         {
-                            "text": "出发！",
+                            "text": "伺机伤人",
                             "tag": "op2"
                         },
                         {
@@ -39,18 +39,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160226_prompt_1",
-                        "text": "你選擇了处置俘虏",
+                        "text": "你選擇了寸步不离",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208180
+                    "rite": 5206632
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160226_prompt_2",
-                        "text": "你選擇了出发！",
+                        "text": "你選擇了伺机伤人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210001
+                    "rite": 5207012
                 },
                 "case:op3": {
                     "event_on": 5160225

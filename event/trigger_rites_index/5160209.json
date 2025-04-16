@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "被流民侵占的宅邸",
+                            "text": "避避风头",
                             "tag": "op1"
                         },
                         {
-                            "text": "不谐之音",
+                            "text": "必要的准备",
                             "tag": "op2"
                         },
                         {
-                            "text": "扒手团体（废弃）",
+                            "text": "比嘬嘬嘬更有用",
                             "tag": "op3"
                         },
                         {
-                            "text": "不再被认可的信仰",
+                            "text": "比最好更好的",
                             "tag": "op4"
                         },
                         {
-                            "text": "白银纵欲卡",
+                            "text": "匕首之路",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160209_prompt_1",
-                        "text": "你選擇了被流民侵占的宅邸",
+                        "text": "你選擇了避避风头",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202502
+                    "rite": 5200766
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160209_prompt_2",
-                        "text": "你選擇了不谐之音",
+                        "text": "你選擇了必要的准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203001
+                    "rite": 5206047
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160209_prompt_3",
-                        "text": "你選擇了扒手团体（废弃）",
+                        "text": "你選擇了比嘬嘬嘬更有用",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204010
+                    "rite": 5208147
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160209_prompt_4",
-                        "text": "你選擇了不再被认可的信仰",
+                        "text": "你選擇了比最好更好的",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204509
+                    "rite": 5208153
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160209_prompt_5",
-                        "text": "你選擇了白银纵欲卡",
+                        "text": "你選擇了匕首之路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5205101
+                    "rite": 5210047
                 },
                 "case:op6": {
                     "event_on": 5160208,

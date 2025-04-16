@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "我都知道了！",
+                            "text": "无妄之灾",
                             "tag": "op1"
                         },
                         {
-                            "text": "为您效劳",
+                            "text": "无名的暗杀",
                             "tag": "op2"
                         },
                         {
-                            "text": "午夜利刃",
+                            "text": "无法治愈的疾病",
                             "tag": "op3"
                         },
                         {
-                            "text": "唯一的答案",
+                            "text": "无法拒绝的安慰",
                             "tag": "op4"
                         },
                         {
-                            "text": "无妄之灾",
+                            "text": "无用的施舍",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160381_prompt_1",
-                        "text": "你選擇了我都知道了！",
+                        "text": "你選擇了无妄之灾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208028
+                    "rite": 5200854
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160381_prompt_2",
-                        "text": "你選擇了为您效劳",
+                        "text": "你選擇了无名的暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208066
+                    "rite": 5201011
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160381_prompt_3",
-                        "text": "你選擇了午夜利刃",
+                        "text": "你選擇了无法治愈的疾病",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208125
+                    "rite": 5206607
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160381_prompt_4",
-                        "text": "你選擇了唯一的答案",
+                        "text": "你選擇了无法拒绝的安慰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208151
+                    "rite": 5206629
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160381_prompt_5",
-                        "text": "你選擇了无妄之灾",
+                        "text": "你選擇了无用的施舍",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208177
+                    "rite": 5206674
                 },
                 "case:op6": {
                     "event_on": 5160380,

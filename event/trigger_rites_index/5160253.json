@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "管不住的老婆",
+                            "text": "狗皮",
                             "tag": "op1"
                         },
                         {
-                            "text": "更进一步",
+                            "text": "购买头衔",
                             "tag": "op2"
                         },
                         {
-                            "text": "宫门募捐",
+                            "text": "狗窝",
                             "tag": "op3"
                         },
                         {
-                            "text": "干净的队伍",
+                            "text": "古典摔跤",
                             "tag": "op4"
                         },
                         {
-                            "text": "干净的队伍",
+                            "text": "古代人的呼吸",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160253_prompt_1",
-                        "text": "你選擇了管不住的老婆",
+                        "text": "你選擇了狗皮",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206593
+                    "rite": 5200028
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160253_prompt_2",
-                        "text": "你選擇了更进一步",
+                        "text": "你選擇了购买头衔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206598
+                    "rite": 5208015
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160253_prompt_3",
-                        "text": "你選擇了宫门募捐",
+                        "text": "你選擇了狗窝",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206644
+                    "rite": 5208087
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160253_prompt_4",
-                        "text": "你選擇了干净的队伍",
+                        "text": "你選擇了古典摔跤",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206663
+                    "rite": 5200013
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160253_prompt_5",
-                        "text": "你選擇了干净的队伍",
+                        "text": "你選擇了古代人的呼吸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206666
+                    "rite": 5200039
                 },
                 "case:op6": {
                     "event_on": 5160252,

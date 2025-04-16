@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "强者待遇",
+                            "text": "寝食单",
                             "tag": "op1"
                         },
                         {
-                            "text": "祈福仪式",
+                            "text": "禽肉炒蘑菇",
                             "tag": "op2"
                         },
                         {
-                            "text": "强夺凋零之花",
+                            "text": "轻罪",
                             "tag": "op3"
                         },
                         {
-                            "text": "轻易获得快乐",
+                            "text": "青铜征服卡",
                             "tag": "op4"
                         },
                         {
-                            "text": "清流与浊流",
+                            "text": "轻易获得快乐",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160326_prompt_1",
-                        "text": "你選擇了强者待遇",
+                        "text": "你選擇了寝食单",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206021
+                    "rite": 5200834
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160326_prompt_2",
-                        "text": "你選擇了祈福仪式",
+                        "text": "你選擇了禽肉炒蘑菇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206052
+                    "rite": 5208159
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160326_prompt_3",
-                        "text": "你選擇了强夺凋零之花",
+                        "text": "你選擇了轻罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206502
+                    "rite": 5204005
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160326_prompt_4",
-                        "text": "你選擇了轻易获得快乐",
+                        "text": "你選擇了青铜征服卡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206510
+                    "rite": 5205104
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160326_prompt_5",
-                        "text": "你選擇了清流与浊流",
+                        "text": "你選擇了轻易获得快乐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206538
+                    "rite": 5206510
                 },
                 "case:op6": {
                     "event_on": 5160325,

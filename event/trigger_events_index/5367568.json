@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "弑君",
+                            "text": "商队投资",
                             "tag": "op1"
                         },
                         {
-                            "text": "失去",
+                            "text": "商人之争",
                             "tag": "op2"
                         },
                         {
-                            "text": "说服禁卫队长",
+                            "text": "伤痕与友情",
                             "tag": "op3"
                         },
                         {
-                            "text": "生成治理家业",
+                            "text": "少女审视自己",
                             "tag": "op4"
                         },
                         {
-                            "text": "搜寻提尔亚遗物",
+                            "text": "少女审视自己2",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100051,
+                    "rite": 5100512,
                     "prompt": {
                         "id": "5367568_prompt_1",
-                        "text": "你選擇了弑君",
+                        "text": "你選擇了商队投资",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100063,
+                    "rite": 5100611,
                     "prompt": {
                         "id": "5367568_prompt_2",
-                        "text": "你選擇了失去",
+                        "text": "你選擇了商人之争",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100065,
+                    "rite": 5120520,
                     "prompt": {
                         "id": "5367568_prompt_3",
-                        "text": "你選擇了说服禁卫队长",
+                        "text": "你選擇了伤痕与友情",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100066,
+                    "rite": 5100124,
                     "prompt": {
                         "id": "5367568_prompt_4",
-                        "text": "你選擇了生成治理家业",
+                        "text": "你選擇了少女审视自己",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100086,
+                    "rite": 5100125,
                     "prompt": {
                         "id": "5367568_prompt_5",
-                        "text": "你選擇了搜寻提尔亚遗物",
+                        "text": "你選擇了少女审视自己2",
                         "icon": "cards/2000001"
                     }
                 },

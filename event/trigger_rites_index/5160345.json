@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹的欢愉",
+                            "text": "审判烈焰",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹的戏弄",
+                            "text": "神临仪式",
                             "tag": "op2"
                         },
                         {
-                            "text": "书店营业",
+                            "text": "神的诞生",
                             "tag": "op3"
                         },
                         {
-                            "text": "书店密会",
+                            "text": "圣训六十篇",
                             "tag": "op4"
                         },
                         {
-                            "text": "书店门口的乞丐",
+                            "text": "升华",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160345_prompt_1",
-                        "text": "你選擇了苏丹的欢愉",
+                        "text": "你選擇了审判烈焰",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201017
+                    "rite": 5210040
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160345_prompt_2",
-                        "text": "你選擇了苏丹的戏弄",
+                        "text": "你選擇了神临仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201018
+                    "rite": 5210042
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160345_prompt_3",
-                        "text": "你選擇了书店营业",
+                        "text": "你選擇了神的诞生",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202006
+                    "rite": 5210059
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160345_prompt_4",
-                        "text": "你選擇了书店密会",
+                        "text": "你選擇了圣训六十篇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202007
+                    "rite": 5200019
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160345_prompt_5",
-                        "text": "你選擇了书店门口的乞丐",
+                        "text": "你選擇了升华",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202008
+                    "rite": 5202034
                 },
                 "case:op6": {
                     "event_on": 5160344,

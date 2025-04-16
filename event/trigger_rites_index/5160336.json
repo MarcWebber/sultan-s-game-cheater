@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "思辨集",
+                            "text": "莎姬的噩梦",
                             "tag": "op1"
                         },
                         {
-                            "text": "四十七种优雅姿态",
+                            "text": "杀妻求荣",
                             "tag": "op2"
                         },
                         {
-                            "text": "神秘的精油",
+                            "text": "沙尘往事",
                             "tag": "op3"
                         },
                         {
-                            "text": "史诗",
+                            "text": "山狮最后的索求",
                             "tag": "op4"
                         },
                         {
-                            "text": "神圣的襄助",
+                            "text": "商人的遗物",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160336_prompt_1",
-                        "text": "你選擇了思辨集",
+                        "text": "你選擇了莎姬的噩梦",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200042
+                    "rite": 5200576
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160336_prompt_2",
-                        "text": "你選擇了四十七种优雅姿态",
+                        "text": "你選擇了杀妻求荣",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200046
+                    "rite": 5206542
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160336_prompt_3",
-                        "text": "你選擇了神秘的精油",
+                        "text": "你選擇了沙尘往事",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200047
+                    "rite": 5206625
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160336_prompt_4",
-                        "text": "你選擇了史诗",
+                        "text": "你選擇了山狮最后的索求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200106
+                    "rite": 5202517
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160336_prompt_5",
-                        "text": "你選擇了神圣的襄助",
+                        "text": "你選擇了商人的遗物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200508
+                    "rite": 5202506
                 },
                 "case:op6": {
                     "event_on": 5160335,

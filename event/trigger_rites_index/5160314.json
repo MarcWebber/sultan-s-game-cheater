@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "你的游戏",
+                            "text": "奈费勒的毒箭",
                             "tag": "op1"
                         },
                         {
-                            "text": "你的游戏",
+                            "text": "难以治愈的疾病",
                             "tag": "op2"
                         },
                         {
-                            "text": "你最重要的",
+                            "text": "闹事的老鼠",
                             "tag": "op3"
                         },
                         {
-                            "text": "女王做妾",
+                            "text": "内宅的仪式",
                             "tag": "op4"
                         },
                         {
-                            "text": "女王的朋友",
+                            "text": "能吃吗？好吃吗？怎么吃？",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160314_prompt_1",
-                        "text": "你選擇了你的游戏",
+                        "text": "你選擇了奈费勒的毒箭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200798
+                    "rite": 5210020
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160314_prompt_2",
-                        "text": "你選擇了你的游戏",
+                        "text": "你選擇了难以治愈的疾病",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200800
+                    "rite": 5206606
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160314_prompt_3",
-                        "text": "你選擇了你最重要的",
+                        "text": "你選擇了闹事的老鼠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200839
+                    "rite": 5208097
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160314_prompt_4",
-                        "text": "你選擇了女王做妾",
+                        "text": "你選擇了内宅的仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202026
+                    "rite": 5208025
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160314_prompt_5",
-                        "text": "你選擇了女王的朋友",
+                        "text": "你選擇了能吃吗？好吃吗？怎么吃？",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202027
+                    "rite": 5208132
                 },
                 "case:op6": {
                     "event_on": 5160313,

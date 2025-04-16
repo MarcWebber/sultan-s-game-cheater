@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "拼凑真相",
+                            "text": "破坏名声",
                             "tag": "op1"
                         },
                         {
@@ -39,10 +39,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160321_prompt_1",
-                        "text": "你選擇了拼凑真相",
+                        "text": "你選擇了破坏名声",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208150
+                    "rite": 5208039
                 },
                 "case:op2": {
                     "prompt": {

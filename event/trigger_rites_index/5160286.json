@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "绝望中的救赎",
+                            "text": "举世无双的赠礼",
                             "tag": "op1"
                         },
                         {
-                            "text": "降神仪式",
+                            "text": "举世无双的爱",
                             "tag": "op2"
                         },
                         {
-                            "text": "降神仪式",
+                            "text": "巨大的玩具",
                             "tag": "op3"
                         },
                         {
-                            "text": "集结部队",
+                            "text": "绝地探索",
                             "tag": "op4"
                         },
                         {
-                            "text": "近卫的承诺",
+                            "text": "决裂",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160286_prompt_1",
-                        "text": "你選擇了绝望中的救赎",
+                        "text": "你選擇了举世无双的赠礼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208156
+                    "rite": 5206040
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160286_prompt_2",
-                        "text": "你選擇了降神仪式",
+                        "text": "你選擇了举世无双的爱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208182
+                    "rite": 5206041
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160286_prompt_3",
-                        "text": "你選擇了降神仪式",
+                        "text": "你選擇了巨大的玩具",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208186
+                    "rite": 5206621
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160286_prompt_4",
-                        "text": "你選擇了集结部队",
+                        "text": "你選擇了绝地探索",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210008
+                    "rite": 5200663
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160286_prompt_5",
-                        "text": "你選擇了近卫的承诺",
+                        "text": "你選擇了决裂",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210015
+                    "rite": 5200782
                 },
                 "case:op6": {
                     "event_on": 5160285,

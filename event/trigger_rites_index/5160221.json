@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "蠢妓女和活恶棍",
+                            "text": "处置背叛的朋友",
                             "tag": "op1"
                         },
                         {
-                            "text": "从不缺席的挑战",
+                            "text": "处置等死的奴隶",
                             "tag": "op2"
                         },
                         {
-                            "text": "刺杀的阴影",
+                            "text": "处置被俘的异教徒",
                             "tag": "op3"
                         },
                         {
-                            "text": "刺杀的阴影",
+                            "text": "除非……",
                             "tag": "op4"
                         },
                         {
-                            "text": "刺杀的阴影",
+                            "text": "处置奴隶",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160221_prompt_1",
-                        "text": "你選擇了蠢妓女和活恶棍",
+                        "text": "你選擇了处置背叛的朋友",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206534
+                    "rite": 5206001
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160221_prompt_2",
-                        "text": "你選擇了从不缺席的挑战",
+                        "text": "你選擇了处置等死的奴隶",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206536
+                    "rite": 5206010
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160221_prompt_3",
-                        "text": "你選擇了刺杀的阴影",
+                        "text": "你選擇了处置被俘的异教徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206544
+                    "rite": 5206072
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160221_prompt_4",
-                        "text": "你選擇了刺杀的阴影",
+                        "text": "你選擇了除非……",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206545
+                    "rite": 5206603
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160221_prompt_5",
-                        "text": "你選擇了刺杀的阴影",
+                        "text": "你選擇了处置奴隶",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206546
+                    "rite": 5206634
                 },
                 "case:op6": {
                     "event_on": 5160220,

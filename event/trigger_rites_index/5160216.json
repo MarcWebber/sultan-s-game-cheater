@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "处置阿迪莱",
+                            "text": "超级大撒币",
                             "tag": "op1"
                         },
                         {
-                            "text": "处置阿迪莱",
+                            "text": "超高校级黑街赛狗",
                             "tag": "op2"
                         },
                         {
-                            "text": "促成谈判",
+                            "text": "彻夜狂奔",
                             "tag": "op3"
                         },
                         {
-                            "text": "初步调查",
+                            "text": "沉入梦中",
                             "tag": "op4"
                         },
                         {
-                            "text": "虫豸怎敢",
+                            "text": "沉默的恳谈",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160216_prompt_1",
-                        "text": "你選擇了处置阿迪莱",
+                        "text": "你選擇了超级大撒币",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200633
+                    "rite": 5203017
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160216_prompt_2",
-                        "text": "你選擇了处置阿迪莱",
+                        "text": "你選擇了超高校级黑街赛狗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200639
+                    "rite": 5208148
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160216_prompt_3",
-                        "text": "你選擇了促成谈判",
+                        "text": "你選擇了彻夜狂奔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200674
+                    "rite": 5206631
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160216_prompt_4",
-                        "text": "你選擇了初步调查",
+                        "text": "你選擇了沉入梦中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200686
+                    "rite": 5203006
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160216_prompt_5",
-                        "text": "你選擇了虫豸怎敢",
+                        "text": "你選擇了沉默的恳谈",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200724
+                    "rite": 5206508
                 },
                 "case:op6": {
                     "event_on": 5160215,

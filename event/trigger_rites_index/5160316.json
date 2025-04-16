@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "娜依拉需要你的钱",
+                            "text": "你不再被黑街信任",
                             "tag": "op1"
                         },
                         {
-                            "text": "娜依拉需要你",
+                            "text": "你需要多少钱",
                             "tag": "op2"
                         },
                         {
-                            "text": "娜依拉的不满",
+                            "text": "你最好是真的",
                             "tag": "op3"
                         },
                         {
-                            "text": "你最好是真的",
+                            "text": "你是最后一个",
                             "tag": "op4"
                         },
                         {
-                            "text": "难以治愈的疾病",
+                            "text": "年轻望族的仰慕",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160316_prompt_1",
-                        "text": "你選擇了娜依拉需要你的钱",
+                        "text": "你選擇了你不再被黑街信任",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206600
+                    "rite": 5204012
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160316_prompt_2",
-                        "text": "你選擇了娜依拉需要你",
+                        "text": "你選擇了你需要多少钱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206601
+                    "rite": 5206070
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160316_prompt_3",
-                        "text": "你選擇了娜依拉的不满",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206602
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160316_prompt_4",
                         "text": "你選擇了你最好是真的",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206604
                 },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160316_prompt_4",
+                        "text": "你選擇了你是最后一个",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208127
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160316_prompt_5",
-                        "text": "你選擇了难以治愈的疾病",
+                        "text": "你選擇了年轻望族的仰慕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206606
+                    "rite": 5200623
                 },
                 "case:op6": {
                     "event_on": 5160315,

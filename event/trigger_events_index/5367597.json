@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "偷戒指",
+                            "text": "探访黑街",
                             "tag": "op1"
                         },
                         {
-                            "text": "脱罪",
+                            "text": "探访监狱",
                             "tag": "op2"
                         },
                         {
-                            "text": "探访黑街",
+                            "text": "探访奈费勒",
                             "tag": "op3"
                         },
                         {
-                            "text": "探访监狱",
+                            "text": "探访监狱(首次)",
                             "tag": "op4"
                         },
                         {
-                            "text": "探访奈费勒",
+                            "text": "坦白",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100049,
-                    "prompt": {
-                        "id": "5367597_prompt_1",
-                        "text": "你選擇了偷戒指",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
-                    "rite": 5100053,
-                    "prompt": {
-                        "id": "5367597_prompt_2",
-                        "text": "你選擇了脱罪",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
                     "rite": 5100077,
                     "prompt": {
-                        "id": "5367597_prompt_3",
+                        "id": "5367597_prompt_1",
                         "text": "你選擇了探访黑街",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op4": {
+                "case:op2": {
                     "rite": 5100085,
                     "prompt": {
-                        "id": "5367597_prompt_4",
+                        "id": "5367597_prompt_2",
                         "text": "你選擇了探访监狱",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op3": {
                     "rite": 5100112,
                     "prompt": {
-                        "id": "5367597_prompt_5",
+                        "id": "5367597_prompt_3",
                         "text": "你選擇了探访奈费勒",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100319,
+                    "prompt": {
+                        "id": "5367597_prompt_4",
+                        "text": "你選擇了探访监狱(首次)",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120032,
+                    "prompt": {
+                        "id": "5367597_prompt_5",
+                        "text": "你選擇了坦白",
                         "icon": "cards/2000001"
                     }
                 },

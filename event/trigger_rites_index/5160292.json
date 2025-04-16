@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "慷慨解囊",
+                            "text": "狂风峡谷",
                             "tag": "op1"
                         },
                         {
-                            "text": "扩建生命权杖雕塑",
+                            "text": "狂信者之油",
                             "tag": "op2"
                         },
                         {
-                            "text": "快乐使我旋转",
+                            "text": "窥视财物",
                             "tag": "op3"
                         },
                         {
-                            "text": "恐怖庄园",
+                            "text": "扩建",
                             "tag": "op4"
                         },
                         {
-                            "text": "窥视财物",
+                            "text": "扩建挂毯长廊",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160292_prompt_1",
-                        "text": "你選擇了慷慨解囊",
+                        "text": "你選擇了狂风峡谷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206006
+                    "rite": 5200703
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160292_prompt_2",
-                        "text": "你選擇了扩建生命权杖雕塑",
+                        "text": "你選擇了狂信者之油",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206024
+                    "rite": 5204816
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160292_prompt_3",
-                        "text": "你選擇了快乐使我旋转",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206026
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160292_prompt_4",
-                        "text": "你選擇了恐怖庄园",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206659
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160292_prompt_5",
                         "text": "你選擇了窥视财物",
                         "icon": "cards/2000001"
                     },
                     "rite": 5207009
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160292_prompt_4",
+                        "text": "你選擇了扩建",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200007
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160292_prompt_5",
+                        "text": "你選擇了扩建挂毯长廊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200057
                 },
                 "case:op6": {
                     "event_on": 5160291,

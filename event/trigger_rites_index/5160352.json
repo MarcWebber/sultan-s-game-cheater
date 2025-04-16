@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "受赏",
+                            "text": "收服玛希尔",
                             "tag": "op1"
                         },
                         {
-                            "text": "弑父",
+                            "text": "狩猎游戏",
                             "tag": "op2"
                         },
                         {
-                            "text": "三角漩涡",
+                            "text": "受赏",
                             "tag": "op3"
                         },
                         {
-                            "text": "弑君者",
+                            "text": "受赏",
                             "tag": "op4"
                         },
                         {
-                            "text": "杀妻求荣",
+                            "text": "受害者",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160352_prompt_1",
+                        "text": "你選擇了收服玛希尔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200733
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160352_prompt_2",
+                        "text": "你選擇了狩猎游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203026
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160352_prompt_3",
+                        "text": "你選擇了受赏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206524
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160352_prompt_4",
                         "text": "你選擇了受赏",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206525
                 },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160352_prompt_2",
-                        "text": "你選擇了弑父",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206537
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160352_prompt_3",
-                        "text": "你選擇了三角漩涡",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206539
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160352_prompt_4",
-                        "text": "你選擇了弑君者",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206541
-                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160352_prompt_5",
-                        "text": "你選擇了杀妻求荣",
+                        "text": "你選擇了受害者",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206542
+                    "rite": 5207013
                 },
                 "case:op6": {
                     "event_on": 5160351,

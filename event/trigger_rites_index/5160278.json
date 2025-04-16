@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "剑之名",
+                            "text": "监督官吏",
                             "tag": "op1"
                         },
                         {
-                            "text": "交钱赎罪",
+                            "text": "剑盾的仪式",
                             "tag": "op2"
                         },
                         {
-                            "text": "进献妻妾",
+                            "text": "剑之舞",
                             "tag": "op3"
                         },
                         {
-                            "text": "解释",
+                            "text": "将军夜猎",
                             "tag": "op4"
                         },
                         {
-                            "text": "疾病发作",
+                            "text": "将权杖送给他人",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160278_prompt_1",
-                        "text": "你選擇了剑之名",
+                        "text": "你選擇了监督官吏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200840
+                    "rite": 5206582
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160278_prompt_2",
-                        "text": "你選擇了交钱赎罪",
+                        "text": "你選擇了剑盾的仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201027
+                    "rite": 5208029
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160278_prompt_3",
-                        "text": "你選擇了进献妻妾",
+                        "text": "你選擇了剑之舞",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201028
+                    "rite": 5210018
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160278_prompt_4",
-                        "text": "你選擇了解释",
+                        "text": "你選擇了将军夜猎",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201504
+                    "rite": 5200754
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160278_prompt_5",
-                        "text": "你選擇了疾病发作",
+                        "text": "你選擇了将权杖送给他人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202002
+                    "rite": 5206025
                 },
                 "case:op6": {
                     "event_on": 5160277,

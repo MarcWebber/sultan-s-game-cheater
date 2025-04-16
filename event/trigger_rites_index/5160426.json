@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "装备商人",
+                            "text": "证婚人",
                             "tag": "op1"
                         },
                         {
-                            "text": "正义的挑战",
+                            "text": "治理家业",
                             "tag": "op2"
                         },
                         {
-                            "text": "在宴会上演出",
+                            "text": "蜘蛛的网",
                             "tag": "op3"
                         },
                         {
-                            "text": "捉贼人的调查",
+                            "text": "致命的邀约",
                             "tag": "op4"
                         },
                         {
-                            "text": "中罪",
+                            "text": "致命一击",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160426_prompt_1",
-                        "text": "你選擇了装备商人",
+                        "text": "你選擇了证婚人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202011
+                    "rite": 5208060
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160426_prompt_2",
-                        "text": "你選擇了正义的挑战",
+                        "text": "你選擇了治理家业",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203013
+                    "rite": 5200001
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160426_prompt_3",
-                        "text": "你選擇了在宴会上演出",
+                        "text": "你選擇了蜘蛛的网",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203023
+                    "rite": 5200153
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160426_prompt_4",
-                        "text": "你選擇了捉贼人的调查",
+                        "text": "你選擇了致命的邀约",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204004
+                    "rite": 5200603
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160426_prompt_5",
-                        "text": "你選擇了中罪",
+                        "text": "你選擇了致命一击",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204006
+                    "rite": 5206068
                 },
                 "case:op6": {
                     "event_on": 5160425,

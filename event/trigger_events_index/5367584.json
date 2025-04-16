@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹引导-day5-弹框13",
+                            "text": "苏丹奔赴猎场",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹引导-day5-弹框14",
+                            "text": "苏丹的游戏",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹引导-day5-弹框16",
+                            "text": "诉冤的女人",
                             "tag": "op3"
                         },
                         {
-                            "text": "苏丹引导-day5-弹框17",
+                            "text": "诉冤的女人2",
                             "tag": "op4"
                         },
                         {
-                            "text": "苏丹引导-day5-弹框17",
+                            "text": "诉冤的女人3",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110121,
+                    "rite": 5100263,
                     "prompt": {
                         "id": "5367584_prompt_1",
-                        "text": "你選擇了苏丹引导-day5-弹框13",
+                        "text": "你選擇了苏丹奔赴猎场",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5110122,
+                    "rite": 5100292,
                     "prompt": {
                         "id": "5367584_prompt_2",
-                        "text": "你選擇了苏丹引导-day5-弹框14",
+                        "text": "你選擇了苏丹的游戏",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5110123,
+                    "rite": 5100343,
                     "prompt": {
                         "id": "5367584_prompt_3",
-                        "text": "你選擇了苏丹引导-day5-弹框16",
+                        "text": "你選擇了诉冤的女人",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5110124,
+                    "rite": 5100347,
                     "prompt": {
                         "id": "5367584_prompt_4",
-                        "text": "你選擇了苏丹引导-day5-弹框17",
+                        "text": "你選擇了诉冤的女人2",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5110125,
+                    "rite": 5100348,
                     "prompt": {
                         "id": "5367584_prompt_5",
-                        "text": "你選擇了苏丹引导-day5-弹框17",
+                        "text": "你選擇了诉冤的女人3",
                         "icon": "cards/2000001"
                     }
                 },

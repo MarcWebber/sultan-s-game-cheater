@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "哲巴尔的友谊",
+                            "text": "战士的结合",
                             "tag": "op1"
                         },
                         {
-                            "text": "足以传世的画像",
+                            "text": "战败者的挽歌",
                             "tag": "op2"
                         },
                         {
-                            "text": "宰相的召见",
+                            "text": "战争迷雾",
                             "tag": "op3"
                         },
                         {
-                            "text": "宰相的召见",
+                            "text": "召唤龙卷风",
                             "tag": "op4"
                         },
                         {
-                            "text": "终结苦痛",
+                            "text": "召唤邪物",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160422_prompt_1",
-                        "text": "你選擇了哲巴尔的友谊",
+                        "text": "你選擇了战士的结合",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200706
+                    "rite": 5206057
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160422_prompt_2",
-                        "text": "你選擇了足以传世的画像",
+                        "text": "你選擇了战败者的挽歌",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200711
+                    "rite": 5206082
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160422_prompt_3",
-                        "text": "你選擇了宰相的召见",
+                        "text": "你選擇了战争迷雾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200720
+                    "rite": 5206588
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160422_prompt_4",
-                        "text": "你選擇了宰相的召见",
+                        "text": "你選擇了召唤龙卷风",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200723
+                    "rite": 5200063
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160422_prompt_5",
-                        "text": "你選擇了终结苦痛",
+                        "text": "你選擇了召唤邪物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200725
+                    "rite": 5200738
                 },
                 "case:op6": {
                     "event_on": 5160421,

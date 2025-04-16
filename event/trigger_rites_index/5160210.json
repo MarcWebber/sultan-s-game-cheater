@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "不洁的原料",
+                            "text": "遍体鳞伤的尸体",
                             "tag": "op1"
                         },
                         {
-                            "text": "必要的准备",
+                            "text": "边缘行者",
                             "tag": "op2"
                         },
                         {
-                            "text": "被魔鬼蛊惑之人",
+                            "text": "编修之苦",
                             "tag": "op3"
                         },
                         {
-                            "text": "编修之苦",
+                            "text": "别人的女儿",
                             "tag": "op4"
                         },
                         {
-                            "text": "包税人之死",
+                            "text": "病弱的老女奴",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160210_prompt_1",
-                        "text": "你選擇了不洁的原料",
+                        "text": "你選擇了遍体鳞伤的尸体",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206011
+                    "rite": 5201101
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160210_prompt_2",
-                        "text": "你選擇了必要的准备",
+                        "text": "你選擇了边缘行者",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206047
+                    "rite": 5202018
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160210_prompt_3",
-                        "text": "你選擇了被魔鬼蛊惑之人",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206075
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160210_prompt_4",
                         "text": "你選擇了编修之苦",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206518
                 },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160210_prompt_4",
+                        "text": "你選擇了别人的女儿",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208033
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160210_prompt_5",
-                        "text": "你選擇了包税人之死",
+                        "text": "你選擇了病弱的老女奴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206578
+                    "rite": 5206605
                 },
                 "case:op6": {
                     "event_on": 5160209,

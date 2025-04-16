@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹的套子",
+                            "text": "舍馆",
                             "tag": "op1"
                         },
                         {
-                            "text": "弑兄",
+                            "text": "舍馆",
                             "tag": "op2"
                         },
                         {
-                            "text": "少年的请求",
+                            "text": "舍馆",
                             "tag": "op3"
                         },
                         {
-                            "text": "唆使犯罪",
+                            "text": "舍馆",
                             "tag": "op4"
                         },
                         {
-                            "text": "狩猎实战",
+                            "text": "舍馆",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160339_prompt_1",
-                        "text": "你選擇了苏丹的套子",
+                        "text": "你選擇了舍馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200577
+                    "rite": 5206561
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160339_prompt_2",
-                        "text": "你選擇了弑兄",
+                        "text": "你選擇了舍馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200605
+                    "rite": 5206562
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160339_prompt_3",
-                        "text": "你選擇了少年的请求",
+                        "text": "你選擇了舍馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200610
+                    "rite": 5206563
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160339_prompt_4",
-                        "text": "你選擇了唆使犯罪",
+                        "text": "你選擇了舍馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200612
+                    "rite": 5206564
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160339_prompt_5",
-                        "text": "你選擇了狩猎实战",
+                        "text": "你選擇了舍馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200613
+                    "rite": 5206565
                 },
                 "case:op6": {
                     "event_on": 5160338,

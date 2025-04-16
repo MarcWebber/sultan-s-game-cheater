@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "宫廷暗流",
+                            "text": "故国的复仇",
                             "tag": "op1"
                         },
                         {
-                            "text": "孤注一掷",
+                            "text": "故国的旗帜",
                             "tag": "op2"
                         },
                         {
-                            "text": "鼓励",
+                            "text": "孤注一掷",
                             "tag": "op3"
                         },
                         {
-                            "text": "革命的沙龙",
+                            "text": "孤高之人",
                             "tag": "op4"
                         },
                         {
-                            "text": "购买头衔",
+                            "text": "古语教学",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160254_prompt_1",
-                        "text": "你選擇了宫廷暗流",
+                        "text": "你選擇了故国的复仇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207004
+                    "rite": 5200829
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160254_prompt_2",
-                        "text": "你選擇了孤注一掷",
+                        "text": "你選擇了故国的旗帜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207016
+                    "rite": 5200849
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160254_prompt_3",
-                        "text": "你選擇了鼓励",
+                        "text": "你選擇了孤注一掷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208006
+                    "rite": 5202028
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160254_prompt_4",
-                        "text": "你選擇了革命的沙龙",
+                        "text": "你選擇了孤高之人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208012
+                    "rite": 5203019
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160254_prompt_5",
-                        "text": "你選擇了购买头衔",
+                        "text": "你選擇了古语教学",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208015
+                    "rite": 5206517
                 },
                 "case:op6": {
                     "event_on": 5160253,

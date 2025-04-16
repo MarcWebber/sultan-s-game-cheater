@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "六尺之下",
+                            "text": "历史洪流",
                             "tag": "op1"
                         },
                         {
-                            "text": "论罪与辩护",
+                            "text": "离间计划",
                             "tag": "op2"
                         },
                         {
-                            "text": "狼王的踪迹",
+                            "text": "离间计",
                             "tag": "op3"
                         },
                         {
-                            "text": "狼穴恶战",
+                            "text": "立柱",
                             "tag": "op4"
                         },
                         {
-                            "text": "流言四起",
+                            "text": "连你也……",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160297_prompt_1",
-                        "text": "你選擇了六尺之下",
+                        "text": "你選擇了历史洪流",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200836
+                    "rite": 5200118
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160297_prompt_2",
-                        "text": "你選擇了论罪与辩护",
+                        "text": "你選擇了离间计划",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201026
+                    "rite": 5207006
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160297_prompt_3",
-                        "text": "你選擇了狼王的踪迹",
+                        "text": "你選擇了离间计",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202508
+                    "rite": 5207007
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160297_prompt_4",
-                        "text": "你選擇了狼穴恶战",
+                        "text": "你選擇了立柱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202509
+                    "rite": 5210037
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160297_prompt_5",
-                        "text": "你選擇了流言四起",
+                        "text": "你選擇了连你也……",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203012
+                    "rite": 5206556
                 },
                 "case:op6": {
                     "event_on": 5160296,

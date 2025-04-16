@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "狩猎游戏",
+                            "text": "实地走访",
                             "tag": "op1"
                         },
                         {
-                            "text": "神像游行",
+                            "text": "誓言的呼唤",
                             "tag": "op2"
                         },
                         {
-                            "text": "神啊，为什么",
+                            "text": "视财如命之徒",
                             "tag": "op3"
                         },
                         {
-                            "text": "神的仆人",
+                            "text": "侍奉君主",
                             "tag": "op4"
                         },
                         {
-                            "text": "神圣哗变",
+                            "text": "饰品商人",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160348_prompt_1",
-                        "text": "你選擇了狩猎游戏",
+                        "text": "你選擇了实地走访",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203026
+                    "rite": 5200685
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160348_prompt_2",
-                        "text": "你選擇了神像游行",
+                        "text": "你選擇了誓言的呼唤",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204507
+                    "rite": 5200842
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160348_prompt_3",
-                        "text": "你選擇了神啊，为什么",
+                        "text": "你選擇了视财如命之徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204514
+                    "rite": 5200848
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160348_prompt_4",
-                        "text": "你選擇了神的仆人",
+                        "text": "你選擇了侍奉君主",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204523
+                    "rite": 5200852
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160348_prompt_5",
-                        "text": "你選擇了神圣哗变",
+                        "text": "你選擇了饰品商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204524
+                    "rite": 5202014
                 },
                 "case:op6": {
                     "event_on": 5160347,

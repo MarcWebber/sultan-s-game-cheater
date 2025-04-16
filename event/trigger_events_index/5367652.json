@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "质子的请求",
+                            "text": "葬礼",
                             "tag": "op1"
                         },
                         {
-                            "text": "质子的请求",
+                            "text": "赃物商人",
                             "tag": "op2"
                         },
                         {
-                            "text": "这不是偷",
+                            "text": "造访2",
                             "tag": "op3"
                         },
                         {
-                            "text": "足以传世的画像（废弃）",
+                            "text": "贼人之手",
                             "tag": "op4"
                         },
                         {
-                            "text": "资助研究·一",
+                            "text": "贼的志愿生",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100163,
+                    "rite": 5100313,
                     "prompt": {
                         "id": "5367652_prompt_1",
-                        "text": "你選擇了质子的请求",
+                        "text": "你選擇了葬礼",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100164,
+                    "rite": 5100335,
                     "prompt": {
                         "id": "5367652_prompt_2",
-                        "text": "你選擇了质子的请求",
+                        "text": "你選擇了赃物商人",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100176,
+                    "rite": 5100105,
                     "prompt": {
                         "id": "5367652_prompt_3",
-                        "text": "你選擇了这不是偷",
+                        "text": "你選擇了造访2",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100209,
+                    "rite": 5100504,
                     "prompt": {
                         "id": "5367652_prompt_4",
-                        "text": "你選擇了足以传世的画像（废弃）",
+                        "text": "你選擇了贼人之手",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100235,
+                    "rite": 5121085,
                     "prompt": {
                         "id": "5367652_prompt_5",
-                        "text": "你選擇了资助研究·一",
+                        "text": "你選擇了贼的志愿生",
                         "icon": "cards/2000001"
                     }
                 },

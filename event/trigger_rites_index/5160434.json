@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "证婚人",
+                            "text": "最受欢迎的男人",
                             "tag": "op1"
                         },
                         {
-                            "text": "抓贼",
+                            "text": "最后的准备",
                             "tag": "op2"
                         },
                         {
-                            "text": "贼的志愿生",
+                            "text": "最后的准备",
                             "tag": "op3"
                         },
                         {
-                            "text": "做鸡",
+                            "text": "最后的准备",
                             "tag": "op4"
                         },
                         {
-                            "text": "做牛马",
+                            "text": "罪犯的投奔",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160434_prompt_1",
-                        "text": "你選擇了证婚人",
+                        "text": "你選擇了最受欢迎的男人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208060
+                    "rite": 5200795
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160434_prompt_2",
-                        "text": "你選擇了抓贼",
+                        "text": "你選擇了最后的准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208067
+                    "rite": 5206036
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160434_prompt_3",
-                        "text": "你選擇了贼的志愿生",
+                        "text": "你選擇了最后的准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208076
+                    "rite": 5206037
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160434_prompt_4",
-                        "text": "你選擇了做鸡",
+                        "text": "你選擇了最后的准备",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208079
+                    "rite": 5206065
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160434_prompt_5",
-                        "text": "你選擇了做牛马",
+                        "text": "你選擇了罪犯的投奔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208080
+                    "rite": 5206571
                 },
                 "case:op6": {
                     "event_on": 5160433,

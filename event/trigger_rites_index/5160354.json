@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "舍馆",
+                            "text": "书店营业",
                             "tag": "op1"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "书店密会",
                             "tag": "op2"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "书店门口的乞丐",
                             "tag": "op3"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "纾解压力",
                             "tag": "op4"
                         },
                         {
-                            "text": "苏丹的索求",
+                            "text": "双姝",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160354_prompt_1",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了书店营业",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206565
+                    "rite": 5202006
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160354_prompt_2",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了书店密会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206566
+                    "rite": 5202007
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160354_prompt_3",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了书店门口的乞丐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206567
+                    "rite": 5202008
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160354_prompt_4",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了纾解压力",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206568
+                    "rite": 5203003
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160354_prompt_5",
-                        "text": "你選擇了苏丹的索求",
+                        "text": "你選擇了双姝",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206579
+                    "rite": 5206506
                 },
                 "case:op6": {
                     "event_on": 5160353,

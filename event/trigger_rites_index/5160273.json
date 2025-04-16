@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "混沌之王",
+                            "text": "火！火！火！",
                             "tag": "op1"
                         },
                         {
@@ -35,10 +35,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160273_prompt_1",
-                        "text": "你選擇了混沌之王",
+                        "text": "你選擇了火！火！火！",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210064
+                    "rite": 5208131
                 },
                 "case:op2": {
                     "event_on": 5160272

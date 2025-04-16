@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "收买头衔",
+                            "text": "苏丹的私生活",
                             "tag": "op1"
                         },
                         {
-                            "text": "失踪的快脚",
+                            "text": "苏丹的套子",
                             "tag": "op2"
                         },
                         {
-                            "text": "硕鼠",
+                            "text": "苏丹的捉弄",
                             "tag": "op3"
                         },
                         {
-                            "text": "颂神会",
+                            "text": "苏丹的质询",
                             "tag": "op4"
                         },
                         {
-                            "text": "丝绒暗室",
+                            "text": "苏丹的游戏",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160357_prompt_1",
-                        "text": "你選擇了收买头衔",
+                        "text": "你選擇了苏丹的私生活",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208013
+                    "rite": 5200574
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160357_prompt_2",
-                        "text": "你選擇了失踪的快脚",
+                        "text": "你選擇了苏丹的套子",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208053
+                    "rite": 5200577
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160357_prompt_3",
-                        "text": "你選擇了硕鼠",
+                        "text": "你選擇了苏丹的捉弄",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208098
+                    "rite": 5200667
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160357_prompt_4",
-                        "text": "你選擇了颂神会",
+                        "text": "你選擇了苏丹的质询",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208105
+                    "rite": 5200678
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160357_prompt_5",
-                        "text": "你選擇了丝绒暗室",
+                        "text": "你選擇了苏丹的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208116
+                    "rite": 5200796
                 },
                 "case:op6": {
                     "event_on": 5160356,

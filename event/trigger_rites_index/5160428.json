@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "造物主的影子",
+                            "text": "终极羞辱",
                             "tag": "op1"
                         },
                         {
-                            "text": "逐渐完美的造物",
+                            "text": "中罪",
                             "tag": "op2"
                         },
                         {
-                            "text": "自然新生",
+                            "text": "重罪",
                             "tag": "op3"
                         },
                         {
-                            "text": "战士不需要的东西",
+                            "text": "忠心可鉴",
                             "tag": "op4"
                         },
                         {
-                            "text": "最后的准备",
+                            "text": "珠宝设计",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160428_prompt_1",
-                        "text": "你選擇了造物主的影子",
+                        "text": "你選擇了终极羞辱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204833
+                    "rite": 5200856
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160428_prompt_2",
-                        "text": "你選擇了逐渐完美的造物",
+                        "text": "你選擇了中罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206016
+                    "rite": 5204006
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160428_prompt_3",
-                        "text": "你選擇了自然新生",
+                        "text": "你選擇了重罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206023
+                    "rite": 5204007
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160428_prompt_4",
-                        "text": "你選擇了战士不需要的东西",
+                        "text": "你選擇了忠心可鉴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206032
+                    "rite": 5206667
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160428_prompt_5",
-                        "text": "你選擇了最后的准备",
+                        "text": "你選擇了珠宝设计",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206036
+                    "rite": 5200100
                 },
                 "case:op6": {
                     "event_on": 5160427,

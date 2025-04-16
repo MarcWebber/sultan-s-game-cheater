@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "过时不候",
+                            "text": "孤女复仇记",
                             "tag": "op1"
                         },
                         {
-                            "text": "干扰生意",
+                            "text": "孤注一掷",
                             "tag": "op2"
                         },
                         {
-                            "text": "归乡之径（作废）",
+                            "text": "鼓励",
                             "tag": "op3"
                         },
                         {
-                            "text": "过时不候",
+                            "text": "古怪的邀请",
                             "tag": "op4"
                         },
                         {
-                            "text": "归乡之路",
+                            "text": "古老的道路",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160255_prompt_1",
-                        "text": "你選擇了过时不候",
+                        "text": "你選擇了孤女复仇记",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208018
+                    "rite": 5206523
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160255_prompt_2",
-                        "text": "你選擇了干扰生意",
+                        "text": "你選擇了孤注一掷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208038
+                    "rite": 5207016
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160255_prompt_3",
-                        "text": "你選擇了归乡之径（作废）",
+                        "text": "你選擇了鼓励",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208055
+                    "rite": 5208006
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160255_prompt_4",
-                        "text": "你選擇了过时不候",
+                        "text": "你選擇了古怪的邀请",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208061
+                    "rite": 5208160
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160255_prompt_5",
-                        "text": "你選擇了归乡之路",
+                        "text": "你選擇了古老的道路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208064
+                    "rite": 5210033
                 },
                 "case:op6": {
                     "event_on": 5160254,

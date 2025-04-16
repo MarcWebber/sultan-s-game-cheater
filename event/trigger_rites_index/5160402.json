@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "异国的智慧之书",
+                            "text": "夜间工作",
                             "tag": "op1"
                         },
                         {
-                            "text": "异国的战斗技巧",
+                            "text": "夜间工作",
                             "tag": "op2"
                         },
                         {
-                            "text": "阴森的宅邸",
+                            "text": "夜间工作",
                             "tag": "op3"
                         },
                         {
-                            "text": "以神的名义",
+                            "text": "夜间工作",
                             "tag": "op4"
                         },
                         {
-                            "text": "夜的栖身地",
+                            "text": "夜盗",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160402_prompt_1",
-                        "text": "你選擇了异国的智慧之书",
+                        "text": "你選擇了夜间工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200156
+                    "rite": 5200858
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160402_prompt_2",
-                        "text": "你選擇了异国的战斗技巧",
+                        "text": "你選擇了夜间工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200157
+                    "rite": 5200859
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160402_prompt_3",
-                        "text": "你選擇了阴森的宅邸",
+                        "text": "你選擇了夜间工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200501
+                    "rite": 5200860
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160402_prompt_4",
-                        "text": "你選擇了以神的名义",
+                        "text": "你選擇了夜间工作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200506
+                    "rite": 5200861
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160402_prompt_5",
-                        "text": "你選擇了夜的栖身地",
+                        "text": "你選擇了夜盗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200507
+                    "rite": 5208071
                 },
                 "case:op6": {
                     "event_on": 5160401,

@@ -1,0 +1,213 @@
+{
+  "id": 5666671,
+  "name": "授衔与剥夺头衔",
+  "text": "这是来自神的力量",
+  "tips": "",
+  "mapping_id": 8001532,
+  "once_new": 1,
+  "round_number": 0,
+  "waiting_round": 1,
+  "waiting_round_end_action": [],
+  "method_settlement": "",
+  "auto_begin": 1,
+  "auto_result": 1,
+  "location": "上城区:[1,12]",
+  "icon": "rite_7",
+  "tag_tips": [],
+  "tag_tips_up": {},
+  "tips_text": [],
+  "open_conditions": [],
+  "random_text": {},
+  "random_text_up": {},
+  "settlement_prior": [],
+  "settlement": [
+    {
+      "condition": {
+        "any": {
+          "s1":1,
+          "s2":1,
+          "s3":1,
+          "s4":1,
+          "s5":1,
+          "s6":1,
+          "s7":1,
+          "s8":1,
+          "s9":1,
+          "s10":1
+        }
+      },
+      "result_title": "擢升为贵族",
+      "result_text": "成为了贵族",
+      "result": {},
+      "action": {
+        "s1+贵族": 1,
+        "s2+贵族": 1,
+        "s3+贵族": 1,
+        "s4+贵族": 1,
+        "s5+贵族": 1,
+        "s6-贵族": 1,
+        "s7-贵族": 1,
+        "s8-贵族": 1,
+        "s9-贵族": 1,
+        "s10-贵族": 1,
+        "rite": 5666671
+      }
+    }
+  ],
+  "settlement_extre": [
+    {
+      "condition": {
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1,
+          "s5": 1,
+          "s6": 1,
+          "s7": 1,
+          "s8": 1,
+          "s9": 1,
+          "s10": 1
+        }
+      },
+      "result": {
+        // "clean.rite":5666671,
+        // 事件自启动，避免循环操作
+        "rite": 5666671
+      },
+      "action": {}
+    }
+  ],
+  "cards_slot": {
+    "s1": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "!贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "授予贵族头衔"
+    },
+    "s2": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "!贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "授予贵族头衔"
+    },
+    "s3": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "!贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "授予贵族头衔"
+    },
+    "s4": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "!贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "授予贵族头衔"
+    },
+    "s5": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "!贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "授予贵族头衔"
+    },
+    "s6": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "剥夺贵族头衔"
+    },
+    "s7": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "剥夺贵族头衔"
+    },
+    "s8": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "剥夺贵族头衔"
+    },
+    "s9": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "剥夺贵族头衔"
+    },
+    "s10": {
+      "condition": {
+        "any": {
+          "type": "char"
+        },
+        "贵族": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 1,
+      "is_enemy": 0,
+      "text": "剥夺贵族头衔"
+    }
+  }
+}

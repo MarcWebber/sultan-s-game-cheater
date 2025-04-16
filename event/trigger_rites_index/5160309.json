@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "民意之盾",
+                            "text": "苗圃",
                             "tag": "op1"
                         },
                         {
-                            "text": "美味的救济日",
+                            "text": "苗圃",
                             "tag": "op2"
                         },
                         {
-                            "text": "母亲的水滴",
+                            "text": "民间集资",
                             "tag": "op3"
                         },
                         {
-                            "text": "苗圃",
+                            "text": "民众的代表",
                             "tag": "op4"
                         },
                         {
-                            "text": "苗圃",
+                            "text": "民意之盾",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160309_prompt_1",
-                        "text": "你選擇了民意之盾",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206589
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160309_prompt_2",
-                        "text": "你選擇了美味的救济日",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206617
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160309_prompt_3",
-                        "text": "你選擇了母亲的水滴",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206647
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160309_prompt_4",
                         "text": "你選擇了苗圃",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206676
                 },
-                "case:op5": {
+                "case:op2": {
                     "prompt": {
-                        "id": "5160309_prompt_5",
+                        "id": "5160309_prompt_2",
                         "text": "你選擇了苗圃",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206677
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160309_prompt_3",
+                        "text": "你選擇了民间集资",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206577
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160309_prompt_4",
+                        "text": "你選擇了民众的代表",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206586
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160309_prompt_5",
+                        "text": "你選擇了民意之盾",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206589
                 },
                 "case:op6": {
                     "event_on": 5160308,

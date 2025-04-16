@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "审判烈焰",
+                            "text": "苏丹的奖赏",
                             "tag": "op1"
                         },
                         {
-                            "text": "神临仪式",
+                            "text": "苏丹的诘问",
                             "tag": "op2"
                         },
                         {
-                            "text": "弑神（废弃）",
+                            "text": "损坏的器皿",
                             "tag": "op3"
                         },
                         {
-                            "text": "世界之眼",
+                            "text": "唆使犯罪",
                             "tag": "op4"
                         },
                         {
-                            "text": "受孕",
+                            "text": "索拉薇儿的游戏",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160361_prompt_1",
-                        "text": "你選擇了审判烈焰",
+                        "text": "你選擇了苏丹的奖赏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210040
+                    "rite": 5210032
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160361_prompt_2",
-                        "text": "你選擇了神临仪式",
+                        "text": "你選擇了苏丹的诘问",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210042
+                    "rite": 5210057
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160361_prompt_3",
-                        "text": "你選擇了弑神（废弃）",
+                        "text": "你選擇了损坏的器皿",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210043
+                    "rite": 5206583
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160361_prompt_4",
-                        "text": "你選擇了世界之眼",
+                        "text": "你選擇了唆使犯罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210045
+                    "rite": 5200612
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160361_prompt_5",
-                        "text": "你選擇了受孕",
+                        "text": "你選擇了索拉薇儿的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210051
+                    "rite": 5200804
                 },
                 "case:op6": {
                     "event_on": 5160360,

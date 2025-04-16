@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "幕后真凶",
+                            "text": "冒险者酒吧",
                             "tag": "op1"
                         },
                         {
-                            "text": "貌合神离",
+                            "text": "冒险者们的报恩",
                             "tag": "op2"
                         },
                         {
-                            "text": "密会",
+                            "text": "梅姬不再不满",
                             "tag": "op3"
                         },
                         {
-                            "text": "麦娜尔的道别",
+                            "text": "魅魔之力",
                             "tag": "op4"
                         },
                         {
-                            "text": "冒险的冲动（废弃）",
+                            "text": "梅姬的秘方",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160304_prompt_1",
-                        "text": "你選擇了幕后真凶",
+                        "text": "你選擇了冒险者酒吧",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200504
+                    "rite": 5208123
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160304_prompt_2",
-                        "text": "你選擇了貌合神离",
+                        "text": "你選擇了冒险者们的报恩",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200563
+                    "rite": 5208145
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160304_prompt_3",
-                        "text": "你選擇了密会",
+                        "text": "你選擇了梅姬不再不满",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200641
+                    "rite": 5204901
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160304_prompt_4",
-                        "text": "你選擇了麦娜尔的道别",
+                        "text": "你選擇了魅魔之力",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200665
+                    "rite": 5204903
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160304_prompt_5",
-                        "text": "你選擇了冒险的冲动（废弃）",
+                        "text": "你選擇了梅姬的秘方",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200701
+                    "rite": 5206043
                 },
                 "case:op6": {
                     "event_on": 5160303,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "玉碎珠沉",
+                            "text": "以弱胜强",
                             "tag": "op1"
                         },
                         {
-                            "text": "勇武的证明",
+                            "text": "异国商人",
                             "tag": "op2"
                         },
                         {
-                            "text": "一线生机",
+                            "text": "异国的魔法书",
                             "tag": "op3"
                         },
                         {
-                            "text": "迎接莎姬",
+                            "text": "异国的智慧之书",
                             "tag": "op4"
                         },
                         {
-                            "text": "欲望或野心",
+                            "text": "异国的战斗技巧",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160403_prompt_1",
-                        "text": "你選擇了玉碎珠沉",
+                        "text": "你選擇了以弱胜强",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200527
+                    "rite": 5200017
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160403_prompt_2",
-                        "text": "你選擇了勇武的证明",
+                        "text": "你選擇了异国商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200551
+                    "rite": 5200056
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160403_prompt_3",
-                        "text": "你選擇了一线生机",
+                        "text": "你選擇了异国的魔法书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200566
+                    "rite": 5200155
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160403_prompt_4",
-                        "text": "你選擇了迎接莎姬",
+                        "text": "你選擇了异国的智慧之书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200570
+                    "rite": 5200156
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160403_prompt_5",
-                        "text": "你選擇了欲望或野心",
+                        "text": "你選擇了异国的战斗技巧",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200571
+                    "rite": 5200157
                 },
                 "case:op6": {
                     "event_on": 5160402,

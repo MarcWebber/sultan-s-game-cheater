@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "朱娜的游戏",
+                            "text": "这或许不是最好的主意……",
                             "tag": "op1"
                         },
                         {
-                            "text": "朱娜的游戏",
+                            "text": "这不算偷",
                             "tag": "op2"
                         },
                         {
-                            "text": "追猎豺狼",
+                            "text": "珍奇之家",
                             "tag": "op3"
                         },
                         {
-                            "text": "追查猎奴人",
+                            "text": "真正的报偿",
                             "tag": "op4"
                         },
                         {
-                            "text": "宰相的暗示",
+                            "text": "狰狞美味",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160424_prompt_1",
-                        "text": "你選擇了朱娜的游戏",
+                        "text": "你選擇了这或许不是最好的主意……",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200801
+                    "rite": 5206505
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160424_prompt_2",
-                        "text": "你選擇了朱娜的游戏",
+                        "text": "你選擇了这不算偷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200806
+                    "rite": 5207010
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160424_prompt_3",
-                        "text": "你選擇了追猎豺狼",
+                        "text": "你選擇了珍奇之家",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200813
+                    "rite": 5200062
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160424_prompt_4",
-                        "text": "你選擇了追查猎奴人",
+                        "text": "你選擇了真正的报偿",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200818
+                    "rite": 5200562
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160424_prompt_5",
-                        "text": "你選擇了宰相的暗示",
+                        "text": "你選擇了狰狞美味",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200821
+                    "rite": 5200756
                 },
                 "case:op6": {
                     "event_on": 5160423,

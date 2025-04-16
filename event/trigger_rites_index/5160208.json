@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "白银马鞍",
+                            "text": "背叛和逃亡",
                             "tag": "op1"
                         },
                         {
-                            "text": "卑贱囚牢",
+                            "text": "被弃的丑态",
                             "tag": "op2"
                         },
                         {
-                            "text": "遍体鳞伤的尸体",
+                            "text": "被独自关押的奈费勒",
                             "tag": "op3"
                         },
                         {
-                            "text": "不归之路",
+                            "text": "背叛",
                             "tag": "op4"
                         },
                         {
-                            "text": "边缘行者",
+                            "text": "匕首与弯刀",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160208_prompt_1",
-                        "text": "你選擇了白银马鞍",
+                        "text": "你選擇了背叛和逃亡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200826
+                    "rite": 5206620
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160208_prompt_2",
-                        "text": "你選擇了卑贱囚牢",
+                        "text": "你選擇了被弃的丑态",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201007
+                    "rite": 5206645
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160208_prompt_3",
-                        "text": "你選擇了遍体鳞伤的尸体",
+                        "text": "你選擇了被独自关押的奈费勒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201101
+                    "rite": 5206665
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160208_prompt_4",
-                        "text": "你選擇了不归之路",
+                        "text": "你選擇了背叛",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201103
+                    "rite": 5208009
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160208_prompt_5",
-                        "text": "你選擇了边缘行者",
+                        "text": "你選擇了匕首与弯刀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202018
+                    "rite": 5200012
                 },
                 "case:op6": {
                     "event_on": 5160207,

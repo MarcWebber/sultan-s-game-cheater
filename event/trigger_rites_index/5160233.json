@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "都城武馆征伐战",
                             "tag": "op1"
                         },
                         {
-                            "text": "帝国勇士排行榜",
+                            "text": "毒蛇山谷",
                             "tag": "op2"
                         },
                         {
-                            "text": "大量石餐盒",
+                            "text": "赌马",
                             "tag": "op3"
                         },
                         {
-                            "text": "当堂对峙",
+                            "text": "赌马",
                             "tag": "op4"
                         },
                         {
-                            "text": "带来的改变",
+                            "text": "赌马",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160233_prompt_1",
-                        "text": "你選擇了帝国勇士排行榜",
+                        "text": "你選擇了都城武馆征伐战",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206614
+                    "rite": 5200792
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160233_prompt_2",
-                        "text": "你選擇了帝国勇士排行榜",
+                        "text": "你選擇了毒蛇山谷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206615
+                    "rite": 5202511
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160233_prompt_3",
-                        "text": "你選擇了大量石餐盒",
+                        "text": "你選擇了赌马",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206623
+                    "rite": 5202512
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160233_prompt_4",
-                        "text": "你選擇了当堂对峙",
+                        "text": "你選擇了赌马",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206641
+                    "rite": 5202513
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160233_prompt_5",
-                        "text": "你選擇了带来的改变",
+                        "text": "你選擇了赌马",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206649
+                    "rite": 5202514
                 },
                 "case:op6": {
                     "event_on": 5160232,

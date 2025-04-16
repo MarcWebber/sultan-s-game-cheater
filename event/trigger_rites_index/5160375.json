@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "王狮猎场",
+                            "text": "喂养凶狮",
                             "tag": "op1"
                         },
                         {
-                            "text": "无尽黄沙",
+                            "text": "为她买书",
                             "tag": "op2"
                         },
                         {
-                            "text": "无故缺勤的臣子",
+                            "text": "未归人",
                             "tag": "op3"
                         },
                         {
-                            "text": "未被满足的渴求",
+                            "text": "未能改变的",
                             "tag": "op4"
                         },
                         {
-                            "text": "微小的麻烦",
+                            "text": "为你辩解",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160375_prompt_1",
-                        "text": "你選擇了王狮猎场",
+                        "text": "你選擇了喂养凶狮",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200632
+                    "rite": 5202516
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160375_prompt_2",
-                        "text": "你選擇了无尽黄沙",
+                        "text": "你選擇了为她买书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200702
+                    "rite": 5206527
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160375_prompt_3",
-                        "text": "你選擇了无故缺勤的臣子",
+                        "text": "你選擇了未归人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200721
+                    "rite": 5206595
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160375_prompt_4",
-                        "text": "你選擇了未被满足的渴求",
+                        "text": "你選擇了未能改变的",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200779
+                    "rite": 5206652
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160375_prompt_5",
-                        "text": "你選擇了微小的麻烦",
+                        "text": "你選擇了为你辩解",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200784
+                    "rite": 5208004
                 },
                 "case:op6": {
                     "event_on": 5160374,

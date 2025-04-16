@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "有人准备挑战你",
+                            "text": "一日好梦",
                             "tag": "op1"
                         },
                         {
-                            "text": "游戏的准备",
+                            "text": "一笔罚款",
                             "tag": "op2"
                         },
                         {
-                            "text": "与豺狼帮合作",
+                            "text": "移除诅咒",
                             "tag": "op3"
                         },
                         {
-                            "text": "以一敌百",
+                            "text": "一则蹊跷的新闻",
                             "tag": "op4"
                         },
                         {
-                            "text": "夜间工作",
+                            "text": "异想天开的构思",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160407_prompt_1",
-                        "text": "你選擇了有人准备挑战你",
+                        "text": "你選擇了一日好梦",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200764
+                    "rite": 5206005
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160407_prompt_2",
-                        "text": "你選擇了游戏的准备",
+                        "text": "你選擇了一笔罚款",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200797
+                    "rite": 5206013
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160407_prompt_3",
-                        "text": "你選擇了与豺狼帮合作",
+                        "text": "你選擇了移除诅咒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200811
+                    "rite": 5206610
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160407_prompt_4",
-                        "text": "你選擇了以一敌百",
+                        "text": "你選擇了一则蹊跷的新闻",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200853
+                    "rite": 5206673
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160407_prompt_5",
-                        "text": "你選擇了夜间工作",
+                        "text": "你選擇了异想天开的构思",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200857
+                    "rite": 5206675
                 },
                 "case:op6": {
                     "event_on": 5160406,

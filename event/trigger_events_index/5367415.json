@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "刺杀",
+                            "text": "忏悔",
                             "tag": "op1"
                         },
                         {
-                            "text": "城外的骚乱",
+                            "text": "常规纵欲苏丹卡",
                             "tag": "op2"
                         },
                         {
-                            "text": "刺杀",
+                            "text": "常规奢靡苏丹卡",
                             "tag": "op3"
                         },
                         {
-                            "text": "刺杀",
+                            "text": "常规杀戮苏丹卡",
                             "tag": "op4"
                         },
                         {
-                            "text": "处置女战士",
+                            "text": "常规征服苏丹卡",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100044,
+                    "rite": 5110605,
                     "prompt": {
                         "id": "5367415_prompt_1",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了忏悔",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100100,
+                    "rite": 5100221,
                     "prompt": {
                         "id": "5367415_prompt_2",
-                        "text": "你選擇了城外的骚乱",
+                        "text": "你選擇了常规纵欲苏丹卡",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100103,
+                    "rite": 5100222,
                     "prompt": {
                         "id": "5367415_prompt_3",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了常规奢靡苏丹卡",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100106,
+                    "rite": 5100223,
                     "prompt": {
                         "id": "5367415_prompt_4",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了常规杀戮苏丹卡",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100122,
+                    "rite": 5100224,
                     "prompt": {
                         "id": "5367415_prompt_5",
-                        "text": "你選擇了处置女战士",
+                        "text": "你選擇了常规征服苏丹卡",
                         "icon": "cards/2000001"
                     }
                 },

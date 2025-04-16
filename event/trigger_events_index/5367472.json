@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "妓女的游戏前置",
+                            "text": "饥渴",
                             "tag": "op1"
                         },
                         {
-                            "text": "畸恋",
+                            "text": "继续深造",
                             "tag": "op2"
                         },
                         {
-                            "text": "决斗",
+                            "text": "激活廊下的故事",
                             "tag": "op3"
                         },
                         {
-                            "text": "贾丽拉成为盟友",
+                            "text": "祭品",
                             "tag": "op4"
                         },
                         {
-                            "text": "贾丽拉被处死的消息",
+                            "text": "贾丽拉成为盟友",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100299,
+                    "rite": 5110631,
                     "prompt": {
                         "id": "5367472_prompt_1",
-                        "text": "你選擇了妓女的游戏前置",
+                        "text": "你選擇了饥渴",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100305,
+                    "rite": 5120023,
                     "prompt": {
                         "id": "5367472_prompt_2",
-                        "text": "你選擇了畸恋",
+                        "text": "你選擇了继续深造",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100307,
+                    "rite": 5120029,
                     "prompt": {
                         "id": "5367472_prompt_3",
-                        "text": "你選擇了决斗",
+                        "text": "你選擇了激活廊下的故事",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100308,
+                    "rite": 5121173,
                     "prompt": {
                         "id": "5367472_prompt_4",
-                        "text": "你選擇了贾丽拉成为盟友",
+                        "text": "你選擇了祭品",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100309,
+                    "rite": 5100308,
                     "prompt": {
                         "id": "5367472_prompt_5",
-                        "text": "你選擇了贾丽拉被处死的消息",
+                        "text": "你選擇了贾丽拉成为盟友",
                         "icon": "cards/2000001"
                     }
                 },

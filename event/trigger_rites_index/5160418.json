@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "治理家业",
+                            "text": "长期研究",
                             "tag": "op1"
                         },
                         {
@@ -27,15 +27,15 @@
                             "tag": "op2"
                         },
                         {
-                            "text": "捉贼人回忆录",
+                            "text": "宰相的召见",
                             "tag": "op3"
                         },
                         {
-                            "text": "珍奇之家",
+                            "text": "宰相的召见",
                             "tag": "op4"
                         },
                         {
-                            "text": "召唤龙卷风",
+                            "text": "宰相的召见",
                             "tag": "op5"
                         },
                         {
@@ -55,10 +55,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160418_prompt_1",
-                        "text": "你選擇了治理家业",
+                        "text": "你選擇了长期研究",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200001
+                    "rite": 5200734
                 },
                 "case:op2": {
                     "prompt": {
@@ -71,26 +71,26 @@
                 "case:op3": {
                     "prompt": {
                         "id": "5160418_prompt_3",
-                        "text": "你選擇了捉贼人回忆录",
+                        "text": "你選擇了宰相的召见",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200027
+                    "rite": 5200720
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160418_prompt_4",
-                        "text": "你選擇了珍奇之家",
+                        "text": "你選擇了宰相的召见",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200062
+                    "rite": 5200723
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160418_prompt_5",
-                        "text": "你選擇了召唤龙卷风",
+                        "text": "你選擇了宰相的召见",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200063
+                    "rite": 5200728
                 },
                 "case:op6": {
                     "event_on": 5160417,

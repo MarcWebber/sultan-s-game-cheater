@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "密室中",
+                            "text": "末路",
                             "tag": "op1"
                         },
                         {
-                            "text": "密神的诅咒",
+                            "text": "末日风暴",
                             "tag": "op2"
                         },
                         {
-                            "text": "末日风暴",
+                            "text": "幕后真凶",
                             "tag": "op3"
                         },
                         {
-                            "text": "迷梦之刃",
+                            "text": "母亲的水滴",
                             "tag": "op4"
                         },
                         {
@@ -47,34 +47,34 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160311_prompt_1",
-                        "text": "你選擇了密室中",
+                        "text": "你選擇了末路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208187
+                    "rite": 5208032
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160311_prompt_2",
-                        "text": "你選擇了密神的诅咒",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208188
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160311_prompt_3",
                         "text": "你選擇了末日风暴",
                         "icon": "cards/2000001"
                     },
                     "rite": 5210061
                 },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160311_prompt_3",
+                        "text": "你選擇了幕后真凶",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200504
+                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160311_prompt_4",
-                        "text": "你選擇了迷梦之刃",
+                        "text": "你選擇了母亲的水滴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210062
+                    "rite": 5206647
                 },
                 "case:op5": {
                     "event_on": 5160310

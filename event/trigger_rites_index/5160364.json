@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "她的丈夫",
+                            "text": "探索未知绿洲",
                             "tag": "op1"
                         },
                         {
-                            "text": "探索未知绿洲",
+                            "text": "探访",
                             "tag": "op2"
                         },
                         {
-                            "text": "踏入黑夜（废弃）",
+                            "text": "探访监狱",
                             "tag": "op3"
                         },
                         {
-                            "text": "探访",
+                            "text": "探索黑街",
                             "tag": "op4"
                         },
                         {
-                            "text": "天下武学验证战",
+                            "text": "探访踪迹",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160364_prompt_1",
-                        "text": "你選擇了她的丈夫",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200654
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160364_prompt_2",
                         "text": "你選擇了探索未知绿洲",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200660
                 },
-                "case:op3": {
+                "case:op2": {
                     "prompt": {
-                        "id": "5160364_prompt_3",
-                        "text": "你選擇了踏入黑夜（废弃）",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200736
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160364_prompt_4",
+                        "id": "5160364_prompt_2",
                         "text": "你選擇了探访",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200787
                 },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160364_prompt_3",
+                        "text": "你選擇了探访监狱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201006
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160364_prompt_4",
+                        "text": "你選擇了探索黑街",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204001
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160364_prompt_5",
-                        "text": "你選擇了天下武学验证战",
+                        "text": "你選擇了探访踪迹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200793
+                    "rite": 5206064
                 },
                 "case:op6": {
                     "event_on": 5160363,

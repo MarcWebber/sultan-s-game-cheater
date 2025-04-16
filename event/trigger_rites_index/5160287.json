@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "剑之舞",
+                            "text": "决斗",
                             "tag": "op1"
                         },
                         {
-                            "text": "阶梯",
+                            "text": "决战奈费勒",
                             "tag": "op2"
                         },
                         {
-                            "text": "集结部队",
+                            "text": "决斗",
                             "tag": "op3"
                         },
                         {
-                            "text": "觐见苏丹",
+                            "text": "绝望中的救赎",
                             "tag": "op4"
                         },
                         {
-                            "text": "教领的特权",
+                            "text": "军用长矛指南",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160287_prompt_1",
-                        "text": "你選擇了剑之舞",
+                        "text": "你選擇了决斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210018
+                    "rite": 5202025
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160287_prompt_2",
-                        "text": "你選擇了阶梯",
+                        "text": "你選擇了决战奈费勒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210023
+                    "rite": 5207001
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160287_prompt_3",
-                        "text": "你選擇了集结部队",
+                        "text": "你選擇了决斗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210025
+                    "rite": 5208031
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160287_prompt_4",
-                        "text": "你選擇了觐见苏丹",
+                        "text": "你選擇了绝望中的救赎",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210036
+                    "rite": 5208156
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160287_prompt_5",
-                        "text": "你選擇了教领的特权",
+                        "text": "你選擇了军用长矛指南",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210044
+                    "rite": 5200014
                 },
                 "case:op6": {
                     "event_on": 5160286,

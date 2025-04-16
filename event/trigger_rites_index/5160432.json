@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "再进一步",
+                            "text": "自然新生",
                             "tag": "op1"
                         },
                         {
-                            "text": "主人的宴会",
+                            "text": "自由之人",
                             "tag": "op2"
                         },
                         {
-                            "text": "自由之人",
+                            "text": "自由之花",
                             "tag": "op3"
                         },
                         {
-                            "text": "正义复仇",
+                            "text": "子宫",
                             "tag": "op4"
                         },
                         {
-                            "text": "忠心可鉴",
+                            "text": "足以传世的画像",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160432_prompt_1",
-                        "text": "你選擇了再进一步",
+                        "text": "你選擇了自然新生",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206597
+                    "rite": 5206023
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160432_prompt_2",
-                        "text": "你選擇了主人的宴会",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206626
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160432_prompt_3",
                         "text": "你選擇了自由之人",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206642
                 },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160432_prompt_3",
+                        "text": "你選擇了自由之花",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208189
+                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160432_prompt_4",
-                        "text": "你選擇了正义复仇",
+                        "text": "你選擇了子宫",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206658
+                    "rite": 5210055
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160432_prompt_5",
-                        "text": "你選擇了忠心可鉴",
+                        "text": "你選擇了足以传世的画像",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206667
+                    "rite": 5200711
                 },
                 "case:op6": {
                     "event_on": 5160431,

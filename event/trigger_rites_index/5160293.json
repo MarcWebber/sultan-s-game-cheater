@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "快脚的约会",
+                            "text": "扩建鳄鱼池",
                             "tag": "op1"
                         },
                         {
-                            "text": "快脚的安家费",
+                            "text": "扩建黄金猫爬架",
                             "tag": "op2"
                         },
                         {
-                            "text": "快脚的安家费",
+                            "text": "扩建热气球升降场",
                             "tag": "op3"
                         },
                         {
-                            "text": "开饭咯",
+                            "text": "扩建天文台",
                             "tag": "op4"
                         },
                         {
-                            "text": "烤全驼",
+                            "text": "扩建生命权杖雕塑",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160293_prompt_1",
-                        "text": "你選擇了快脚的约会",
+                        "text": "你選擇了扩建鳄鱼池",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208049
+                    "rite": 5200058
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160293_prompt_2",
-                        "text": "你選擇了快脚的安家费",
+                        "text": "你選擇了扩建黄金猫爬架",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208052
+                    "rite": 5200059
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160293_prompt_3",
-                        "text": "你選擇了快脚的安家费",
+                        "text": "你選擇了扩建热气球升降场",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208054
+                    "rite": 5200060
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160293_prompt_4",
-                        "text": "你選擇了开饭咯",
+                        "text": "你選擇了扩建天文台",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208093
+                    "rite": 5200061
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160293_prompt_5",
-                        "text": "你選擇了烤全驼",
+                        "text": "你選擇了扩建生命权杖雕塑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208138
+                    "rite": 5206024
                 },
                 "case:op6": {
                     "event_on": 5160292,

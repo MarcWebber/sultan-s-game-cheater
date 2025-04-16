@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "萨达尔尼来访",
+                            "text": "少女审视自己",
                             "tag": "op1"
                         },
                         {
-                            "text": "私情与背叛（废弃）",
+                            "text": "社交教习",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹的私生活",
+                            "text": "社交教习",
                             "tag": "op3"
                         },
                         {
-                            "text": "书店偶遇",
+                            "text": "社交教习",
                             "tag": "op4"
                         },
                         {
-                            "text": "莎姬的噩梦",
+                            "text": "奢侈的欢欣",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160338_prompt_1",
-                        "text": "你選擇了萨达尔尼来访",
+                        "text": "你選擇了少女审视自己",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200552
+                    "rite": 5200636
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160338_prompt_2",
-                        "text": "你選擇了私情与背叛（废弃）",
+                        "text": "你選擇了社交教习",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200564
+                    "rite": 5200615
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160338_prompt_3",
-                        "text": "你選擇了苏丹的私生活",
+                        "text": "你選擇了社交教习",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200574
+                    "rite": 5200616
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160338_prompt_4",
-                        "text": "你選擇了书店偶遇",
+                        "text": "你選擇了社交教习",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200575
+                    "rite": 5200617
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160338_prompt_5",
-                        "text": "你選擇了莎姬的噩梦",
+                        "text": "你選擇了奢侈的欢欣",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200576
+                    "rite": 5200777
                 },
                 "case:op6": {
                     "event_on": 5160337,

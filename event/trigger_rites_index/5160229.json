@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "夺宝奇兵",
+                            "text": "当堂对峙",
                             "tag": "op1"
                         },
                         {
-                            "text": "懂的都懂",
+                            "text": "刀剑问答",
                             "tag": "op2"
                         },
                         {
-                            "text": "都城武馆征伐战",
+                            "text": "刀剑问答",
                             "tag": "op3"
                         },
                         {
-                            "text": "刀剑问答",
+                            "text": "盗窃范例",
                             "tag": "op4"
                         },
                         {
-                            "text": "敦请圣像",
+                            "text": "等待太久",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160229_prompt_1",
-                        "text": "你選擇了夺宝奇兵",
+                        "text": "你選擇了当堂对峙",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200752
+                    "rite": 5206641
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160229_prompt_2",
-                        "text": "你選擇了懂的都懂",
+                        "text": "你選擇了刀剑问答",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200781
+                    "rite": 5200709
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160229_prompt_3",
-                        "text": "你選擇了都城武馆征伐战",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200792
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160229_prompt_4",
                         "text": "你選擇了刀剑问答",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200841
                 },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160229_prompt_4",
+                        "text": "你選擇了盗窃范例",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204014
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160229_prompt_5",
-                        "text": "你選擇了敦请圣像",
+                        "text": "你選擇了等待太久",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200850
+                    "rite": 5200144
                 },
                 "case:op6": {
                     "event_on": 5160228,

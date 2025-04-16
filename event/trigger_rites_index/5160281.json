@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "酒与肉",
+                            "text": "金子般的女人",
                             "tag": "op1"
                         },
                         {
-                            "text": "巨龙的传说",
+                            "text": "金屋藏娇",
                             "tag": "op2"
                         },
                         {
-                            "text": "艰难前行",
+                            "text": "进献妻妾",
                             "tag": "op3"
                         },
                         {
-                            "text": "举世无双的赠礼",
+                            "text": "紧急结婚",
                             "tag": "op4"
                         },
                         {
-                            "text": "举世无双的爱",
+                            "text": "进贡",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160281_prompt_1",
-                        "text": "你選擇了酒与肉",
+                        "text": "你選擇了金子般的女人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206029
+                    "rite": 5200569
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160281_prompt_2",
-                        "text": "你選擇了巨龙的传说",
+                        "text": "你選擇了金屋藏娇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206030
+                    "rite": 5200783
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160281_prompt_3",
-                        "text": "你選擇了艰难前行",
+                        "text": "你選擇了进献妻妾",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206034
+                    "rite": 5201028
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160281_prompt_4",
-                        "text": "你選擇了举世无双的赠礼",
+                        "text": "你選擇了紧急结婚",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206040
+                    "rite": 5202030
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160281_prompt_5",
-                        "text": "你選擇了举世无双的爱",
+                        "text": "你選擇了进贡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206041
+                    "rite": 5206639
                 },
                 "case:op6": {
                     "event_on": 5160280,

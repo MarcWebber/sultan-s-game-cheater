@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "仪式的助手",
+                            "text": "应许时刻",
                             "tag": "op1"
                         },
                         {
-                            "text": "炎日天平",
+                            "text": "勇武故事集",
                             "tag": "op2"
                         },
                         {
-                            "text": "异端之战",
+                            "text": "勇武的证明",
                             "tag": "op3"
                         },
                         {
-                            "text": "浴血玫瑰",
+                            "text": "勇行",
                             "tag": "op4"
                         },
                         {
-                            "text": "月牙，我心爱的月牙",
+                            "text": "拥抱那力量",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160410_prompt_1",
-                        "text": "你選擇了仪式的助手",
+                        "text": "你選擇了应许时刻",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204504
+                    "rite": 5208056
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160410_prompt_2",
-                        "text": "你選擇了炎日天平",
+                        "text": "你選擇了勇武故事集",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204517
+                    "rite": 5200038
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160410_prompt_3",
-                        "text": "你選擇了异端之战",
+                        "text": "你選擇了勇武的证明",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204521
+                    "rite": 5200551
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160410_prompt_4",
-                        "text": "你選擇了浴血玫瑰",
+                        "text": "你選擇了勇行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204905
+                    "rite": 5200637
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160410_prompt_5",
-                        "text": "你選擇了月牙，我心爱的月牙",
+                        "text": "你選擇了拥抱那力量",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204906
+                    "rite": 5204909
                 },
                 "case:op6": {
                     "event_on": 5160409,

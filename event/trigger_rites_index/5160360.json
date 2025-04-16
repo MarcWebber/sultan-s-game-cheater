@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹的近卫们",
+                            "text": "苏丹的戏弄",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹的城墙",
+                            "text": "苏丹的偏爱",
                             "tag": "op2"
                         },
                         {
-                            "text": "深渊的邀请",
+                            "text": "苏丹的特使？",
                             "tag": "op3"
                         },
                         {
-                            "text": "苏丹的奖赏",
+                            "text": "苏丹的近卫们",
                             "tag": "op4"
                         },
                         {
-                            "text": "神圣的烙印",
+                            "text": "苏丹的城墙",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160360_prompt_1",
+                        "text": "你選擇了苏丹的戏弄",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208120
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160360_prompt_2",
+                        "text": "你選擇了苏丹的偏爱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208122
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160360_prompt_3",
+                        "text": "你選擇了苏丹的特使？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208155
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160360_prompt_4",
                         "text": "你選擇了苏丹的近卫们",
                         "icon": "cards/2000001"
                     },
                     "rite": 5210010
                 },
-                "case:op2": {
+                "case:op5": {
                     "prompt": {
-                        "id": "5160360_prompt_2",
+                        "id": "5160360_prompt_5",
                         "text": "你選擇了苏丹的城墙",
                         "icon": "cards/2000001"
                     },
                     "rite": 5210011
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160360_prompt_3",
-                        "text": "你選擇了深渊的邀请",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5210030
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160360_prompt_4",
-                        "text": "你選擇了苏丹的奖赏",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5210032
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160360_prompt_5",
-                        "text": "你選擇了神圣的烙印",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5210034
                 },
                 "case:op6": {
                     "event_on": 5160359,

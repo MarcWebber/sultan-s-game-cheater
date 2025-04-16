@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "下次还敢吗？",
+                            "text": "选光者",
                             "tag": "op1"
                         },
                         {
-                            "text": "享用美酒",
+                            "text": "学术专著",
                             "tag": "op2"
                         },
                         {
-                            "text": "销毁图纸",
+                            "text": "血的妆造",
                             "tag": "op3"
                         },
                         {
-                            "text": "先钱后货",
+                            "text": "血炼熔炉",
                             "tag": "op4"
                         },
                         {
-                            "text": "小贼的命运",
+                            "text": "血的渴求",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160397_prompt_1",
-                        "text": "你選擇了下次还敢吗？",
+                        "text": "你選擇了选光者",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206636
+                    "rite": 5204526
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160397_prompt_2",
-                        "text": "你選擇了享用美酒",
+                        "text": "你選擇了学术专著",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206664
+                    "rite": 5200065
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160397_prompt_3",
-                        "text": "你選擇了销毁图纸",
+                        "text": "你選擇了血的妆造",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208024
+                    "rite": 5200651
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160397_prompt_4",
-                        "text": "你選擇了先钱后货",
+                        "text": "你選擇了血炼熔炉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208069
+                    "rite": 5200740
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160397_prompt_5",
-                        "text": "你選擇了小贼的命运",
+                        "text": "你選擇了血的渴求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208070
+                    "rite": 5206071
                 },
                 "case:op6": {
                     "event_on": 5160396,

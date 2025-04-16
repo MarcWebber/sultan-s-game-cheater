@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "愿你安息",
+                            "text": "雨林！雨林！",
                             "tag": "op1"
                         },
                         {
-                            "text": "浴池里的波澜",
+                            "text": "玉碎珠沉",
                             "tag": "op2"
                         },
                         {
-                            "text": "隐匿小屋",
+                            "text": "欲望或野心",
                             "tag": "op3"
                         },
                         {
-                            "text": "隐匿小屋",
+                            "text": "与豺狼帮合作",
                             "tag": "op4"
                         },
                         {
-                            "text": "移除诅咒",
+                            "text": "浴场里的消息",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160413_prompt_1",
-                        "text": "你選擇了愿你安息",
+                        "text": "你選擇了雨林！雨林！",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206077
+                    "rite": 5200146
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160413_prompt_2",
-                        "text": "你選擇了浴池里的波澜",
+                        "text": "你選擇了玉碎珠沉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206514
+                    "rite": 5200527
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160413_prompt_3",
-                        "text": "你選擇了隐匿小屋",
+                        "text": "你選擇了欲望或野心",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206569
+                    "rite": 5200571
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160413_prompt_4",
-                        "text": "你選擇了隐匿小屋",
+                        "text": "你選擇了与豺狼帮合作",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206570
+                    "rite": 5200811
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160413_prompt_5",
-                        "text": "你選擇了移除诅咒",
+                        "text": "你選擇了浴场里的消息",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206610
+                    "rite": 5201501
                 },
                 "case:op6": {
                     "event_on": 5160412,

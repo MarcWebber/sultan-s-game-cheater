@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "惩罚之火",
+                            "text": "刺杀",
                             "tag": "op1"
                         },
                         {
-                            "text": "沉重的代价",
+                            "text": "刺杀的阴影",
                             "tag": "op2"
                         },
                         {
-                            "text": "伺机伤人",
+                            "text": "刺杀的阴影",
                             "tag": "op3"
                         },
                         {
-                            "text": "策划袭击",
+                            "text": "刺杀的阴影",
                             "tag": "op4"
                         },
                         {
-                            "text": "策划诉讼",
+                            "text": "刺杀的阴影",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160224_prompt_1",
-                        "text": "你選擇了惩罚之火",
+                        "text": "你選擇了刺杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206656
+                    "rite": 5200608
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160224_prompt_2",
-                        "text": "你選擇了沉重的代价",
+                        "text": "你選擇了刺杀的阴影",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206668
+                    "rite": 5206544
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160224_prompt_3",
-                        "text": "你選擇了伺机伤人",
+                        "text": "你選擇了刺杀的阴影",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207012
+                    "rite": 5206545
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160224_prompt_4",
-                        "text": "你選擇了策划袭击",
+                        "text": "你選擇了刺杀的阴影",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208036
+                    "rite": 5206546
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160224_prompt_5",
-                        "text": "你選擇了策划诉讼",
+                        "text": "你選擇了刺杀的阴影",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208041
+                    "rite": 5206548
                 },
                 "case:op6": {
                     "event_on": 5160223,

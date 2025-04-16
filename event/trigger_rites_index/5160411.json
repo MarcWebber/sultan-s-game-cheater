@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "拥抱那力量",
+                            "text": "勇气与团结",
                             "tag": "op1"
                         },
                         {
-                            "text": "岩石奢靡卡",
+                            "text": "永世流传之物",
                             "tag": "op2"
                         },
                         {
-                            "text": "一日好梦",
+                            "text": "勇士欢宴",
                             "tag": "op3"
                         },
                         {
-                            "text": "一笔罚款",
+                            "text": "游牧民的生活",
                             "tag": "op4"
                         },
                         {
-                            "text": "御前试合",
+                            "text": "有趣的情诗",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160411_prompt_1",
-                        "text": "你選擇了拥抱那力量",
+                        "text": "你選擇了勇气与团结",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204909
+                    "rite": 5206660
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160411_prompt_2",
-                        "text": "你選擇了岩石奢靡卡",
+                        "text": "你選擇了永世流传之物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5205103
+                    "rite": 5208020
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160411_prompt_3",
-                        "text": "你選擇了一日好梦",
+                        "text": "你選擇了勇士欢宴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206005
+                    "rite": 5208103
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160411_prompt_4",
-                        "text": "你選擇了一笔罚款",
+                        "text": "你選擇了游牧民的生活",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206013
+                    "rite": 5200032
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160411_prompt_5",
-                        "text": "你選擇了御前试合",
+                        "text": "你選擇了有趣的情诗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206027
+                    "rite": 5200110
                 },
                 "case:op6": {
                     "event_on": 5160410,

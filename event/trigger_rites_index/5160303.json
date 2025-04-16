@@ -23,19 +23,19 @@
                             "tag": "op1"
                         },
                         {
-                            "text": "面具的秘密",
+                            "text": "麦娜尔的道别",
                             "tag": "op2"
                         },
                         {
-                            "text": "密教的修行",
+                            "text": "蛮野之心",
                             "tag": "op3"
                         },
                         {
-                            "text": "魔幻诗歌",
+                            "text": "貌合神离",
                             "tag": "op4"
                         },
                         {
-                            "text": "梦中世界",
+                            "text": "冒险的冲动（废弃）",
                             "tag": "op5"
                         },
                         {
@@ -63,34 +63,34 @@
                 "case:op2": {
                     "prompt": {
                         "id": "5160303_prompt_2",
-                        "text": "你選擇了面具的秘密",
+                        "text": "你選擇了麦娜尔的道别",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200048
+                    "rite": 5200665
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160303_prompt_3",
-                        "text": "你選擇了密教的修行",
+                        "text": "你選擇了蛮野之心",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200049
+                    "rite": 5200827
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160303_prompt_4",
-                        "text": "你選擇了魔幻诗歌",
+                        "text": "你選擇了貌合神离",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200123
+                    "rite": 5200563
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160303_prompt_5",
-                        "text": "你選擇了梦中世界",
+                        "text": "你選擇了冒险的冲动（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200159
+                    "rite": 5200701
                 },
                 "case:op6": {
                     "event_on": 5160302,

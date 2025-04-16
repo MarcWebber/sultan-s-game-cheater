@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "龙的最期",
+                            "text": "邻居投诉",
                             "tag": "op1"
                         },
                         {
-                            "text": "恋爱咨询 ",
+                            "text": "邻居著作",
                             "tag": "op2"
                         },
                         {
-                            "text": "老乡见老乡",
+                            "text": "领路者",
                             "tag": "op3"
                         },
                         {
-                            "text": "拉磨幕后",
+                            "text": "另一封信",
                             "tag": "op4"
                         },
                         {
-                            "text": "疗愈的食物",
+                            "text": "流浪剑客的复仇",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5120553,
+                    "rite": 5100516,
                     "prompt": {
                         "id": "5367513_prompt_1",
-                        "text": "你選擇了龙的最期",
+                        "text": "你選擇了邻居投诉",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5121052,
+                    "rite": 5100517,
                     "prompt": {
                         "id": "5367513_prompt_2",
-                        "text": "你選擇了恋爱咨询 ",
+                        "text": "你選擇了邻居著作",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5121069,
+                    "rite": 5120001,
                     "prompt": {
                         "id": "5367513_prompt_3",
-                        "text": "你選擇了老乡见老乡",
+                        "text": "你選擇了领路者",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5121081,
+                    "rite": 5120050,
                     "prompt": {
                         "id": "5367513_prompt_4",
-                        "text": "你選擇了拉磨幕后",
+                        "text": "你選擇了另一封信",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5121096,
+                    "rite": 5121132,
                     "prompt": {
                         "id": "5367513_prompt_5",
-                        "text": "你選擇了疗愈的食物",
+                        "text": "你選擇了流浪剑客的复仇",
                         "icon": "cards/2000001"
                     }
                 },

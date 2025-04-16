@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "血的妆造",
+                            "text": "相面术",
                             "tag": "op1"
                         },
                         {
-                            "text": "修建暗渠",
+                            "text": "向星星许愿",
                             "tag": "op2"
                         },
                         {
-                            "text": "兴修宫殿",
+                            "text": "项目投资",
                             "tag": "op3"
                         },
                         {
-                            "text": "修建暗渠",
+                            "text": "项目投资·二",
                             "tag": "op4"
                         },
                         {
-                            "text": "项目投资",
+                            "text": "香消玉殒",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160386_prompt_1",
-                        "text": "你選擇了血的妆造",
+                        "text": "你選擇了相面术",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200651
+                    "rite": 5200023
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160386_prompt_2",
-                        "text": "你選擇了修建暗渠",
+                        "text": "你選擇了向星星许愿",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200668
+                    "rite": 5200580
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160386_prompt_3",
-                        "text": "你選擇了兴修宫殿",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200670
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160386_prompt_4",
-                        "text": "你選擇了修建暗渠",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200681
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160386_prompt_5",
                         "text": "你選擇了项目投资",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200731
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160386_prompt_4",
+                        "text": "你選擇了项目投资·二",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200732
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160386_prompt_5",
+                        "text": "你選擇了香消玉殒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201104
                 },
                 "case:op6": {
                     "event_on": 5160385,

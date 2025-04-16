@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "蒸汽社交",
+                            "text": "重启拼凑真相",
                             "tag": "op1"
                         },
                         {
-                            "text": "捉奸",
+                            "text": "再一次拳斗",
                             "tag": "op2"
                         },
                         {
-                            "text": "装备商人",
+                            "text": "宰相的罪证后续",
                             "tag": "op3"
                         },
                         {
-                            "text": "真正的报偿",
+                            "text": "宰相之死",
                             "tag": "op4"
                         },
                         {
-                            "text": "捉贼人的调查",
+                            "text": "宰相之死",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100009,
+                    "rite": 5121174,
                     "prompt": {
                         "id": "5367650_prompt_1",
-                        "text": "你選擇了蒸汽社交",
+                        "text": "你選擇了重启拼凑真相",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100024,
+                    "rite": 5100268,
                     "prompt": {
                         "id": "5367650_prompt_2",
-                        "text": "你選擇了捉奸",
+                        "text": "你選擇了再一次拳斗",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100035,
+                    "rite": 5100549,
                     "prompt": {
                         "id": "5367650_prompt_3",
-                        "text": "你選擇了装备商人",
+                        "text": "你選擇了宰相的罪证后续",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100059,
+                    "rite": 5100551,
                     "prompt": {
                         "id": "5367650_prompt_4",
-                        "text": "你選擇了真正的报偿",
+                        "text": "你選擇了宰相之死",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100075,
+                    "rite": 5100557,
                     "prompt": {
                         "id": "5367650_prompt_5",
-                        "text": "你選擇了捉贼人的调查",
+                        "text": "你選擇了宰相之死",
                         "icon": "cards/2000001"
                     }
                 },

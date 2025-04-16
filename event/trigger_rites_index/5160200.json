@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "俺寻思",
+                            "text": "阿图娜尔的请求",
                             "tag": "op1"
                         },
                         {
-                            "text": "艾娃日记",
+                            "text": "阿图娜尔的请求",
                             "tag": "op2"
                         },
                         {
-                            "text": "奥义书",
+                            "text": "阿迪莱的战书",
                             "tag": "op3"
                         },
                         {
-                            "text": "阿图娜尔的请求",
+                            "text": "阿图娜尔的约定",
                             "tag": "op4"
                         },
                         {
-                            "text": "阿图娜尔的请求",
+                            "text": "阿迪莱正在寻龙",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160200_prompt_1",
-                        "text": "你選擇了俺寻思",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200002
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160200_prompt_2",
-                        "text": "你選擇了艾娃日记",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200022
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160200_prompt_3",
-                        "text": "你選擇了奥义书",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200054
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160200_prompt_4",
                         "text": "你選擇了阿图娜尔的请求",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200103
                 },
-                "case:op5": {
+                "case:op2": {
                     "prompt": {
-                        "id": "5160200_prompt_5",
+                        "id": "5160200_prompt_2",
                         "text": "你選擇了阿图娜尔的请求",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200104
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160200_prompt_3",
+                        "text": "你選擇了阿迪莱的战书",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200631
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160200_prompt_4",
+                        "text": "你選擇了阿图娜尔的约定",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201102
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160200_prompt_5",
+                        "text": "你選擇了阿迪莱正在寻龙",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206048
                 },
                 "case:op6": {
                     "event_on": 5160199,

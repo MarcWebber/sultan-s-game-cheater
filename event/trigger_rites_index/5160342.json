@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "深入调查",
+                            "text": "神像游行",
                             "tag": "op1"
                         },
                         {
-                            "text": "收服盖斯",
+                            "text": "神啊，为什么",
                             "tag": "op2"
                         },
                         {
-                            "text": "散尽家财",
+                            "text": "神的仆人",
                             "tag": "op3"
                         },
                         {
-                            "text": "收服玛希尔",
+                            "text": "神圣哗变",
                             "tag": "op4"
                         },
                         {
-                            "text": "深夜访客",
+                            "text": "神之硕鼠",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160342_prompt_1",
-                        "text": "你選擇了深入调查",
+                        "text": "你選擇了神像游行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200687
+                    "rite": 5204507
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160342_prompt_2",
-                        "text": "你選擇了收服盖斯",
+                        "text": "你選擇了神啊，为什么",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200688
+                    "rite": 5204514
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160342_prompt_3",
-                        "text": "你選擇了散尽家财",
+                        "text": "你選擇了神的仆人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200729
+                    "rite": 5204523
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160342_prompt_4",
-                        "text": "你選擇了收服玛希尔",
+                        "text": "你選擇了神圣哗变",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200733
+                    "rite": 5204524
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160342_prompt_5",
-                        "text": "你選擇了深夜访客",
+                        "text": "你選擇了神之硕鼠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200770
+                    "rite": 5204527
                 },
                 "case:op6": {
                     "event_on": 5160341,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "誓言之证2升3",
+                            "text": "誓言之证3升4",
                             "tag": "op1"
                         },
                         {
-                            "text": "誓言之证3升4",
+                            "text": "世上唯一的珍宝",
                             "tag": "op2"
                         },
                         {
-                            "text": "神的秘密",
+                            "text": "失落小径",
                             "tag": "op3"
                         },
                         {
-                            "text": "随机小事件",
+                            "text": "收服贵妇",
                             "tag": "op4"
                         },
                         {
-                            "text": "蛇鼠一窝",
+                            "text": "受伤的白犀牛",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100570,
-                    "prompt": {
-                        "id": "5367578_prompt_1",
-                        "text": "你選擇了誓言之证2升3",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
                     "rite": 5100571,
                     "prompt": {
-                        "id": "5367578_prompt_2",
+                        "id": "5367578_prompt_1",
                         "text": "你選擇了誓言之证3升4",
                         "icon": "cards/2000001"
                     }
                 },
+                "case:op2": {
+                    "rite": 5120516,
+                    "prompt": {
+                        "id": "5367578_prompt_2",
+                        "text": "你選擇了世上唯一的珍宝",
+                        "icon": "cards/2000001"
+                    }
+                },
                 "case:op3": {
-                    "rite": 5100579,
+                    "rite": 5121075,
                     "prompt": {
                         "id": "5367578_prompt_3",
-                        "text": "你選擇了神的秘密",
+                        "text": "你選擇了失落小径",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100601,
+                    "rite": 5100117,
                     "prompt": {
                         "id": "5367578_prompt_4",
-                        "text": "你選擇了随机小事件",
+                        "text": "你選擇了收服贵妇",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100603,
+                    "rite": 5100119,
                     "prompt": {
                         "id": "5367578_prompt_5",
-                        "text": "你選擇了蛇鼠一窝",
+                        "text": "你選擇了受伤的白犀牛",
                         "icon": "cards/2000001"
                     }
                 },

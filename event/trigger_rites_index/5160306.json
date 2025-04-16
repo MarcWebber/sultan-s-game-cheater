@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "迷信盲从之徒",
+                            "text": "梦中的考验",
                             "tag": "op1"
                         },
                         {
-                            "text": "面对现实",
+                            "text": "梦中的考验",
                             "tag": "op2"
                         },
                         {
-                            "text": "闷棍",
+                            "text": "梦中的考验",
                             "tag": "op3"
                         },
                         {
-                            "text": "密室中的祈祷",
+                            "text": "密教的修行",
                             "tag": "op4"
                         },
                         {
-                            "text": "秘密幽会",
+                            "text": "密会",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160306_prompt_1",
-                        "text": "你選擇了迷信盲从之徒",
+                        "text": "你選擇了梦中的考验",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200846
+                    "rite": 5206060
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160306_prompt_2",
-                        "text": "你選擇了面对现实",
+                        "text": "你選擇了梦中的考验",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203008
+                    "rite": 5206061
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160306_prompt_3",
-                        "text": "你選擇了闷棍",
+                        "text": "你選擇了梦中的考验",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203014
+                    "rite": 5206062
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160306_prompt_4",
-                        "text": "你選擇了密室中的祈祷",
+                        "text": "你選擇了密教的修行",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204515
+                    "rite": 5200049
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160306_prompt_5",
-                        "text": "你選擇了秘密幽会",
+                        "text": "你選擇了密会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204516
+                    "rite": 5200641
                 },
                 "case:op6": {
                     "event_on": 5160305,

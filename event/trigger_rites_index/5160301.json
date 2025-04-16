@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "拉磨",
+                            "text": "流浊之地",
                             "tag": "op1"
                         },
                         {
-                            "text": "疗愈的食物",
+                            "text": "龙巢探查",
                             "tag": "op2"
                         },
                         {
-                            "text": "冷淡的消遣",
+                            "text": "龙巢设伏",
                             "tag": "op3"
                         },
                         {
-                            "text": "老派花园大餐",
+                            "text": "龙头的归属",
                             "tag": "op4"
                         },
                         {
-                            "text": "裂魂之夜",
+                            "text": "乱军",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160301_prompt_1",
-                        "text": "你選擇了拉磨",
+                        "text": "你選擇了流浊之地",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208075
+                    "rite": 5206671
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160301_prompt_2",
-                        "text": "你選擇了疗愈的食物",
+                        "text": "你選擇了龙巢探查",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208094
+                    "rite": 5206035
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160301_prompt_3",
-                        "text": "你選擇了冷淡的消遣",
+                        "text": "你選擇了龙巢设伏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208101
+                    "rite": 5206066
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160301_prompt_4",
-                        "text": "你選擇了老派花园大餐",
+                        "text": "你選擇了龙头的归属",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208158
+                    "rite": 5206079
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160301_prompt_5",
-                        "text": "你選擇了裂魂之夜",
+                        "text": "你選擇了乱军",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210002
+                    "rite": 5200825
                 },
                 "case:op6": {
                     "event_on": 5160300,

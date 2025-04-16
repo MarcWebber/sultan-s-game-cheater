@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "食人的野狗",
+                            "text": "失落的珍宝",
                             "tag": "op1"
                         },
                         {
-                            "text": "神赐骏马",
+                            "text": "弑君（废弃）",
                             "tag": "op2"
                         },
                         {
-                            "text": "商人的遗物",
+                            "text": "弑君计划（废弃）",
                             "tag": "op3"
                         },
                         {
-                            "text": "山狮最后的索求",
+                            "text": "弑君计划（废弃）",
                             "tag": "op4"
                         },
                         {
-                            "text": "纾解压力",
+                            "text": "弑兄",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160347_prompt_1",
-                        "text": "你選擇了食人的野狗",
+                        "text": "你選擇了失落的珍宝",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202501
+                    "rite": 5200520
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160347_prompt_2",
-                        "text": "你選擇了神赐骏马",
+                        "text": "你選擇了弑君（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202504
+                    "rite": 5200528
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160347_prompt_3",
-                        "text": "你選擇了商人的遗物",
+                        "text": "你選擇了弑君计划（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202506
+                    "rite": 5200529
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160347_prompt_4",
-                        "text": "你選擇了山狮最后的索求",
+                        "text": "你選擇了弑君计划（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202517
+                    "rite": 5200532
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160347_prompt_5",
-                        "text": "你選擇了纾解压力",
+                        "text": "你選擇了弑兄",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203003
+                    "rite": 5200605
                 },
                 "case:op6": {
                     "event_on": 5160346,

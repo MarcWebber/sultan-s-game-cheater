@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "大猎捕",
+                            "text": "夺宝奇兵",
                             "tag": "op1"
                         },
                         {
@@ -35,10 +35,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160235_prompt_1",
-                        "text": "你選擇了大猎捕",
+                        "text": "你選擇了夺宝奇兵",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210046
+                    "rite": 5200752
                 },
                 "case:op2": {
                     "event_on": 5160234

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "以身试刃",
+                            "text": "一桩趣事",
                             "tag": "op1"
                         },
                         {
-                            "text": "妖精森林",
+                            "text": "一起玩个够",
                             "tag": "op2"
                         },
                         {
-                            "text": "一桩趣事",
+                            "text": "一件残酷的礼物",
                             "tag": "op3"
                         },
                         {
-                            "text": "研究神秘的锅",
+                            "text": "一件残酷的礼物",
                             "tag": "op4"
                         },
                         {
-                            "text": "一起玩个够",
+                            "text": "一件凶煞的商品",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160405_prompt_1",
-                        "text": "你選擇了以身试刃",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200684
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160405_prompt_2",
-                        "text": "你選擇了妖精森林",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200705
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160405_prompt_3",
                         "text": "你選擇了一桩趣事",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200712
                 },
-                "case:op4": {
+                "case:op2": {
                     "prompt": {
-                        "id": "5160405_prompt_4",
-                        "text": "你選擇了研究神秘的锅",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200745
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160405_prompt_5",
+                        "id": "5160405_prompt_2",
                         "text": "你選擇了一起玩个够",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200749
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160405_prompt_3",
+                        "text": "你選擇了一件残酷的礼物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200755
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160405_prompt_4",
+                        "text": "你選擇了一件残酷的礼物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200757
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160405_prompt_5",
+                        "text": "你選擇了一件凶煞的商品",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200758
                 },
                 "case:op6": {
                     "event_on": 5160404,

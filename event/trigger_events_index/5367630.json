@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "星之衰",
+                            "text": "新月长大了",
                             "tag": "op1"
                         },
                         {
-                            "text": "星之衰",
+                            "text": "行脚僧",
                             "tag": "op2"
                         },
                         {
-                            "text": "休憩的方法",
+                            "text": "星灵之夜",
                             "tag": "op3"
                         },
                         {
-                            "text": "心焦之人",
+                            "text": "星之衰",
                             "tag": "op4"
                         },
                         {
-                            "text": "询问妻子",
+                            "text": "星之衰",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5120279,
+                    "rite": 5121154,
                     "prompt": {
                         "id": "5367630_prompt_1",
-                        "text": "你選擇了星之衰",
+                        "text": "你選擇了新月长大了",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5120280,
+                    "rite": 5100510,
                     "prompt": {
                         "id": "5367630_prompt_2",
-                        "text": "你選擇了星之衰",
+                        "text": "你選擇了行脚僧",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5120533,
+                    "rite": 5120026,
                     "prompt": {
                         "id": "5367630_prompt_3",
-                        "text": "你選擇了休憩的方法",
+                        "text": "你選擇了星灵之夜",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120539,
+                    "rite": 5120279,
                     "prompt": {
                         "id": "5367630_prompt_4",
-                        "text": "你選擇了心焦之人",
+                        "text": "你選擇了星之衰",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120546,
+                    "rite": 5120280,
                     "prompt": {
                         "id": "5367630_prompt_5",
-                        "text": "你選擇了询问妻子",
+                        "text": "你選擇了星之衰",
                         "icon": "cards/2000001"
                     }
                 },

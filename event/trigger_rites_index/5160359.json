@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "生命布丁",
+                            "text": "苏丹的诘问",
                             "tag": "op1"
                         },
                         {
-                            "text": "圣餐饼",
+                            "text": "苏丹的索要",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹的特使？",
+                            "text": "苏丹的报复",
                             "tag": "op3"
                         },
                         {
-                            "text": "神啊，降临吧！",
+                            "text": "苏丹的索求",
                             "tag": "op4"
                         },
                         {
-                            "text": "誓师",
+                            "text": "苏丹的猜忌",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160359_prompt_1",
-                        "text": "你選擇了生命布丁",
+                        "text": "你選擇了苏丹的诘问",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208135
+                    "rite": 5206012
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160359_prompt_2",
-                        "text": "你選擇了圣餐饼",
+                        "text": "你選擇了苏丹的索要",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208141
+                    "rite": 5206018
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160359_prompt_3",
-                        "text": "你選擇了苏丹的特使？",
+                        "text": "你選擇了苏丹的报复",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208155
+                    "rite": 5206019
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160359_prompt_4",
-                        "text": "你選擇了神啊，降临吧！",
+                        "text": "你選擇了苏丹的索求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208181
+                    "rite": 5206579
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160359_prompt_5",
-                        "text": "你選擇了誓师",
+                        "text": "你選擇了苏丹的猜忌",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210009
+                    "rite": 5206591
                 },
                 "case:op6": {
                     "event_on": 5160358,

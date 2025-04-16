@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "神秘的援助",
+                            "text": "收买头衔",
                             "tag": "op1"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "收手吧",
                             "tag": "op2"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "手抓鳄鱼饭",
                             "tag": "op3"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "受孕",
                             "tag": "op4"
                         },
                         {
-                            "text": "舍馆",
+                            "text": "书店偶遇",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160353_prompt_1",
-                        "text": "你選擇了神秘的援助",
+                        "text": "你選擇了收买头衔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206557
+                    "rite": 5208013
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160353_prompt_2",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了收手吧",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206561
+                    "rite": 5208126
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160353_prompt_3",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了手抓鳄鱼饭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206562
+                    "rite": 5208133
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160353_prompt_4",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了受孕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206563
+                    "rite": 5210051
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160353_prompt_5",
-                        "text": "你選擇了舍馆",
+                        "text": "你選擇了书店偶遇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206564
+                    "rite": 5200575
                 },
                 "case:op6": {
                     "event_on": 5160352,

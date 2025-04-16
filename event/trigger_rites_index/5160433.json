@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "最后的愿望",
+                            "text": "组织犯罪",
                             "tag": "op1"
                         },
                         {
-                            "text": "这不算偷",
+                            "text": "最后的疯狂",
                             "tag": "op2"
                         },
                         {
-                            "text": "招募手下",
+                            "text": "最后的解惑",
                             "tag": "op3"
                         },
                         {
-                            "text": "最后的道别",
+                            "text": "最后的解惑",
                             "tag": "op4"
                         },
                         {
-                            "text": "赘婿的金币",
+                            "text": "最后的解惑",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160433_prompt_1",
-                        "text": "你選擇了最后的愿望",
+                        "text": "你選擇了组织犯罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206678
+                    "rite": 5204013
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160433_prompt_2",
-                        "text": "你選擇了这不算偷",
+                        "text": "你選擇了最后的疯狂",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207010
+                    "rite": 5200567
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160433_prompt_3",
-                        "text": "你選擇了招募手下",
+                        "text": "你選擇了最后的解惑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207011
+                    "rite": 5200619
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160433_prompt_4",
-                        "text": "你選擇了最后的道别",
+                        "text": "你選擇了最后的解惑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208016
+                    "rite": 5200620
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160433_prompt_5",
-                        "text": "你選擇了赘婿的金币",
+                        "text": "你選擇了最后的解惑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208050
+                    "rite": 5200621
                 },
                 "case:op6": {
                     "event_on": 5160432,

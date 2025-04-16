@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "继续深造",
+                            "text": "剧毒的果实",
                             "tag": "op1"
                         },
                         {
-                            "text": "激活廊下的故事",
+                            "text": "剧毒的果实",
                             "tag": "op2"
                         },
                         {
-                            "text": "检定每日囚牢是否开启",
+                            "text": "举世无双的爱",
                             "tag": "op3"
                         },
                         {
-                            "text": "救济日",
+                            "text": "绝地探索",
                             "tag": "op4"
                         },
                         {
-                            "text": "酒与肉",
+                            "text": "决斗",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5120023,
+                    "rite": 5120004,
                     "prompt": {
                         "id": "5367502_prompt_1",
-                        "text": "你選擇了继续深造",
+                        "text": "你選擇了剧毒的果实",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5120029,
+                    "rite": 5120005,
                     "prompt": {
                         "id": "5367502_prompt_2",
-                        "text": "你選擇了激活廊下的故事",
+                        "text": "你選擇了剧毒的果实",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5120100,
+                    "rite": 5120529,
                     "prompt": {
                         "id": "5367502_prompt_3",
-                        "text": "你選擇了检定每日囚牢是否开启",
+                        "text": "你選擇了举世无双的爱",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120155,
+                    "rite": 5100153,
                     "prompt": {
                         "id": "5367502_prompt_4",
-                        "text": "你選擇了救济日",
+                        "text": "你選擇了绝地探索",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120522,
+                    "rite": 5100307,
                     "prompt": {
                         "id": "5367502_prompt_5",
-                        "text": "你選擇了酒与肉",
+                        "text": "你選擇了决斗",
                         "icon": "cards/2000001"
                     }
                 },

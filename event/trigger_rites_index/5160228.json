@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "第五元素",
+                            "text": "大家一起来！",
                             "tag": "op1"
                         },
                         {
-                            "text": "打碎提灯",
+                            "text": "大猎捕",
                             "tag": "op2"
                         },
                         {
-                            "text": "等待太久",
+                            "text": "带来的改变",
                             "tag": "op3"
                         },
                         {
-                            "text": "弹球游戏",
+                            "text": "带来希望的",
                             "tag": "op4"
                         },
                         {
-                            "text": "刀剑问答",
+                            "text": "弹球游戏",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160228_prompt_1",
-                        "text": "你選擇了第五元素",
+                        "text": "你選擇了大家一起来！",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200050
+                    "rite": 5208090
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160228_prompt_2",
-                        "text": "你選擇了打碎提灯",
+                        "text": "你選擇了大猎捕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200064
+                    "rite": 5210046
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160228_prompt_3",
-                        "text": "你選擇了等待太久",
+                        "text": "你選擇了带来的改变",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200144
+                    "rite": 5206649
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160228_prompt_4",
-                        "text": "你選擇了弹球游戏",
+                        "text": "你選擇了带来希望的",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200150
+                    "rite": 5206655
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160228_prompt_5",
-                        "text": "你選擇了刀剑问答",
+                        "text": "你選擇了弹球游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200709
+                    "rite": 5200150
                 },
                 "case:op6": {
                     "event_on": 5160227,

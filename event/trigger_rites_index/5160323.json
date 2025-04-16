@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "祈雨献祭",
+                            "text": "祈福仪式",
                             "tag": "op1"
                         },
                         {
-                            "text": "悄无声息的离去",
+                            "text": "妻子的忧虑",
                             "tag": "op2"
                         },
                         {
-                            "text": "寝食单",
+                            "text": "妻子的茶会",
                             "tag": "op3"
                         },
                         {
-                            "text": "趋炎附势之徒",
+                            "text": "气急败坏",
                             "tag": "op4"
                         },
                         {
-                            "text": "欺软怕硬之徒",
+                            "text": "乞儿们",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160323_prompt_1",
-                        "text": "你選擇了祈雨献祭",
+                        "text": "你選擇了祈福仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200682
+                    "rite": 5206052
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160323_prompt_2",
-                        "text": "你選擇了悄无声息的离去",
+                        "text": "你選擇了妻子的忧虑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200683
+                    "rite": 5208001
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160323_prompt_3",
-                        "text": "你選擇了寝食单",
+                        "text": "你選擇了妻子的茶会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200834
+                    "rite": 5208005
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160323_prompt_4",
-                        "text": "你選擇了趋炎附势之徒",
+                        "text": "你選擇了气急败坏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200844
+                    "rite": 5208030
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160323_prompt_5",
-                        "text": "你選擇了欺软怕硬之徒",
+                        "text": "你選擇了乞儿们",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200847
+                    "rite": 5208073
                 },
                 "case:op6": {
                     "event_on": 5160322,

@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "steam结局成就",
+                            "text": "索要物资3",
                             "tag": "op1"
                         },
                         {
@@ -33,10 +33,10 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5160051,
+                    "rite": 5100048,
                     "prompt": {
                         "id": "5367596_prompt_1",
-                        "text": "你選擇了steam结局成就",
+                        "text": "你選擇了索要物资3",
                         "icon": "cards/2000001"
                     }
                 },

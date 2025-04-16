@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "我们应该分享一切",
+                            "text": "我的主人",
                             "tag": "op1"
                         },
                         {
-                            "text": "我们也许不该这样",
+                            "text": "我全都要",
                             "tag": "op2"
                         },
                         {
-                            "text": "为她买书",
+                            "text": "我只要最好的",
                             "tag": "op3"
                         },
                         {
-                            "text": "玩泥巴的异族",
+                            "text": "我们应该分享一切",
                             "tag": "op4"
                         },
                         {
-                            "text": "未归人",
+                            "text": "我们也许不该这样",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160378_prompt_1",
+                        "text": "你選擇了我的主人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202033
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160378_prompt_2",
+                        "text": "你選擇了我全都要",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206003
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160378_prompt_3",
+                        "text": "你選擇了我只要最好的",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206004
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160378_prompt_4",
                         "text": "你選擇了我们应该分享一切",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206504
                 },
-                "case:op2": {
+                "case:op5": {
                     "prompt": {
-                        "id": "5160378_prompt_2",
+                        "id": "5160378_prompt_5",
                         "text": "你選擇了我们也许不该这样",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206516
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160378_prompt_3",
-                        "text": "你選擇了为她买书",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206527
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160378_prompt_4",
-                        "text": "你選擇了玩泥巴的异族",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206551
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160378_prompt_5",
-                        "text": "你選擇了未归人",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206595
                 },
                 "case:op6": {
                     "event_on": 5160377,

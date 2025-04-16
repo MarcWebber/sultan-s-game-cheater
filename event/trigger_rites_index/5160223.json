@@ -23,19 +23,19 @@
                             "tag": "op1"
                         },
                         {
-                            "text": "成婚",
+                            "text": "蠢妓女和活恶棍",
                             "tag": "op2"
                         },
                         {
-                            "text": "彻夜狂奔",
+                            "text": "蠢妓女和活恶棍",
                             "tag": "op3"
                         },
                         {
-                            "text": "寸步不离",
+                            "text": "刺杀",
                             "tag": "op4"
                         },
                         {
-                            "text": "处置奴隶",
+                            "text": "刺杀",
                             "tag": "op5"
                         },
                         {
@@ -63,34 +63,34 @@
                 "case:op2": {
                     "prompt": {
                         "id": "5160223_prompt_2",
-                        "text": "你選擇了成婚",
+                        "text": "你選擇了蠢妓女和活恶棍",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206630
+                    "rite": 5200130
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160223_prompt_3",
-                        "text": "你選擇了彻夜狂奔",
+                        "text": "你選擇了蠢妓女和活恶棍",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206631
+                    "rite": 5206534
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160223_prompt_4",
-                        "text": "你選擇了寸步不离",
+                        "text": "你選擇了刺杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206632
+                    "rite": 5200604
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160223_prompt_5",
-                        "text": "你選擇了处置奴隶",
+                        "text": "你選擇了刺杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206634
+                    "rite": 5200606
                 },
                 "case:op6": {
                     "event_on": 5160222,

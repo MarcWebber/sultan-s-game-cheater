@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "向神殿求助",
+                            "text": "袭杀山狮",
                             "tag": "op1"
                         },
                         {
-                            "text": "邪术师的藏匿点A",
+                            "text": "昔日之影",
                             "tag": "op2"
                         },
                         {
-                            "text": "邪术师的藏匿点B",
+                            "text": "下水道的鳄鱼",
                             "tag": "op3"
                         },
                         {
-                            "text": "袭杀山狮",
+                            "text": "下次再来",
                             "tag": "op4"
                         },
                         {
-                            "text": "选择如何处理禁卫队长",
+                            "text": "侠名1阶段事件",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100002,
-                    "prompt": {
-                        "id": "5367613_prompt_1",
-                        "text": "你選擇了向神殿求助",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
-                    "rite": 5100007,
-                    "prompt": {
-                        "id": "5367613_prompt_2",
-                        "text": "你選擇了邪术师的藏匿点A",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
-                    "rite": 5100008,
-                    "prompt": {
-                        "id": "5367613_prompt_3",
-                        "text": "你選擇了邪术师的藏匿点B",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op4": {
                     "rite": 5100032,
                     "prompt": {
-                        "id": "5367613_prompt_4",
+                        "id": "5367613_prompt_1",
                         "text": "你選擇了袭杀山狮",
                         "icon": "cards/2000001"
                     }
                 },
+                "case:op2": {
+                    "rite": 5120002,
+                    "prompt": {
+                        "id": "5367613_prompt_2",
+                        "text": "你選擇了昔日之影",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100080,
+                    "prompt": {
+                        "id": "5367613_prompt_3",
+                        "text": "你選擇了下水道的鳄鱼",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120054,
+                    "prompt": {
+                        "id": "5367613_prompt_4",
+                        "text": "你選擇了下次再来",
+                        "icon": "cards/2000001"
+                    }
+                },
                 "case:op5": {
-                    "rite": 5100064,
+                    "rite": 5120076,
                     "prompt": {
                         "id": "5367613_prompt_5",
-                        "text": "你選擇了选择如何处理禁卫队长",
+                        "text": "你選擇了侠名1阶段事件",
                         "icon": "cards/2000001"
                     }
                 },

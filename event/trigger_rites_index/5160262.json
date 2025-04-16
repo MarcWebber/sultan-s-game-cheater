@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "护花使者",
+                            "text": "黑街扬名",
                             "tag": "op1"
                         },
                         {
-                            "text": "花花公子的收服（废弃）",
+                            "text": "黑街勇士讨伐战",
                             "tag": "op2"
                         },
                         {
-                            "text": "回报宰相",
+                            "text": "黑牢深处（废弃）",
                             "tag": "op3"
                         },
                         {
-                            "text": "回报宰相",
+                            "text": "黑街线人",
                             "tag": "op4"
                         },
                         {
-                            "text": "回报宰相",
+                            "text": "黑吃黑",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160262_prompt_1",
-                        "text": "你選擇了护花使者",
+                        "text": "你選擇了黑街扬名",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200710
+                    "rite": 5200763
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160262_prompt_2",
-                        "text": "你選擇了花花公子的收服（废弃）",
+                        "text": "你選擇了黑街勇士讨伐战",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200714
+                    "rite": 5200791
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160262_prompt_3",
-                        "text": "你選擇了回报宰相",
+                        "text": "你選擇了黑牢深处（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200722
+                    "rite": 5201009
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160262_prompt_4",
-                        "text": "你選擇了回报宰相",
+                        "text": "你選擇了黑街线人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200726
+                    "rite": 5201010
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160262_prompt_5",
-                        "text": "你選擇了回报宰相",
+                        "text": "你選擇了黑吃黑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200730
+                    "rite": 5203024
                 },
                 "case:op6": {
                     "event_on": 5160261,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "权力的游戏",
+                            "text": "恰当的价码",
                             "tag": "op1"
                         },
                         {
-                            "text": "群龙无首",
+                            "text": "潜入篡改",
                             "tag": "op2"
                         },
                         {
-                            "text": "囚牢",
+                            "text": "虔信的审视",
                             "tag": "op3"
                         },
                         {
-                            "text": "奇淫巧技-苏丹的欢愉",
+                            "text": "强硬驱逐",
                             "tag": "op4"
                         },
                         {
-                            "text": "奇淫巧技-刺杀苏丹",
+                            "text": "墙垣之外",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160324_prompt_1",
-                        "text": "你選擇了权力的游戏",
+                        "text": "你選擇了恰当的价码",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201001
+                    "rite": 5208017
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160324_prompt_2",
-                        "text": "你選擇了群龙无首",
+                        "text": "你選擇了潜入篡改",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201004
+                    "rite": 5200559
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160324_prompt_3",
-                        "text": "你選擇了囚牢",
+                        "text": "你選擇了虔信的审视",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201008
+                    "rite": 5204502
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160324_prompt_4",
-                        "text": "你選擇了奇淫巧技-苏丹的欢愉",
+                        "text": "你選擇了强硬驱逐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202020
+                    "rite": 5200675
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160324_prompt_5",
-                        "text": "你選擇了奇淫巧技-刺杀苏丹",
+                        "text": "你選擇了墙垣之外",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202021
+                    "rite": 5204815
                 },
                 "case:op6": {
                     "event_on": 5160323,

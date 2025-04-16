@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "处置等死的奴隶",
+                            "text": "处理尸体",
                             "tag": "op1"
                         },
                         {
-                            "text": "创造正强者",
+                            "text": "处刑",
                             "tag": "op2"
                         },
                         {
-                            "text": "处置被俘的异教徒",
+                            "text": "出卖苦力",
                             "tag": "op3"
                         },
                         {
-                            "text": "沉默的恳谈",
+                            "text": "初梦",
                             "tag": "op4"
                         },
                         {
-                            "text": "丑闻缠身",
+                            "text": "除魔卫道",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160220_prompt_1",
-                        "text": "你選擇了处置等死的奴隶",
+                        "text": "你選擇了处理尸体",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206010
+                    "rite": 5202024
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160220_prompt_2",
-                        "text": "你選擇了创造正强者",
+                        "text": "你選擇了处刑",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206020
+                    "rite": 5203009
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160220_prompt_3",
-                        "text": "你選擇了处置被俘的异教徒",
+                        "text": "你選擇了出卖苦力",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206072
+                    "rite": 5203022
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160220_prompt_4",
-                        "text": "你選擇了沉默的恳谈",
+                        "text": "你選擇了初梦",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206508
+                    "rite": 5204801
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160220_prompt_5",
-                        "text": "你選擇了丑闻缠身",
+                        "text": "你選擇了除魔卫道",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206515
+                    "rite": 5204902
                 },
                 "case:op6": {
                     "event_on": 5160219,

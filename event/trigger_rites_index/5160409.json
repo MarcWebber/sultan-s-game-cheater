@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "浴场约会",
+                            "text": "隐匿小屋",
                             "tag": "op1"
                         },
                         {
-                            "text": "医馆",
+                            "text": "隐匿小屋",
                             "tag": "op2"
                         },
                         {
-                            "text": "远近闻名的哈马尔兄弟",
+                            "text": "隐身幕后",
                             "tag": "op3"
                         },
                         {
-                            "text": "远行访友",
+                            "text": "引火物",
                             "tag": "op4"
                         },
                         {
-                            "text": "酝酿中的阴谋",
+                            "text": "迎接莎姬",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160409_prompt_1",
-                        "text": "你選擇了浴场约会",
+                        "text": "你選擇了隐匿小屋",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201503
+                    "rite": 5206569
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160409_prompt_2",
-                        "text": "你選擇了医馆",
+                        "text": "你選擇了隐匿小屋",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202001
+                    "rite": 5206570
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160409_prompt_3",
-                        "text": "你選擇了远近闻名的哈马尔兄弟",
+                        "text": "你選擇了隐身幕后",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202503
+                    "rite": 5208035
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160409_prompt_4",
-                        "text": "你選擇了远行访友",
+                        "text": "你選擇了引火物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203002
+                    "rite": 5210039
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160409_prompt_5",
-                        "text": "你選擇了酝酿中的阴谋",
+                        "text": "你選擇了迎接莎姬",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203010
+                    "rite": 5200570
                 },
                 "case:op6": {
                     "event_on": 5160408,

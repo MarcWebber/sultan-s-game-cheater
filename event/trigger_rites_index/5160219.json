@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "忏悔",
+                            "text": "丑闻缠身",
                             "tag": "op1"
                         },
                         {
-                            "text": "揣测神意",
+                            "text": "处置阿迪莱",
                             "tag": "op2"
                         },
                         {
-                            "text": "初梦",
+                            "text": "处置阿迪莱",
                             "tag": "op3"
                         },
                         {
-                            "text": "除魔卫道",
+                            "text": "初步调查",
                             "tag": "op4"
                         },
                         {
-                            "text": "处置背叛的朋友",
+                            "text": "处置女邪术师",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160219_prompt_1",
-                        "text": "你選擇了忏悔",
+                        "text": "你選擇了丑闻缠身",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204503
+                    "rite": 5206515
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160219_prompt_2",
-                        "text": "你選擇了揣测神意",
+                        "text": "你選擇了处置阿迪莱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204519
+                    "rite": 5200633
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160219_prompt_3",
-                        "text": "你選擇了初梦",
+                        "text": "你選擇了处置阿迪莱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204801
+                    "rite": 5200639
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160219_prompt_4",
-                        "text": "你選擇了除魔卫道",
+                        "text": "你選擇了初步调查",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204902
+                    "rite": 5200686
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160219_prompt_5",
-                        "text": "你選擇了处置背叛的朋友",
+                        "text": "你選擇了处置女邪术师",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206001
+                    "rite": 5200747
                 },
                 "case:op6": {
                     "event_on": 5160218,

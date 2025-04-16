@@ -19,7 +19,7 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "立柱",
+                            "text": "论罪与辩护",
                             "tag": "op1"
                         },
                         {
@@ -35,10 +35,10 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160302_prompt_1",
-                        "text": "你選擇了立柱",
+                        "text": "你選擇了论罪与辩护",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210037
+                    "rite": 5201026
                 },
                 "case:op2": {
                     "event_on": 5160301

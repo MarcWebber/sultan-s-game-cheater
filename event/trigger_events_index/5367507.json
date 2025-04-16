@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "可悲的凡人(正教先来)",
+                            "text": "可悲的凡人(两个人一起来)",
                             "tag": "op1"
                         },
                         {
-                            "text": "可悲的凡人(邪教先来)",
+                            "text": "恐吓计划（测试用）",
                             "tag": "op2"
                         },
                         {
-                            "text": "可悲的凡人(两个人一起来)",
+                            "text": "苦水",
                             "tag": "op3"
                         },
                         {
-                            "text": "楷模",
+                            "text": "快脚的约会",
                             "tag": "op4"
                         },
                         {
-                            "text": "开小差",
+                            "text": "狂风峡谷",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110846,
-                    "prompt": {
-                        "id": "5367507_prompt_1",
-                        "text": "你選擇了可悲的凡人(正教先来)",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op2": {
-                    "rite": 5110847,
-                    "prompt": {
-                        "id": "5367507_prompt_2",
-                        "text": "你選擇了可悲的凡人(邪教先来)",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
                     "rite": 5110848,
                     "prompt": {
-                        "id": "5367507_prompt_3",
+                        "id": "5367507_prompt_1",
                         "text": "你選擇了可悲的凡人(两个人一起来)",
                         "icon": "cards/2000001"
                     }
                 },
+                "case:op2": {
+                    "rite": 5100082,
+                    "prompt": {
+                        "id": "5367507_prompt_2",
+                        "text": "你選擇了恐吓计划（测试用）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100526,
+                    "prompt": {
+                        "id": "5367507_prompt_3",
+                        "text": "你選擇了苦水",
+                        "icon": "cards/2000001"
+                    }
+                },
                 "case:op4": {
-                    "rite": 5120011,
+                    "rite": 5121054,
                     "prompt": {
                         "id": "5367507_prompt_4",
-                        "text": "你選擇了楷模",
+                        "text": "你選擇了快脚的约会",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120027,
+                    "rite": 5100203,
                     "prompt": {
                         "id": "5367507_prompt_5",
-                        "text": "你選擇了开小差",
+                        "text": "你選擇了狂风峡谷",
                         "icon": "cards/2000001"
                     }
                 },

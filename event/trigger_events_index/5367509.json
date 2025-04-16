@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "狼王的踪迹",
+                            "text": "辣个女人",
                             "tag": "op1"
                         },
                         {
-                            "text": "狼穴恶战",
+                            "text": "拉磨幕后",
                             "tag": "op2"
                         },
                         {
-                            "text": "论罪与辩护",
+                            "text": "烂纸头启动",
                             "tag": "op3"
                         },
                         {
-                            "text": "利用",
+                            "text": "狼王的踪迹",
                             "tag": "op4"
                         },
                         {
-                            "text": "浪子的思绪",
+                            "text": "狼穴恶战",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100078,
+                    "rite": 5100277,
                     "prompt": {
                         "id": "5367509_prompt_1",
-                        "text": "你選擇了狼王的踪迹",
+                        "text": "你選擇了辣个女人",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100079,
+                    "rite": 5121081,
                     "prompt": {
                         "id": "5367509_prompt_2",
-                        "text": "你選擇了狼穴恶战",
+                        "text": "你選擇了拉磨幕后",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100257,
+                    "rite": 5100560,
                     "prompt": {
                         "id": "5367509_prompt_3",
-                        "text": "你選擇了论罪与辩护",
+                        "text": "你選擇了烂纸头启动",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100269,
+                    "rite": 5100078,
                     "prompt": {
                         "id": "5367509_prompt_4",
-                        "text": "你選擇了利用",
+                        "text": "你選擇了狼王的踪迹",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100275,
+                    "rite": 5100079,
                     "prompt": {
                         "id": "5367509_prompt_5",
-                        "text": "你選擇了浪子的思绪",
+                        "text": "你選擇了狼穴恶战",
                         "icon": "cards/2000001"
                     }
                 },

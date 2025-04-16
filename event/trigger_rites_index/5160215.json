@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "承阳武士",
+                            "text": "草药炖大雁",
                             "tag": "op1"
                         },
                         {
-                            "text": "城外的骚乱",
+                            "text": "策划袭击",
                             "tag": "op2"
                         },
                         {
-                            "text": "刺杀",
+                            "text": "策划诉讼",
                             "tag": "op3"
                         },
                         {
-                            "text": "刺杀",
+                            "text": "策划暗杀",
                             "tag": "op4"
                         },
                         {
-                            "text": "刺杀",
+                            "text": "忏悔",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160215_prompt_1",
-                        "text": "你選擇了承阳武士",
+                        "text": "你選擇了草药炖大雁",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200141
+                    "rite": 5208137
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160215_prompt_2",
-                        "text": "你選擇了城外的骚乱",
+                        "text": "你選擇了策划袭击",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200600
+                    "rite": 5208036
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160215_prompt_3",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了策划诉讼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200604
+                    "rite": 5208041
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160215_prompt_4",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了策划暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200606
+                    "rite": 5208042
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160215_prompt_5",
-                        "text": "你選擇了刺杀",
+                        "text": "你選擇了忏悔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200608
+                    "rite": 5204503
                 },
                 "case:op6": {
                     "event_on": 5160214,

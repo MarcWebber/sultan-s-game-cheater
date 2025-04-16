@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "刺杀的阴影",
+                            "text": "处置俘虏",
                             "tag": "op1"
                         },
                         {
-                            "text": "赤字滔天",
+                            "text": "出发！",
                             "tag": "op2"
                         },
                         {
-                            "text": "除非……",
+                            "text": "揣测神意",
                             "tag": "op3"
                         },
                         {
-                            "text": "促成交欢",
+                            "text": "传播密教理念",
                             "tag": "op4"
                         },
                         {
-                            "text": "餐盒收购",
+                            "text": "创造正强者",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160222_prompt_1",
-                        "text": "你選擇了刺杀的阴影",
+                        "text": "你選擇了处置俘虏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206548
+                    "rite": 5208180
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160222_prompt_2",
-                        "text": "你選擇了赤字滔天",
+                        "text": "你選擇了出发！",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206585
+                    "rite": 5210001
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160222_prompt_3",
-                        "text": "你選擇了除非……",
+                        "text": "你選擇了揣测神意",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206603
+                    "rite": 5204519
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160222_prompt_4",
-                        "text": "你選擇了促成交欢",
+                        "text": "你選擇了传播密教理念",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206609
+                    "rite": 5200746
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160222_prompt_5",
-                        "text": "你選擇了餐盒收购",
+                        "text": "你選擇了创造正强者",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206624
+                    "rite": 5206020
                 },
                 "case:op6": {
                     "event_on": 5160221,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "比最好更好的",
+                            "text": "不洁的原料",
                             "tag": "op1"
                         },
                         {
-                            "text": "不洁的代言人",
+                            "text": "不可阻挡的死亡",
                             "tag": "op2"
                         },
                         {
-                            "text": "不洁的援助",
+                            "text": "不洁的代言人",
                             "tag": "op3"
                         },
                         {
-                            "text": "暴食者雕像",
+                            "text": "不洁的援助",
                             "tag": "op4"
                         },
                         {
-                            "text": "匕首之路",
+                            "text": "扒手团体（废弃）",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160213_prompt_1",
-                        "text": "你選擇了比最好更好的",
+                        "text": "你選擇了不洁的原料",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208153
+                    "rite": 5206011
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160213_prompt_2",
+                        "text": "你選擇了不可阻挡的死亡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206608
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160213_prompt_3",
                         "text": "你選擇了不洁的代言人",
                         "icon": "cards/2000001"
                     },
                     "rite": 5208166
                 },
-                "case:op3": {
+                "case:op4": {
                     "prompt": {
-                        "id": "5160213_prompt_3",
+                        "id": "5160213_prompt_4",
                         "text": "你選擇了不洁的援助",
                         "icon": "cards/2000001"
                     },
                     "rite": 5208167
                 },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160213_prompt_4",
-                        "text": "你選擇了暴食者雕像",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208176
-                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160213_prompt_5",
-                        "text": "你選擇了匕首之路",
+                        "text": "你選擇了扒手团体（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210047
+                    "rite": 5204010
                 },
                 "case:op6": {
                     "event_on": 5160212,

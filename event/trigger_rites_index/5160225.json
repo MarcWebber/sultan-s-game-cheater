@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "策划暗杀",
+                            "text": "刺肉者",
                             "tag": "op1"
                         },
                         {
-                            "text": "持刀的绵羊",
+                            "text": "从实招来",
                             "tag": "op2"
                         },
                         {
-                            "text": "草药炖大雁",
+                            "text": "从不缺席的挑战",
                             "tag": "op3"
                         },
                         {
-                            "text": "超高校级黑街赛狗",
+                            "text": "促成谈判",
                             "tag": "op4"
                         },
                         {
-                            "text": "刺肉者",
+                            "text": "促成交欢",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160225_prompt_1",
-                        "text": "你選擇了策划暗杀",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208042
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160225_prompt_2",
-                        "text": "你選擇了持刀的绵羊",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208130
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160225_prompt_3",
-                        "text": "你選擇了草药炖大雁",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208137
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160225_prompt_4",
-                        "text": "你選擇了超高校级黑街赛狗",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208148
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160225_prompt_5",
                         "text": "你選擇了刺肉者",
                         "icon": "cards/2000001"
                     },
                     "rite": 5208178
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160225_prompt_2",
+                        "text": "你選擇了从实招来",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200820
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160225_prompt_3",
+                        "text": "你選擇了从不缺席的挑战",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206536
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160225_prompt_4",
+                        "text": "你選擇了促成谈判",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200674
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160225_prompt_5",
+                        "text": "你選擇了促成交欢",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206609
                 },
                 "case:op6": {
                     "event_on": 5160224,

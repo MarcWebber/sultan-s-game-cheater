@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "将军夜猎",
+                            "text": "饥渴",
                             "tag": "op1"
                         },
                         {
-                            "text": "久违的清净",
+                            "text": "贾丽拉的游戏",
                             "tag": "op2"
                         },
                         {
-                            "text": "决裂",
+                            "text": "贾丽拉的游戏",
                             "tag": "op3"
                         },
                         {
-                            "text": "金屋藏娇",
+                            "text": "家破人亡",
                             "tag": "op4"
                         },
                         {
-                            "text": "精致的礼物",
+                            "text": "健身手册",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160276_prompt_1",
-                        "text": "你選擇了将军夜猎",
+                        "text": "你選擇了饥渴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200754
+                    "rite": 5210053
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160276_prompt_2",
-                        "text": "你選擇了久违的清净",
+                        "text": "你選擇了贾丽拉的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200778
+                    "rite": 5200802
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160276_prompt_3",
-                        "text": "你選擇了决裂",
+                        "text": "你選擇了贾丽拉的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200782
+                    "rite": 5200807
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160276_prompt_4",
-                        "text": "你選擇了金屋藏娇",
+                        "text": "你選擇了家破人亡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200783
+                    "rite": 5206513
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160276_prompt_5",
-                        "text": "你選擇了精致的礼物",
+                        "text": "你選擇了健身手册",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200785
+                    "rite": 5200036
                 },
                 "case:op6": {
                     "event_on": 5160275,

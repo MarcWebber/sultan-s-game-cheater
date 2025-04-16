@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "贾丽拉的游戏",
+                            "text": "建造图录",
                             "tag": "op1"
                         },
                         {
-                            "text": "贾丽拉的游戏",
+                            "text": "剑之名",
                             "tag": "op2"
                         },
                         {
-                            "text": "惊天大姐案",
+                            "text": "监守自盗",
                             "tag": "op3"
                         },
                         {
-                            "text": "纠纷的任务",
+                            "text": "见证奇迹的时刻",
                             "tag": "op4"
                         },
                         {
-                            "text": "建造图录",
+                            "text": "艰难前行",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160277_prompt_1",
-                        "text": "你選擇了贾丽拉的游戏",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200802
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160277_prompt_2",
-                        "text": "你選擇了贾丽拉的游戏",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200807
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160277_prompt_3",
-                        "text": "你選擇了惊天大姐案",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200816
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160277_prompt_4",
-                        "text": "你選擇了纠纷的任务",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200828
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160277_prompt_5",
                         "text": "你選擇了建造图录",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200832
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160277_prompt_2",
+                        "text": "你選擇了剑之名",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200840
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160277_prompt_3",
+                        "text": "你選擇了监守自盗",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204508
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160277_prompt_4",
+                        "text": "你選擇了见证奇迹的时刻",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206014
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160277_prompt_5",
+                        "text": "你選擇了艰难前行",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206034
                 },
                 "case:op6": {
                     "event_on": 5160276,

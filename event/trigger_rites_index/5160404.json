@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "一件礼物，一个诅咒",
+                            "text": "以神的名义",
                             "tag": "op1"
                         },
                         {
-                            "text": "勇行",
+                            "text": "一线生机",
                             "tag": "op2"
                         },
                         {
-                            "text": "一个人的绝地探索",
+                            "text": "一件礼物，一个诅咒",
                             "tag": "op3"
                         },
                         {
-                            "text": "远方的乐土",
+                            "text": "一个人的绝地探索",
                             "tag": "op4"
                         },
                         {
-                            "text": "严厉刑罚",
+                            "text": "以身试刃",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160404_prompt_1",
+                        "text": "你選擇了以神的名义",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200506
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160404_prompt_2",
+                        "text": "你選擇了一线生机",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200566
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160404_prompt_3",
                         "text": "你選擇了一件礼物，一个诅咒",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200634
                 },
-                "case:op2": {
+                "case:op4": {
                     "prompt": {
-                        "id": "5160404_prompt_2",
-                        "text": "你選擇了勇行",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200637
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160404_prompt_3",
+                        "id": "5160404_prompt_4",
                         "text": "你選擇了一个人的绝地探索",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200662
                 },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160404_prompt_4",
-                        "text": "你選擇了远方的乐土",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200666
-                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160404_prompt_5",
-                        "text": "你選擇了严厉刑罚",
+                        "text": "你選擇了以身试刃",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200672
+                    "rite": 5200684
                 },
                 "case:op6": {
                     "event_on": 5160403,

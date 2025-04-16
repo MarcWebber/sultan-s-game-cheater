@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "古怪的邀请",
+                            "text": "过时不候",
                             "tag": "op1"
                         },
                         {
-                            "text": "怪异的降临",
+                            "text": "过时不候",
                             "tag": "op2"
                         },
                         {
-                            "text": "光之舞",
+                            "text": "过于尊贵的客人",
                             "tag": "op3"
                         },
                         {
-                            "text": "果实",
+                            "text": "国王烤肉",
                             "tag": "op4"
                         },
                         {
-                            "text": "古老的道路",
+                            "text": "果实",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160258_prompt_1",
-                        "text": "你選擇了古怪的邀请",
+                        "text": "你選擇了过时不候",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208160
+                    "rite": 5208018
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160258_prompt_2",
-                        "text": "你選擇了怪异的降临",
+                        "text": "你選擇了过时不候",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208183
+                    "rite": 5208061
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160258_prompt_3",
-                        "text": "你選擇了光之舞",
+                        "text": "你選擇了过于尊贵的客人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210017
+                    "rite": 5208117
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160258_prompt_4",
-                        "text": "你選擇了果实",
+                        "text": "你選擇了国王烤肉",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210024
+                    "rite": 5208142
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160258_prompt_5",
-                        "text": "你選擇了古老的道路",
+                        "text": "你選擇了果实",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210033
+                    "rite": 5210024
                 },
                 "case:op6": {
                     "event_on": 5160257,

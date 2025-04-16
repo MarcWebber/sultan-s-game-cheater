@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "道别幕后",
+                            "text": "读书人",
                             "tag": "op1"
                         },
                         {
-                            "text": "第一眼幕后",
+                            "text": "读书会",
                             "tag": "op2"
                         },
                         {
-                            "text": "第一个牺牲者",
+                            "text": "对行尸的处理",
                             "tag": "op3"
                         },
                         {
-                            "text": "第一次帮助",
+                            "text": "对行尸的处理",
                             "tag": "op4"
                         },
                         {
-                            "text": "第二次帮助",
+                            "text": "对行尸的处理",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5121080,
+                    "rite": 5100505,
                     "prompt": {
                         "id": "5367430_prompt_1",
-                        "text": "你選擇了道别幕后",
+                        "text": "你選擇了读书人",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5121084,
+                    "rite": 5120022,
                     "prompt": {
                         "id": "5367430_prompt_2",
-                        "text": "你選擇了第一眼幕后",
+                        "text": "你選擇了读书会",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5121130,
+                    "rite": 5120504,
                     "prompt": {
                         "id": "5367430_prompt_3",
-                        "text": "你選擇了第一个牺牲者",
+                        "text": "你選擇了对行尸的处理",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5121146,
+                    "rite": 5120505,
                     "prompt": {
                         "id": "5367430_prompt_4",
-                        "text": "你選擇了第一次帮助",
+                        "text": "你選擇了对行尸的处理",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5121147,
+                    "rite": 5120506,
                     "prompt": {
                         "id": "5367430_prompt_5",
-                        "text": "你選擇了第二次帮助",
+                        "text": "你選擇了对行尸的处理",
                         "icon": "cards/2000001"
                     }
                 },

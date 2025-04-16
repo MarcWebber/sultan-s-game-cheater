@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "河流的方向",
+                            "text": "黑街的邀约",
                             "tag": "op1"
                         },
                         {
-                            "text": "回收金血之证",
+                            "text": "黑暗之神的诱惑",
                             "tag": "op2"
                         },
                         {
-                            "text": "获得第一本书时，放入俺寻思的提示",
+                            "text": "黑暗知识主角反悔",
                             "tag": "op3"
                         },
                         {
-                            "text": "黑暗之神的诱惑",
+                            "text": "黑街访客",
                             "tag": "op4"
                         },
                         {
-                            "text": "黑暗知识主角反悔",
+                            "text": "后街的动静",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100524,
+                    "rite": 5100267,
                     "prompt": {
                         "id": "5367463_prompt_1",
-                        "text": "你選擇了河流的方向",
+                        "text": "你選擇了黑街的邀约",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100573,
-                    "prompt": {
-                        "id": "5367463_prompt_2",
-                        "text": "你選擇了回收金血之证",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op3": {
-                    "rite": 5110007,
-                    "prompt": {
-                        "id": "5367463_prompt_3",
-                        "text": "你選擇了获得第一本书时，放入俺寻思的提示",
-                        "icon": "cards/2000001"
-                    }
-                },
-                "case:op4": {
                     "rite": 5110629,
                     "prompt": {
-                        "id": "5367463_prompt_4",
+                        "id": "5367463_prompt_2",
                         "text": "你選擇了黑暗之神的诱惑",
                         "icon": "cards/2000001"
                     }
                 },
-                "case:op5": {
+                "case:op3": {
                     "rite": 5110643,
                     "prompt": {
-                        "id": "5367463_prompt_5",
+                        "id": "5367463_prompt_3",
                         "text": "你選擇了黑暗知识主角反悔",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121074,
+                    "prompt": {
+                        "id": "5367463_prompt_4",
+                        "text": "你選擇了黑街访客",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121098,
+                    "prompt": {
+                        "id": "5367463_prompt_5",
+                        "text": "你選擇了后街的动静",
                         "icon": "cards/2000001"
                     }
                 },

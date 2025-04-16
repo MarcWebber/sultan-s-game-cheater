@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "上门教学",
+                            "text": "弑神（废弃）",
                             "tag": "op1"
                         },
                         {
-                            "text": "搜寻亡骸",
+                            "text": "世界之眼",
                             "tag": "op2"
                         },
                         {
-                            "text": "试刃之锋",
+                            "text": "狩猎实战",
                             "tag": "op3"
                         },
                         {
-                            "text": "双姝",
+                            "text": "受伤的白犀牛",
                             "tag": "op4"
                         },
                         {
-                            "text": "受赏",
+                            "text": "收服盖斯",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160351_prompt_1",
-                        "text": "你選擇了上门教学",
+                        "text": "你選擇了弑神（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206042
+                    "rite": 5210043
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160351_prompt_2",
-                        "text": "你選擇了搜寻亡骸",
+                        "text": "你選擇了世界之眼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206076
+                    "rite": 5210045
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160351_prompt_3",
-                        "text": "你選擇了试刃之锋",
+                        "text": "你選擇了狩猎实战",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206081
+                    "rite": 5200613
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160351_prompt_4",
-                        "text": "你選擇了双姝",
+                        "text": "你選擇了受伤的白犀牛",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206506
+                    "rite": 5200630
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160351_prompt_5",
-                        "text": "你選擇了受赏",
+                        "text": "你選擇了收服盖斯",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206524
+                    "rite": 5200688
                 },
                 "case:op6": {
                     "event_on": 5160350,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "黄金鸟",
+                            "text": "皇家图书馆",
                             "tag": "op1"
                         },
                         {
-                            "text": "合金装备·幻痛",
+                            "text": "黄金杀戮卡",
                             "tag": "op2"
                         },
                         {
-                            "text": "婚礼献歌",
+                            "text": "黄金鸟",
                             "tag": "op3"
                         },
                         {
-                            "text": "花园里唯一的花",
+                            "text": "黄金的工具",
                             "tag": "op4"
                         },
                         {
-                            "text": "何为正义",
+                            "text": "荒野一锅炖",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160269_prompt_1",
+                        "text": "你選擇了皇家图书馆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203021
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160269_prompt_2",
+                        "text": "你選擇了黄金杀戮卡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5205102
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160269_prompt_3",
                         "text": "你選擇了黄金鸟",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206009
                 },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160269_prompt_2",
-                        "text": "你選擇了合金装备·幻痛",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206022
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160269_prompt_3",
-                        "text": "你選擇了婚礼献歌",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206056
-                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160269_prompt_4",
-                        "text": "你選擇了花园里唯一的花",
+                        "text": "你選擇了黄金的工具",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206507
+                    "rite": 5206653
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160269_prompt_5",
-                        "text": "你選擇了何为正义",
+                        "text": "你選擇了荒野一锅炖",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206509
+                    "rite": 5208136
                 },
                 "case:op6": {
                     "event_on": 5160268,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "夜间工作",
+                            "text": "一次暗杀",
                             "tag": "op1"
                         },
                         {
-                            "text": "夜间工作",
+                            "text": "一次愉快的回忆",
                             "tag": "op2"
                         },
                         {
-                            "text": "夜间工作",
+                            "text": "一手拿货",
                             "tag": "op3"
                         },
                         {
-                            "text": "夜间工作",
+                            "text": "一罐蜜饯",
                             "tag": "op4"
                         },
                         {
-                            "text": "浴场里的消息",
+                            "text": "阴森的宅邸",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160408_prompt_1",
-                        "text": "你選擇了夜间工作",
+                        "text": "你選擇了一次暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200858
+                    "rite": 5208043
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160408_prompt_2",
-                        "text": "你選擇了夜间工作",
+                        "text": "你選擇了一次愉快的回忆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200859
+                    "rite": 5208048
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160408_prompt_3",
-                        "text": "你選擇了夜间工作",
+                        "text": "你選擇了一手拿货",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200860
+                    "rite": 5208068
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160408_prompt_4",
-                        "text": "你選擇了夜间工作",
+                        "text": "你選擇了一罐蜜饯",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200861
+                    "rite": 5208095
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160408_prompt_5",
-                        "text": "你選擇了浴场里的消息",
+                        "text": "你選擇了阴森的宅邸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201501
+                    "rite": 5200501
                 },
                 "case:op6": {
                     "event_on": 5160407,

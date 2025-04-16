@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "先王的后宫",
+                            "text": "修建暗渠",
                             "tag": "op1"
                         },
                         {
-                            "text": "血统调查",
+                            "text": "休憩的方法",
                             "tag": "op2"
                         },
                         {
-                            "text": "休沐日",
+                            "text": "修建舍馆",
                             "tag": "op3"
                         },
                         {
-                            "text": "心有余悸",
+                            "text": "休沐日",
                             "tag": "op4"
                         },
                         {
-                            "text": "息事宁人",
+                            "text": "虚荣作祟",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160396_prompt_1",
-                        "text": "你選擇了先王的后宫",
+                        "text": "你選擇了修建暗渠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206580
+                    "rite": 5200681
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160396_prompt_2",
-                        "text": "你選擇了血统调查",
+                        "text": "你選擇了休憩的方法",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206584
+                    "rite": 5206044
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160396_prompt_3",
+                        "text": "你選擇了修建舍馆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206560
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160396_prompt_4",
                         "text": "你選擇了休沐日",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206587
                 },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160396_prompt_4",
-                        "text": "你選擇了心有余悸",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206596
-                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160396_prompt_5",
-                        "text": "你選擇了息事宁人",
+                        "text": "你選擇了虚荣作祟",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206633
+                    "rite": 5200650
                 },
                 "case:op6": {
                     "event_on": 5160395,

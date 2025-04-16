@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "皇家图书馆",
+                            "text": "荒野集",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑吃黑",
+                            "text": "黄金体验",
                             "tag": "op2"
                         },
                         {
-                            "text": "黑街的居民",
+                            "text": "黄金体验",
                             "tag": "op3"
                         },
                         {
-                            "text": "黑暗集会",
+                            "text": "黄金的赠礼",
                             "tag": "op4"
                         },
                         {
-                            "text": "黄金杀戮卡",
+                            "text": "黄沙的背后",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160268_prompt_1",
-                        "text": "你選擇了皇家图书馆",
+                        "text": "你選擇了荒野集",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203021
+                    "rite": 5200148
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160268_prompt_2",
-                        "text": "你選擇了黑吃黑",
+                        "text": "你選擇了黄金体验",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203024
+                    "rite": 5200572
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160268_prompt_3",
-                        "text": "你選擇了黑街的居民",
+                        "text": "你選擇了黄金体验",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204002
+                    "rite": 5200584
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160268_prompt_4",
-                        "text": "你選擇了黑暗集会",
+                        "text": "你選擇了黄金的赠礼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204910
+                    "rite": 5200652
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160268_prompt_5",
-                        "text": "你選擇了黄金杀戮卡",
+                        "text": "你選擇了黄沙的背后",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5205102
+                    "rite": 5200750
                 },
                 "case:op6": {
                     "event_on": 5160267,

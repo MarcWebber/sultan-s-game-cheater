@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "很棒的情诗",
+                            "text": "哈比卜逃亡",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑暗根源",
+                            "text": "还来？",
                             "tag": "op2"
                         },
                         {
-                            "text": "黄金鸟屋",
+                            "text": "核查漏洞",
                             "tag": "op3"
                         },
                         {
-                            "text": "黄金鸟屋",
+                            "text": "和野狗对决",
                             "tag": "op4"
                         },
                         {
-                            "text": "黄金猫爬架",
+                            "text": "和囚犯对决",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160259_prompt_1",
-                        "text": "你選擇了很棒的情诗",
+                        "text": "你選擇了哈比卜逃亡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200111
+                    "rite": 5208121
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160259_prompt_2",
-                        "text": "你選擇了黑暗根源",
+                        "text": "你選擇了还来？",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200126
+                    "rite": 5208046
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160259_prompt_3",
-                        "text": "你選擇了黄金鸟屋",
+                        "text": "你選擇了核查漏洞",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200132
+                    "rite": 5200676
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160259_prompt_4",
-                        "text": "你選擇了黄金鸟屋",
+                        "text": "你選擇了和野狗对决",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200133
+                    "rite": 5201019
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160259_prompt_5",
-                        "text": "你選擇了黄金猫爬架",
+                        "text": "你選擇了和囚犯对决",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200136
+                    "rite": 5201020
                 },
                 "case:op6": {
                     "event_on": 5160258,

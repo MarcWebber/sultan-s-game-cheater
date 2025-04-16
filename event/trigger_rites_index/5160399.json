@@ -19,15 +19,15 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "小狗和月亮之歌",
+                            "text": "寻欢作乐的高手",
                             "tag": "op1"
                         },
                         {
-                            "text": "新月升起",
+                            "text": "殉情的请求",
                             "tag": "op2"
                         },
                         {
-                            "text": "献祭",
+                            "text": "熏狮子全餐",
                             "tag": "op3"
                         },
                         {
@@ -43,26 +43,26 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160399_prompt_1",
-                        "text": "你選擇了小狗和月亮之歌",
+                        "text": "你選擇了寻欢作乐的高手",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208162
+                    "rite": 5200862
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160399_prompt_2",
-                        "text": "你選擇了新月升起",
+                        "text": "你選擇了殉情的请求",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208163
+                    "rite": 5206543
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160399_prompt_3",
-                        "text": "你選擇了献祭",
+                        "text": "你選擇了熏狮子全餐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210056
+                    "rite": 5208134
                 },
                 "case:op4": {
                     "event_on": 5160398

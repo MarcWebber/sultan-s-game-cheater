@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "黑街线人",
+                            "text": "欢愉之馆",
                             "tag": "op1"
                         },
                         {
-                            "text": "和野狗对决",
+                            "text": "欢愉之馆",
                             "tag": "op2"
                         },
                         {
-                            "text": "和囚犯对决",
+                            "text": "欢愉之馆",
                             "tag": "op3"
                         },
                         {
-                            "text": "和狮子对决",
+                            "text": "还书的少女",
                             "tag": "op4"
                         },
                         {
-                            "text": "和巨人对决",
+                            "text": "欢愉之馆",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160266_prompt_1",
-                        "text": "你選擇了黑街线人",
+                        "text": "你選擇了欢愉之馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201010
+                    "rite": 5202003
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160266_prompt_2",
-                        "text": "你選擇了和野狗对决",
+                        "text": "你選擇了欢愉之馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201019
+                    "rite": 5202004
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160266_prompt_3",
-                        "text": "你選擇了和囚犯对决",
+                        "text": "你選擇了欢愉之馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201020
+                    "rite": 5202005
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160266_prompt_4",
-                        "text": "你選擇了和狮子对决",
+                        "text": "你選擇了还书的少女",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201021
+                    "rite": 5202009
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160266_prompt_5",
-                        "text": "你選擇了和巨人对决",
+                        "text": "你選擇了欢愉之馆",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201022
+                    "rite": 5202035
                 },
                 "case:op6": {
                     "event_on": 5160265,

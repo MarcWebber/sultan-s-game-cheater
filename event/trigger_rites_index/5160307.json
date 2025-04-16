@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "梅姬不再不满",
+                            "text": "迷失于灰烬中",
                             "tag": "op1"
                         },
                         {
-                            "text": "魅魔之力",
+                            "text": "迷信盲从之徒",
                             "tag": "op2"
                         },
                         {
-                            "text": "梅姬的秘方",
+                            "text": "密室中的祈祷",
                             "tag": "op3"
                         },
                         {
-                            "text": "梅姬，我问你……",
+                            "text": "秘密幽会",
                             "tag": "op4"
                         },
                         {
-                            "text": "梦中的考验",
+                            "text": "密室中",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160307_prompt_1",
-                        "text": "你選擇了梅姬不再不满",
+                        "text": "你選擇了迷失于灰烬中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204901
+                    "rite": 5200837
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160307_prompt_2",
-                        "text": "你選擇了魅魔之力",
+                        "text": "你選擇了迷信盲从之徒",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204903
+                    "rite": 5200846
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160307_prompt_3",
-                        "text": "你選擇了梅姬的秘方",
+                        "text": "你選擇了密室中的祈祷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206043
+                    "rite": 5204515
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160307_prompt_4",
-                        "text": "你選擇了梅姬，我问你……",
+                        "text": "你選擇了秘密幽会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206053
+                    "rite": 5204516
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160307_prompt_5",
-                        "text": "你選擇了梦中的考验",
+                        "text": "你選擇了密室中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206059
+                    "rite": 5208187
                 },
                 "case:op6": {
                     "event_on": 5160306,

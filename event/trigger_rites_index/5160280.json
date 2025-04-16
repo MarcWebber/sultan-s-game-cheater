@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "酒馆拳斗",
+                            "text": "接管教会",
                             "tag": "op1"
                         },
                         {
-                            "text": "监守自盗",
+                            "text": "解脱",
                             "tag": "op2"
                         },
                         {
-                            "text": "接管教会",
+                            "text": "劫掠商队",
                             "tag": "op3"
                         },
                         {
-                            "text": "见证奇迹的时刻",
+                            "text": "劫富济贫",
                             "tag": "op4"
                         },
                         {
-                            "text": "将权杖送给他人",
+                            "text": "阶梯",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160280_prompt_1",
-                        "text": "你選擇了酒馆拳斗",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5203025
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160280_prompt_2",
-                        "text": "你選擇了监守自盗",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5204508
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160280_prompt_3",
                         "text": "你選擇了接管教会",
                         "icon": "cards/2000001"
                     },
                     "rite": 5204520
                 },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160280_prompt_2",
+                        "text": "你選擇了解脱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206069
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160280_prompt_3",
+                        "text": "你選擇了劫掠商队",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206552
+                },
                 "case:op4": {
                     "prompt": {
                         "id": "5160280_prompt_4",
-                        "text": "你選擇了见证奇迹的时刻",
+                        "text": "你選擇了劫富济贫",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206014
+                    "rite": 5206657
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160280_prompt_5",
-                        "text": "你選擇了将权杖送给他人",
+                        "text": "你選擇了阶梯",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206025
+                    "rite": 5210023
                 },
                 "case:op6": {
                     "event_on": 5160279,

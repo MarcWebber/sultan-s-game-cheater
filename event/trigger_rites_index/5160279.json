@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "畸情的呼唤",
+                            "text": "降神仪式",
                             "tag": "op1"
                         },
                         {
-                            "text": "决斗",
+                            "text": "降神仪式",
                             "tag": "op2"
                         },
                         {
-                            "text": "紧急结婚",
+                            "text": "交钱赎罪",
                             "tag": "op3"
                         },
                         {
-                            "text": "积郁成疾",
+                            "text": "教领的特权",
                             "tag": "op4"
                         },
                         {
-                            "text": "饥不择食",
+                            "text": "解释",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160279_prompt_1",
-                        "text": "你選擇了畸情的呼唤",
+                        "text": "你選擇了降神仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202023
+                    "rite": 5208182
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160279_prompt_2",
-                        "text": "你選擇了决斗",
+                        "text": "你選擇了降神仪式",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202025
+                    "rite": 5208186
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160279_prompt_3",
-                        "text": "你選擇了紧急结婚",
+                        "text": "你選擇了交钱赎罪",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202030
+                    "rite": 5201027
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160279_prompt_4",
-                        "text": "你選擇了积郁成疾",
+                        "text": "你選擇了教领的特权",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203005
+                    "rite": 5210044
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160279_prompt_5",
-                        "text": "你選擇了饥不择食",
+                        "text": "你選擇了解释",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5203016
+                    "rite": 5201504
                 },
                 "case:op6": {
                     "event_on": 5160278,

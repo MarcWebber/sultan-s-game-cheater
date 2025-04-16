@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "谈判",
+                            "text": "天体聚会",
                             "tag": "op1"
                         },
                         {
-                            "text": "他们的复仇",
+                            "text": "天空之火",
                             "tag": "op2"
                         },
                         {
-                            "text": "突袭贫民窟",
+                            "text": "挑战歌",
                             "tag": "op3"
                         },
                         {
-                            "text": "特殊的枕头",
+                            "text": "同一场风暴",
                             "tag": "op4"
                         },
                         {
-                            "text": "突袭",
+                            "text": "偷窃圣血",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160369_prompt_1",
-                        "text": "你選擇了谈判",
+                        "text": "你選擇了天体聚会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206512
+                    "rite": 5202019
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160369_prompt_2",
-                        "text": "你選擇了他们的复仇",
+                        "text": "你選擇了天空之火",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206549
+                    "rite": 5210048
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160369_prompt_3",
-                        "text": "你選擇了突袭贫民窟",
+                        "text": "你選擇了挑战歌",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207008
+                    "rite": 5200121
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160369_prompt_4",
-                        "text": "你選擇了特殊的枕头",
+                        "text": "你選擇了同一场风暴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208003
+                    "rite": 5208057
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160369_prompt_5",
-                        "text": "你選擇了突袭",
+                        "text": "你選擇了偷窃圣血",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208037
+                    "rite": 5200863
                 },
                 "case:op6": {
                     "event_on": 5160368,

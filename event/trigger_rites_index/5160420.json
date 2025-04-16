@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "蜘蛛的网",
+                            "text": "在阴影中",
                             "tag": "op1"
                         },
                         {
-                            "text": "真正的报偿",
+                            "text": "再进一步",
                             "tag": "op2"
                         },
                         {
-                            "text": "最后的疯狂",
+                            "text": "赃物商人",
                             "tag": "op3"
                         },
                         {
-                            "text": "致命的邀约",
+                            "text": "造物主的影子",
                             "tag": "op4"
                         },
                         {
-                            "text": "扎齐伊的请求",
+                            "text": "造化歧路",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160420_prompt_1",
-                        "text": "你選擇了蜘蛛的网",
+                        "text": "你選擇了在阴影中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200153
+                    "rite": 5206532
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160420_prompt_2",
-                        "text": "你選擇了真正的报偿",
+                        "text": "你選擇了再进一步",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200562
+                    "rite": 5206597
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160420_prompt_3",
-                        "text": "你選擇了最后的疯狂",
+                        "text": "你選擇了赃物商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200567
+                    "rite": 5200109
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160420_prompt_4",
-                        "text": "你選擇了致命的邀约",
+                        "text": "你選擇了造物主的影子",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200603
+                    "rite": 5204833
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160420_prompt_5",
-                        "text": "你選擇了扎齐伊的请求",
+                        "text": "你選擇了造化歧路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200614
+                    "rite": 5210063
                 },
                 "case:op6": {
                     "event_on": 5160419,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "武装娇妻",
+                            "text": "无名的暗杀",
                             "tag": "op1"
                         },
                         {
-                            "text": "为你辩解",
+                            "text": "无名的暗杀",
                             "tag": "op2"
                         },
                         {
-                            "text": "危险的聚会",
+                            "text": "武术指导",
                             "tag": "op3"
                         },
                         {
-                            "text": "挽回的余地",
+                            "text": "无尽黄沙",
                             "tag": "op4"
                         },
                         {
-                            "text": "挽回的余地",
+                            "text": "无故缺勤的臣子",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160380_prompt_1",
-                        "text": "你選擇了武装娇妻",
+                        "text": "你選擇了无名的暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208002
+                    "rite": 5200556
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160380_prompt_2",
-                        "text": "你選擇了为你辩解",
+                        "text": "你選擇了无名的暗杀",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208004
+                    "rite": 5200557
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160380_prompt_3",
-                        "text": "你選擇了危险的聚会",
+                        "text": "你選擇了武术指导",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208011
+                    "rite": 5200611
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160380_prompt_4",
-                        "text": "你選擇了挽回的余地",
+                        "text": "你選擇了无尽黄沙",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208026
+                    "rite": 5200702
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160380_prompt_5",
-                        "text": "你選擇了挽回的余地",
+                        "text": "你選擇了无故缺勤的臣子",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208027
+                    "rite": 5200721
                 },
                 "case:op6": {
                     "event_on": 5160379,

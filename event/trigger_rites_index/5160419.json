@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "珠宝设计",
+                            "text": "宰相的暗示",
                             "tag": "op1"
                         },
                         {
-                            "text": "赃物商人",
+                            "text": "在宴会上演出",
                             "tag": "op2"
                         },
                         {
-                            "text": "追忆过去荣光",
+                            "text": "在茉莉花香中……",
                             "tag": "op3"
                         },
                         {
-                            "text": "做好准备",
+                            "text": "在阴影中",
                             "tag": "op4"
                         },
                         {
-                            "text": "哲百集",
+                            "text": "在阴影中",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160419_prompt_1",
-                        "text": "你選擇了珠宝设计",
+                        "text": "你選擇了宰相的暗示",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200100
+                    "rite": 5200821
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160419_prompt_2",
-                        "text": "你選擇了赃物商人",
+                        "text": "你選擇了在宴会上演出",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200109
+                    "rite": 5203023
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160419_prompt_3",
-                        "text": "你選擇了追忆过去荣光",
+                        "text": "你選擇了在茉莉花香中……",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200116
+                    "rite": 5204518
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160419_prompt_4",
-                        "text": "你選擇了做好准备",
+                        "text": "你選擇了在阴影中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200129
+                    "rite": 5206526
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160419_prompt_5",
-                        "text": "你選擇了哲百集",
+                        "text": "你選擇了在阴影中",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200151
+                    "rite": 5206528
                 },
                 "case:op6": {
                     "event_on": 5160418,

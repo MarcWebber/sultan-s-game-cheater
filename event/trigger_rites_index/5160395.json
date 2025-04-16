@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "血色绿洲",
+                            "text": "星灵咒文残卷",
                             "tag": "op1"
                         },
                         {
-                            "text": "邪恶化身",
+                            "text": "星灵之夜",
                             "tag": "op2"
                         },
                         {
-                            "text": "修建舍馆",
+                            "text": "星灵之夜",
                             "tag": "op3"
                         },
                         {
-                            "text": "邪恶徽记",
+                            "text": "凶狮肆虐",
                             "tag": "op4"
                         },
                         {
-                            "text": "血肉之税",
+                            "text": "修建暗渠",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160395_prompt_1",
-                        "text": "你選擇了血色绿洲",
+                        "text": "你選擇了星灵咒文残卷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206550
+                    "rite": 5206519
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160395_prompt_2",
-                        "text": "你選擇了邪恶化身",
+                        "text": "你選擇了星灵之夜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206555
+                    "rite": 5206520
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160395_prompt_3",
-                        "text": "你選擇了修建舍馆",
+                        "text": "你選擇了星灵之夜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206560
+                    "rite": 5206521
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160395_prompt_4",
-                        "text": "你選擇了邪恶徽记",
+                        "text": "你選擇了凶狮肆虐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206574
+                    "rite": 5202507
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160395_prompt_5",
-                        "text": "你選擇了血肉之税",
+                        "text": "你選擇了修建暗渠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206576
+                    "rite": 5200668
                 },
                 "case:op6": {
                     "event_on": 5160394,

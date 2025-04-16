@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "神之硕鼠",
+                            "text": "饰品商人",
                             "tag": "op1"
                         },
                         {
-                            "text": "神的真容",
+                            "text": "师出有名",
                             "tag": "op2"
                         },
                         {
-                            "text": "神的启示",
+                            "text": "食人的野狗",
                             "tag": "op3"
                         },
                         {
-                            "text": "神的面容",
+                            "text": "试刃之锋",
                             "tag": "op4"
                         },
                         {
-                            "text": "神圣的会晤",
+                            "text": "弑父",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160349_prompt_1",
-                        "text": "你選擇了神之硕鼠",
+                        "text": "你選擇了饰品商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204527
+                    "rite": 5202015
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160349_prompt_2",
-                        "text": "你選擇了神的真容",
+                        "text": "你選擇了师出有名",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204804
+                    "rite": 5202031
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160349_prompt_3",
-                        "text": "你選擇了神的启示",
+                        "text": "你選擇了食人的野狗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204806
+                    "rite": 5202501
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160349_prompt_4",
-                        "text": "你選擇了神的面容",
+                        "text": "你選擇了试刃之锋",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204807
+                    "rite": 5206081
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160349_prompt_5",
-                        "text": "你選擇了神圣的会晤",
+                        "text": "你選擇了弑父",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204808
+                    "rite": 5206537
                 },
                 "case:op6": {
                     "event_on": 5160348,

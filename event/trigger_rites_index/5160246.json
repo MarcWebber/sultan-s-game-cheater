@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "蜂蜜蛋饼",
+                            "text": "复仇的滋味",
                             "tag": "op1"
                         },
                         {
-                            "text": "复仇的请求",
+                            "text": "复仇的滋味",
                             "tag": "op2"
                         },
                         {
-                            "text": "法德耶来访",
+                            "text": "复仇的滋味",
                             "tag": "op3"
                         },
                         {
-                            "text": "法德耶的帮助",
+                            "text": "富有的巨魔",
                             "tag": "op4"
                         },
                         {
-                            "text": "废弃",
+                            "text": "复原的神迹",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160246_prompt_1",
-                        "text": "你選擇了蜂蜜蛋饼",
+                        "text": "你選擇了复仇的滋味",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208144
+                    "rite": 5206529
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160246_prompt_2",
-                        "text": "你選擇了复仇的请求",
+                        "text": "你選擇了复仇的滋味",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208149
+                    "rite": 5206530
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160246_prompt_3",
-                        "text": "你選擇了法德耶来访",
+                        "text": "你選擇了复仇的滋味",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208154
+                    "rite": 5206531
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160246_prompt_4",
-                        "text": "你選擇了法德耶的帮助",
+                        "text": "你選擇了富有的巨魔",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208157
+                    "rite": 5206554
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160246_prompt_5",
-                        "text": "你選擇了废弃",
+                        "text": "你選擇了复原的神迹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208165
+                    "rite": 5206558
                 },
                 "case:op6": {
                     "event_on": 5160245,

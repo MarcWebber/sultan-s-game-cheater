@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "如你所愿",
+                            "text": "荣耀回归",
                             "tag": "op1"
                         },
                         {
-                            "text": "让我剖开你胸膛",
+                            "text": "荣耀回归",
                             "tag": "op2"
                         },
                         {
-                            "text": "如你所愿",
+                            "text": "肉体展览",
                             "tag": "op3"
                         },
                         {
-                            "text": "让我尝尝",
+                            "text": "如何取悦你的爱人",
                             "tag": "op4"
                         },
                         {
-                            "text": "冗长的问询",
+                            "text": "蠕虫密卷",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160332_prompt_1",
-                        "text": "你選擇了如你所愿",
+                        "text": "你選擇了荣耀回归",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206002
+                    "rite": 5208014
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160332_prompt_2",
-                        "text": "你選擇了让我剖开你胸膛",
+                        "text": "你選擇了荣耀回归",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206074
+                    "rite": 5208019
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160332_prompt_3",
-                        "text": "你選擇了如你所愿",
+                        "text": "你選擇了肉体展览",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206594
+                    "rite": 5200767
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160332_prompt_4",
-                        "text": "你選擇了让我尝尝",
+                        "text": "你選擇了如何取悦你的爱人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206619
+                    "rite": 5200045
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160332_prompt_5",
-                        "text": "你選擇了冗长的问询",
+                        "text": "你選擇了蠕虫密卷",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206643
+                    "rite": 5200052
                 },
                 "case:op6": {
                     "event_on": 5160331,

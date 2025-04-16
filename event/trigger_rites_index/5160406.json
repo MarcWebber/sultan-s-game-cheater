@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "妖精国游记",
+                            "text": "意料中的买家",
                             "tag": "op1"
                         },
                         {
-                            "text": "一件残酷的礼物",
+                            "text": "以一敌百",
                             "tag": "op2"
                         },
                         {
-                            "text": "一件残酷的礼物",
+                            "text": "医馆",
                             "tag": "op3"
                         },
                         {
-                            "text": "一件凶煞的商品",
+                            "text": "仪式的助手",
                             "tag": "op4"
                         },
                         {
-                            "text": "意料中的买家",
+                            "text": "异端之战",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160406_prompt_1",
-                        "text": "你選擇了妖精国游记",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200753
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160406_prompt_2",
-                        "text": "你選擇了一件残酷的礼物",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200755
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160406_prompt_3",
-                        "text": "你選擇了一件残酷的礼物",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200757
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160406_prompt_4",
-                        "text": "你選擇了一件凶煞的商品",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200758
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160406_prompt_5",
                         "text": "你選擇了意料中的买家",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200759
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160406_prompt_2",
+                        "text": "你選擇了以一敌百",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200853
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160406_prompt_3",
+                        "text": "你選擇了医馆",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202001
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160406_prompt_4",
+                        "text": "你選擇了仪式的助手",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204504
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160406_prompt_5",
+                        "text": "你選擇了异端之战",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204521
                 },
                 "case:op6": {
                     "event_on": 5160405,

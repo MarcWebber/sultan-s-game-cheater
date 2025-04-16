@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "最后的诱惑",
+                            "text": "做狗",
                             "tag": "op1"
                         },
                         {
-                            "text": "转生的真神",
+                            "text": "做羔羊？",
                             "tag": "op2"
                         },
                         {
-                            "text": "子宫",
+                            "text": "做老鼠",
                             "tag": "op3"
                         },
                         {
-                            "text": "造化歧路",
+                            "text": "做人",
                             "tag": "op4"
                         },
                         {
@@ -47,34 +47,34 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160438_prompt_1",
-                        "text": "你選擇了最后的诱惑",
+                        "text": "你選擇了做狗",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210041
+                    "rite": 5208082
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160438_prompt_2",
-                        "text": "你選擇了转生的真神",
+                        "text": "你選擇了做羔羊？",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210049
+                    "rite": 5208083
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160438_prompt_3",
-                        "text": "你選擇了子宫",
+                        "text": "你選擇了做老鼠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210055
+                    "rite": 5208084
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160438_prompt_4",
-                        "text": "你選擇了造化歧路",
+                        "text": "你選擇了做人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210063
+                    "rite": 5208085
                 },
                 "case:op5": {
                     "event_on": 5160437

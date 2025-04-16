@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "忠贞正义之徒",
+                            "text": "蒸汽社交",
                             "tag": "op1"
                         },
                         {
-                            "text": "终极羞辱",
+                            "text": "正义的挑战",
                             "tag": "op2"
                         },
                         {
-                            "text": "哲瓦德来访",
+                            "text": "整理智库",
                             "tag": "op3"
                         },
                         {
-                            "text": "蒸汽社交",
+                            "text": "正义必须……",
                             "tag": "op4"
                         },
                         {
-                            "text": "装备商人",
+                            "text": "正义复仇",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160425_prompt_1",
-                        "text": "你選擇了忠贞正义之徒",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200845
-                },
-                "case:op2": {
-                    "prompt": {
-                        "id": "5160425_prompt_2",
-                        "text": "你選擇了终极羞辱",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200856
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160425_prompt_3",
-                        "text": "你選擇了哲瓦德来访",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5201012
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160425_prompt_4",
                         "text": "你選擇了蒸汽社交",
                         "icon": "cards/2000001"
                     },
                     "rite": 5201502
                 },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160425_prompt_2",
+                        "text": "你選擇了正义的挑战",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203013
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160425_prompt_3",
+                        "text": "你選擇了整理智库",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204505
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160425_prompt_4",
+                        "text": "你選擇了正义必须……",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206535
+                },
                 "case:op5": {
                     "prompt": {
                         "id": "5160425_prompt_5",
-                        "text": "你選擇了装备商人",
+                        "text": "你選擇了正义复仇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202010
+                    "rite": 5206658
                 },
                 "case:op6": {
                     "event_on": 5160424,

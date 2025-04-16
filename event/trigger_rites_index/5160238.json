@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "方圆运算",
+                            "text": "法尔达克的友谊",
                             "tag": "op1"
                         },
                         {
-                            "text": "房屋出租",
+                            "text": "法德耶来访",
                             "tag": "op2"
                         },
                         {
-                            "text": "讽刺诗",
+                            "text": "法德耶的帮助",
                             "tag": "op3"
                         },
                         {
-                            "text": "复仇的伊始",
+                            "text": "方圆运算",
                             "tag": "op4"
                         },
                         {
-                            "text": "焚星",
+                            "text": "房屋出租",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160238_prompt_1",
+                        "text": "你選擇了法尔达克的友谊",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200680
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160238_prompt_2",
+                        "text": "你選擇了法德耶来访",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208154
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160238_prompt_3",
+                        "text": "你選擇了法德耶的帮助",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208157
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160238_prompt_4",
                         "text": "你選擇了方圆运算",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200043
                 },
-                "case:op2": {
+                "case:op5": {
                     "prompt": {
-                        "id": "5160238_prompt_2",
+                        "id": "5160238_prompt_5",
                         "text": "你選擇了房屋出租",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200055
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160238_prompt_3",
-                        "text": "你選擇了讽刺诗",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200107
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160238_prompt_4",
-                        "text": "你選擇了复仇的伊始",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200526
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160238_prompt_5",
-                        "text": "你選擇了焚星",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200582
                 },
                 "case:op6": {
                     "event_on": 5160237,

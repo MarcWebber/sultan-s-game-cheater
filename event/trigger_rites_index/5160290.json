@@ -19,11 +19,11 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "扩建热气球升降场",
+                            "text": "靠不住的盟友",
                             "tag": "op1"
                         },
                         {
-                            "text": "扩建天文台",
+                            "text": "烤全驼",
                             "tag": "op2"
                         },
                         {
@@ -31,11 +31,11 @@
                             "tag": "op3"
                         },
                         {
-                            "text": "狂乱的圣主",
+                            "text": "恐吓范例",
                             "tag": "op4"
                         },
                         {
-                            "text": "狂风峡谷",
+                            "text": "恐怖庄园",
                             "tag": "op5"
                         },
                         {
@@ -55,18 +55,18 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160290_prompt_1",
-                        "text": "你選擇了扩建热气球升降场",
+                        "text": "你選擇了靠不住的盟友",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200060
+                    "rite": 5200713
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160290_prompt_2",
-                        "text": "你選擇了扩建天文台",
+                        "text": "你選擇了烤全驼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200061
+                    "rite": 5208138
                 },
                 "case:op3": {
                     "prompt": {
@@ -79,18 +79,18 @@
                 "case:op4": {
                     "prompt": {
                         "id": "5160290_prompt_4",
-                        "text": "你選擇了狂乱的圣主",
+                        "text": "你選擇了恐吓范例",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200578
+                    "rite": 5204015
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160290_prompt_5",
-                        "text": "你選擇了狂风峡谷",
+                        "text": "你選擇了恐怖庄园",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200703
+                    "rite": 5206659
                 },
                 "case:op6": {
                     "event_on": 5160289,

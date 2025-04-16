@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "奈费勒的行动",
+                            "text": "念念不忘",
                             "tag": "op1"
                         },
                         {
-                            "text": "奈费勒的行动",
+                            "text": "年轻人的婚礼",
                             "tag": "op2"
                         },
                         {
-                            "text": "奈费勒的行动",
+                            "text": "您也不想别人知道吧",
                             "tag": "op3"
                         },
                         {
-                            "text": "内宅的仪式",
+                            "text": "奴隶交易（废弃）",
                             "tag": "op4"
                         },
                         {
-                            "text": "年轻人的婚礼",
+                            "text": "奴隶交易(废弃)",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160317_prompt_1",
-                        "text": "你選擇了奈费勒的行动",
+                        "text": "你選擇了念念不忘",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206648
+                    "rite": 5204511
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160317_prompt_2",
-                        "text": "你選擇了奈费勒的行动",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206651
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160317_prompt_3",
-                        "text": "你選擇了奈费勒的行动",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206654
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160317_prompt_4",
-                        "text": "你選擇了内宅的仪式",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5208025
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160317_prompt_5",
                         "text": "你選擇了年轻人的婚礼",
                         "icon": "cards/2000001"
                     },
                     "rite": 5208063
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160317_prompt_3",
+                        "text": "你選擇了您也不想别人知道吧",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200761
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160317_prompt_4",
+                        "text": "你選擇了奴隶交易（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200768
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160317_prompt_5",
+                        "text": "你選擇了奴隶交易(废弃)",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200769
                 },
                 "case:op6": {
                     "event_on": 5160316,

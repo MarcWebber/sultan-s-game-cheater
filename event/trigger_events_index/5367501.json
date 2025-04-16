@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "饥渴",
+                            "text": "久违的清静",
                             "tag": "op1"
                         },
                         {
-                            "text": "抉择",
+                            "text": "久违的清静",
                             "tag": "op2"
                         },
                         {
-                            "text": "剧毒的果实",
+                            "text": "救济日",
                             "tag": "op3"
                         },
                         {
-                            "text": "剧毒的果实",
+                            "text": "酒与肉",
                             "tag": "op4"
                         },
                         {
-                            "text": "家破人亡",
+                            "text": "拒绝逃离",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5110631,
+                    "rite": 5100283,
                     "prompt": {
                         "id": "5367501_prompt_1",
-                        "text": "你選擇了饥渴",
+                        "text": "你選擇了久违的清静",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5120003,
+                    "rite": 5100284,
                     "prompt": {
                         "id": "5367501_prompt_2",
-                        "text": "你選擇了抉择",
+                        "text": "你選擇了久违的清静",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5120004,
+                    "rite": 5120155,
                     "prompt": {
                         "id": "5367501_prompt_3",
-                        "text": "你選擇了剧毒的果实",
+                        "text": "你選擇了救济日",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5120005,
+                    "rite": 5120522,
                     "prompt": {
                         "id": "5367501_prompt_4",
-                        "text": "你選擇了剧毒的果实",
+                        "text": "你選擇了酒与肉",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5120016,
+                    "rite": 5100240,
                     "prompt": {
                         "id": "5367501_prompt_5",
-                        "text": "你選擇了家破人亡",
+                        "text": "你選擇了拒绝逃离",
                         "icon": "cards/2000001"
                     }
                 },

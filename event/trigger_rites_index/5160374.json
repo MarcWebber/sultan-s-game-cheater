@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "无名的暗杀",
+                            "text": "为她们复仇",
                             "tag": "op1"
                         },
                         {
-                            "text": "无名的暗杀",
+                            "text": "未亡人的造访",
                             "tag": "op2"
                         },
                         {
-                            "text": "无名的暗杀",
+                            "text": "未被满足的渴求",
                             "tag": "op3"
                         },
                         {
-                            "text": "武术指导",
+                            "text": "微小的麻烦",
                             "tag": "op4"
                         },
                         {
-                            "text": "未亡人的造访",
+                            "text": "为朱娜赎身",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160374_prompt_1",
-                        "text": "你選擇了无名的暗杀",
+                        "text": "你選擇了为她们复仇",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200555
+                    "rite": 5200512
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160374_prompt_2",
-                        "text": "你選擇了无名的暗杀",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200556
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160374_prompt_3",
-                        "text": "你選擇了无名的暗杀",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200557
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160374_prompt_4",
-                        "text": "你選擇了武术指导",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5200611
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160374_prompt_5",
                         "text": "你選擇了未亡人的造访",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200622
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160374_prompt_3",
+                        "text": "你選擇了未被满足的渴求",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200779
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160374_prompt_4",
+                        "text": "你選擇了微小的麻烦",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200784
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160374_prompt_5",
+                        "text": "你選擇了为朱娜赎身",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202022
                 },
                 "case:op6": {
                     "event_on": 5160373,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "赌马",
+                            "text": "帝国的勇士",
                             "tag": "op1"
                         },
                         {
-                            "text": "丢失的钱财",
+                            "text": "帝国勇士排行榜",
                             "tag": "op2"
                         },
                         {
-                            "text": "盗窃范例",
+                            "text": "帝国勇士排行榜",
                             "tag": "op3"
                         },
                         {
-                            "text": "地底的呼唤",
+                            "text": "帝国勇士排行榜",
                             "tag": "op4"
                         },
                         {
-                            "text": "独自前行",
+                            "text": "第一眼",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160231_prompt_1",
-                        "text": "你選擇了赌马",
+                        "text": "你選擇了帝国的勇士",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202515
+                    "rite": 5206612
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160231_prompt_2",
-                        "text": "你選擇了丢失的钱财",
+                        "text": "你選擇了帝国勇士排行榜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204003
+                    "rite": 5206613
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160231_prompt_3",
-                        "text": "你選擇了盗窃范例",
+                        "text": "你選擇了帝国勇士排行榜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204014
+                    "rite": 5206614
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160231_prompt_4",
-                        "text": "你選擇了地底的呼唤",
+                        "text": "你選擇了帝国勇士排行榜",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204802
+                    "rite": 5206615
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160231_prompt_5",
-                        "text": "你選擇了独自前行",
+                        "text": "你選擇了第一眼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206033
+                    "rite": 5208062
                 },
                 "case:op6": {
                     "event_on": 5160230,

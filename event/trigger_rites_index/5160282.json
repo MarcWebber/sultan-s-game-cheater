@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "解脱",
+                            "text": "进谗言",
                             "tag": "op1"
                         },
                         {
-                            "text": "家破人亡",
+                            "text": "近卫的承诺",
                             "tag": "op2"
                         },
                         {
-                            "text": "劫掠商队",
+                            "text": "觐见苏丹",
                             "tag": "op3"
                         },
                         {
-                            "text": "净化之火",
+                            "text": "精巧的讽刺",
                             "tag": "op4"
                         },
                         {
-                            "text": "军事行动",
+                            "text": "惊人的嘲讽",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160282_prompt_1",
-                        "text": "你選擇了解脱",
+                        "text": "你選擇了进谗言",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206069
+                    "rite": 5208040
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160282_prompt_2",
-                        "text": "你選擇了家破人亡",
+                        "text": "你選擇了近卫的承诺",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206513
+                    "rite": 5210015
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160282_prompt_3",
-                        "text": "你選擇了劫掠商队",
+                        "text": "你選擇了觐见苏丹",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206552
+                    "rite": 5210036
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160282_prompt_4",
-                        "text": "你選擇了净化之火",
+                        "text": "你選擇了精巧的讽刺",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206559
+                    "rite": 5200120
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160282_prompt_5",
-                        "text": "你選擇了军事行动",
+                        "text": "你選擇了惊人的嘲讽",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206573
+                    "rite": 5200122
                 },
                 "case:op6": {
                     "event_on": 5160281,

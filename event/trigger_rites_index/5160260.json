@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "荒野集",
+                            "text": "和狮子对决",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑暗的召唤",
+                            "text": "和巨人对决",
                             "tag": "op2"
                         },
                         {
-                            "text": "欢愉的代价",
+                            "text": "合金装备·幻痛",
                             "tag": "op3"
                         },
                         {
-                            "text": "贿赂主管",
+                            "text": "何为正义",
                             "tag": "op4"
                         },
                         {
-                            "text": "欢愉的代价",
+                            "text": "合宜的一餐",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160260_prompt_1",
-                        "text": "你選擇了荒野集",
+                        "text": "你選擇了和狮子对决",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200148
+                    "rite": 5201021
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160260_prompt_2",
-                        "text": "你選擇了黑暗的召唤",
+                        "text": "你選擇了和巨人对决",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200513
+                    "rite": 5201022
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160260_prompt_3",
-                        "text": "你選擇了欢愉的代价",
+                        "text": "你選擇了合金装备·幻痛",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200553
+                    "rite": 5206022
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160260_prompt_4",
-                        "text": "你選擇了贿赂主管",
+                        "text": "你選擇了何为正义",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200560
+                    "rite": 5206509
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160260_prompt_5",
-                        "text": "你選擇了欢愉的代价",
+                        "text": "你選擇了合宜的一餐",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200568
+                    "rite": 5208088
                 },
                 "case:op6": {
                     "event_on": 5160259,

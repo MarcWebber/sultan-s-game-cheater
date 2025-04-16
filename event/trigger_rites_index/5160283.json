@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "军中霸凌",
+                            "text": "静待时机",
                             "tag": "op1"
                         },
                         {
-                            "text": "监督官吏",
+                            "text": "净事阉奴",
                             "tag": "op2"
                         },
                         {
-                            "text": "救济日",
+                            "text": "精致的礼物",
                             "tag": "op3"
                         },
                         {
-                            "text": "巨大的玩具",
+                            "text": "惊天大姐案",
                             "tag": "op4"
                         },
                         {
-                            "text": "进贡",
+                            "text": "净化之火",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160283_prompt_1",
-                        "text": "你選擇了军中霸凌",
+                        "text": "你選擇了静待时机",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206575
+                    "rite": 5200525
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160283_prompt_2",
-                        "text": "你選擇了监督官吏",
+                        "text": "你選擇了净事阉奴",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206582
+                    "rite": 5200573
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160283_prompt_3",
-                        "text": "你選擇了救济日",
+                        "text": "你選擇了精致的礼物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206616
+                    "rite": 5200785
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160283_prompt_4",
-                        "text": "你選擇了巨大的玩具",
+                        "text": "你選擇了惊天大姐案",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206621
+                    "rite": 5200816
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160283_prompt_5",
-                        "text": "你選擇了进贡",
+                        "text": "你選擇了净化之火",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206639
+                    "rite": 5206559
                 },
                 "case:op6": {
                     "event_on": 5160282,

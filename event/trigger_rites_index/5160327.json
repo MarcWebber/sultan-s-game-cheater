@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "权势之盾",
+                            "text": "清流与浊流",
                             "tag": "op1"
                         },
                         {
-                            "text": "强取",
+                            "text": "清流交汇",
                             "tag": "op2"
                         },
                         {
-                            "text": "强取",
+                            "text": "青年的帷幕",
                             "tag": "op3"
                         },
                         {
-                            "text": "穷人到底需要什么？",
+                            "text": "清洗异端",
                             "tag": "op4"
                         },
                         {
-                            "text": "清流交汇",
+                            "text": "穷人到底需要什么？",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160327_prompt_1",
-                        "text": "你選擇了权势之盾",
+                        "text": "你選擇了清流与浊流",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206590
+                    "rite": 5206538
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160327_prompt_2",
-                        "text": "你選擇了强取",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206637
-                },
-                "case:op3": {
-                    "prompt": {
-                        "id": "5160327_prompt_3",
-                        "text": "你選擇了强取",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206640
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160327_prompt_4",
-                        "text": "你選擇了穷人到底需要什么？",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5206646
-                },
-                "case:op5": {
-                    "prompt": {
-                        "id": "5160327_prompt_5",
                         "text": "你選擇了清流交汇",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206662
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160327_prompt_3",
+                        "text": "你選擇了青年的帷幕",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208010
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160327_prompt_4",
+                        "text": "你選擇了清洗异端",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208179
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160327_prompt_5",
+                        "text": "你選擇了穷人到底需要什么？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206646
                 },
                 "case:op6": {
                     "event_on": 5160326,

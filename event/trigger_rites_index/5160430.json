@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "直面苏丹",
+                            "text": "抓贼",
                             "tag": "op1"
                         },
                         {
-                            "text": "战败者的挽歌",
+                            "text": "转生的真神",
                             "tag": "op2"
                         },
                         {
-                            "text": "这或许不是最好的主意……",
+                            "text": "装备商人",
                             "tag": "op3"
                         },
                         {
-                            "text": "在阴影中",
+                            "text": "装备商人",
                             "tag": "op4"
                         },
                         {
-                            "text": "在阴影中",
+                            "text": "追忆过去荣光",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160430_prompt_1",
-                        "text": "你選擇了直面苏丹",
+                        "text": "你選擇了抓贼",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206080
+                    "rite": 5208067
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160430_prompt_2",
-                        "text": "你選擇了战败者的挽歌",
+                        "text": "你選擇了转生的真神",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206082
+                    "rite": 5210049
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160430_prompt_3",
-                        "text": "你選擇了这或许不是最好的主意……",
+                        "text": "你選擇了装备商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206505
+                    "rite": 5202010
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160430_prompt_4",
-                        "text": "你選擇了在阴影中",
+                        "text": "你選擇了装备商人",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206526
+                    "rite": 5202011
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160430_prompt_5",
-                        "text": "你選擇了在阴影中",
+                        "text": "你選擇了追忆过去荣光",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206528
+                    "rite": 5200116
                 },
                 "case:op6": {
                     "event_on": 5160429,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "荒野一锅炖",
+                            "text": "火山魔龙",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑街赛狗",
+                            "text": "火山魔龙-决战",
                             "tag": "op2"
                         },
                         {
-                            "text": "后宫的空缺",
+                            "text": "活人献祭",
                             "tag": "op3"
                         },
                         {
-                            "text": "荒诞之欢",
+                            "text": "获得禁忌的古书",
                             "tag": "op4"
                         },
                         {
-                            "text": "皇宫",
+                            "text": "火中的自由",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160272_prompt_1",
-                        "text": "你選擇了荒野一锅炖",
+                        "text": "你選擇了火山魔龙",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208136
+                    "rite": 5200708
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160272_prompt_2",
-                        "text": "你選擇了黑街赛狗",
+                        "text": "你選擇了火山魔龙-决战",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208146
+                    "rite": 5200735
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160272_prompt_3",
-                        "text": "你選擇了后宫的空缺",
+                        "text": "你選擇了活人献祭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208169
+                    "rite": 5200737
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160272_prompt_4",
-                        "text": "你選擇了荒诞之欢",
+                        "text": "你選擇了获得禁忌的古书",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208171
+                    "rite": 5200741
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160272_prompt_5",
-                        "text": "你選擇了皇宫",
+                        "text": "你選擇了火中的自由",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5210013
+                    "rite": 5200786
                 },
                 "case:op6": {
                     "event_on": 5160271,

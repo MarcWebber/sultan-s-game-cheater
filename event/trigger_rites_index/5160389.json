@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "下水道的鳄鱼",
+                            "text": "邪恶的线索",
                             "tag": "op1"
                         },
                         {
-                            "text": "向教会求助",
+                            "text": "邪恶化身",
                             "tag": "op2"
                         },
                         {
-                            "text": "选光者",
+                            "text": "邪恶徽记",
                             "tag": "op3"
                         },
                         {
-                            "text": "心中之神",
+                            "text": "谢肉祭",
                             "tag": "op4"
                         },
                         {
-                            "text": "消解疯狂",
+                            "text": "心中之神",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160389_prompt_1",
-                        "text": "你選擇了下水道的鳄鱼",
+                        "text": "你選擇了邪恶的线索",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202510
+                    "rite": 5200509
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160389_prompt_2",
-                        "text": "你選擇了向教会求助",
+                        "text": "你選擇了邪恶化身",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204501
+                    "rite": 5206555
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160389_prompt_3",
-                        "text": "你選擇了选光者",
+                        "text": "你選擇了邪恶徽记",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204526
+                    "rite": 5206574
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160389_prompt_4",
-                        "text": "你選擇了心中之神",
+                        "text": "你選擇了谢肉祭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204803
+                    "rite": 5208106
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160389_prompt_5",
-                        "text": "你選擇了消解疯狂",
+                        "text": "你選擇了心中之神",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5204817
+                    "rite": 5204803
                 },
                 "case:op6": {
                     "event_on": 5160388,

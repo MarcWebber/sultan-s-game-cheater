@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "苏丹奔赴猎场",
+                            "text": "神的警告",
                             "tag": "op1"
                         },
                         {
-                            "text": "奢侈的欢欣",
+                            "text": "神的警告",
                             "tag": "op2"
                         },
                         {
-                            "text": "苏丹的游戏",
+                            "text": "深潜",
                             "tag": "op3"
                         },
                         {
-                            "text": "石妓女赎身",
+                            "text": "深谈",
                             "tag": "op4"
                         },
                         {
-                            "text": "升华",
+                            "text": "深谈",
                             "tag": "op5"
                         },
                         {
@@ -53,42 +53,42 @@
                     ]
                 },
                 "case:op1": {
-                    "rite": 5100263,
+                    "rite": 5110844,
                     "prompt": {
                         "id": "5367573_prompt_1",
-                        "text": "你選擇了苏丹奔赴猎场",
+                        "text": "你選擇了神的警告",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op2": {
-                    "rite": 5100282,
+                    "rite": 5110845,
                     "prompt": {
                         "id": "5367573_prompt_2",
-                        "text": "你選擇了奢侈的欢欣",
+                        "text": "你選擇了神的警告",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op3": {
-                    "rite": 5100292,
+                    "rite": 5120550,
                     "prompt": {
                         "id": "5367573_prompt_3",
-                        "text": "你選擇了苏丹的游戏",
+                        "text": "你選擇了深潜",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op4": {
-                    "rite": 5100304,
+                    "rite": 5120551,
                     "prompt": {
                         "id": "5367573_prompt_4",
-                        "text": "你選擇了石妓女赎身",
+                        "text": "你選擇了深谈",
                         "icon": "cards/2000001"
                     }
                 },
                 "case:op5": {
-                    "rite": 5100317,
+                    "rite": 5120552,
                     "prompt": {
                         "id": "5367573_prompt_5",
-                        "text": "你選擇了升华",
+                        "text": "你選擇了深谈",
                         "icon": "cards/2000001"
                     }
                 },

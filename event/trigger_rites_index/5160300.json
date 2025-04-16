@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "离间计划",
+                            "text": "另谋出路",
                             "tag": "op1"
                         },
                         {
-                            "text": "离间计",
+                            "text": "领受神恩",
                             "tag": "op2"
                         },
                         {
-                            "text": "牢狱之灾",
+                            "text": "灵光之试",
                             "tag": "op3"
                         },
                         {
-                            "text": "老鼠一样的逃亡",
+                            "text": "六尺之下",
                             "tag": "op4"
                         },
                         {
-                            "text": "老乡见老乡",
+                            "text": "流言四起",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160300_prompt_1",
-                        "text": "你選擇了离间计划",
+                        "text": "你選擇了另谋出路",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207006
+                    "rite": 5200780
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160300_prompt_2",
-                        "text": "你選擇了离间计",
+                        "text": "你選擇了领受神恩",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5207007
+                    "rite": 5204513
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160300_prompt_3",
-                        "text": "你選擇了牢狱之灾",
+                        "text": "你選擇了灵光之试",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208044
+                    "rite": 5204525
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160300_prompt_4",
-                        "text": "你選擇了老鼠一样的逃亡",
+                        "text": "你選擇了六尺之下",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208059
+                    "rite": 5200836
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160300_prompt_5",
-                        "text": "你選擇了老乡见老乡",
+                        "text": "你選擇了流言四起",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208065
+                    "rite": 5203012
                 },
                 "case:op6": {
                     "event_on": 5160299,

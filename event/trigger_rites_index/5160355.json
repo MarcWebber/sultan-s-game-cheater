@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "损坏的器皿",
+                            "text": "水银之血",
                             "tag": "op1"
                         },
                         {
-                            "text": "苏丹的猜忌",
+                            "text": "硕鼠",
                             "tag": "op2"
                         },
                         {
-                            "text": "赏赐",
+                            "text": "思辨集",
                             "tag": "op3"
                         },
                         {
-                            "text": "石餐盒",
+                            "text": "四十七种优雅姿态",
                             "tag": "op4"
                         },
                         {
-                            "text": "沙尘往事",
+                            "text": "私情与背叛（废弃）",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160355_prompt_1",
-                        "text": "你選擇了损坏的器皿",
+                        "text": "你選擇了水银之血",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206583
+                    "rite": 5200040
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160355_prompt_2",
-                        "text": "你選擇了苏丹的猜忌",
+                        "text": "你選擇了硕鼠",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206591
+                    "rite": 5208098
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160355_prompt_3",
-                        "text": "你選擇了赏赐",
+                        "text": "你選擇了思辨集",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206618
+                    "rite": 5200042
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160355_prompt_4",
-                        "text": "你選擇了石餐盒",
+                        "text": "你選擇了四十七种优雅姿态",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206622
+                    "rite": 5200046
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160355_prompt_5",
-                        "text": "你選擇了沙尘往事",
+                        "text": "你選擇了私情与背叛（废弃）",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206625
+                    "rite": 5200564
                 },
                 "case:op6": {
                     "event_on": 5160354,

@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "夜间的战斗",
+                            "text": "严厉刑罚",
                             "tag": "op1"
                         },
                         {
-                            "text": "以弱胜强",
+                            "text": "研究神秘的锅",
                             "tag": "op2"
                         },
                         {
-                            "text": "游牧民的生活",
+                            "text": "炎日天平",
                             "tag": "op3"
                         },
                         {
-                            "text": "勇武故事集",
+                            "text": "岩石奢靡卡",
                             "tag": "op4"
                         },
                         {
-                            "text": "异国商人",
+                            "text": "研读结果",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160400_prompt_1",
-                        "text": "你選擇了夜间的战斗",
+                        "text": "你選擇了严厉刑罚",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200016
+                    "rite": 5200672
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160400_prompt_2",
-                        "text": "你選擇了以弱胜强",
+                        "text": "你選擇了研究神秘的锅",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200017
+                    "rite": 5200745
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160400_prompt_3",
-                        "text": "你選擇了游牧民的生活",
+                        "text": "你選擇了炎日天平",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200032
+                    "rite": 5204517
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160400_prompt_4",
-                        "text": "你選擇了勇武故事集",
+                        "text": "你選擇了岩石奢靡卡",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200038
+                    "rite": 5205103
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160400_prompt_5",
-                        "text": "你選擇了异国商人",
+                        "text": "你選擇了研读结果",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200056
+                    "rite": 5206063
                 },
                 "case:op6": {
                     "event_on": 5160399,

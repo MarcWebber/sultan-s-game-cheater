@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "最后的准备",
+                            "text": "诸地暴乱",
                             "tag": "op1"
                         },
                         {
-                            "text": "战斗的目的",
+                            "text": "朱娜的游戏",
                             "tag": "op2"
                         },
                         {
-                            "text": "战士的结合",
+                            "text": "朱娜的游戏",
                             "tag": "op3"
                         },
                         {
-                            "text": "最后的准备",
+                            "text": "逐渐完美的造物",
                             "tag": "op4"
                         },
                         {
-                            "text": "致命一击",
+                            "text": "主人的宴会",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160429_prompt_1",
-                        "text": "你選擇了最后的准备",
+                        "text": "你選擇了诸地暴乱",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206037
+                    "rite": 5200679
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160429_prompt_2",
-                        "text": "你選擇了战斗的目的",
+                        "text": "你選擇了朱娜的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206045
+                    "rite": 5200801
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160429_prompt_3",
-                        "text": "你選擇了战士的结合",
+                        "text": "你選擇了朱娜的游戏",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206057
+                    "rite": 5200806
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160429_prompt_4",
-                        "text": "你選擇了最后的准备",
+                        "text": "你選擇了逐渐完美的造物",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206065
+                    "rite": 5206016
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160429_prompt_5",
-                        "text": "你選擇了致命一击",
+                        "text": "你選擇了主人的宴会",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5206068
+                    "rite": 5206626
                 },
                 "case:op6": {
                     "event_on": 5160428,

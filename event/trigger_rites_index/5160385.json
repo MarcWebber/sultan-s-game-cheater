@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "星神的契约",
+                            "text": "贤者的话语",
                             "tag": "op1"
                         },
                         {
-                            "text": "向星星许愿",
+                            "text": "先王的后宫",
                             "tag": "op2"
                         },
                         {
-                            "text": "星之衰",
+                            "text": "先钱后货",
                             "tag": "op3"
                         },
                         {
-                            "text": "袭击者的巢穴",
+                            "text": "仙人掌蛋糕",
                             "tag": "op4"
                         },
                         {
-                            "text": "虚荣作祟",
+                            "text": "献祭",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160385_prompt_1",
-                        "text": "你選擇了星神的契约",
+                        "text": "你選擇了贤者的话语",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200579
+                    "rite": 5200041
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160385_prompt_2",
-                        "text": "你選擇了向星星许愿",
+                        "text": "你選擇了先王的后宫",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200580
+                    "rite": 5206580
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160385_prompt_3",
-                        "text": "你選擇了星之衰",
+                        "text": "你選擇了先钱后货",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200583
+                    "rite": 5208069
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160385_prompt_4",
-                        "text": "你選擇了袭击者的巢穴",
+                        "text": "你選擇了仙人掌蛋糕",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200601
+                    "rite": 5208140
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160385_prompt_5",
-                        "text": "你選擇了虚荣作祟",
+                        "text": "你選擇了献祭",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200650
+                    "rite": 5210056
                 },
                 "case:op6": {
                     "event_on": 5160384,

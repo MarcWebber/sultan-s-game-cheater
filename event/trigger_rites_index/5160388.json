@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "寻欢作乐的高手",
+                            "text": "消解疯狂",
                             "tag": "op1"
                         },
                         {
-                            "text": "香消玉殒",
+                            "text": "销毁图纸",
                             "tag": "op2"
                         },
                         {
-                            "text": "夏玛的葬礼",
+                            "text": "小贼的命运",
                             "tag": "op3"
                         },
                         {
-                            "text": "袭杀凶狮",
+                            "text": "小狗和月亮之歌",
                             "tag": "op4"
                         },
                         {
-                            "text": "凶狮肆虐",
+                            "text": "谐音谩骂",
                             "tag": "op5"
                         },
                         {
@@ -55,42 +55,42 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160388_prompt_1",
-                        "text": "你選擇了寻欢作乐的高手",
+                        "text": "你選擇了消解疯狂",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5200862
+                    "rite": 5204817
                 },
                 "case:op2": {
                     "prompt": {
                         "id": "5160388_prompt_2",
-                        "text": "你選擇了香消玉殒",
+                        "text": "你選擇了销毁图纸",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5201104
+                    "rite": 5208024
                 },
                 "case:op3": {
                     "prompt": {
                         "id": "5160388_prompt_3",
-                        "text": "你選擇了夏玛的葬礼",
+                        "text": "你選擇了小贼的命运",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202029
+                    "rite": 5208070
                 },
                 "case:op4": {
                     "prompt": {
                         "id": "5160388_prompt_4",
-                        "text": "你選擇了袭杀凶狮",
+                        "text": "你選擇了小狗和月亮之歌",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202505
+                    "rite": 5208162
                 },
                 "case:op5": {
                     "prompt": {
                         "id": "5160388_prompt_5",
-                        "text": "你選擇了凶狮肆虐",
+                        "text": "你選擇了谐音谩骂",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5202507
+                    "rite": 5200119
                 },
                 "case:op6": {
                     "event_on": 5160387,

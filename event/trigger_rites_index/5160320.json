@@ -19,19 +19,19 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "迫不及待",
+                            "text": "拼凑真相",
                             "tag": "op1"
                         },
                         {
-                            "text": "破坏证据",
+                            "text": "迫不及待",
                             "tag": "op2"
                         },
                         {
-                            "text": "破财消灾",
+                            "text": "破坏证据",
                             "tag": "op3"
                         },
                         {
-                            "text": "破坏名声",
+                            "text": "破财消灾",
                             "tag": "op4"
                         },
                         {
@@ -55,34 +55,34 @@
                 "case:op1": {
                     "prompt": {
                         "id": "5160320_prompt_1",
+                        "text": "你選擇了拼凑真相",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208150
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160320_prompt_2",
                         "text": "你選擇了迫不及待",
                         "icon": "cards/2000001"
                     },
                     "rite": 5200653
                 },
-                "case:op2": {
+                "case:op3": {
                     "prompt": {
-                        "id": "5160320_prompt_2",
+                        "id": "5160320_prompt_3",
                         "text": "你選擇了破坏证据",
                         "icon": "cards/2000001"
                     },
                     "rite": 5201025
                 },
-                "case:op3": {
+                "case:op4": {
                     "prompt": {
-                        "id": "5160320_prompt_3",
+                        "id": "5160320_prompt_4",
                         "text": "你選擇了破财消灾",
                         "icon": "cards/2000001"
                     },
                     "rite": 5206007
-                },
-                "case:op4": {
-                    "prompt": {
-                        "id": "5160320_prompt_4",
-                        "text": "你選擇了破坏名声",
-                        "icon": "cards/2000001"
-                    },
-                    "rite": 5207003
                 },
                 "case:op5": {
                     "prompt": {
@@ -90,7 +90,7 @@
                         "text": "你選擇了破坏名声",
                         "icon": "cards/2000001"
                     },
-                    "rite": 5208039
+                    "rite": 5207003
                 },
                 "case:op6": {
                     "event_on": 5160319,
