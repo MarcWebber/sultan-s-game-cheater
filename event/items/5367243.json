@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "黑街声望",
+                            "text": "赫米尔",
                             "tag": "op1"
                         },
                         {
-                            "text": "黑牢深处",
+                            "text": "黑街声望",
                             "tag": "op2"
                         },
                         {
-                            "text": "黑水晶面具",
+                            "text": "黑牢深处",
                             "tag": "op3"
                         },
                         {
-                            "text": "黑暗力量",
+                            "text": "黑水晶面具",
                             "tag": "op4"
                         },
                         {
-                            "text": "黑暗根源",
+                            "text": "黑暗力量",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000191",
+                        "2000885",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367243_prompt_1",
+                        "text": "你選擇了赫米尔",
+                        "icon": "cards/2000885"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000191",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367243_prompt_2",
                         "text": "你選擇了黑街声望",
                         "icon": "cards/2000191"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000311",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367243_prompt_2",
+                        "id": "5367243_prompt_3",
                         "text": "你選擇了黑牢深处",
                         "icon": "cards/2000311"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2000444",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367243_prompt_3",
+                        "id": "5367243_prompt_4",
                         "text": "你選擇了黑水晶面具",
                         "icon": "cards/2000444"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000463",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367243_prompt_4",
+                        "id": "5367243_prompt_5",
                         "text": "你選擇了黑暗力量",
                         "icon": "cards/2000463"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000487",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367243_prompt_5",
-                        "text": "你選擇了黑暗根源",
-                        "icon": "cards/2000487"
                     }
                 },
                 "case:op6": {

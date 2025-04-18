@@ -2813,7 +2813,10 @@
             "result_text": "",
             "result": {
                 "counter+7000430": 1,
-                "loot": 6001056,
+                "loot": [
+                    6001056,
+                    6001070
+                ],
                 "failed": {
                     "think_pop.5000002_result_14": "今天暂时想不出来别的好主意了，明天再想想吧。"
                 }
@@ -5054,7 +5057,24 @@
                 "rite": 5010052,
                 "prompt": {
                     "id": "5000002_prompt_327",
-                    "text": "手中的卵开始哭泣",
+                    "text": "手中的卵开始哭泣。",
+                    "icon": "cards/2001123"
+                }
+            }
+        },
+        {
+            "condition": //常规结果：卵
+            {
+                "s1.is": 2001123, //卵
+                "counter.7000657>=": 1 //标识喂食完成
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {},
+            "action": {
+                "prompt": {
+                    "id": "5000002_prompt_330",
+                    "text": "手中的卵安静得像一个吃饱饭后睡着的孩子。",
                     "icon": "cards/2001123"
                 }
             }
@@ -5067,9 +5087,11 @@
             },
             "result_title": "",
             "result_text": "",
-            "result": {},
+            "result": {
+                "s1+回收": 1,
+            },
             "action": {
-                "event_on": 5000515,
+                "rite": 5000515,
                 "prompt": {
                     "id": "5000002_prompt_328",
                     "text": "白蜜琥珀宝珠能用来驱散诅咒",
@@ -5095,6 +5117,92 @@
                     "icon": "cards/2000319"
                 }
             }
+        },
+        //声望卡-------------------------------------------------
+        {
+            "condition": {
+                "s1.is": 2001141, //好人卡
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {
+                "clean.s1": 1,
+                "counter+7100001": 10,
+                "prompt": {
+                    "id": "5000002_prompt_331",
+                    "text": "人们回忆起了一些你曾做过的善事。",
+                    "icon": "cards/2001141"
+                }
+            },
+            "action": {}
+        },
+        {
+            "condition": {
+                "s1.is": 2001142, //坏人卡
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {
+                "clean.s1": 1,
+                "counter+7100002": 10,
+                "prompt": {
+                    "id": "5000002_prompt_332",
+                    "text": "不知为何，你三岁时做过的坏事又被人翻出来一遍遍说。",
+                    "icon": "cards/2001142"
+                }
+            },
+            "action": {}
+        },
+        {
+            "condition": {
+                "s1.is": 2001143, //狠人卡
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {
+                "clean.s1": 1,
+                "counter+7100004": 10,
+                "prompt": {
+                    "id": "5000002_prompt_333",
+                    "text": "黑街开始有人打着你的旗号肆意妄为，你不知道这是好是坏。",
+                    "icon": "cards/2001143"
+                }
+            },
+            "action": {}
+        },
+        {
+            "condition": {
+                "s1.is": 2001144, //老爷卡
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {
+                "clean.s1": 1,
+                "counter+7100003": 10,
+                "prompt": {
+                    "id": "5000002_prompt_334",
+                    "text": "经过一番造势，你的权势被烘托得更上一层楼。",
+                    "icon": "cards/2001144"
+                }
+            },
+            "action": {}
+        },
+        {
+            "condition": {
+                "s1.is": 2001145, //怪人卡
+            },
+            "result_title": "",
+            "result_text": "",
+            "result": {
+                "clean.s1": 1,
+                "counter+7100005": 10,
+                "prompt": {
+                    "id": "5000002_prompt_335",
+                    "text": "一些东西从阴影里爬了出来……爬进你的视野、爬进你的脑海里。",
+                    "icon": "cards/2001145"
+                }
+            },
+            "action": {}
         },
         //-------------保底操作------------------------------
         {

@@ -19,103 +19,64 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "战士的护巾",
+                            "text": "鸳鸯戒指",
                             "tag": "op1"
                         },
                         {
-                            "text": "湛蓝丝巾",
+                            "text": "月牙",
                             "tag": "op2"
                         },
                         {
-                            "text": "战车项链",
+                            "text": "月之暗面",
                             "tag": "op3"
                         },
                         {
-                            "text": "斩首斧",
+                            "text": "上一页",
                             "tag": "op4"
                         },
                         {
-                            "text": "斩王剑",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op7"
-                        },
-                        {
                             "text": "返回",
-                            "tag": "op8"
+                            "tag": "op5"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000571",
+                        "2000823",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367342_prompt_1",
-                        "text": "你選擇了战士的护巾",
-                        "icon": "cards/2000571"
+                        "text": "你選擇了鸳鸯戒指",
+                        "icon": "cards/2000823"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000779",
+                        "2000990",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367342_prompt_2",
-                        "text": "你選擇了湛蓝丝巾",
-                        "icon": "cards/2000779"
+                        "text": "你選擇了月牙",
+                        "icon": "cards/2000990"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000826",
+                        "2001062",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367342_prompt_3",
-                        "text": "你選擇了战车项链",
-                        "icon": "cards/2000826"
+                        "text": "你選擇了月之暗面",
+                        "icon": "cards/2001062"
                     }
                 },
                 "case:op4": {
-                    "g.card": [
-                        "2000920",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367342_prompt_4",
-                        "text": "你選擇了斩首斧",
-                        "icon": "cards/2000920"
-                    }
+                    "event_on": 5367341
                 },
                 "case:op5": {
-                    "g.card": [
-                        "2000916",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367342_prompt_5",
-                        "text": "你選擇了斩王剑",
-                        "icon": "cards/2000916"
-                    }
-                },
-                "case:op6": {
-                    "event_on": 5367341,
-                    "event_off": 5367342
-                },
-                "case:op7": {
-                    "event_on": 5367343,
-                    "event_off": 5367342
-                },
-                "case:op8": {
                     "event_off": 5367342
                 }
             }

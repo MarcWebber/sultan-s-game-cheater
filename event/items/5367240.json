@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "光明之眼",
+                            "text": "官吏的支持",
                             "tag": "op1"
                         },
                         {
-                            "text": "贵族囚牢",
+                            "text": "光明之眼",
                             "tag": "op2"
                         },
                         {
-                            "text": "贵族的尸体",
+                            "text": "贵族囚牢",
                             "tag": "op3"
                         },
                         {
-                            "text": "诡异的幻听",
+                            "text": "贵族的尸体",
                             "tag": "op4"
                         },
                         {
-                            "text": "贵族领地的卫兵",
+                            "text": "诡异的幻听",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000960",
+                        "2000679",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367240_prompt_1",
+                        "text": "你選擇了官吏的支持",
+                        "icon": "cards/2000679"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000960",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367240_prompt_2",
                         "text": "你選擇了光明之眼",
                         "icon": "cards/2000960"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000310",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367240_prompt_2",
+                        "id": "5367240_prompt_3",
                         "text": "你選擇了贵族囚牢",
                         "icon": "cards/2000310"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2000378",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367240_prompt_3",
+                        "id": "5367240_prompt_4",
                         "text": "你選擇了贵族的尸体",
                         "icon": "cards/2000378"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000485",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367240_prompt_4",
+                        "id": "5367240_prompt_5",
                         "text": "你選擇了诡异的幻听",
                         "icon": "cards/2000485"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000964",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367240_prompt_5",
-                        "text": "你選擇了贵族领地的卫兵",
-                        "icon": "cards/2000964"
                     }
                 },
                 "case:op6": {

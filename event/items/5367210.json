@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "变幻的韵律",
+                            "text": "编织头环",
                             "tag": "op1"
                         },
                         {
-                            "text": "病容",
+                            "text": "变幻的韵律",
                             "tag": "op2"
                         },
                         {
-                            "text": "饼夹一切",
+                            "text": "病容",
                             "tag": "op3"
                         },
                         {
-                            "text": "不稳定的火箭筒",
+                            "text": "饼夹一切",
                             "tag": "op4"
                         },
                         {
-                            "text": "不引人注意的妆扮",
+                            "text": "不稳定的火箭筒",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000713",
+                        "2000435",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367210_prompt_1",
+                        "text": "你選擇了编织头环",
+                        "icon": "cards/2000435"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000713",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367210_prompt_2",
                         "text": "你選擇了变幻的韵律",
                         "icon": "cards/2000713"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000682",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367210_prompt_2",
+                        "id": "5367210_prompt_3",
                         "text": "你選擇了病容",
                         "icon": "cards/2000682"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2001016",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367210_prompt_3",
+                        "id": "5367210_prompt_4",
                         "text": "你選擇了饼夹一切",
                         "icon": "cards/2001016"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000392",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367210_prompt_4",
+                        "id": "5367210_prompt_5",
                         "text": "你選擇了不稳定的火箭筒",
                         "icon": "cards/2000392"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000449",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367210_prompt_5",
-                        "text": "你選擇了不引人注意的妆扮",
-                        "icon": "cards/2000449"
                     }
                 },
                 "case:op6": {

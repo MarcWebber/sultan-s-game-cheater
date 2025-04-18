@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "倒计时",
+                            "text": "刀风众",
                             "tag": "op1"
                         },
                         {
-                            "text": "得利",
+                            "text": "倒计时",
                             "tag": "op2"
                         },
                         {
-                            "text": "等死的奴隶",
+                            "text": "得利",
                             "tag": "op3"
                         },
                         {
-                            "text": "等待太久",
+                            "text": "等死的奴隶",
                             "tag": "op4"
                         },
                         {
-                            "text": "地图与边疆",
+                            "text": "等待太久",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2001058",
+                        "2000968",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367224_prompt_1",
+                        "text": "你選擇了刀风众",
+                        "icon": "cards/2000968"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001058",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367224_prompt_2",
                         "text": "你選擇了倒计时",
                         "icon": "cards/2001058"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000875",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367224_prompt_2",
+                        "id": "5367224_prompt_3",
                         "text": "你選擇了得利",
                         "icon": "cards/2000875"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2000534",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367224_prompt_3",
+                        "id": "5367224_prompt_4",
                         "text": "你選擇了等死的奴隶",
                         "icon": "cards/2000534"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000799",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367224_prompt_4",
+                        "id": "5367224_prompt_5",
                         "text": "你選擇了等待太久",
                         "icon": "cards/2000799"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000222",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367224_prompt_5",
-                        "text": "你選擇了地图与边疆",
-                        "icon": "cards/2000222"
                     }
                 },
                 "case:op6": {

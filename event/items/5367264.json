@@ -19,34 +19,103 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "君王的种子",
+                            "text": "军队的好感",
                             "tag": "op1"
                         },
                         {
-                            "text": "上一页",
+                            "text": "军队的支持",
                             "tag": "op2"
                         },
                         {
-                            "text": "返回",
+                            "text": "军用弯刀",
                             "tag": "op3"
+                        },
+                        {
+                            "text": "君主之铠",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "君权神授",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2001021",
+                        "2000673",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367264_prompt_1",
-                        "text": "你選擇了君王的种子",
-                        "icon": "cards/2001021"
+                        "text": "你選擇了军队的好感",
+                        "icon": "cards/2000673"
                     }
                 },
                 "case:op2": {
-                    "event_on": 5367263
+                    "g.card": [
+                        "2000677",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367264_prompt_2",
+                        "text": "你選擇了军队的支持",
+                        "icon": "cards/2000677"
+                    }
                 },
                 "case:op3": {
+                    "g.card": [
+                        "2000828",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367264_prompt_3",
+                        "text": "你選擇了军用弯刀",
+                        "icon": "cards/2000828"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000833",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367264_prompt_4",
+                        "text": "你選擇了君主之铠",
+                        "icon": "cards/2000833"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000911",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367264_prompt_5",
+                        "text": "你選擇了君权神授",
+                        "icon": "cards/2000911"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367263,
+                    "event_off": 5367264
+                },
+                "case:op7": {
+                    "event_on": 5367265,
+                    "event_off": 5367264
+                },
+                "case:op8": {
                     "event_off": 5367264
                 }
             }

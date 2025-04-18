@@ -19,49 +19,103 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "月牙",
+                            "text": "有趣的史诗",
                             "tag": "op1"
                         },
                         {
-                            "text": "月之暗面",
+                            "text": "游牧民绿洲",
                             "tag": "op2"
                         },
                         {
-                            "text": "上一页",
+                            "text": "游牧民乱军",
                             "tag": "op3"
                         },
                         {
-                            "text": "返回",
+                            "text": "雨之子·下卷",
                             "tag": "op4"
+                        },
+                        {
+                            "text": "与龙对话",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000990",
+                        "2000473",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367340_prompt_1",
-                        "text": "你選擇了月牙",
-                        "icon": "cards/2000990"
+                        "text": "你選擇了有趣的史诗",
+                        "icon": "cards/2000473"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2001062",
+                        "2000595",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367340_prompt_2",
-                        "text": "你選擇了月之暗面",
-                        "icon": "cards/2001062"
+                        "text": "你選擇了游牧民绿洲",
+                        "icon": "cards/2000595"
                     }
                 },
                 "case:op3": {
-                    "event_on": 5367339
+                    "g.card": [
+                        "2000979",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367340_prompt_3",
+                        "text": "你選擇了游牧民乱军",
+                        "icon": "cards/2000979"
+                    }
                 },
                 "case:op4": {
+                    "g.card": [
+                        "2000193",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367340_prompt_4",
+                        "text": "你選擇了雨之子·下卷",
+                        "icon": "cards/2000193"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000692",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367340_prompt_5",
+                        "text": "你選擇了与龙对话",
+                        "icon": "cards/2000692"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367339,
+                    "event_off": 5367340
+                },
+                "case:op7": {
+                    "event_on": 5367341,
+                    "event_off": 5367340
+                },
+                "case:op8": {
                     "event_off": 5367340
                 }
             }

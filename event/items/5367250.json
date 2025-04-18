@@ -19,79 +19,103 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "火焰大王军",
+                            "text": "毁灭之神",
                             "tag": "op1"
                         },
                         {
-                            "text": "火龙鳞片",
+                            "text": "灰烬之剑",
                             "tag": "op2"
                         },
                         {
-                            "text": "火龙头颅",
+                            "text": "火龙",
                             "tag": "op3"
                         },
                         {
-                            "text": "活皮草",
+                            "text": "火焰喷射器",
                             "tag": "op4"
                         },
                         {
-                            "text": "上一页",
+                            "text": "火焰大王军",
                             "tag": "op5"
                         },
                         {
-                            "text": "返回",
+                            "text": "上一页",
                             "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000763",
+                        "2000848",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_1",
-                        "text": "你選擇了火焰大王军",
-                        "icon": "cards/2000763"
+                        "text": "你選擇了毁灭之神",
+                        "icon": "cards/2000848"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000949",
+                        "2000997",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_2",
-                        "text": "你選擇了火龙鳞片",
-                        "icon": "cards/2000949"
+                        "text": "你選擇了灰烬之剑",
+                        "icon": "cards/2000997"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000954",
+                        "2000332",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_3",
-                        "text": "你選擇了火龙头颅",
-                        "icon": "cards/2000954"
+                        "text": "你選擇了火龙",
+                        "icon": "cards/2000332"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2001133",
+                        "2000386",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367250_prompt_4",
-                        "text": "你選擇了活皮草",
-                        "icon": "cards/2001133"
+                        "text": "你選擇了火焰喷射器",
+                        "icon": "cards/2000386"
                     }
                 },
                 "case:op5": {
-                    "event_on": 5367249
+                    "g.card": [
+                        "2000763",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367250_prompt_5",
+                        "text": "你選擇了火焰大王军",
+                        "icon": "cards/2000763"
+                    }
                 },
                 "case:op6": {
+                    "event_on": 5367249,
+                    "event_off": 5367250
+                },
+                "case:op7": {
+                    "event_on": 5367251,
+                    "event_off": 5367250
+                },
+                "case:op8": {
                     "event_off": 5367250
                 }
             }

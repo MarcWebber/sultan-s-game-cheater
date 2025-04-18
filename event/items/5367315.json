@@ -19,103 +19,34 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "天象",
+                            "text": "锁子甲",
                             "tag": "op1"
                         },
                         {
-                            "text": "天命所归",
+                            "text": "上一页",
                             "tag": "op2"
                         },
                         {
-                            "text": "天空的刻度",
-                            "tag": "op3"
-                        },
-                        {
-                            "text": "天使们",
-                            "tag": "op4"
-                        },
-                        {
-                            "text": "挑战歌",
-                            "tag": "op5"
-                        },
-                        {
-                            "text": "上一页",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op7"
-                        },
-                        {
                             "text": "返回",
-                            "tag": "op8"
+                            "tag": "op3"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000395",
+                        "2000257",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367315_prompt_1",
-                        "text": "你選擇了天象",
-                        "icon": "cards/2000395"
+                        "text": "你選擇了锁子甲",
+                        "icon": "cards/2000257"
                     }
                 },
                 "case:op2": {
-                    "g.card": [
-                        "2000477",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367315_prompt_2",
-                        "text": "你選擇了天命所归",
-                        "icon": "cards/2000477"
-                    }
+                    "event_on": 5367314
                 },
                 "case:op3": {
-                    "g.card": [
-                        "2000719",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367315_prompt_3",
-                        "text": "你選擇了天空的刻度",
-                        "icon": "cards/2000719"
-                    }
-                },
-                "case:op4": {
-                    "g.card": [
-                        "2001102",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367315_prompt_4",
-                        "text": "你選擇了天使们",
-                        "icon": "cards/2001102"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000481",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367315_prompt_5",
-                        "text": "你選擇了挑战歌",
-                        "icon": "cards/2000481"
-                    }
-                },
-                "case:op6": {
-                    "event_on": 5367314,
-                    "event_off": 5367315
-                },
-                "case:op7": {
-                    "event_on": 5367316,
-                    "event_off": 5367315
-                },
-                "case:op8": {
                     "event_off": 5367315
                 }
             }

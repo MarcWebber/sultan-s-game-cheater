@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "镀金铜拖鞋",
+                            "text": "毒蛇毒液",
                             "tag": "op1"
                         },
                         {
-                            "text": "毒药的线索",
+                            "text": "镀金铜拖鞋",
                             "tag": "op2"
                         },
                         {
-                            "text": "对苏丹的恐惧",
+                            "text": "毒药的线索",
                             "tag": "op3"
                         },
                         {
-                            "text": "对等",
+                            "text": "对苏丹的恐惧",
                             "tag": "op4"
                         },
                         {
-                            "text": "盾与盔",
+                            "text": "对等",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000814",
+                        "2000305",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367227_prompt_1",
+                        "text": "你選擇了毒蛇毒液",
+                        "icon": "cards/2000305"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000814",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367227_prompt_2",
                         "text": "你選擇了镀金铜拖鞋",
                         "icon": "cards/2000814"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2001043",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367227_prompt_2",
+                        "id": "5367227_prompt_3",
                         "text": "你選擇了毒药的线索",
                         "icon": "cards/2001043"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2000100",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367227_prompt_3",
+                        "id": "5367227_prompt_4",
                         "text": "你選擇了对苏丹的恐惧",
                         "icon": "cards/2000100"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000869",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367227_prompt_4",
+                        "id": "5367227_prompt_5",
                         "text": "你選擇了对等",
                         "icon": "cards/2000869"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2000834",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367227_prompt_5",
-                        "text": "你選擇了盾与盔",
-                        "icon": "cards/2000834"
                     }
                 },
                 "case:op6": {

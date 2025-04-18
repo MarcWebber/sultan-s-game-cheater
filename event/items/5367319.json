@@ -19,103 +19,79 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "未鉴定的赃物",
+                            "text": "投石索",
                             "tag": "op1"
                         },
                         {
-                            "text": "伟大的爱情",
+                            "text": "偷窥戒指",
                             "tag": "op2"
                         },
                         {
-                            "text": "伟大的史诗",
+                            "text": "屠龙补给",
                             "tag": "op3"
                         },
                         {
-                            "text": "伟大的黑暗",
+                            "text": "屠龙之书",
                             "tag": "op4"
                         },
                         {
-                            "text": "微笑之盔",
+                            "text": "上一页",
                             "tag": "op5"
                         },
                         {
-                            "text": "上一页",
-                            "tag": "op6"
-                        },
-                        {
-                            "text": "下一页",
-                            "tag": "op7"
-                        },
-                        {
                             "text": "返回",
-                            "tag": "op8"
+                            "tag": "op6"
                         }
                     ]
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000162",
+                        "2000249",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367319_prompt_1",
-                        "text": "你選擇了未鉴定的赃物",
-                        "icon": "cards/2000162"
+                        "text": "你選擇了投石索",
+                        "icon": "cards/2000249"
                     }
                 },
                 "case:op2": {
                     "g.card": [
-                        "2000472",
+                        "2001135",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367319_prompt_2",
-                        "text": "你選擇了伟大的爱情",
-                        "icon": "cards/2000472"
+                        "text": "你選擇了偷窥戒指",
+                        "icon": "cards/2001135"
                     }
                 },
                 "case:op3": {
                     "g.card": [
-                        "2000476",
+                        "2000667",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367319_prompt_3",
-                        "text": "你選擇了伟大的史诗",
-                        "icon": "cards/2000476"
+                        "text": "你選擇了屠龙补给",
+                        "icon": "cards/2000667"
                     }
                 },
                 "case:op4": {
                     "g.card": [
-                        "2000488",
+                        "2000671",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367319_prompt_4",
-                        "text": "你選擇了伟大的黑暗",
-                        "icon": "cards/2000488"
+                        "text": "你選擇了屠龙之书",
+                        "icon": "cards/2000671"
                     }
                 },
                 "case:op5": {
-                    "g.card": [
-                        "2000836",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367319_prompt_5",
-                        "text": "你選擇了微笑之盔",
-                        "icon": "cards/2000836"
-                    }
+                    "event_on": 5367318
                 },
                 "case:op6": {
-                    "event_on": 5367318,
-                    "event_off": 5367319
-                },
-                "case:op7": {
-                    "event_on": 5367320,
-                    "event_off": 5367319
-                },
-                "case:op8": {
                     "event_off": 5367319
                 }
             }
