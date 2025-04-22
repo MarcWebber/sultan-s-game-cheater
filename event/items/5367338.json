@@ -19,23 +19,23 @@
                     "icon": "cards/2000001",
                     "items": [
                         {
-                            "text": "隐蔽的匕首",
+                            "text": "仪式召唤卡",
                             "tag": "op1"
                         },
                         {
-                            "text": "隐身衣",
+                            "text": "隐蔽的匕首",
                             "tag": "op2"
                         },
                         {
-                            "text": "银质香炉",
+                            "text": "隐身衣",
                             "tag": "op3"
                         },
                         {
-                            "text": "影响力",
+                            "text": "银质香炉",
                             "tag": "op4"
                         },
                         {
-                            "text": "硬骨",
+                            "text": "影响力",
                             "tag": "op5"
                         },
                         {
@@ -54,57 +54,57 @@
                 },
                 "case:op1": {
                     "g.card": [
-                        "2000156",
+                        "2666671",
                         "已拥有+1"
                     ],
                     "prompt": {
                         "id": "5367338_prompt_1",
+                        "text": "你選擇了仪式召唤卡",
+                        "icon": "cards/2666671"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000156",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367338_prompt_2",
                         "text": "你選擇了隐蔽的匕首",
                         "icon": "cards/2000156"
                     }
                 },
-                "case:op2": {
+                "case:op3": {
                     "g.card": [
                         "2000273",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367338_prompt_2",
+                        "id": "5367338_prompt_3",
                         "text": "你選擇了隐身衣",
                         "icon": "cards/2000273"
                     }
                 },
-                "case:op3": {
+                "case:op4": {
                     "g.card": [
                         "2000816",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367338_prompt_3",
+                        "id": "5367338_prompt_4",
                         "text": "你選擇了银质香炉",
                         "icon": "cards/2000816"
                     }
                 },
-                "case:op4": {
+                "case:op5": {
                     "g.card": [
                         "2000050",
                         "已拥有+1"
                     ],
                     "prompt": {
-                        "id": "5367338_prompt_4",
+                        "id": "5367338_prompt_5",
                         "text": "你選擇了影响力",
                         "icon": "cards/2000050"
-                    }
-                },
-                "case:op5": {
-                    "g.card": [
-                        "2001029",
-                        "已拥有+1"
-                    ],
-                    "prompt": {
-                        "id": "5367338_prompt_5",
-                        "text": "你選擇了硬骨",
-                        "icon": "cards/2001029"
                     }
                 },
                 "case:op6": {
@@ -116,7 +116,8 @@
                     "event_off": 5367338
                 },
                 "case:op8": {
-                    "event_off": 5367338
+                    "event_off": 5367338,
+                    " event_on": 5367360
                 }
             }
         }

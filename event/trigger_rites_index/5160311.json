@@ -80,7 +80,8 @@
                     "event_on": 5160310
                 },
                 "case:op6": {
-                    "event_off": 5160311
+                    "event_off": 5160311,
+                    "event_on": 5160800
                 }
             }
         }

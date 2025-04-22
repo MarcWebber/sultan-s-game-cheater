@@ -1,6 +1,6 @@
 {
   "id": 5666672,
-  "name": "神圣干预",
+  "name": "提升与降低品质",
   "text": "这是来自神的力量",
   "tips": "",
   "mapping_id": 8001532,
@@ -11,7 +11,7 @@
   "method_settlement": "",
   "auto_begin": 1,
   "auto_result": 1,
-  "location": "自宅:[2,12]",
+  "location": "上城区:[1,12]",
   "icon": "rite_7",
   "tag_tips": [],
   "tag_tips_up": {},
@@ -24,157 +24,6 @@
     {
       "condition": {
         "any": {
-          "s1": 1
-        }
-      },
-      "result_title": "全能强化",
-      "result_text": "你提升了能力",
-      "result": {
-        "s1+社交": 5,
-        "s1+魔力": 5,
-        "s1+魅力": 5,
-        "s1+体魄": 5,
-        "s1+战斗": 5,
-        "s1+智慧": 5,
-        "s1+隐匿": 5,
-        "s1+生存": 5,
-        "s1+重投": 1
-      },
-      "action": {
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s2": 1
-        }
-      },
-      "result_title": "神的賜福",
-      "result_text": "你可以向神索要一笔钱，一些金骰子，倒回次数或者一些好的坏的名声",
-      "result": {},
-      "action": {
-        "event_on": 5366667,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "s3": 1,
-        "s3.rare<=": 3
-      },
-      "result_title": "提升品质",
-      "result_text": "[s3.name]提升了品质",
-      "result": {
-        "s3.uprare": 1,
-        "rite": 5666672
-      },
-      "action": {}
-    },
-    {
-      "condition": {
-        "s4": 1,
-        "s4.rare>=": 2
-      },
-      "result_title": "降低品质",
-      "result_text": "[s4.name]降低了品质",
-      "result": {
-        "s4.uprare": -1,
-        "rite": 5666672
-      },
-      "action": {}
-    },
-    {
-      "condition": {
-        "any": {
-          "s5": 1
-        }
-      },
-      "result_title": "克隆",
-      "result_text": "可以克隆卡",
-      "result": {},
-      "action": {
-        "copy.s5": 1,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s6": 1
-        }
-      },
-      "result_title": "神的贈禮",
-      "result_text": "你可以向神索要装备，道具或者情报，也可以邀请角色，获取苏丹卡",
-      "result": {},
-      "action": {
-        "event_on": 5367000,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s7": 1
-        }
-      },
-      "result_title": "神的耐心",
-      "result_text": "可以冻结卡牌",
-      "result": {},
-      "action": {
-        "s7+冻结": 1,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s8": 1
-        }
-      },
-      "result_title": "擢升为贵族",
-      "result_text": "[s8.name]成为了贵族",
-      "result": {},
-      "action": {
-        "s8+贵族": 1,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s9": 1
-        }
-      },
-      "result_title": "剥夺头衔",
-      "result_text": "[s9.name]不再是贵族",
-      "result": {},
-      "action": {
-        "s9-贵族": 1,
-        "rite": 5666672
-      }
-    },
-    {
-      "condition": {
-        "any": {
-          "s10": 1
-        }
-      },
-      "result_title": "添加或移除TAG",
-      "result_text": "现在你可以给卡牌添加或移除TAG了，这个功能十分离谱，你可以大胆尝试。至于会出什么样的结果？谁知道呢",
-      "result": {
-        "clean.rite": 5666672,
-        "event_on": 5368300
-      },
-      "action": {
-        "rite": 5666672
-      }
-    }
-  ],
-  "settlement_extre": [
-    {
-      "condition":{
-        "any":{
           "s1":1,
           "s2":1,
           "s3":1,
@@ -187,10 +36,43 @@
           "s10":1
         }
       },
-      "result":{
+      "result_title": "各居其位，各得其所",
+      "result_text": "升降有序，阴阳相生，万物皆有其位。",
+      "result": {},
+      "action": {
+        "s1.uprare": 1,
+        "s2.uprare": 1,
+        "s3.uprare": 1,
+        "s4.uprare": 1,
+        "s5.uprare": 1,
+        "s6.uprare": -1,
+        "s7.uprare": -1,
+        "s8.uprare": -1,
+        "s9.uprare": -1,
+        "s10.uprare": -1
+      }
+    }
+  ],
+  "settlement_extre": [
+    {
+      "condition": {
+        "any": {
+          "s1": 1,
+          "s2": 1,
+          "s3": 1,
+          "s4": 1,
+          "s5": 1,
+          "s6": 1,
+          "s7": 1,
+          "s8": 1,
+          "s9": 1,
+          "s10": 1
+        }
+      },
+      "result": {
         // "clean.rite":5666672,
         // 事件自启动，避免循环操作
-        "rite":5666672
+        // "rite": 5666672
       },
       "action": {}
     }
@@ -199,164 +81,128 @@
     "s1": {
       "condition": {
         "any": {
-          "type": "char",
-          "type": "item"
+          
         }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "讓神給予一次洗禮，提升你的能力"
+      "text": "提升品质"
     },
     "s2": {
       "condition": {
         "any": {
-          "type": "char",
-          "type": "item"
+          
         }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "你可以向神索要一笔钱，一些金骰子或者一些名声"
+      "text": "提升品质"
     },
     "s3": {
       "condition": {
         "any": {
-          "type": "char",
-          "type": "item",
-          "type": "sudan"
+          
         }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "可以提升品质",
-      "pops": [
-        {
-          "condition": {
-            "s3.rare<=": 3
-          },
-          "action": {
-            "pop.5666672_s1_01.self": "可以提升品质"
-          }
-        },
-        {
-          "condition": {
-            "s3.rare=": 4
-          },
-          "action": {
-            "pop.5666672_s1_02.self": "无能为力"
-          }
-        }
-      ]
+      "text": "提升品质"
     },
     "s4": {
       "condition": {
         "any": {
-          "type": "char",
-          "type": "item",
-          "type": "sudan"
+          
         }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
-      // 不能为空
       "is_enemy": 0,
-      "text": "可以降低品质",
-      "pops": [
-        {
-          "condition": {
-            "s4.rare>=": 2
-          },
-          "action": {
-            "pop.5666672_s1_01.self": "可以降低品质"
-          }
-        },
-        {
-          "condition": {
-            "s4.rare=": 1
-          },
-          "action": {
-            "pop.5666672_s1_02.self": "无能为力"
-          }
-        }
-      ]
+      "text": "提升品质"
     },
     "s5": {
       "condition": {
         "any": {
-          "type": "item",
-          "type": "sudan"
+          
         }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
-      // 不能为空
       "is_enemy": 0,
-      "text": "可以复制"
+      "text": "提升品质"
     },
     "s6": {
       "condition": {
-        "type": "char"
+        "any": {
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "你可以向神索要装备，道具或者情报，也可以邀请角色"
+      "text": "降低品质"
     },
     "s7": {
       "condition": {
         "any": {
-          "type": "item",
-          "type": "sudan"
+          
         }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "可以冻结卡牌时间"
+      "text": "降低品质"
     },
     "s8": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "降低品质"
     },
     "s9": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "降低品质"
     },
     "s10": {
-      "condition": {},
+      "condition": {
+        "any": {
+          
+        }
+        
+      },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "添加或移除指定TAG"
+      "text": "降低品质"
     }
   }
 }

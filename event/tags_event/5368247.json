@@ -44,7 +44,8 @@
                     "event_on": 5368246
                 },
                 "case:op3": {
-                    "event_off": 5368247
+                    "event_off": 5368247,
+                    "event_on": 5368300
                 }
             }
         }

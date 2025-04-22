@@ -1,6 +1,6 @@
 {
-  "id": 5666671,
-  "name": "赏罚仪式",
+  "id": 5666673,
+  "name": "克隆",
   "text": "这是来自神的力量",
   "tips": "",
   "mapping_id": 8001532,
@@ -36,20 +36,22 @@
           "s10":1
         }
       },
-      "result_title": "赏罚分明",
-      "result_text": "无功不受禄，赏罚分明，才能让人心服口服。",
-      "result": {},
+      "result_title": "卡牌克隆",
+      "result_text": "一气生两仪，两仪生四象，四象生八卦。",
+      "result": {
+        "copy.s1": 1,
+        "copy.s2": 1,
+        "copy.s3": 1,
+        "copy.s4": 1,
+        "copy.s5": 1,
+        "copy.s6": 1,
+        "copy.s7": 1,
+        "copy.s8": 1,
+        "copy.s9": 1,
+        "copy.s10": 1
+      },
       "action": {
-        "s1+贵族": 1,
-        "s2+贵族": 1,
-        "s3+贵族": 1,
-        "s4+贵族": 1,
-        "s5+贵族": 1,
-        "s6-贵族": 1,
-        "s7-贵族": 1,
-        "s8-贵族": 1,
-        "s9-贵族": 1,
-        "s10-贵族": 1
+
       }
     }
   ],
@@ -70,9 +72,9 @@
         }
       },
       "result": {
-        // "clean.rite":5666671,
+        // "clean.rite":5666673,
         // 事件自启动，避免循环操作
-        "rite": 5666671
+        // "rite": 5666673
       },
       "action": {}
     }
@@ -81,132 +83,128 @@
     "s1": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "克隆"
     },
     "s2": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "克隆"
     },
     "s3": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "克隆"
     },
     "s4": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "克隆"
     },
     "s5": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "!贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "授予贵族头衔"
+      "text": "克隆"
     },
     "s6": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "克隆"
     },
     "s7": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "克隆"
     },
     "s8": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "克隆"
     },
     "s9": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "克隆"
     },
     "s10": {
       "condition": {
         "any": {
-          "type": "char"
-        },
-        "贵族": 1
+          
+        }
+        
       },
       "open_adsorb": 0,
       "is_key": 0,
       "is_empty": 1,
       "is_enemy": 0,
-      "text": "剥夺贵族头衔"
+      "text": "克隆"
     }
   }
 }

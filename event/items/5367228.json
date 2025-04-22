@@ -27,12 +27,16 @@
                             "tag": "op2"
                         },
                         {
-                            "text": "上一页",
+                            "text": "夺宝奇兵",
                             "tag": "op3"
                         },
                         {
-                            "text": "返回",
+                            "text": "上一页",
                             "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
                         }
                     ]
                 },
@@ -59,10 +63,22 @@
                     }
                 },
                 "case:op3": {
-                    "event_on": 5367227
+                    "g.card": [
+                        "2000709",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367228_prompt_3",
+                        "text": "你選擇了夺宝奇兵",
+                        "icon": "cards/2000709"
+                    }
                 },
                 "case:op4": {
-                    "event_off": 5367228
+                    "event_on": 5367227
+                },
+                "case:op5": {
+                    "event_off": 5367228,
+                    " event_on": 5367360
                 }
             }
         }

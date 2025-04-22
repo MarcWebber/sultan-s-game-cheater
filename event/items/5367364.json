@@ -31,7 +31,7 @@
                             "tag": "op3"
                         },
                         {
-                            "text": "返回",
+                            "text": "退出",
                             "tag": "op4"
                         }
                     ]
@@ -43,11 +43,9 @@
                     "event_on": 5367343
                 },
                 "case:op3": {
-                    "event_on": 5367363,
-                    "event_off": 5367364
+                    "event_on": 5367363
                 },
                 "case:op4": {
-                    "event_on": 5367363,
                     "event_off": 5367364
                 }
             }

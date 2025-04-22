@@ -101,7 +101,8 @@
                     "event_off": 5160410
                 },
                 "case:op8": {
-                    "event_off": 5160410
+                    "event_off": 5160410,
+                    "event_on": 5160800
                 }
             }
         }
