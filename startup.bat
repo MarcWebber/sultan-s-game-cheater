@@ -228,7 +228,7 @@ if exist "%gamePath%\" (
          )
      )
 
-     
+
     @REM 复制可触发rite索引
     set "equipsPath=!eventPath!"
     for %%f in ("%~dp0event\trigger_rites_index\*.json") do (
@@ -245,6 +245,26 @@ if exist "%gamePath%\" (
          copy /y "%%f" "!equipsPath!\!fileName!" >nul
          if errorlevel 1 (
              echo [错误] 添加可触发rite索引失败: "%%f"
+             exit /b 1
+         )
+     )
+
+    @REM 复制可删除rite的索引
+    set "equipsPath=!eventPath!"
+    for %%f in ("%~dp0event\delete_rites_index\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] LINE 260
+                 exit /b 1
+             )
+         )
+         echo [INFO] 添加用于删除仪式的索引："!fileName!"
+         copy /y "%%f" "!equipsPath!\!fileName!" >nul
+         if errorlevel 1 (
+             echo [错误] 添加索引失败: "%%f"
              exit /b 1
          )
      )

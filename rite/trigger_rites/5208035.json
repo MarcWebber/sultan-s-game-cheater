@@ -213,7 +213,7 @@
       "condition": {
         "部队": 1,
         "any": {
-          "type": "item",
+          "type": "char",
           "is": "2000554"
         }
       },

@@ -1,0 +1,110 @@
+{
+    "id": 5161086,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161086_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "举世无双的赠礼",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "举世无双的爱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "巨大的玩具",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "绝地探索",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "决裂",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161086_prompt_1",
+                        "text": "你選擇了举世无双的赠礼",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006040
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161086_prompt_2",
+                        "text": "你選擇了举世无双的爱",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006041
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161086_prompt_3",
+                        "text": "你選擇了巨大的玩具",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006621
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161086_prompt_4",
+                        "text": "你選擇了绝地探索",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000663
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161086_prompt_5",
+                        "text": "你選擇了决裂",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000782
+                },
+                "case:op6": {
+                    "event_on": 5161085,
+                    "event_off": 5161086
+                },
+                "case:op7": {
+                    "event_on": 5161087,
+                    "event_off": 5161086
+                },
+                "case:op8": {
+                    "event_off": 5161086,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

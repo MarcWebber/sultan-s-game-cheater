@@ -1,0 +1,110 @@
+{
+    "id": 5161019,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161019_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "丑闻缠身",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "处置阿迪莱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "处置阿迪莱",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "初步调查",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "处置女邪术师",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161019_prompt_1",
+                        "text": "你選擇了丑闻缠身",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006515
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161019_prompt_2",
+                        "text": "你選擇了处置阿迪莱",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000633
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161019_prompt_3",
+                        "text": "你選擇了处置阿迪莱",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000639
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161019_prompt_4",
+                        "text": "你選擇了初步调查",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000686
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161019_prompt_5",
+                        "text": "你選擇了处置女邪术师",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000747
+                },
+                "case:op6": {
+                    "event_on": 5161018,
+                    "event_off": 5161019
+                },
+                "case:op7": {
+                    "event_on": 5161020,
+                    "event_off": 5161019
+                },
+                "case:op8": {
+                    "event_off": 5161019,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

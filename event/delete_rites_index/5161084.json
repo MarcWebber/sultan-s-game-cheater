@@ -1,0 +1,110 @@
+{
+    "id": 5161084,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161084_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "精力套餐",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "酒庄的归属",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "酒庄主人再次造访",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "久违的清净",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "纠纷的任务",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161084_prompt_1",
+                        "text": "你選擇了精力套餐",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008139
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161084_prompt_2",
+                        "text": "你選擇了酒庄的归属",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000602
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161084_prompt_3",
+                        "text": "你選擇了酒庄主人再次造访",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000607
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161084_prompt_4",
+                        "text": "你選擇了久违的清净",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000778
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161084_prompt_5",
+                        "text": "你選擇了纠纷的任务",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000828
+                },
+                "case:op6": {
+                    "event_on": 5161083,
+                    "event_off": 5161084
+                },
+                "case:op7": {
+                    "event_on": 5161085,
+                    "event_off": 5161084
+                },
+                "case:op8": {
+                    "event_off": 5161084,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

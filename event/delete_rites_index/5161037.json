@@ -1,0 +1,77 @@
+{
+    "id": 5161037,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161037_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "恶之华",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "耳语之书",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "儿子的索要",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161037_prompt_1",
+                        "text": "你選擇了恶之华",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010050
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161037_prompt_2",
+                        "text": "你選擇了耳语之书",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000051
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161037_prompt_3",
+                        "text": "你選擇了儿子的索要",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000838
+                },
+                "case:op4": {
+                    "event_on": 5161036
+                },
+                "case:op5": {
+                    "event_off": 5161037,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

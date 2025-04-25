@@ -1,0 +1,110 @@
+{
+    "id": 5161104,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161104_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "冒险者酒吧",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "冒险者们的报恩",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "梅姬不再不满",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "魅魔之力",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "梅姬的秘方",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161104_prompt_1",
+                        "text": "你選擇了冒险者酒吧",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008123
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161104_prompt_2",
+                        "text": "你選擇了冒险者们的报恩",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008145
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161104_prompt_3",
+                        "text": "你選擇了梅姬不再不满",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004901
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161104_prompt_4",
+                        "text": "你選擇了魅魔之力",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004903
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161104_prompt_5",
+                        "text": "你選擇了梅姬的秘方",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006043
+                },
+                "case:op6": {
+                    "event_on": 5161103,
+                    "event_off": 5161104
+                },
+                "case:op7": {
+                    "event_on": 5161105,
+                    "event_off": 5161104
+                },
+                "case:op8": {
+                    "event_off": 5161104,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

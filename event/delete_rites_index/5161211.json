@@ -1,0 +1,110 @@
+{
+    "id": 5161211,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161211_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "勇气与团结",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "永世流传之物",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "勇士欢宴",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "游牧民的生活",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "有趣的情诗",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161211_prompt_1",
+                        "text": "你選擇了勇气与团结",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006660
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161211_prompt_2",
+                        "text": "你選擇了永世流传之物",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008020
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161211_prompt_3",
+                        "text": "你選擇了勇士欢宴",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008103
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161211_prompt_4",
+                        "text": "你選擇了游牧民的生活",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000032
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161211_prompt_5",
+                        "text": "你選擇了有趣的情诗",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000110
+                },
+                "case:op6": {
+                    "event_on": 5161210,
+                    "event_off": 5161211
+                },
+                "case:op7": {
+                    "event_on": 5161212,
+                    "event_off": 5161211
+                },
+                "case:op8": {
+                    "event_off": 5161211,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

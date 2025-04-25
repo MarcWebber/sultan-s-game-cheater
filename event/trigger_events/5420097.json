@@ -1,1 +1,30 @@
-{"id": 5420097, "text": "法图娜离去，扎齐伊也离去", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5120097}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.clean.2000063": 1, "prompt": {"id": "5420097_prompt_01", "text": "扎齐伊无法接受母亲的离去，独自离开了这个城市。", "icon": "cards/2000063"}}}], "auto_start": false}
+{
+  "id": 5420097,
+  "text": "法图娜离去，扎齐伊也离去",
+  "is_replay": 0,
+  "auto_start_init": [
+    1
+  ],
+  "start_trigger": true,
+  "on": {
+    "round_begin_ba": 1
+  },
+  "condition": {
+    "rite": 5120097
+  },
+  "settlement": [
+    {
+      "tips_resource": "",
+      "tips_text": "",
+      "action": {
+        "table.clean.2000063": 1,
+        "prompt": {
+          "id": "5420097_prompt_01",
+          "text": "扎齐伊无法接受母亲的离去，独自离开了这个城市。",
+          "icon": "cards/2000063"
+        }
+      }
+    }
+  ],
+  "auto_start": false
+}

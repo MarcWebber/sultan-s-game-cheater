@@ -1,0 +1,110 @@
+{
+    "id": 5161018,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161018_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "斥候训练手册",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "赤裸的茶会",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "赤字滔天",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "持刀的绵羊",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "虫豸怎敢",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161018_prompt_1",
+                        "text": "你選擇了斥候训练手册",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000026
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161018_prompt_2",
+                        "text": "你選擇了赤裸的茶会",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000819
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161018_prompt_3",
+                        "text": "你選擇了赤字滔天",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006585
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161018_prompt_4",
+                        "text": "你選擇了持刀的绵羊",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008130
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161018_prompt_5",
+                        "text": "你選擇了虫豸怎敢",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000724
+                },
+                "case:op6": {
+                    "event_on": 5161017,
+                    "event_off": 5161018
+                },
+                "case:op7": {
+                    "event_on": 5161019,
+                    "event_off": 5161018
+                },
+                "case:op8": {
+                    "event_off": 5161018,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

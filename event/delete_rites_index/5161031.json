@@ -1,0 +1,110 @@
+{
+    "id": 5161031,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161031_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "帝国的勇士",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "帝国勇士排行榜",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "第一眼",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161031_prompt_1",
+                        "text": "你選擇了帝国的勇士",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006612
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161031_prompt_2",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006613
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161031_prompt_3",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006614
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161031_prompt_4",
+                        "text": "你選擇了帝国勇士排行榜",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006615
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161031_prompt_5",
+                        "text": "你選擇了第一眼",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008062
+                },
+                "case:op6": {
+                    "event_on": 5161030,
+                    "event_off": 5161031
+                },
+                "case:op7": {
+                    "event_on": 5161032,
+                    "event_off": 5161031
+                },
+                "case:op8": {
+                    "event_off": 5161031,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

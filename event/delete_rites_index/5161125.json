@@ -1,0 +1,110 @@
+{
+    "id": 5161125,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161125_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "强者待遇",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "强夺凋零之花",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "强取",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "强取",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "悄无声息的离去",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161125_prompt_1",
+                        "text": "你選擇了强者待遇",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006021
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161125_prompt_2",
+                        "text": "你選擇了强夺凋零之花",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006502
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161125_prompt_3",
+                        "text": "你選擇了强取",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006637
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161125_prompt_4",
+                        "text": "你選擇了强取",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006640
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161125_prompt_5",
+                        "text": "你選擇了悄无声息的离去",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000683
+                },
+                "case:op6": {
+                    "event_on": 5161124,
+                    "event_off": 5161125
+                },
+                "case:op7": {
+                    "event_on": 5161126,
+                    "event_off": 5161125
+                },
+                "case:op8": {
+                    "event_off": 5161125,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

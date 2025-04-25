@@ -1,0 +1,110 @@
+{
+    "id": 5161187,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161187_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "向教会求助",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "享用美酒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "消除妻子的不满",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小圆的日记",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "消除隐患",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161187_prompt_1",
+                        "text": "你選擇了向教会求助",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004501
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161187_prompt_2",
+                        "text": "你選擇了享用美酒",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006664
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161187_prompt_3",
+                        "text": "你選擇了消除妻子的不满",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000009
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161187_prompt_4",
+                        "text": "你選擇了小圆的日记",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000128
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161187_prompt_5",
+                        "text": "你選擇了消除隐患",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000561
+                },
+                "case:op6": {
+                    "event_on": 5161186,
+                    "event_off": 5161187
+                },
+                "case:op7": {
+                    "event_on": 5161188,
+                    "event_off": 5161187
+                },
+                "case:op8": {
+                    "event_off": 5161187,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

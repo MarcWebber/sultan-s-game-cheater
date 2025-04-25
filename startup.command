@@ -21,11 +21,11 @@ fi
 # 检查路径是否存在
 if [ -d "$gamePath" ]; then
     echo "游戏路径存在，开始执行文件替换操作."
-    
+
     # === 1. 替换卡牌和商店配置 ===
     dataPath="${gamePath}/Sultan's Game.app/Contents/Resources/Data/StreamingAssets/config"
     echo "数据路径：\"${dataPath}\""
-    
+
     if ! cp -f "$(dirname "$0")/cards.json" "${dataPath}/cards.json"; then
         echo "[错误] 复制cards.json失败"
         exit 1
@@ -35,10 +35,10 @@ if [ -d "$gamePath" ]; then
         exit 1
     fi
     echo "卡牌和商店配置已更新."
-    
+
     # === 2. 添加仪式文件 ===
     ceremonyPath="${gamePath}/Sultan's Game.app/Contents/Resources/Data/StreamingAssets/config/rite"
-    
+
     for file in "$(dirname "$0")/rite"/*.json; do
         fileName=$(basename "$file")
 
@@ -54,7 +54,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     # === 添加额外的仪式（用于触发事件） ====
     for file in "$(dirname "$0")/rite/rites"/*.json; do
         fileName=$(basename "$file")
@@ -71,7 +71,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     # === 添加额外的仪式（用于触发tag添加） ====
     for file in "$(dirname "$0")/rite/tags_rite"/*.json; do
         fileName=$(basename "$file")
@@ -88,7 +88,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     # === 复制可触发仪式（本质上是对于原本仪式的一套备份） ====
     for file in "$(dirname "$0")/rite/trigger_rites"/*.json; do
         fileName=$(basename "$file")
@@ -105,10 +105,10 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     # === 3. 添加事件、道具和装备文件 ===
     eventPath="${gamePath}/Sultan's Game.app/Contents/Resources/Data/StreamingAssets/config/event"
-    
+
     for file in "$(dirname "$0")/event"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -124,7 +124,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/items"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -140,7 +140,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/equips"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -156,7 +156,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_events"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -172,7 +172,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_events_index"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -188,7 +188,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/chars"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -204,7 +204,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/tags_event"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -220,7 +220,7 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_rites_index"/*.json; do
         fileName=$(basename "$file")
         # 清理旧文件
@@ -236,7 +236,23 @@ if [ -d "$gamePath" ]; then
             exit 1
         fi
     done
-    
+
+    for file in "$(dirname "$0")/event/delete_rites_index"/*.json; do
+        fileName=$(basename "$file")
+        # 清理旧文件
+        if [ -f "$eventPath/$fileName" ]; then
+            if ! rm -f "$eventPath/$fileName"; then
+                echo "[错误] 删除可索引失败: $eventPath/$fileName"
+                exit 1
+            fi
+        fi
+        echo "[INFO] 正在添加索引：$fileName"
+        if ! cp -f "$file" "$eventPath/$fileName"; then
+            echo "[错误] 添加: $file"
+            exit 1
+        fi
+    done
+
     echo "所有文件已成功复制到游戏目录！"
     sleep 2
 else

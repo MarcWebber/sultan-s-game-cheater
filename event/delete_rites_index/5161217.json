@@ -1,0 +1,89 @@
+{
+    "id": 5161217,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161217_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "愿你安息",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "怨恨诅咒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "月牙，我心爱的月牙",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "酝酿中的阴谋",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op6"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161217_prompt_1",
+                        "text": "你選擇了愿你安息",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006077
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161217_prompt_2",
+                        "text": "你選擇了怨恨诅咒",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008184
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161217_prompt_3",
+                        "text": "你選擇了月牙，我心爱的月牙",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004906
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161217_prompt_4",
+                        "text": "你選擇了酝酿中的阴谋",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5003010
+                },
+                "case:op5": {
+                    "event_on": 5161216
+                },
+                "case:op6": {
+                    "event_off": 5161217,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

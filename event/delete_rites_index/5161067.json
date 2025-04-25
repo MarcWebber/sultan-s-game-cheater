@@ -1,0 +1,110 @@
+{
+    "id": 5161067,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161067_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "欢宴",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "欢快的访客",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "黄金鸟屋",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "黄金鸟屋",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "黄金猫爬架",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161067_prompt_1",
+                        "text": "你選擇了欢宴",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008047
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161067_prompt_2",
+                        "text": "你選擇了欢快的访客",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008051
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161067_prompt_3",
+                        "text": "你選擇了黄金鸟屋",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000132
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161067_prompt_4",
+                        "text": "你選擇了黄金鸟屋",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000133
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161067_prompt_5",
+                        "text": "你選擇了黄金猫爬架",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000136
+                },
+                "case:op6": {
+                    "event_on": 5161066,
+                    "event_off": 5161067
+                },
+                "case:op7": {
+                    "event_on": 5161068,
+                    "event_off": 5161067
+                },
+                "case:op8": {
+                    "event_off": 5161067,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

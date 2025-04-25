@@ -1,0 +1,110 @@
+{
+    "id": 5161064,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161064_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "后宫的空缺",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "护花使者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "呼啸的山风",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "护花使者",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "花花公子的收服（废弃）",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161064_prompt_1",
+                        "text": "你選擇了后宫的空缺",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008169
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161064_prompt_2",
+                        "text": "你選擇了护花使者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000710
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161064_prompt_3",
+                        "text": "你選擇了呼啸的山风",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000751
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161064_prompt_4",
+                        "text": "你選擇了护花使者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000765
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161064_prompt_5",
+                        "text": "你選擇了花花公子的收服（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000714
+                },
+                "case:op6": {
+                    "event_on": 5161063,
+                    "event_off": 5161064
+                },
+                "case:op7": {
+                    "event_on": 5161065,
+                    "event_off": 5161064
+                },
+                "case:op8": {
+                    "event_off": 5161064,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

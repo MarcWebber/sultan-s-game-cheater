@@ -1,0 +1,53 @@
+{
+    "id": 5161035,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161035_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "夺宝奇兵",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161035_prompt_1",
+                        "text": "你選擇了夺宝奇兵",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000752
+                },
+                "case:op2": {
+                    "event_on": 5161034
+                },
+                "case:op3": {
+                    "event_off": 5161035,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

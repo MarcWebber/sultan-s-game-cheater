@@ -1,0 +1,110 @@
+{
+    "id": 5161010,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161010_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "遍体鳞伤的尸体",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "边缘行者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "编修之苦",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "别人的女儿",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "病弱的老女奴",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161010_prompt_1",
+                        "text": "你選擇了遍体鳞伤的尸体",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5001101
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161010_prompt_2",
+                        "text": "你選擇了边缘行者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5002018
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161010_prompt_3",
+                        "text": "你選擇了编修之苦",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006518
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161010_prompt_4",
+                        "text": "你選擇了别人的女儿",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008033
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161010_prompt_5",
+                        "text": "你選擇了病弱的老女奴",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006605
+                },
+                "case:op6": {
+                    "event_on": 5161009,
+                    "event_off": 5161010
+                },
+                "case:op7": {
+                    "event_on": 5161011,
+                    "event_off": 5161010
+                },
+                "case:op8": {
+                    "event_off": 5161010,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

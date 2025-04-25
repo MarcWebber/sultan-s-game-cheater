@@ -180,6 +180,21 @@ if exist "%gamePath%\" (
          )
      )
 
+    @REM 清理可触发rite索引
+    set "equipsPath=!eventPath!"
+    for %%f in ("%~dp0event\delete_rites_index\*.json") do (
+         set "fileName=%%~nxf"
+         REM 清理旧文件
+         if exist "!equipsPath!\!fileName!" (
+             echo 正在删除"!fileName!"
+             del /q "!equipsPath!\!fileName!"
+             if errorlevel 1 (
+                 echo [错误] 删除: "!equipsPath!\!fileName!" 失败
+                 exit /b 1
+             )
+         )
+     )
+
     @REM 替换回upgrades和cards
     set "backupPath=%~dp0DON'T_EDIT_THIS"
     echo !backupPath!

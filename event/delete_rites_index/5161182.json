@@ -1,0 +1,89 @@
+{
+    "id": 5161182,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161182_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "无谋的复仇",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "武装娇妻",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "午夜利刃",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "无妄之灾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op6"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161182_prompt_1",
+                        "text": "你選擇了无谋的复仇",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5007015
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161182_prompt_2",
+                        "text": "你選擇了武装娇妻",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008002
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161182_prompt_3",
+                        "text": "你選擇了午夜利刃",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008125
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161182_prompt_4",
+                        "text": "你選擇了无妄之灾",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008177
+                },
+                "case:op5": {
+                    "event_on": 5161181
+                },
+                "case:op6": {
+                    "event_off": 5161182,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

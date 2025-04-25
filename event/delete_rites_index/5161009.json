@@ -1,0 +1,110 @@
+{
+    "id": 5161009,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161009_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "避避风头",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "必要的准备",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "比嘬嘬嘬更有用",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "比最好更好的",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "匕首之路",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161009_prompt_1",
+                        "text": "你選擇了避避风头",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000766
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161009_prompt_2",
+                        "text": "你選擇了必要的准备",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006047
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161009_prompt_3",
+                        "text": "你選擇了比嘬嘬嘬更有用",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008147
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161009_prompt_4",
+                        "text": "你選擇了比最好更好的",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008153
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161009_prompt_5",
+                        "text": "你選擇了匕首之路",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010047
+                },
+                "case:op6": {
+                    "event_on": 5161008,
+                    "event_off": 5161009
+                },
+                "case:op7": {
+                    "event_on": 5161010,
+                    "event_off": 5161009
+                },
+                "case:op8": {
+                    "event_off": 5161009,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

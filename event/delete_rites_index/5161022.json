@@ -1,0 +1,110 @@
+{
+    "id": 5161022,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161022_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "处置俘虏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "出发！",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "揣测神意",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "传播密教理念",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "创造正强者",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161022_prompt_1",
+                        "text": "你選擇了处置俘虏",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008180
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161022_prompt_2",
+                        "text": "你選擇了出发！",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010001
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161022_prompt_3",
+                        "text": "你選擇了揣测神意",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004519
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161022_prompt_4",
+                        "text": "你選擇了传播密教理念",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000746
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161022_prompt_5",
+                        "text": "你選擇了创造正强者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006020
+                },
+                "case:op6": {
+                    "event_on": 5161021,
+                    "event_off": 5161022
+                },
+                "case:op7": {
+                    "event_on": 5161023,
+                    "event_off": 5161022
+                },
+                "case:op8": {
+                    "event_off": 5161022,
+                    "event_on": 5161800
+                }
+            }
+        }
+    ]
+}

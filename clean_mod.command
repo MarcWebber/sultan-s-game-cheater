@@ -21,11 +21,11 @@ fi
 # 检查路径是否存在
 if [ -d "$gamePath" ]; then
     echo "游戏路径存在，开始执行文件移除操作."
-    
+
     # === 1. 替换卡牌和商店配置 ===
     dataPath="${gamePath}/Sultan's Game.app/Contents/Resources/Data/StreamingAssets/config"
     echo "数据路径：\"${dataPath}\""
-    
+
     # === 2. 移除仪式文件 ===
     ceremonyPath="${dataPath}/rite"
     for file in "$(dirname "$0")/rite"/*.json; do
@@ -41,7 +41,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     # === 移除额外的仪式（用于触发事件） ====
     for file in "$(dirname "$0")/rite/rites"/*.json; do
         if [ -f "$file" ]; then
@@ -56,7 +56,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     # === 移除额外的TAG仪式（用于触发事件） ====
     for file in "$(dirname "$0")/rite/tags_rite"/*.json; do
         if [ -f "$file" ]; then
@@ -71,7 +71,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     # === 清理复制可触发仪式====
     for file in "$(dirname "$0")/rite/trigger_rites"/*.json; do
         if [ -f "$file" ]; then
@@ -86,10 +86,10 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     # === 3. 移除事件、道具和装备文件 ===
     eventPath="${dataPath}/event"
-    
+
     for file in "$(dirname "$0")/event"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -103,7 +103,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/items"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -116,7 +116,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/equips"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -129,7 +129,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_events"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -143,7 +143,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_events_index"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -156,7 +156,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/chars"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -169,7 +169,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/tags_event"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -183,7 +183,7 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
     for file in "$(dirname "$0")/event/trigger_rites_index"/*.json; do
         if [ -f "$file" ]; then
             fileName=$(basename "$file")
@@ -197,7 +197,21 @@ if [ -d "$gamePath" ]; then
             fi
         fi
     done
-    
+
+    for file in "$(dirname "$0")/event/delete_rites_index"/*.json; do
+        if [ -f "$file" ]; then
+            fileName=$(basename "$file")
+            # 清理旧文件
+            if [ -f "${eventPath}/${fileName}" ]; then
+                echo "正在删除索引文件 ${fileName}"
+                if ! rm -f "${eventPath}/${fileName}"; then
+                    echo "[错误] 删除索引失败: ${eventPath}/${fileName}"
+                    exit 1
+                fi
+            fi
+        fi
+    done
+
     # 替换回upgrades和cards
     backupPath="$(dirname "$0")/DON'T_EDIT_THIS"
     echo "正在修复upgrade.json"
@@ -220,9 +234,9 @@ if [ -d "$gamePath" ]; then
         echo "[错误] 修复开始事件失败"
         exit 1
     fi
-    
+
     echo "mod已经移除"
     sleep 2
 else
     echo "游戏路径不存在，请检查输入的路径是否正确：\"$gamePath\""
-fi 
+fi

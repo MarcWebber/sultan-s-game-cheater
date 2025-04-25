@@ -45,6 +45,10 @@
                             "tag": "op6"
                         },
                         {
+                            "text": "仪式删除卡",
+                            "tag": "op7"
+                        },
+                        {
                             "text": "我不会和魔鬼做交易",
                             "tag": "op_refuse"
                         }
@@ -122,9 +126,21 @@
                     },
                     "event_off": 5366668
                 },
-                "case:op_refuse": {
+                "case:op7": {
+                    "g.card": [
+                        2666672,
+                        "已拥有+1"
+                    ],
                     "prompt": {
                         "id": "5366668_prompt_7",
+                        "text": "你获得了仪式删除卡",
+                        "icon": "cards/2000525"
+                    },
+                    "event_off": 5366668
+                },
+                "case:op_refuse": {
+                    "prompt": {
+                        "id": "5366668_prompt_8",
                         "text": "希望你不要反悔",
                         "icon": "cards/2000001"
                     },
