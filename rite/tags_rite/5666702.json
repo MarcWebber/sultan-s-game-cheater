@@ -3,7 +3,7 @@
     "name": "智慧",
     "text": "添加或移除智慧标签",
     "tips": "",
-    "mapping_id": 8001200,
+    "mapping_id": 8001044,
     "once_new": 1,
     "round_number": 0,
     "waiting_round": 1,
@@ -20,31 +20,48 @@
     "random_text": {},
     "random_text_up": {},
     "settlement_prior": [],
-    "settlement": [],
+    "settlement": [
+        {
+            "condition": {
+                "any": {
+                    "s6": 1,
+                    "s7": 1,
+                    "s8": 1,
+                    "s9": 1,
+                    "s10": 1
+                }
+            },
+            "result_title": "移除智慧标签",
+            "result_text": "移除了智慧标签",
+            "result": {
+                "s6-智慧": 1,
+                "s7-智慧": 1,
+                "s8-智慧": 1,
+                "s9-智慧": 1,
+                "s10-智慧": 1
+            },
+            "action": {}
+        }
+    ],
     "settlement_extre": [
         {
             "condition": {
                 "any": {
-                    "s1": 1
+                    "s1": 1,
+                    "s2": 1,
+                    "s3": 1,
+                    "s4": 1,
+                    "s5": 1
                 }
             },
             "result_title": "添加智慧标签",
-            "result_text": "[s1.name]添加了智慧标签",
+            "result_text": "添加了智慧标签",
             "result": {
-                "s1+智慧": 1
-            },
-            "action": {}
-        },
-        {
-            "condition": {
-                "any": {
-                    "s2": 1
-                }
-            },
-            "result_title": "移除智慧标签",
-            "result_text": "[s2.name]移除了智慧标签",
-            "result": {
-                "s2-智慧": 1
+                "s1+智慧": 1,
+                "s2+智慧": 1,
+                "s3+智慧": 1,
+                "s4+智慧": 1,
+                "s5+智慧": 1
             },
             "action": {}
         }
@@ -59,6 +76,70 @@
             "text": "添加智慧标签"
         },
         "s2": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "添加智慧标签"
+        },
+        "s3": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "添加智慧标签"
+        },
+        "s4": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "添加智慧标签"
+        },
+        "s5": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "添加智慧标签"
+        },
+        "s6": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "移除智慧标签"
+        },
+        "s7": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "移除智慧标签"
+        },
+        "s8": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "移除智慧标签"
+        },
+        "s9": {
+            "condition": {},
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 1,
+            "is_enemy": 0,
+            "text": "移除智慧标签"
+        },
+        "s10": {
             "condition": {},
             "open_adsorb": 0,
             "is_key": 0,

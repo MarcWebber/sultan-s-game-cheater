@@ -1,1 +1,243 @@
-{"id": 5200004, "name": "残忍的牺牲", "text": "杀死一名自己的追随者，来满足苏丹残酷的游戏规则。", "tips": "", "mapping_id": 8001065, "once_new": 0, "round_number": 1, "waiting_round": 1, "waiting_round_end_action": [{"condition": {"any": {"have.2010001": 1, "have.2010002": 1}, "counter.7000103<": 1}, "result_title": "", "result_text": "", "result": {}, "action": {"rite": 5003018, "prompt": {"id": "5200004_prompt_01", "text": "这是一张品级并不高的杀戮卡，其实没必要盯着自己人，这个城市也许有一个地方可以让自己没有负担地去杀人，就是有点风险。", "icon": "cards/2000001"}, "counter=7000107": 0}}, {"condition": {}, "result_title": "", "result_text": "", "result": {}, "action": {"counter=7000107": 0}}], "method_settlement": "", "auto_begin": 0, "auto_result": 0, "location": "自宅:[2,12]", "icon": "rite_21", "tag_tips": [], "tag_tips_up": {}, "tips_text": ["请谨慎选择，当然如果铡刀已经落到自己的头上，那也不得不选了。"], "open_conditions": [], "random_text": {}, "random_text_up": {}, "settlement_prior": [], "settlement": [{"condition": {"s3.妻子": 1}, "result_title": "", "result_text": "终于……你终于还是不得已走到了这一步。\n你以颤抖的双手握住匕首，拔出一段冰冷的刀刃。梅姬望着你，既不恐惧，也不挣扎，只是温柔地笑了，就像是早已预见了今日，并给了你最后一个拥抱。“来吧，亲爱的。”她悄声说，“我早已准备好为你而死了。”\n你流着泪，紧紧抱住这渐渐消逝的余温，如挽留一颗坠入永夜的太阳。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7100002": 1, "global_counter=7200165": 1}, "action": {"counter=7000107": 0}}, {"condition": {"s3.is": 2000371}, "result_title": "", "result_text": "非常可笑的是，人们不去责怪规则的制定者，只会责怪你没有选择更荣耀的方式完成游戏。", "result": {"counter+7000254": 1, "clean.s1": 1, "clean.s3": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {"counter.7000582<": 1, "s3.is": 2000022}, "result_title": "", "result_text": "拜铃耶以狂热的欢欣撞向你的刀刃。血水从她脖颈的断口迸射而出，犹如天使展翅。\n对了，对了，这就对了！你突然在混沌中得到了一种明悟：[s2.name]的死是神圣的，这是在死水般的世界里寻求变化与解脱的必经之路！", "result": {"clean.s1": 1, "clean.s3": 1, "card": [2001039, "已拥有+1"], "counter+7000582": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {"counter.7000582>=": 1, "s3.is": 2000022}, "result_title": "", "result_text": "拜铃耶以狂热的欢欣迎向你的刀刃。她的血在地板上蔓延，勾画出一道又一道犹如咒文的图案，黑雾如潮般将她的尸体包裹、吞噬，天亮时，她存在的一切痕迹尽皆消散。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {"counter.7000581<": 1, "s3.is": 2000021, "!s3.密教徒": 1}, "result_title": "", "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛他早想知道，那死亡的终极痛苦，能让他从神那里得到怎样的启示。\n无辜者之血滴落在卡牌的断口上，让你感受到了一丝异样。冥冥之中，有一道枷锁已被破除，有一重罪孽，已由这张卡片领受。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7000572": 1, "card": [2001038, "已拥有+1"], "counter+7000581": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {"counter.7000581>=": 1, "s3.is": 2000021, "!s3.密教徒": 1}, "result_title": "", "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛他早想知道，那死亡的终极痛苦，能让他从神那里得到怎样的启示。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7000572": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {"s3.is": 2000021, "s3.密教徒": 1}, "result_title": "", "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛这才是所有污浊的归乡，是他最终的归乡。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}, {"condition": {}, "result_title": "", "result_text": "非常可笑的是，人们不去责怪规则的制定者，只会责怪你没有选择更荣耀的方式完成游戏。", "result": {"clean.s1": 1, "clean.s3": 1, "counter+7100002": 1}, "action": {"counter=7000107": 0}}], "settlement_extre": [], "cards_slot": {"s1": {"condition": {"type": "sudan", "杀戮": 1}, "open_adsorb": 0, "is_key": 0, "is_empty": 0, "is_enemy": 0, "text": "杀戮卡，你得找一个匹配这张杀戮卡品质的人"}, "s2": {"condition": {"主角": 1, "type": "char"}, "open_adsorb": 0, "is_key": 0, "is_empty": 0, "is_enemy": 0, "text": "还得自己出马才行"}, "s3": {"condition": {"追随者": 1, "f:rare-s1.rare>=": 0, "type": "char", "!怪物": 1, "!主角": 1}, "open_adsorb": 0, "is_key": 0, "is_empty": 0, "is_enemy": 0, "text": "从手牌中选一个追随者牺牲吧"}}, "is_replay": 0, "auto_start": false, "start_trigger": true, "condition": {}, "on": {"round_begin_ba": 1}}
+{
+  "id": 5200004,
+  "name": "残忍的牺牲",
+  "text": "杀死一名自己的追随者，来满足苏丹残酷的游戏规则。",
+  "tips": "",
+  "mapping_id": 8001065,
+  "once_new": 0,
+  "round_number": 1,
+  "waiting_round": 1,
+  "waiting_round_end_action": [
+    {
+      "condition": {
+        "any": {
+          "have.2010001": 1,
+          "have.2010002": 1
+        },
+        "counter.7000103<": 1
+      },
+      "result_title": "",
+      "result_text": "",
+      "result": {},
+      "action": {
+        "rite": 5003018,
+        "prompt": {
+          "id": "5200004_prompt_01",
+          "text": "这是一张品级并不高的杀戮卡，其实没必要盯着自己人，这个城市也许有一个地方可以让自己没有负担地去杀人，就是有点风险。",
+          "icon": "cards/2000001"
+        },
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {},
+      "result_title": "",
+      "result_text": "",
+      "result": {},
+      "action": {
+        "counter=7000107": 0
+      }
+    }
+  ],
+  "method_settlement": "",
+  "auto_begin": 0,
+  "auto_result": 0,
+  "location": "自宅:[2,12]",
+  "icon": "rite_21",
+  "tag_tips": [],
+  "tag_tips_up": {},
+  "tips_text": [
+    "请谨慎选择，当然如果铡刀已经落到自己的头上，那也不得不选了。"
+  ],
+  "open_conditions": [],
+  "random_text": {},
+  "random_text_up": {},
+  "settlement_prior": [],
+  "settlement": [
+    {
+      "condition": {
+        "s3.妻子": 1
+      },
+      "result_title": "",
+      "result_text": "终于……你终于还是不得已走到了这一步。\n你以颤抖的双手握住匕首，拔出一段冰冷的刀刃。梅姬望着你，既不恐惧，也不挣扎，只是温柔地笑了，就像是早已预见了今日，并给了你最后一个拥抱。“来吧，亲爱的。”她悄声说，“我早已准备好为你而死了。”\n你流着泪，紧紧抱住这渐渐消逝的余温，如挽留一颗坠入永夜的太阳。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7100002": 1,
+        "global_counter=7200165": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "s3.is": 2000371
+      },
+      "result_title": "",
+      "result_text": "非常可笑的是，人们不去责怪规则的制定者，只会责怪你没有选择更荣耀的方式完成游戏。",
+      "result": {
+        "counter+7000254": 1,
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "counter.7000582<": 1,
+        "s3.is": 2000022
+      },
+      "result_title": "",
+      "result_text": "拜铃耶以狂热的欢欣撞向你的刀刃。血水从她脖颈的断口迸射而出，犹如天使展翅。\n对了，对了，这就对了！你突然在混沌中得到了一种明悟：[s2.name]的死是神圣的，这是在死水般的世界里寻求变化与解脱的必经之路！",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "card": [
+          2001039,
+          "已拥有+1"
+        ],
+        "counter+7000582": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "counter.7000582>=": 1,
+        "s3.is": 2000022
+      },
+      "result_title": "",
+      "result_text": "拜铃耶以狂热的欢欣迎向你的刀刃。她的血在地板上蔓延，勾画出一道又一道犹如咒文的图案，黑雾如潮般将她的尸体包裹、吞噬，天亮时，她存在的一切痕迹尽皆消散。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "counter.7000581<": 1,
+        "s3.is": 2000021,
+        "!s3.密教徒": 1
+      },
+      "result_title": "",
+      "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛他早想知道，那死亡的终极痛苦，能让他从神那里得到怎样的启示。\n无辜者之血滴落在卡牌的断口上，让你感受到了一丝异样。冥冥之中，有一道枷锁已被破除，有一重罪孽，已由这张卡片领受。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7000572": 1,
+        "card": [
+          2001038,
+          "已拥有+1"
+        ],
+        "counter+7000581": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "counter.7000581>=": 1,
+        "s3.is": 2000021,
+        "!s3.密教徒": 1
+      },
+      "result_title": "",
+      "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛他早想知道，那死亡的终极痛苦，能让他从神那里得到怎样的启示。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7000572": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {
+        "s3.is": 2000021,
+        "s3.密教徒": 1
+      },
+      "result_title": "",
+      "result_text": "伊曼甚至是微笑着迎接自己的死亡，仿佛这才是所有污浊的归乡，是他最终的归乡。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    },
+    {
+      "condition": {},
+      "result_title": "",
+      "result_text": "非常可笑的是，人们不去责怪规则的制定者，只会责怪你没有选择更荣耀的方式完成游戏。",
+      "result": {
+        "clean.s1": 1,
+        "clean.s3": 1,
+        "counter+7100002": 1
+      },
+      "action": {
+        "counter=7000107": 0
+      }
+    }
+  ],
+  "settlement_extre": [],
+  "cards_slot": {
+    "s1": {
+      "condition": {
+        "type": "sudan",
+        "杀戮": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 0,
+      "is_enemy": 0,
+      "text": "杀戮卡，你得找一个匹配这张杀戮卡品质的人"
+    },
+    "s2": {
+      "condition": {
+        "主角": 1,
+        "type": "char"
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 0,
+      "is_enemy": 0,
+      "text": "还得自己出马才行"
+    },
+    "s3": {
+      "condition": {
+        "追随者": 1,
+        "f:rare-s1.rare>=": 0,
+        "type": "char",
+        "!怪物": 1,
+        "!主角": 1
+      },
+      "open_adsorb": 0,
+      "is_key": 0,
+      "is_empty": 0,
+      "is_enemy": 0,
+      "text": "从手牌中选一个追随者牺牲吧"
+    }
+  },
+  "is_replay": 0,
+  "auto_start": false,
+  "start_trigger": true,
+  "condition": {},
+  "on": {
+    "round_begin_ba": 1
+  }
+}

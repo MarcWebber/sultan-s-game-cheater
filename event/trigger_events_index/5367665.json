@@ -35,12 +35,20 @@
                             "tag": "op4"
                         },
                         {
-                            "text": "上一页",
+                            "text": "做鸡",
                             "tag": "op5"
                         },
                         {
-                            "text": "返回",
+                            "text": "上一页",
                             "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
                         }
                     ]
                 },
@@ -77,9 +85,22 @@
                     }
                 },
                 "case:op5": {
-                    "event_on": 5367664
+                    "rite": 5121189,
+                    "prompt": {
+                        "id": "5367665_prompt_5",
+                        "text": "你選擇了做鸡",
+                        "icon": "cards/2000001"
+                    }
                 },
                 "case:op6": {
+                    "event_on": 5367664,
+                    "event_off": 5367665
+                },
+                "case:op7": {
+                    "event_on": 5367666,
+                    "event_off": 5367665
+                },
+                "case:op8": {
                     "event_off": 5367665,
                     "event_on": 5367800
                 }
