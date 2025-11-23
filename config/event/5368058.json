@@ -1,0 +1,57 @@
+{
+    "id": 5368058,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368058_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "无知少年",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001100",
+                        "追随者+1",
+                        "银趴绝缘者-1"
+                    ],
+                    "prompt": {
+                        "id": "5368058_prompt_1",
+                        "text": "你選擇了无知少年",
+                        "icon": "cards/2001100"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5368057
+                },
+                "case:op3": {
+                    "event_off": 5368058,
+                    " event_on": 5368100
+                }
+            }
+        }
+    ]
+}

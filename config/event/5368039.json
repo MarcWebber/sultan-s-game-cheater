@@ -1,0 +1,126 @@
+{
+    "id": 5368039,
+    "text": "选择角色",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5368039_option_1",
+                    "text": "选择角色",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "男仆",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "女仆",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "扭曲残骸",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "年长的宠妃",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "女奴",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000343",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_1",
+                        "text": "你選擇了男仆",
+                        "icon": "cards/2000343"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000344",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_2",
+                        "text": "你選擇了女仆",
+                        "icon": "cards/2000344"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000499",
+                        "追随者+1",
+                        "银趴绝缘者-1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_3",
+                        "text": "你選擇了扭曲残骸",
+                        "icon": "cards/2000499"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000509",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_4",
+                        "text": "你選擇了年长的宠妃",
+                        "icon": "cards/2000509"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000511",
+                        "追随者+1"
+                    ],
+                    "prompt": {
+                        "id": "5368039_prompt_5",
+                        "text": "你選擇了女奴",
+                        "icon": "cards/2000511"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5368038,
+                    "event_off": 5368039
+                },
+                "case:op7": {
+                    "event_on": 5368040,
+                    "event_off": 5368039
+                },
+                "case:op8": {
+                    "event_off": 5368039,
+                    " event_on": 5368100
+                }
+            }
+        }
+    ]
+}

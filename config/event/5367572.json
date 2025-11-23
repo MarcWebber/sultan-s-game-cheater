@@ -1,0 +1,110 @@
+{
+    "id": 5367572,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367572_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "莎姬的礼物",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "莎姬的邀约",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "山狮肆虐",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "善行计数结算",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "善行计数结算",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120256,
+                    "prompt": {
+                        "id": "5367572_prompt_1",
+                        "text": "你選擇了莎姬的礼物",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120281,
+                    "prompt": {
+                        "id": "5367572_prompt_2",
+                        "text": "你選擇了莎姬的邀约",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100034,
+                    "prompt": {
+                        "id": "5367572_prompt_3",
+                        "text": "你選擇了山狮肆虐",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100167,
+                    "prompt": {
+                        "id": "5367572_prompt_4",
+                        "text": "你選擇了善行计数结算",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100168,
+                    "prompt": {
+                        "id": "5367572_prompt_5",
+                        "text": "你選擇了善行计数结算",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367571,
+                    "event_off": 5367572
+                },
+                "case:op7": {
+                    "event_on": 5367573,
+                    "event_off": 5367572
+                },
+                "case:op8": {
+                    "event_off": 5367572,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

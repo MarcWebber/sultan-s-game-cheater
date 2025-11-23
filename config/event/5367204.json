@@ -1,0 +1,124 @@
+{
+    "id": 5367204,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367204_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "匕首与弯刀",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "匕首",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宝石耳环",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "白银手镯",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "卑贱囚牢",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000203",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367204_prompt_1",
+                        "text": "你選擇了匕首与弯刀",
+                        "icon": "cards/2000203"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000246",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367204_prompt_2",
+                        "text": "你選擇了匕首",
+                        "icon": "cards/2000246"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000262",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367204_prompt_3",
+                        "text": "你選擇了宝石耳环",
+                        "icon": "cards/2000262"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000263",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367204_prompt_4",
+                        "text": "你選擇了白银手镯",
+                        "icon": "cards/2000263"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000309",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367204_prompt_5",
+                        "text": "你選擇了卑贱囚牢",
+                        "icon": "cards/2000309"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367203,
+                    "event_off": 5367204
+                },
+                "case:op7": {
+                    "event_on": 5367205,
+                    "event_off": 5367204
+                },
+                "case:op8": {
+                    "event_off": 5367204
+                }
+            }
+        }
+    ]
+}

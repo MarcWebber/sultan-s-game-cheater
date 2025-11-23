@@ -1,0 +1,110 @@
+{
+    "id": 5367626,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367626_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "小筹启动战士第三问",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "小筹启动战士第四问",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "小筹第二问的奖励",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小筹的人性",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "小筹诗人直接进行结果判定",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100822,
+                    "prompt": {
+                        "id": "5367626_prompt_1",
+                        "text": "你選擇了小筹启动战士第三问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100823,
+                    "prompt": {
+                        "id": "5367626_prompt_2",
+                        "text": "你選擇了小筹启动战士第四问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100829,
+                    "prompt": {
+                        "id": "5367626_prompt_3",
+                        "text": "你選擇了小筹第二问的奖励",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100830,
+                    "prompt": {
+                        "id": "5367626_prompt_4",
+                        "text": "你選擇了小筹的人性",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100847,
+                    "prompt": {
+                        "id": "5367626_prompt_5",
+                        "text": "你選擇了小筹诗人直接进行结果判定",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367625,
+                    "event_off": 5367626
+                },
+                "case:op7": {
+                    "event_on": 5367627,
+                    "event_off": 5367626
+                },
+                "case:op8": {
+                    "event_off": 5367626,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

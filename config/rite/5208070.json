@@ -1,0 +1,86 @@
+{
+    "id": 5208070,
+    "name": "小贼的命运",
+    "text": "时机已到，你决定利用你抽到的卡片，处置这个胆敢偷窃自己财物的小贼。",
+    "tips": "",
+    "mapping_id": 8001115,
+    "once_new": 0,
+    "round_number": 1,
+    "waiting_round": 1,
+    "waiting_round_end_action": [],
+    "method_settlement": "",
+    "auto_begin": 0,
+    "auto_result": 0,
+    "location": "自宅:[2,12]",
+    "icon": "rite_21",
+    "tag_tips": [],
+    "tag_tips_up": {},
+    "tips_text": [
+        "是时候处置这个小贼了！"
+    ],
+    "open_conditions": [],
+    "random_text": {},
+    "random_text_up": {},
+    "settlement_prior": [],
+    "settlement": [],
+    "settlement_extre": [
+        {
+            "guid": "fd4c0a77-d4d9-4879-a945-f7212006c7d4",
+            "condition": {
+                "s3.杀戮": 1
+            },
+            "result_title": "你决定享受杀戮。",
+            "result_text": "你偷我的钱，我偷你的命——很公平。",
+            "result": {
+                "clean.s1": 1,
+                "clean.s3": 1
+            },
+            "action": {}
+        }
+    ],
+    "cards_slot": {
+        "s1": {
+            "guid": "e86e2d85-d02a-405a-9e5c-c4005459bf6b",
+            "condition": {
+                "is": 2000885
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 0,
+            "is_enemy": 0,
+            "text": "赫米尔。"
+        },
+        "s2": {
+            "guid": "4b5ca83b-ed81-4a4e-be47-79188b8d3cff",
+            "condition": {
+                "type": "char",
+                "主角": 1
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 0,
+            "is_enemy": 0,
+            "text": "这种时候，当然是你亲自上阵。"
+        },
+        "s3": {
+            "guid": "1493ff0c-2b97-4910-be49-f808566f8e5f",
+            "condition": {
+                "type": "sudan",
+                "杀戮": 1,
+                "rare<=": 1
+            },
+            "open_adsorb": 0,
+            "is_key": 0,
+            "is_empty": 0,
+            "is_enemy": 0,
+            "text": "你可以借此折断一张岩石品级的杀戮卡"
+        }
+    },
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "condition": {},
+    "on": {
+        "round_begin_ba": 1
+    }
+}

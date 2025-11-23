@@ -1,0 +1,124 @@
+{
+    "id": 5367337,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367337_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "稀有的肉干",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "新月",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "熏狮子全餐",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "仙人掌蛋糕",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "星神的信仰",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000942",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367337_prompt_1",
+                        "text": "你選擇了稀有的肉干",
+                        "icon": "cards/2000942"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000989",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367337_prompt_2",
+                        "text": "你選擇了新月",
+                        "icon": "cards/2000989"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001007",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367337_prompt_3",
+                        "text": "你選擇了熏狮子全餐",
+                        "icon": "cards/2001007"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001013",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367337_prompt_4",
+                        "text": "你選擇了仙人掌蛋糕",
+                        "icon": "cards/2001013"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2001025",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367337_prompt_5",
+                        "text": "你選擇了星神的信仰",
+                        "icon": "cards/2001025"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367336,
+                    "event_off": 5367337
+                },
+                "case:op7": {
+                    "event_on": 5367338,
+                    "event_off": 5367337
+                },
+                "case:op8": {
+                    "event_off": 5367337
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "id": 5367231,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367231_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "复合弓",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "法官的死亡证明",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "法务官的头颅",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "方圆运算",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "风之护符",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000160",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367231_prompt_1",
+                        "text": "你選擇了复合弓",
+                        "icon": "cards/2000160"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000167",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367231_prompt_2",
+                        "text": "你選擇了法官的死亡证明",
+                        "icon": "cards/2000167"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000186",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367231_prompt_3",
+                        "text": "你選擇了法务官的头颅",
+                        "icon": "cards/2000186"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000234",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367231_prompt_4",
+                        "text": "你選擇了方圆运算",
+                        "icon": "cards/2000234"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000318",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367231_prompt_5",
+                        "text": "你選擇了风之护符",
+                        "icon": "cards/2000318"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367230,
+                    "event_off": 5367231
+                },
+                "case:op7": {
+                    "event_on": 5367232,
+                    "event_off": 5367231
+                },
+                "case:op8": {
+                    "event_off": 5367231
+                }
+            }
+        }
+    ]
+}

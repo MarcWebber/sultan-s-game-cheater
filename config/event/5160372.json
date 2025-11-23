@@ -1,0 +1,65 @@
+{
+    "id": 5160372,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160372_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "索拉薇儿的游戏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "所有人的宴会",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160372_prompt_1",
+                        "text": "你選擇了索拉薇儿的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200809
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160372_prompt_2",
+                        "text": "你選擇了所有人的宴会",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206627
+                },
+                "case:op3": {
+                    "event_on": 5160371
+                },
+                "case:op4": {
+                    "event_off": 5160372,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "id": 5367266,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367266_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "金刃军团",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "君权神授",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "近卫军",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "剑下亡魂",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "剑客的蓄势",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000907",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_1",
+                        "text": "你選擇了金刃军团",
+                        "icon": "cards/2000907"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000911",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_2",
+                        "text": "你選擇了君权神授",
+                        "icon": "cards/2000911"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000927",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_3",
+                        "text": "你選擇了近卫军",
+                        "icon": "cards/2000927"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000946",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_4",
+                        "text": "你選擇了剑下亡魂",
+                        "icon": "cards/2000946"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000994",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367266_prompt_5",
+                        "text": "你選擇了剑客的蓄势",
+                        "icon": "cards/2000994"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367265,
+                    "event_off": 5367266
+                },
+                "case:op7": {
+                    "event_on": 5367267,
+                    "event_off": 5367266
+                },
+                "case:op8": {
+                    "event_off": 5367266
+                }
+            }
+        }
+    ]
+}

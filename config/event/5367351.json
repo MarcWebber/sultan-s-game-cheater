@@ -1,0 +1,124 @@
+{
+    "id": 5367351,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367351_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "指虎",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "长剑",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "长矛",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "重剑",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "长弓",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000247",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367351_prompt_1",
+                        "text": "你選擇了指虎",
+                        "icon": "cards/2000247"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000252",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367351_prompt_2",
+                        "text": "你選擇了长剑",
+                        "icon": "cards/2000252"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000255",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367351_prompt_3",
+                        "text": "你選擇了长矛",
+                        "icon": "cards/2000255"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000256",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367351_prompt_4",
+                        "text": "你選擇了重剑",
+                        "icon": "cards/2000256"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000260",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367351_prompt_5",
+                        "text": "你選擇了长弓",
+                        "icon": "cards/2000260"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367350,
+                    "event_off": 5367351
+                },
+                "case:op7": {
+                    "event_on": 5367352,
+                    "event_off": 5367351
+                },
+                "case:op8": {
+                    "event_off": 5367351
+                }
+            }
+        }
+    ]
+}

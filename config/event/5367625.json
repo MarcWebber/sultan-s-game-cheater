@@ -1,0 +1,110 @@
+{
+    "id": 5367625,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367625_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "小筹启动贵族第四问",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "小筹启动诗人第四问",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "小筹成为追随者的命名后弹窗",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小筹启动战士第一问",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "小筹启动战士第二问",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100816,
+                    "prompt": {
+                        "id": "5367625_prompt_1",
+                        "text": "你選擇了小筹启动贵族第四问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100817,
+                    "prompt": {
+                        "id": "5367625_prompt_2",
+                        "text": "你選擇了小筹启动诗人第四问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100818,
+                    "prompt": {
+                        "id": "5367625_prompt_3",
+                        "text": "你選擇了小筹成为追随者的命名后弹窗",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100820,
+                    "prompt": {
+                        "id": "5367625_prompt_4",
+                        "text": "你選擇了小筹启动战士第一问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100821,
+                    "prompt": {
+                        "id": "5367625_prompt_5",
+                        "text": "你選擇了小筹启动战士第二问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367624,
+                    "event_off": 5367625
+                },
+                "case:op7": {
+                    "event_on": 5367626,
+                    "event_off": 5367625
+                },
+                "case:op8": {
+                    "event_off": 5367625,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

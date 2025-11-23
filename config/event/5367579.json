@@ -1,0 +1,110 @@
+{
+    "id": 5367579,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367579_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神的警告",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神的警告",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "深潜",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "深谈",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "深谈",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110844,
+                    "prompt": {
+                        "id": "5367579_prompt_1",
+                        "text": "你選擇了神的警告",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5110845,
+                    "prompt": {
+                        "id": "5367579_prompt_2",
+                        "text": "你選擇了神的警告",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120550,
+                    "prompt": {
+                        "id": "5367579_prompt_3",
+                        "text": "你選擇了深潜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120551,
+                    "prompt": {
+                        "id": "5367579_prompt_4",
+                        "text": "你選擇了深谈",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120552,
+                    "prompt": {
+                        "id": "5367579_prompt_5",
+                        "text": "你選擇了深谈",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367578,
+                    "event_off": 5367579
+                },
+                "case:op7": {
+                    "event_on": 5367580,
+                    "event_off": 5367579
+                },
+                "case:op8": {
+                    "event_off": 5367579,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

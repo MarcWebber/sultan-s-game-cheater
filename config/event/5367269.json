@@ -1,0 +1,78 @@
+{
+    "id": 5367269,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367269_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "镜灵之琴",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "镜灵之盾",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "镜灵之冠",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001214",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367269_prompt_1",
+                        "text": "你選擇了镜灵之琴",
+                        "icon": "cards/2001214"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001215",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367269_prompt_2",
+                        "text": "你選擇了镜灵之盾",
+                        "icon": "cards/2001215"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001216",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367269_prompt_3",
+                        "text": "你選擇了镜灵之冠",
+                        "icon": "cards/2001216"
+                    }
+                },
+                "case:op4": {
+                    "event_on": 5367268
+                }
+            }
+        }
+    ]
+}

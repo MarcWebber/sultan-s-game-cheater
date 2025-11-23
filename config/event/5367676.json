@@ -1,0 +1,110 @@
+{
+    "id": 5367676,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367676_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "众筹道具-生命之心-奈费勒死亡",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "众筹道具-生命之心-伊曼死亡",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "众筹道具-生命之心-夏玛死亡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "众筹道具-生命之心-朱娜死亡",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "众筹道具-生命之心-贾丽拉死亡",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100654,
+                    "prompt": {
+                        "id": "5367676_prompt_1",
+                        "text": "你選擇了众筹道具-生命之心-奈费勒死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100655,
+                    "prompt": {
+                        "id": "5367676_prompt_2",
+                        "text": "你選擇了众筹道具-生命之心-伊曼死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100656,
+                    "prompt": {
+                        "id": "5367676_prompt_3",
+                        "text": "你選擇了众筹道具-生命之心-夏玛死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100657,
+                    "prompt": {
+                        "id": "5367676_prompt_4",
+                        "text": "你選擇了众筹道具-生命之心-朱娜死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100658,
+                    "prompt": {
+                        "id": "5367676_prompt_5",
+                        "text": "你選擇了众筹道具-生命之心-贾丽拉死亡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367675,
+                    "event_off": 5367676
+                },
+                "case:op7": {
+                    "event_on": 5367677,
+                    "event_off": 5367676
+                },
+                "case:op8": {
+                    "event_off": 5367676,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

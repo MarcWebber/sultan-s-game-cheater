@@ -1,0 +1,110 @@
+{
+    "id": 5367447,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367447_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "盖斯声望事件激活提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "盖斯声望事件-侠名lv1",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "盖斯声望事件-待价而沽",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "盖斯声望事件-荣耀回归",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "盖斯声望事件-归还",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121017,
+                    "prompt": {
+                        "id": "5367447_prompt_1",
+                        "text": "你選擇了盖斯声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121018,
+                    "prompt": {
+                        "id": "5367447_prompt_2",
+                        "text": "你選擇了盖斯声望事件-侠名lv1",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121019,
+                    "prompt": {
+                        "id": "5367447_prompt_3",
+                        "text": "你選擇了盖斯声望事件-待价而沽",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121021,
+                    "prompt": {
+                        "id": "5367447_prompt_4",
+                        "text": "你選擇了盖斯声望事件-荣耀回归",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121022,
+                    "prompt": {
+                        "id": "5367447_prompt_5",
+                        "text": "你選擇了盖斯声望事件-归还",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367446,
+                    "event_off": 5367447
+                },
+                "case:op7": {
+                    "event_on": 5367448,
+                    "event_off": 5367447
+                },
+                "case:op8": {
+                    "event_off": 5367447,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

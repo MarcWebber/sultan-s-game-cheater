@@ -1,0 +1,110 @@
+{
+    "id": 5160450,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160450_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "最后的准备",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "最后的准备",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "罪犯的投奔",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "最后的愿望",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "最后的道别",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160450_prompt_1",
+                        "text": "你選擇了最后的准备",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206037
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160450_prompt_2",
+                        "text": "你選擇了最后的准备",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206065
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160450_prompt_3",
+                        "text": "你選擇了罪犯的投奔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206571
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160450_prompt_4",
+                        "text": "你選擇了最后的愿望",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206678
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160450_prompt_5",
+                        "text": "你選擇了最后的道别",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208016
+                },
+                "case:op6": {
+                    "event_on": 5160449,
+                    "event_off": 5160450
+                },
+                "case:op7": {
+                    "event_on": 5160451,
+                    "event_off": 5160450
+                },
+                "case:op8": {
+                    "event_off": 5160450,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

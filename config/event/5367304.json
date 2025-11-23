@@ -1,0 +1,124 @@
+{
+    "id": 5367304,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367304_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "受伤",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "尚未失效的罪证",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的统治",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹的耐心",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "弑君的计划",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000098",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367304_prompt_1",
+                        "text": "你選擇了受伤",
+                        "icon": "cards/2000098"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000137",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367304_prompt_2",
+                        "text": "你選擇了尚未失效的罪证",
+                        "icon": "cards/2000137"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000169",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367304_prompt_3",
+                        "text": "你選擇了苏丹的统治",
+                        "icon": "cards/2000169"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001053",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367304_prompt_4",
+                        "text": "你選擇了苏丹的耐心",
+                        "icon": "cards/2001053"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000172",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367304_prompt_5",
+                        "text": "你選擇了弑君的计划",
+                        "icon": "cards/2000172"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367303,
+                    "event_off": 5367304
+                },
+                "case:op7": {
+                    "event_on": 5367305,
+                    "event_off": 5367304
+                },
+                "case:op8": {
+                    "event_off": 5367304
+                }
+            }
+        }
+    ]
+}

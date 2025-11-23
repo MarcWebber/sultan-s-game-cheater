@@ -1,0 +1,110 @@
+{
+    "id": 5160429,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160429_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "御前试合",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "浴场的焦点",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "与龙相关的会面",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "于夕色中蔓延……",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "与神沟通",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160429_prompt_1",
+                        "text": "你選擇了御前试合",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206027
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160429_prompt_2",
+                        "text": "你選擇了浴场的焦点",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206028
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160429_prompt_3",
+                        "text": "你選擇了与龙相关的会面",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206031
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160429_prompt_4",
+                        "text": "你選擇了于夕色中蔓延……",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206055
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160429_prompt_5",
+                        "text": "你選擇了与神沟通",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206073
+                },
+                "case:op6": {
+                    "event_on": 5160428,
+                    "event_off": 5160429
+                },
+                "case:op7": {
+                    "event_on": 5160430,
+                    "event_off": 5160429
+                },
+                "case:op8": {
+                    "event_off": 5160429,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

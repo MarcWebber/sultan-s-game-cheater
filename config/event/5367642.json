@@ -1,0 +1,110 @@
+{
+    "id": 5367642,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367642_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "选光者",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "选择",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "血墙",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "询问品级",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "询问妻子的意见",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5110624,
+                    "prompt": {
+                        "id": "5367642_prompt_1",
+                        "text": "你選擇了选光者",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120007,
+                    "prompt": {
+                        "id": "5367642_prompt_2",
+                        "text": "你選擇了选择",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120040,
+                    "prompt": {
+                        "id": "5367642_prompt_3",
+                        "text": "你選擇了血墙",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100608,
+                    "prompt": {
+                        "id": "5367642_prompt_4",
+                        "text": "你選擇了询问品级",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120006,
+                    "prompt": {
+                        "id": "5367642_prompt_5",
+                        "text": "你選擇了询问妻子的意见",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367641,
+                    "event_off": 5367642
+                },
+                "case:op7": {
+                    "event_on": 5367643,
+                    "event_off": 5367642
+                },
+                "case:op8": {
+                    "event_off": 5367642,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

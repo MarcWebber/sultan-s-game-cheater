@@ -1,0 +1,65 @@
+{
+    "id": 5160276,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160276_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "火中的自由",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "火！火！火！",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160276_prompt_1",
+                        "text": "你選擇了火中的自由",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200786
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160276_prompt_2",
+                        "text": "你選擇了火！火！火！",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208131
+                },
+                "case:op3": {
+                    "event_on": 5160275
+                },
+                "case:op4": {
+                    "event_off": 5160276,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

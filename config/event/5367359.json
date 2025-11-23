@@ -1,0 +1,124 @@
+{
+    "id": 5367359,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367359_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "斩首斧",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宅邸守卫",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "自由民乱军",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "族长的祝福",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "直通宫内的暗道",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000920",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367359_prompt_1",
+                        "text": "你選擇了斩首斧",
+                        "icon": "cards/2000920"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000972",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367359_prompt_2",
+                        "text": "你選擇了宅邸守卫",
+                        "icon": "cards/2000972"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000980",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367359_prompt_3",
+                        "text": "你選擇了自由民乱军",
+                        "icon": "cards/2000980"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000982",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367359_prompt_4",
+                        "text": "你選擇了族长的祝福",
+                        "icon": "cards/2000982"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2001033",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367359_prompt_5",
+                        "text": "你選擇了直通宫内的暗道",
+                        "icon": "cards/2001033"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367358,
+                    "event_off": 5367359
+                },
+                "case:op7": {
+                    "event_on": 5367360,
+                    "event_off": 5367359
+                },
+                "case:op8": {
+                    "event_off": 5367359
+                }
+            }
+        }
+    ]
+}

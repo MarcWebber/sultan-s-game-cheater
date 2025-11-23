@@ -1,0 +1,110 @@
+{
+    "id": 5367428,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367428_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "第5天生成商人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "第8天生成黑街",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "第5天生成纵欲苏丹卡仪式",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "第5天生成奢靡苏丹卡仪式",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "第5天生成杀戮苏丹卡仪式",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100098,
+                    "prompt": {
+                        "id": "5367428_prompt_1",
+                        "text": "你選擇了第5天生成商人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100099,
+                    "prompt": {
+                        "id": "5367428_prompt_2",
+                        "text": "你選擇了第8天生成黑街",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100220,
+                    "prompt": {
+                        "id": "5367428_prompt_3",
+                        "text": "你選擇了第5天生成纵欲苏丹卡仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100226,
+                    "prompt": {
+                        "id": "5367428_prompt_4",
+                        "text": "你選擇了第5天生成奢靡苏丹卡仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100227,
+                    "prompt": {
+                        "id": "5367428_prompt_5",
+                        "text": "你選擇了第5天生成杀戮苏丹卡仪式",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367427,
+                    "event_off": 5367428
+                },
+                "case:op7": {
+                    "event_on": 5367429,
+                    "event_off": 5367428
+                },
+                "case:op8": {
+                    "event_off": 5367428,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

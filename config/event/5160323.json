@@ -1,0 +1,110 @@
+{
+    "id": 5160323,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160323_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "你最重要的",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "你不再被黑街信任",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "你需要多少钱",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "你最好是真的",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "你是最后一个",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160323_prompt_1",
+                        "text": "你選擇了你最重要的",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200839
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160323_prompt_2",
+                        "text": "你選擇了你不再被黑街信任",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204012
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160323_prompt_3",
+                        "text": "你選擇了你需要多少钱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206070
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160323_prompt_4",
+                        "text": "你選擇了你最好是真的",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206604
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160323_prompt_5",
+                        "text": "你選擇了你是最后一个",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208127
+                },
+                "case:op6": {
+                    "event_on": 5160322,
+                    "event_off": 5160323
+                },
+                "case:op7": {
+                    "event_on": 5160324,
+                    "event_off": 5160323
+                },
+                "case:op8": {
+                    "event_off": 5160323,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

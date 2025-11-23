@@ -1,0 +1,110 @@
+{
+    "id": 5160335,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160335_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "穷人到底需要什么？",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "囚牢",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "囚犯与绑匪",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "趋炎附势之徒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "全面整修",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160335_prompt_1",
+                        "text": "你選擇了穷人到底需要什么？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206646
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160335_prompt_2",
+                        "text": "你選擇了囚牢",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201008
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160335_prompt_3",
+                        "text": "你選擇了囚犯与绑匪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206672
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160335_prompt_4",
+                        "text": "你選擇了趋炎附势之徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200844
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160335_prompt_5",
+                        "text": "你選擇了全面整修",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200006
+                },
+                "case:op6": {
+                    "event_on": 5160334,
+                    "event_off": 5160335
+                },
+                "case:op7": {
+                    "event_on": 5160336,
+                    "event_off": 5160335
+                },
+                "case:op8": {
+                    "event_off": 5160335,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

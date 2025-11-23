@@ -1,0 +1,124 @@
+{
+    "id": 5367287,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367287_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "魔力增长仪式图纸",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "魅力护符",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "魅惑",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "免于恐惧的自由",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "蛮人社团",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000491",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_1",
+                        "text": "你選擇了魔力增长仪式图纸",
+                        "icon": "cards/2000491"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000521",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_2",
+                        "text": "你選擇了魅力护符",
+                        "icon": "cards/2000521"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000528",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_3",
+                        "text": "你選擇了魅惑",
+                        "icon": "cards/2000528"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000541",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_4",
+                        "text": "你選擇了免于恐惧的自由",
+                        "icon": "cards/2000541"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000573",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367287_prompt_5",
+                        "text": "你選擇了蛮人社团",
+                        "icon": "cards/2000573"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367286,
+                    "event_off": 5367287
+                },
+                "case:op7": {
+                    "event_on": 5367288,
+                    "event_off": 5367287
+                },
+                "case:op8": {
+                    "event_off": 5367287
+                }
+            }
+        }
+    ]
+}

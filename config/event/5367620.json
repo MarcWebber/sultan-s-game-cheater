@@ -1,0 +1,110 @@
+{
+    "id": 5367620,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367620_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "侠名2的事件--罪犯的投奔",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "侠名2的事件--罪犯的投奔--重复刷",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "先到先得",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "献给阿尔图的花束",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "向神殿求助",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120082,
+                    "prompt": {
+                        "id": "5367620_prompt_1",
+                        "text": "你選擇了侠名2的事件--罪犯的投奔",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120083,
+                    "prompt": {
+                        "id": "5367620_prompt_2",
+                        "text": "你選擇了侠名2的事件--罪犯的投奔--重复刷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100178,
+                    "prompt": {
+                        "id": "5367620_prompt_3",
+                        "text": "你選擇了先到先得",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121182,
+                    "prompt": {
+                        "id": "5367620_prompt_4",
+                        "text": "你選擇了献给阿尔图的花束",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100002,
+                    "prompt": {
+                        "id": "5367620_prompt_5",
+                        "text": "你選擇了向神殿求助",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367619,
+                    "event_off": 5367620
+                },
+                "case:op7": {
+                    "event_on": 5367621,
+                    "event_off": 5367620
+                },
+                "case:op8": {
+                    "event_off": 5367620,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "id": 5367554,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367554_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "胖贵族来访",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "胖囚犯死了快脚结局",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "骗子登门",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "破除洁净",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "PPT式新手引导测试",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100134,
+                    "prompt": {
+                        "id": "5367554_prompt_1",
+                        "text": "你選擇了胖贵族来访",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121057,
+                    "prompt": {
+                        "id": "5367554_prompt_2",
+                        "text": "你選擇了胖囚犯死了快脚结局",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100515,
+                    "prompt": {
+                        "id": "5367554_prompt_3",
+                        "text": "你選擇了骗子登门",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121155,
+                    "prompt": {
+                        "id": "5367554_prompt_4",
+                        "text": "你選擇了破除洁净",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100300,
+                    "prompt": {
+                        "id": "5367554_prompt_5",
+                        "text": "你選擇了PPT式新手引导测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367553,
+                    "event_off": 5367554
+                },
+                "case:op7": {
+                    "event_on": 5367555,
+                    "event_off": 5367554
+                },
+                "case:op8": {
+                    "event_off": 5367554,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

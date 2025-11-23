@@ -1,0 +1,65 @@
+{
+    "id": 5367602,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367602_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "索要物资2",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "索要物资3",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100047,
+                    "prompt": {
+                        "id": "5367602_prompt_1",
+                        "text": "你選擇了索要物资2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100048,
+                    "prompt": {
+                        "id": "5367602_prompt_2",
+                        "text": "你選擇了索要物资3",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367601
+                },
+                "case:op4": {
+                    "event_off": 5367602,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

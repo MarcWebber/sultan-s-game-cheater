@@ -1,0 +1,93 @@
+{
+    "id": 5367235,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367235_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "废弃",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "废弃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "疯狂面具",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "发丝誓约戒指",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001030",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367235_prompt_1",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2001030"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001030",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367235_prompt_2",
+                        "text": "你選擇了废弃",
+                        "icon": "cards/2001030"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001113",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367235_prompt_3",
+                        "text": "你選擇了疯狂面具",
+                        "icon": "cards/2001113"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001191",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367235_prompt_4",
+                        "text": "你選擇了发丝誓约戒指",
+                        "icon": "cards/2001191"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367234
+                }
+            }
+        }
+    ]
+}

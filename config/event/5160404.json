@@ -1,0 +1,110 @@
+{
+    "id": 5160404,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160404_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "心灵之战ⅩⅤ",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "信与理的战争",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "心有余悸",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "新月想出去玩",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "新月升起",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160404_prompt_1",
+                        "text": "你選擇了心灵之战ⅩⅤ",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204832
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160404_prompt_2",
+                        "text": "你選擇了信与理的战争",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204908
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160404_prompt_3",
+                        "text": "你選擇了心有余悸",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206596
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160404_prompt_4",
+                        "text": "你選擇了新月想出去玩",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208161
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160404_prompt_5",
+                        "text": "你選擇了新月升起",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208163
+                },
+                "case:op6": {
+                    "event_on": 5160403,
+                    "event_off": 5160404
+                },
+                "case:op7": {
+                    "event_on": 5160405,
+                    "event_off": 5160404
+                },
+                "case:op8": {
+                    "event_off": 5160404,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

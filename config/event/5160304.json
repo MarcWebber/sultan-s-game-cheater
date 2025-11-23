@@ -1,0 +1,110 @@
+{
+    "id": 5160304,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160304_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "冷淡的消遣",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "历史洪流",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "离间计划",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "离间计",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "立柱",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160304_prompt_1",
+                        "text": "你選擇了冷淡的消遣",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208101
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160304_prompt_2",
+                        "text": "你選擇了历史洪流",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200118
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160304_prompt_3",
+                        "text": "你選擇了离间计划",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5207006
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160304_prompt_4",
+                        "text": "你選擇了离间计",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5207007
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160304_prompt_5",
+                        "text": "你選擇了立柱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210037
+                },
+                "case:op6": {
+                    "event_on": 5160303,
+                    "event_off": 5160304
+                },
+                "case:op7": {
+                    "event_on": 5160305,
+                    "event_off": 5160304
+                },
+                "case:op8": {
+                    "event_off": 5160304,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

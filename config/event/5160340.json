@@ -1,0 +1,110 @@
+{
+    "id": 5160340,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160340_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "荣耀回归",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "荣耀回归",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "肉体展览",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "如何取悦你的爱人",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "蠕虫密卷",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160340_prompt_1",
+                        "text": "你選擇了荣耀回归",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208014
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160340_prompt_2",
+                        "text": "你選擇了荣耀回归",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208019
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160340_prompt_3",
+                        "text": "你選擇了肉体展览",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200767
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160340_prompt_4",
+                        "text": "你選擇了如何取悦你的爱人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200045
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160340_prompt_5",
+                        "text": "你選擇了蠕虫密卷",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200052
+                },
+                "case:op6": {
+                    "event_on": 5160339,
+                    "event_off": 5160340
+                },
+                "case:op7": {
+                    "event_on": 5160341,
+                    "event_off": 5160340
+                },
+                "case:op8": {
+                    "event_off": 5160340,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

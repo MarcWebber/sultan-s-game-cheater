@@ -1,0 +1,48 @@
+{
+    "id": 5367284,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367284_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "领主部队",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001188",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367284_prompt_1",
+                        "text": "你選擇了领主部队",
+                        "icon": "cards/2001188"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5367283
+                }
+            }
+        }
+    ]
+}

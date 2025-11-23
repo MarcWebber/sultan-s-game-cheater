@@ -1,0 +1,110 @@
+{
+    "id": 5160452,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160452_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "最后的杀戮卡",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "最后的奢靡卡",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "最后的征服卡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "最后的诱惑",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "做好准备",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160452_prompt_1",
+                        "text": "你選擇了最后的杀戮卡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210027
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160452_prompt_2",
+                        "text": "你選擇了最后的奢靡卡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210028
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160452_prompt_3",
+                        "text": "你選擇了最后的征服卡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210029
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160452_prompt_4",
+                        "text": "你選擇了最后的诱惑",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210041
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160452_prompt_5",
+                        "text": "你選擇了做好准备",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200129
+                },
+                "case:op6": {
+                    "event_on": 5160451,
+                    "event_off": 5160452
+                },
+                "case:op7": {
+                    "event_on": 5160453,
+                    "event_off": 5160452
+                },
+                "case:op8": {
+                    "event_off": 5160452,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

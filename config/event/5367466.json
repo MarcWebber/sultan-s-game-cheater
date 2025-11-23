@@ -1,0 +1,110 @@
+{
+    "id": 5367466,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367466_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "花花公子的收服（废弃）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "还书",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "欢愉之馆的新人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "欢快的访客",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "黄金舍馆",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100213,
+                    "prompt": {
+                        "id": "5367466_prompt_1",
+                        "text": "你選擇了花花公子的收服（废弃）",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100028,
+                    "prompt": {
+                        "id": "5367466_prompt_2",
+                        "text": "你選擇了还书",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100286,
+                    "prompt": {
+                        "id": "5367466_prompt_3",
+                        "text": "你選擇了欢愉之馆的新人",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121056,
+                    "prompt": {
+                        "id": "5367466_prompt_4",
+                        "text": "你選擇了欢快的访客",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120080,
+                    "prompt": {
+                        "id": "5367466_prompt_5",
+                        "text": "你選擇了黄金舍馆",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367465,
+                    "event_off": 5367466
+                },
+                "case:op7": {
+                    "event_on": 5367467,
+                    "event_off": 5367466
+                },
+                "case:op8": {
+                    "event_off": 5367466,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

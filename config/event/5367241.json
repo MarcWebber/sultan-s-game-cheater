@@ -1,0 +1,124 @@
+{
+    "id": 5367241,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367241_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "革命的计划",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "高贵精魂骑士",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "光明之眼",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贵族领地的卫兵",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "故国的忠臣",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000910",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367241_prompt_1",
+                        "text": "你選擇了革命的计划",
+                        "icon": "cards/2000910"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000929",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367241_prompt_2",
+                        "text": "你選擇了高贵精魂骑士",
+                        "icon": "cards/2000929"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000960",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367241_prompt_3",
+                        "text": "你選擇了光明之眼",
+                        "icon": "cards/2000960"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000964",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367241_prompt_4",
+                        "text": "你選擇了贵族领地的卫兵",
+                        "icon": "cards/2000964"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000993",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367241_prompt_5",
+                        "text": "你選擇了故国的忠臣",
+                        "icon": "cards/2000993"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367240,
+                    "event_off": 5367241
+                },
+                "case:op7": {
+                    "event_on": 5367242,
+                    "event_off": 5367241
+                },
+                "case:op8": {
+                    "event_off": 5367241
+                }
+            }
+        }
+    ]
+}

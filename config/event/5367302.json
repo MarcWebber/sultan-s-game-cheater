@@ -1,0 +1,93 @@
+{
+    "id": 5367302,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367302_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "寝食单",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "禽肉炒蘑菇",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "全知视角",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "千面纱裙",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001000",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_1",
+                        "text": "你選擇了寝食单",
+                        "icon": "cards/2001000"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001050",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_2",
+                        "text": "你選擇了禽肉炒蘑菇",
+                        "icon": "cards/2001050"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001128",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_3",
+                        "text": "你選擇了全知视角",
+                        "icon": "cards/2001128"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001134",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367302_prompt_4",
+                        "text": "你選擇了千面纱裙",
+                        "icon": "cards/2001134"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367301
+                }
+            }
+        }
+    ]
+}

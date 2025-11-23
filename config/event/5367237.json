@@ -1,0 +1,124 @@
+{
+    "id": 5367237,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367237_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "古王国之刃",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "贵族囚牢",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "高傲的骑手",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "贵族的尸体",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "高空侦查",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000261",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367237_prompt_1",
+                        "text": "你選擇了古王国之刃",
+                        "icon": "cards/2000261"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000310",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367237_prompt_2",
+                        "text": "你選擇了贵族囚牢",
+                        "icon": "cards/2000310"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000340",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367237_prompt_3",
+                        "text": "你選擇了高傲的骑手",
+                        "icon": "cards/2000340"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000378",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367237_prompt_4",
+                        "text": "你選擇了贵族的尸体",
+                        "icon": "cards/2000378"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000396",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367237_prompt_5",
+                        "text": "你選擇了高空侦查",
+                        "icon": "cards/2000396"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367236,
+                    "event_off": 5367237
+                },
+                "case:op7": {
+                    "event_on": 5367238,
+                    "event_off": 5367237
+                },
+                "case:op8": {
+                    "event_off": 5367237
+                }
+            }
+        }
+    ]
+}

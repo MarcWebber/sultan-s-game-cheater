@@ -1,0 +1,110 @@
+{
+    "id": 5367607,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367607_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "铁头声望事件激活提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "铁头声望事件--这粥的味道",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "铁头声望事件--石餐盒",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "铁头声望事件--错位的水果",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "铁头声望事件-巨大的玩具",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120157,
+                    "prompt": {
+                        "id": "5367607_prompt_1",
+                        "text": "你選擇了铁头声望事件激活提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120158,
+                    "prompt": {
+                        "id": "5367607_prompt_2",
+                        "text": "你選擇了铁头声望事件--这粥的味道",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120159,
+                    "prompt": {
+                        "id": "5367607_prompt_3",
+                        "text": "你選擇了铁头声望事件--石餐盒",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120160,
+                    "prompt": {
+                        "id": "5367607_prompt_4",
+                        "text": "你選擇了铁头声望事件--错位的水果",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120163,
+                    "prompt": {
+                        "id": "5367607_prompt_5",
+                        "text": "你選擇了铁头声望事件-巨大的玩具",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367606,
+                    "event_off": 5367607
+                },
+                "case:op7": {
+                    "event_on": 5367608,
+                    "event_off": 5367607
+                },
+                "case:op8": {
+                    "event_off": 5367607,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

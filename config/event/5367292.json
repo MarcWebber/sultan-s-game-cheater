@@ -1,0 +1,63 @@
+{
+    "id": 5367292,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367292_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "盲目服从",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "梅姬的墓碑",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001130",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367292_prompt_1",
+                        "text": "你選擇了盲目服从",
+                        "icon": "cards/2001130"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001157",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367292_prompt_2",
+                        "text": "你選擇了梅姬的墓碑",
+                        "icon": "cards/2001157"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367291
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": 5367524,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367524_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "陌生的妓女来访",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121119,
+                    "prompt": {
+                        "id": "5367524_prompt_1",
+                        "text": "你選擇了陌生的妓女来访",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "event_on": 5367523
+                },
+                "case:op3": {
+                    "event_off": 5367524,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

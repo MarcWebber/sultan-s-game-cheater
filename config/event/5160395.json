@@ -1,0 +1,110 @@
+{
+    "id": 5160395,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160395_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "夏玛的游戏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "夏玛的游戏",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "夏玛的葬礼",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "下水道的鳄鱼",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "下次还敢吗？",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160395_prompt_1",
+                        "text": "你選擇了夏玛的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200803
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160395_prompt_2",
+                        "text": "你選擇了夏玛的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200808
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160395_prompt_3",
+                        "text": "你選擇了夏玛的葬礼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202029
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160395_prompt_4",
+                        "text": "你選擇了下水道的鳄鱼",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5202510
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160395_prompt_5",
+                        "text": "你選擇了下次还敢吗？",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206636
+                },
+                "case:op6": {
+                    "event_on": 5160394,
+                    "event_off": 5160395
+                },
+                "case:op7": {
+                    "event_on": 5160396,
+                    "event_off": 5160395
+                },
+                "case:op8": {
+                    "event_off": 5160395,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

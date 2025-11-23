@@ -1,0 +1,110 @@
+{
+    "id": 5367612,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367612_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "屠龙的勇行",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "屠龙的勇行开启",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "脱罪",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "脱罪的希望",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "脱罪",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120543,
+                    "prompt": {
+                        "id": "5367612_prompt_1",
+                        "text": "你選擇了屠龙的勇行",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120544,
+                    "prompt": {
+                        "id": "5367612_prompt_2",
+                        "text": "你選擇了屠龙的勇行开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100053,
+                    "prompt": {
+                        "id": "5367612_prompt_3",
+                        "text": "你選擇了脱罪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100142,
+                    "prompt": {
+                        "id": "5367612_prompt_4",
+                        "text": "你選擇了脱罪的希望",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100261,
+                    "prompt": {
+                        "id": "5367612_prompt_5",
+                        "text": "你選擇了脱罪",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367611,
+                    "event_off": 5367612
+                },
+                "case:op7": {
+                    "event_on": 5367613,
+                    "event_off": 5367612
+                },
+                "case:op8": {
+                    "event_off": 5367612,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

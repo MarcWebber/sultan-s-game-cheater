@@ -1,0 +1,110 @@
+{
+    "id": 5160303,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160303_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "老兵不死",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "牢狱之灾",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "老鼠一样的逃亡",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "老乡见老乡",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "老派花园大餐",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160303_prompt_1",
+                        "text": "你選擇了老兵不死",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206572
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160303_prompt_2",
+                        "text": "你選擇了牢狱之灾",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208044
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160303_prompt_3",
+                        "text": "你選擇了老鼠一样的逃亡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208059
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160303_prompt_4",
+                        "text": "你選擇了老乡见老乡",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208065
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160303_prompt_5",
+                        "text": "你選擇了老派花园大餐",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208158
+                },
+                "case:op6": {
+                    "event_on": 5160302,
+                    "event_off": 5160303
+                },
+                "case:op7": {
+                    "event_on": 5160304,
+                    "event_off": 5160303
+                },
+                "case:op8": {
+                    "event_off": 5160303,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

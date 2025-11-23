@@ -1,0 +1,110 @@
+{
+    "id": 5367462,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367462_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "和野狗对决",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "和囚犯对决",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "和狮子对决",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "和巨人对决",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "和舞姬密会",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100320,
+                    "prompt": {
+                        "id": "5367462_prompt_1",
+                        "text": "你選擇了和野狗对决",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100321,
+                    "prompt": {
+                        "id": "5367462_prompt_2",
+                        "text": "你選擇了和囚犯对决",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100322,
+                    "prompt": {
+                        "id": "5367462_prompt_3",
+                        "text": "你選擇了和狮子对决",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100323,
+                    "prompt": {
+                        "id": "5367462_prompt_4",
+                        "text": "你選擇了和巨人对决",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100326,
+                    "prompt": {
+                        "id": "5367462_prompt_5",
+                        "text": "你選擇了和舞姬密会",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367461,
+                    "event_off": 5367462
+                },
+                "case:op7": {
+                    "event_on": 5367463,
+                    "event_off": 5367462
+                },
+                "case:op8": {
+                    "event_off": 5367462,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "id": 5160283,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160283_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "见得利者",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "见无形之刃",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "建造图录",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "剑之名",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "监守自盗",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160283_prompt_1",
+                        "text": "你選擇了见得利者",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200333
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160283_prompt_2",
+                        "text": "你選擇了见无形之刃",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200334
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160283_prompt_3",
+                        "text": "你選擇了建造图录",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200832
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160283_prompt_4",
+                        "text": "你選擇了剑之名",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200840
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160283_prompt_5",
+                        "text": "你選擇了监守自盗",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204508
+                },
+                "case:op6": {
+                    "event_on": 5160282,
+                    "event_off": 5160283
+                },
+                "case:op7": {
+                    "event_on": 5160284,
+                    "event_off": 5160283
+                },
+                "case:op8": {
+                    "event_off": 5160283,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

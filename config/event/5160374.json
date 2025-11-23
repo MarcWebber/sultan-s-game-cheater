@@ -1,0 +1,110 @@
+{
+    "id": 5160374,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160374_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "探索未知绿洲",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "探访",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "探访监狱",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "探索黑街",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "探访踪迹",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160374_prompt_1",
+                        "text": "你選擇了探索未知绿洲",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200660
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160374_prompt_2",
+                        "text": "你選擇了探访",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200787
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160374_prompt_3",
+                        "text": "你選擇了探访监狱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5201006
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160374_prompt_4",
+                        "text": "你選擇了探索黑街",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204001
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160374_prompt_5",
+                        "text": "你選擇了探访踪迹",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206064
+                },
+                "case:op6": {
+                    "event_on": 5160373,
+                    "event_off": 5160374
+                },
+                "case:op7": {
+                    "event_on": 5160375,
+                    "event_off": 5160374
+                },
+                "case:op8": {
+                    "event_off": 5160374,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

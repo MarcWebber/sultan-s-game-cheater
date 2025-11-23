@@ -1,0 +1,110 @@
+{
+    "id": 5160383,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160383_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "万和之弦",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "玩泥巴的异族",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "挽回的余地",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "挽回的余地",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "王狮猎场",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160383_prompt_1",
+                        "text": "你選擇了万和之弦",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200348
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160383_prompt_2",
+                        "text": "你選擇了玩泥巴的异族",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206551
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160383_prompt_3",
+                        "text": "你選擇了挽回的余地",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208026
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160383_prompt_4",
+                        "text": "你選擇了挽回的余地",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208027
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160383_prompt_5",
+                        "text": "你選擇了王狮猎场",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200632
+                },
+                "case:op6": {
+                    "event_on": 5160382,
+                    "event_off": 5160383
+                },
+                "case:op7": {
+                    "event_on": 5160384,
+                    "event_off": 5160383
+                },
+                "case:op8": {
+                    "event_off": 5160383,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

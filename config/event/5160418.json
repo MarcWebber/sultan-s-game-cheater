@@ -1,0 +1,110 @@
+{
+    "id": 5160418,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160418_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "一桩趣事",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "一起玩个够",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "一件残酷的礼物",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "一件残酷的礼物",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "一件凶煞的商品",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160418_prompt_1",
+                        "text": "你選擇了一桩趣事",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200712
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160418_prompt_2",
+                        "text": "你選擇了一起玩个够",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200749
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160418_prompt_3",
+                        "text": "你選擇了一件残酷的礼物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200755
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160418_prompt_4",
+                        "text": "你選擇了一件残酷的礼物",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200757
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160418_prompt_5",
+                        "text": "你選擇了一件凶煞的商品",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200758
+                },
+                "case:op6": {
+                    "event_on": 5160417,
+                    "event_off": 5160418
+                },
+                "case:op7": {
+                    "event_on": 5160419,
+                    "event_off": 5160418
+                },
+                "case:op8": {
+                    "event_off": 5160418,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "id": 5367461,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367461_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "哈比卜的拿手菜",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "哈比卜的拿手菜",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "哈比卜的宴会",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "孩子们的胃口-循环",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "合作",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121093,
+                    "prompt": {
+                        "id": "5367461_prompt_1",
+                        "text": "你選擇了哈比卜的拿手菜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121094,
+                    "prompt": {
+                        "id": "5367461_prompt_2",
+                        "text": "你選擇了哈比卜的拿手菜",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5121107,
+                    "prompt": {
+                        "id": "5367461_prompt_3",
+                        "text": "你選擇了哈比卜的宴会",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121086,
+                    "prompt": {
+                        "id": "5367461_prompt_4",
+                        "text": "你選擇了孩子们的胃口-循环",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100057,
+                    "prompt": {
+                        "id": "5367461_prompt_5",
+                        "text": "你選擇了合作",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367460,
+                    "event_off": 5367461
+                },
+                "case:op7": {
+                    "event_on": 5367462,
+                    "event_off": 5367461
+                },
+                "case:op8": {
+                    "event_off": 5367461,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

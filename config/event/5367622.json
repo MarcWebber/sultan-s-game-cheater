@@ -1,0 +1,110 @@
+{
+    "id": 5367622,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367622_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "小安留下了",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "小留留下了",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "消除一个苏丹的猜忌",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "小筹启动",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "小筹启动诗人第一问",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100555,
+                    "prompt": {
+                        "id": "5367622_prompt_1",
+                        "text": "你選擇了小安留下了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100556,
+                    "prompt": {
+                        "id": "5367622_prompt_2",
+                        "text": "你選擇了小留留下了",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100568,
+                    "prompt": {
+                        "id": "5367622_prompt_3",
+                        "text": "你選擇了消除一个苏丹的猜忌",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100801,
+                    "prompt": {
+                        "id": "5367622_prompt_4",
+                        "text": "你選擇了小筹启动",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100803,
+                    "prompt": {
+                        "id": "5367622_prompt_5",
+                        "text": "你選擇了小筹启动诗人第一问",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367621,
+                    "event_off": 5367622
+                },
+                "case:op7": {
+                    "event_on": 5367623,
+                    "event_off": 5367622
+                },
+                "case:op8": {
+                    "event_off": 5367622,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

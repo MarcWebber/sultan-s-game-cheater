@@ -1,0 +1,110 @@
+{
+    "id": 5367541,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367541_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "奈费勒声望事件--带来的改变",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "奈费勒声望事件--带来的改变",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈费勒声望事件--神之恩重复刷",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "奈费勒声望事件--正教传播事件",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "奈费勒声望事件--密教传播事件",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120213,
+                    "prompt": {
+                        "id": "5367541_prompt_1",
+                        "text": "你選擇了奈费勒声望事件--带来的改变",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120214,
+                    "prompt": {
+                        "id": "5367541_prompt_2",
+                        "text": "你選擇了奈费勒声望事件--带来的改变",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120215,
+                    "prompt": {
+                        "id": "5367541_prompt_3",
+                        "text": "你選擇了奈费勒声望事件--神之恩重复刷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120216,
+                    "prompt": {
+                        "id": "5367541_prompt_4",
+                        "text": "你選擇了奈费勒声望事件--正教传播事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120217,
+                    "prompt": {
+                        "id": "5367541_prompt_5",
+                        "text": "你選擇了奈费勒声望事件--密教传播事件",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367540,
+                    "event_off": 5367541
+                },
+                "case:op7": {
+                    "event_on": 5367542,
+                    "event_off": 5367541
+                },
+                "case:op8": {
+                    "event_off": 5367541,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

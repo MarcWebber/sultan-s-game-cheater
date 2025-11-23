@@ -1,0 +1,110 @@
+{
+    "id": 5160252,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160252_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "阁楼里熟悉的笑声",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "阁楼里偶尔的笑声",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "阁楼里的笑声",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "更进一步",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宫廷礼仪指南",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160252_prompt_1",
+                        "text": "你選擇了阁楼里熟悉的笑声",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208110
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160252_prompt_2",
+                        "text": "你選擇了阁楼里偶尔的笑声",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208111
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160252_prompt_3",
+                        "text": "你選擇了阁楼里的笑声",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208112
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160252_prompt_4",
+                        "text": "你選擇了更进一步",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206598
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160252_prompt_5",
+                        "text": "你選擇了宫廷礼仪指南",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200020
+                },
+                "case:op6": {
+                    "event_on": 5160251,
+                    "event_off": 5160252
+                },
+                "case:op7": {
+                    "event_on": 5160253,
+                    "event_off": 5160252
+                },
+                "case:op8": {
+                    "event_off": 5160252,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "id": 5367503,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367503_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "仅仅只是有趣而已",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "禁忌的画册",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "金币巡回前",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "金币的归返1",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "金币的归返2",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100210,
+                    "prompt": {
+                        "id": "5367503_prompt_1",
+                        "text": "你選擇了仅仅只是有趣而已",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100605,
+                    "prompt": {
+                        "id": "5367503_prompt_2",
+                        "text": "你選擇了禁忌的画册",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100824,
+                    "prompt": {
+                        "id": "5367503_prompt_3",
+                        "text": "你選擇了金币巡回前",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100827,
+                    "prompt": {
+                        "id": "5367503_prompt_4",
+                        "text": "你選擇了金币的归返1",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100828,
+                    "prompt": {
+                        "id": "5367503_prompt_5",
+                        "text": "你選擇了金币的归返2",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367502,
+                    "event_off": 5367503
+                },
+                "case:op7": {
+                    "event_on": 5367504,
+                    "event_off": 5367503
+                },
+                "case:op8": {
+                    "event_off": 5367503,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

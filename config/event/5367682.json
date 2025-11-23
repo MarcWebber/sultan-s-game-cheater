@@ -1,0 +1,110 @@
+{
+    "id": 5367682,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367682_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "资助研究·一",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "资助研究·二",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "滋味如何",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "滋养与杀戮",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "自信的法里斯",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100235,
+                    "prompt": {
+                        "id": "5367682_prompt_1",
+                        "text": "你選擇了资助研究·一",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100236,
+                    "prompt": {
+                        "id": "5367682_prompt_2",
+                        "text": "你選擇了资助研究·二",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120042,
+                    "prompt": {
+                        "id": "5367682_prompt_3",
+                        "text": "你選擇了滋味如何",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120532,
+                    "prompt": {
+                        "id": "5367682_prompt_4",
+                        "text": "你選擇了滋养与杀戮",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5121141,
+                    "prompt": {
+                        "id": "5367682_prompt_5",
+                        "text": "你選擇了自信的法里斯",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367681,
+                    "event_off": 5367682
+                },
+                "case:op7": {
+                    "event_on": 5367683,
+                    "event_off": 5367682
+                },
+                "case:op8": {
+                    "event_off": 5367682,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

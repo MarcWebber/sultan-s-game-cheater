@@ -1,0 +1,110 @@
+{
+    "id": 5367455,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367455_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "宫廷-索要妃子-苏丹奴隶的提示",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-报复来临",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-销毁圣像",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-仿制",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "宫廷-索要妃子-莎姬拜访",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120272,
+                    "prompt": {
+                        "id": "5367455_prompt_1",
+                        "text": "你選擇了宫廷-索要妃子-苏丹奴隶的提示",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120273,
+                    "prompt": {
+                        "id": "5367455_prompt_2",
+                        "text": "你選擇了宫廷-索要妃子-报复来临",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120274,
+                    "prompt": {
+                        "id": "5367455_prompt_3",
+                        "text": "你選擇了宫廷-索要妃子-销毁圣像",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120275,
+                    "prompt": {
+                        "id": "5367455_prompt_4",
+                        "text": "你選擇了宫廷-索要妃子-仿制",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120276,
+                    "prompt": {
+                        "id": "5367455_prompt_5",
+                        "text": "你選擇了宫廷-索要妃子-莎姬拜访",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367454,
+                    "event_off": 5367455
+                },
+                "case:op7": {
+                    "event_on": 5367456,
+                    "event_off": 5367455
+                },
+                "case:op8": {
+                    "event_off": 5367455,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

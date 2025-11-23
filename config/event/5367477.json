@@ -1,0 +1,110 @@
+{
+    "id": 5367477,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367477_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "监听征服卡",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "监听杀戮卡",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "检定每日囚牢是否开启",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "剑盾的仪式说明",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "将军的收服",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100812,
+                    "prompt": {
+                        "id": "5367477_prompt_1",
+                        "text": "你選擇了监听征服卡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100819,
+                    "prompt": {
+                        "id": "5367477_prompt_2",
+                        "text": "你選擇了监听杀戮卡",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120100,
+                    "prompt": {
+                        "id": "5367477_prompt_3",
+                        "text": "你選擇了检定每日囚牢是否开启",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5121037,
+                    "prompt": {
+                        "id": "5367477_prompt_4",
+                        "text": "你選擇了剑盾的仪式说明",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100206,
+                    "prompt": {
+                        "id": "5367477_prompt_5",
+                        "text": "你選擇了将军的收服",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367476,
+                    "event_off": 5367477
+                },
+                "case:op7": {
+                    "event_on": 5367478,
+                    "event_off": 5367477
+                },
+                "case:op8": {
+                    "event_off": 5367477,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

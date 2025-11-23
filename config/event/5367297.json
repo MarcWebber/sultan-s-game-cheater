@@ -1,0 +1,124 @@
+{
+    "id": 5367297,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367297_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "皮甲",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "皮靴",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "贫民区的孤儿",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "平民军队",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "平民军队",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000250",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367297_prompt_1",
+                        "text": "你選擇了皮甲",
+                        "icon": "cards/2000250"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000267",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367297_prompt_2",
+                        "text": "你選擇了皮靴",
+                        "icon": "cards/2000267"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000867",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367297_prompt_3",
+                        "text": "你選擇了贫民区的孤儿",
+                        "icon": "cards/2000867"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000891",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367297_prompt_4",
+                        "text": "你選擇了平民军队",
+                        "icon": "cards/2000891"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000891",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367297_prompt_5",
+                        "text": "你選擇了平民军队",
+                        "icon": "cards/2000891"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367296,
+                    "event_off": 5367297
+                },
+                "case:op7": {
+                    "event_on": 5367298,
+                    "event_off": 5367297
+                },
+                "case:op8": {
+                    "event_off": 5367297
+                }
+            }
+        }
+    ]
+}

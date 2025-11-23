@@ -1,0 +1,110 @@
+{
+    "id": 5160289,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160289_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "觐见苏丹",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "精巧的讽刺",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "惊人的嘲讽",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "荆棘与塔",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "镜之冠冕",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160289_prompt_1",
+                        "text": "你選擇了觐见苏丹",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5210036
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160289_prompt_2",
+                        "text": "你選擇了精巧的讽刺",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200120
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160289_prompt_3",
+                        "text": "你選擇了惊人的嘲讽",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200122
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160289_prompt_4",
+                        "text": "你選擇了荆棘与塔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200205
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160289_prompt_5",
+                        "text": "你選擇了镜之冠冕",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200349
+                },
+                "case:op6": {
+                    "event_on": 5160288,
+                    "event_off": 5160289
+                },
+                "case:op7": {
+                    "event_on": 5160290,
+                    "event_off": 5160289
+                },
+                "case:op8": {
+                    "event_off": 5160289,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

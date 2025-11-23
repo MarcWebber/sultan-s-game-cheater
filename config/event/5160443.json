@@ -1,0 +1,110 @@
+{
+    "id": 5160443,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160443_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "终结苦痛",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "忠贞正义之徒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "终极羞辱",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "中罪",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "重罪",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160443_prompt_1",
+                        "text": "你選擇了终结苦痛",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200725
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160443_prompt_2",
+                        "text": "你選擇了忠贞正义之徒",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200845
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160443_prompt_3",
+                        "text": "你選擇了终极羞辱",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200856
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160443_prompt_4",
+                        "text": "你選擇了中罪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204006
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160443_prompt_5",
+                        "text": "你選擇了重罪",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204007
+                },
+                "case:op6": {
+                    "event_on": 5160442,
+                    "event_off": 5160443
+                },
+                "case:op7": {
+                    "event_on": 5160444,
+                    "event_off": 5160443
+                },
+                "case:op8": {
+                    "event_off": 5160443,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

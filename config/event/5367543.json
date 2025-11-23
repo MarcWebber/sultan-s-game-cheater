@@ -1,0 +1,110 @@
+{
+    "id": 5367543,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367543_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "奈费勒声望事件--稀疏的队伍3",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "奈费勒声望事件--稀疏的队伍3重复刷",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "奈费勒声望事件--带来希望的",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "奈费勒声望事件--带来希望的",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "奈费勒声望事件--火焰大王名声显赫",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5120223,
+                    "prompt": {
+                        "id": "5367543_prompt_1",
+                        "text": "你選擇了奈费勒声望事件--稀疏的队伍3",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5120224,
+                    "prompt": {
+                        "id": "5367543_prompt_2",
+                        "text": "你選擇了奈费勒声望事件--稀疏的队伍3重复刷",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5120225,
+                    "prompt": {
+                        "id": "5367543_prompt_3",
+                        "text": "你選擇了奈费勒声望事件--带来希望的",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5120226,
+                    "prompt": {
+                        "id": "5367543_prompt_4",
+                        "text": "你選擇了奈费勒声望事件--带来希望的",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5120227,
+                    "prompt": {
+                        "id": "5367543_prompt_5",
+                        "text": "你選擇了奈费勒声望事件--火焰大王名声显赫",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367542,
+                    "event_off": 5367543
+                },
+                "case:op7": {
+                    "event_on": 5367544,
+                    "event_off": 5367543
+                },
+                "case:op8": {
+                    "event_off": 5367543,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

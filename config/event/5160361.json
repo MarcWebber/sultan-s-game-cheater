@@ -1,0 +1,110 @@
+{
+    "id": 5160361,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160361_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "受伤的白犀牛",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "收服盖斯",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "收服玛希尔",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "狩猎游戏",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "受赏",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160361_prompt_1",
+                        "text": "你選擇了受伤的白犀牛",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200630
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160361_prompt_2",
+                        "text": "你選擇了收服盖斯",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200688
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160361_prompt_3",
+                        "text": "你選擇了收服玛希尔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5200733
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160361_prompt_4",
+                        "text": "你選擇了狩猎游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5203026
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160361_prompt_5",
+                        "text": "你選擇了受赏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206524
+                },
+                "case:op6": {
+                    "event_on": 5160360,
+                    "event_off": 5160361
+                },
+                "case:op7": {
+                    "event_on": 5160362,
+                    "event_off": 5160361
+                },
+                "case:op8": {
+                    "event_off": 5160361,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "id": 5160804,
+    "text": "起始字母",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160804_option_1",
+                    "text": "起始字母",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "Y",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "Z",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "退出",
+                            "tag": "op4"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5160412
+                },
+                "case:op2": {
+                    "event_on": 5160433
+                },
+                "case:op3": {
+                    "event_on": 5160803,
+                    "event_off": 5160804
+                },
+                "case:op4": {
+                    "event_on": 5160803,
+                    "event_off": 5160804
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": 5367325,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367325_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "贪腐之徒的名单",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "通灵的线索",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "天使们",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "偷窥戒指",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000943",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367325_prompt_1",
+                        "text": "你選擇了贪腐之徒的名单",
+                        "icon": "cards/2000943"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001046",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367325_prompt_2",
+                        "text": "你選擇了通灵的线索",
+                        "icon": "cards/2001046"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001102",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367325_prompt_3",
+                        "text": "你選擇了天使们",
+                        "icon": "cards/2001102"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001135",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367325_prompt_4",
+                        "text": "你選擇了偷窥戒指",
+                        "icon": "cards/2001135"
+                    }
+                },
+                "case:op5": {
+                    "event_on": 5367324
+                }
+            }
+        }
+    ]
+}

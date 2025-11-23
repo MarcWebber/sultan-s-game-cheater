@@ -1,0 +1,110 @@
+{
+    "id": 5367647,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367647_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "意料之中的买家",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "一个提议",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "以神之名",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "仪式结束选择测试",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "伊曼的祈祷开启的幕后",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5100266,
+                    "prompt": {
+                        "id": "5367647_prompt_1",
+                        "text": "你選擇了意料之中的买家",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5100293,
+                    "prompt": {
+                        "id": "5367647_prompt_2",
+                        "text": "你選擇了一个提议",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100508,
+                    "prompt": {
+                        "id": "5367647_prompt_3",
+                        "text": "你選擇了以神之名",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5110005,
+                    "prompt": {
+                        "id": "5367647_prompt_4",
+                        "text": "你選擇了仪式结束选择测试",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5110609,
+                    "prompt": {
+                        "id": "5367647_prompt_5",
+                        "text": "你選擇了伊曼的祈祷开启的幕后",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367646,
+                    "event_off": 5367647
+                },
+                "case:op7": {
+                    "event_on": 5367648,
+                    "event_off": 5367647
+                },
+                "case:op8": {
+                    "event_off": 5367647,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

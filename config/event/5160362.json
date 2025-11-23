@@ -1,0 +1,110 @@
+{
+    "id": 5160362,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160362_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "受赏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "受害者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "收买头衔",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "收手吧",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "手抓鳄鱼饭",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160362_prompt_1",
+                        "text": "你選擇了受赏",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5206525
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160362_prompt_2",
+                        "text": "你選擇了受害者",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5207013
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160362_prompt_3",
+                        "text": "你選擇了收买头衔",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208013
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160362_prompt_4",
+                        "text": "你選擇了收手吧",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208126
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160362_prompt_5",
+                        "text": "你選擇了手抓鳄鱼饭",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5208133
+                },
+                "case:op6": {
+                    "event_on": 5160361,
+                    "event_off": 5160362
+                },
+                "case:op7": {
+                    "event_on": 5160363,
+                    "event_off": 5160362
+                },
+                "case:op8": {
+                    "event_off": 5160362,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

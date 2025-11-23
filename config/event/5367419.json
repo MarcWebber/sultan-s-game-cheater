@@ -1,0 +1,110 @@
+{
+    "id": 5367419,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367419_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "成就-希望的园丁",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "成就-苏丹的近臣",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "成就-眠花宿柳",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "成就-无所不知-金秘密",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "成就-无所不知-金洞察",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5160056,
+                    "prompt": {
+                        "id": "5367419_prompt_1",
+                        "text": "你選擇了成就-希望的园丁",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5160057,
+                    "prompt": {
+                        "id": "5367419_prompt_2",
+                        "text": "你選擇了成就-苏丹的近臣",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5160058,
+                    "prompt": {
+                        "id": "5367419_prompt_3",
+                        "text": "你選擇了成就-眠花宿柳",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5160059,
+                    "prompt": {
+                        "id": "5367419_prompt_4",
+                        "text": "你選擇了成就-无所不知-金秘密",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5160060,
+                    "prompt": {
+                        "id": "5367419_prompt_5",
+                        "text": "你選擇了成就-无所不知-金洞察",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367418,
+                    "event_off": 5367419
+                },
+                "case:op7": {
+                    "event_on": 5367420,
+                    "event_off": 5367419
+                },
+                "case:op8": {
+                    "event_off": 5367419,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}

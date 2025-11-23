@@ -1,0 +1,63 @@
+{
+    "id": 5367229,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367229_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "大母神",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "毒蛇之链",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001067",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367229_prompt_1",
+                        "text": "你選擇了大母神",
+                        "icon": "cards/2001067"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001166",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367229_prompt_2",
+                        "text": "你選擇了毒蛇之链",
+                        "icon": "cards/2001166"
+                    }
+                },
+                "case:op3": {
+                    "event_on": 5367228
+                }
+            }
+        }
+    ]
+}

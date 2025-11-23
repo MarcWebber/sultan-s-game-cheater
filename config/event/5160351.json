@@ -1,0 +1,110 @@
+{
+    "id": 5160351,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5160351_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神的仆人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神圣哗变",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "神之硕鼠",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "神的真容",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "神的启示",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5160351_prompt_1",
+                        "text": "你選擇了神的仆人",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204523
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5160351_prompt_2",
+                        "text": "你選擇了神圣哗变",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204524
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5160351_prompt_3",
+                        "text": "你選擇了神之硕鼠",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204527
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5160351_prompt_4",
+                        "text": "你選擇了神的真容",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204804
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5160351_prompt_5",
+                        "text": "你選擇了神的启示",
+                        "icon": "cards/2000001"
+                    },
+                    "rite": 5204806
+                },
+                "case:op6": {
+                    "event_on": 5160350,
+                    "event_off": 5160351
+                },
+                "case:op7": {
+                    "event_on": 5160352,
+                    "event_off": 5160351
+                },
+                "case:op8": {
+                    "event_off": 5160351,
+                    "event_on": 5160800
+                }
+            }
+        }
+    ]
+}

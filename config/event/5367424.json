@@ -1,0 +1,110 @@
+{
+    "id": 5367424,
+    "text": "选择事件",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367424_option_1",
+                    "text": "选择事件",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "出轨的开端",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "纯洁之纱",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "刺杀",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "刺杀",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "刺杀",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "rite": 5121104,
+                    "prompt": {
+                        "id": "5367424_prompt_1",
+                        "text": "你選擇了出轨的开端",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op2": {
+                    "rite": 5121198,
+                    "prompt": {
+                        "id": "5367424_prompt_2",
+                        "text": "你選擇了纯洁之纱",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op3": {
+                    "rite": 5100044,
+                    "prompt": {
+                        "id": "5367424_prompt_3",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op4": {
+                    "rite": 5100103,
+                    "prompt": {
+                        "id": "5367424_prompt_4",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op5": {
+                    "rite": 5100106,
+                    "prompt": {
+                        "id": "5367424_prompt_5",
+                        "text": "你選擇了刺杀",
+                        "icon": "cards/2000001"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367423,
+                    "event_off": 5367424
+                },
+                "case:op7": {
+                    "event_on": 5367425,
+                    "event_off": 5367424
+                },
+                "case:op8": {
+                    "event_off": 5367424,
+                    "event_on": 5367800
+                }
+            }
+        }
+    ]
+}
