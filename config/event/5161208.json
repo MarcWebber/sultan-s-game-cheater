@@ -1,0 +1,110 @@
+{
+    "id": 5161208,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161208_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "虚荣作祟",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "选光者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "学术专著",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "学会藏书室",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "血的妆造",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161208_prompt_1",
+                        "text": "你選擇了虚荣作祟",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000650
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161208_prompt_2",
+                        "text": "你選擇了选光者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004526
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161208_prompt_3",
+                        "text": "你選擇了学术专著",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000065
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161208_prompt_4",
+                        "text": "你選擇了学会藏书室",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000161
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161208_prompt_5",
+                        "text": "你選擇了血的妆造",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000651
+                },
+                "case:op6": {
+                    "event_on": 5161207,
+                    "event_off": 5161208
+                },
+                "case:op7": {
+                    "event_on": 5161209,
+                    "event_off": 5161208
+                },
+                "case:op8": {
+                    "event_off": 5161208,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

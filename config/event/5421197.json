@@ -1,0 +1,1 @@
+{"id": 5421197, "text": "欲望之蛇", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121197}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5008193, "success": {"event_off": 5421197}}}], "auto_start": false}

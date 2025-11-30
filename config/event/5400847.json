@@ -1,0 +1,1 @@
+{"id": 5400847, "text": "小筹诗人直接进行结果判定", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100847}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_on": [5300830, 5300831, 5300832], "event_off": 5400847}}]}

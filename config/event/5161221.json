@@ -1,0 +1,110 @@
+{
+    "id": 5161221,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161221_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "一罐蜜饯",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "阴森的宅邸",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "隐匿小屋",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "隐匿小屋",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "隐身幕后",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161221_prompt_1",
+                        "text": "你選擇了一罐蜜饯",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008095
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161221_prompt_2",
+                        "text": "你選擇了阴森的宅邸",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000501
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161221_prompt_3",
+                        "text": "你選擇了隐匿小屋",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006569
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161221_prompt_4",
+                        "text": "你選擇了隐匿小屋",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006570
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161221_prompt_5",
+                        "text": "你選擇了隐身幕后",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008035
+                },
+                "case:op6": {
+                    "event_on": 5161220,
+                    "event_off": 5161221
+                },
+                "case:op7": {
+                    "event_on": 5161222,
+                    "event_off": 5161221
+                },
+                "case:op8": {
+                    "event_off": 5161221,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

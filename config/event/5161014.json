@@ -1,0 +1,53 @@
+{
+    "id": 5161014,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161014_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "扒手团体（废弃）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161014_prompt_1",
+                        "text": "你選擇了扒手团体（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004010
+                },
+                "case:op2": {
+                    "event_on": 5161013
+                },
+                "case:op3": {
+                    "event_off": 5161014,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

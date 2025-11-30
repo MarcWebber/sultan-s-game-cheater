@@ -1,0 +1,77 @@
+{
+    "id": 5161182,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161182_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "突袭",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "突袭贪官宅邸",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "脱罪的希望",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161182_prompt_1",
+                        "text": "你選擇了突袭",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008037
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161182_prompt_2",
+                        "text": "你選擇了突袭贪官宅邸",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008045
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161182_prompt_3",
+                        "text": "你選擇了脱罪的希望",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5001014
+                },
+                "case:op4": {
+                    "event_on": 5161181
+                },
+                "case:op5": {
+                    "event_off": 5161182,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

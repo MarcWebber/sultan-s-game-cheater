@@ -1,0 +1,110 @@
+{
+    "id": 5161047,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161047_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "父亲的肉",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "夫妻正应如此",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "复仇",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "复仇的滋味",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "复仇的滋味",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161047_prompt_1",
+                        "text": "你選擇了父亲的肉",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004904
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161047_prompt_2",
+                        "text": "你選擇了夫妻正应如此",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006050
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161047_prompt_3",
+                        "text": "你選擇了复仇",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006522
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161047_prompt_4",
+                        "text": "你選擇了复仇的滋味",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006529
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161047_prompt_5",
+                        "text": "你選擇了复仇的滋味",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006530
+                },
+                "case:op6": {
+                    "event_on": 5161046,
+                    "event_off": 5161047
+                },
+                "case:op7": {
+                    "event_on": 5161048,
+                    "event_off": 5161047
+                },
+                "case:op8": {
+                    "event_off": 5161047,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

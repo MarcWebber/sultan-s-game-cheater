@@ -1,0 +1,1 @@
+{"id": 5400671, "text": "众筹道具-生命之心-怪物死亡时的气泡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100671}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"prompt": {"id": "5400671_prompt_01", "text": "……唉……", "icon": "cards/2001178"}}}], "auto_start": false}

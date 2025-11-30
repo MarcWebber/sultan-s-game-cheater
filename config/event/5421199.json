@@ -1,0 +1,1 @@
+{"id": 5421199, "text": "阿里木修建苗圃幕后", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121199}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"counter+7000379": 1, "rite": 5006677, "success": {"event_off": 5421199}}}]}

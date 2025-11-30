@@ -1,0 +1,84 @@
+{
+    "id": 5161302,
+    "text": "起始字母",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161302_option_1",
+                    "text": "起始字母",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "L",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "M",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "N",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "P",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "Q",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "退出",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "event_on": 5161101
+                },
+                "case:op2": {
+                    "event_on": 5161110
+                },
+                "case:op3": {
+                    "event_on": 5161119
+                },
+                "case:op4": {
+                    "event_on": 5161127
+                },
+                "case:op5": {
+                    "event_on": 5161129
+                },
+                "case:op6": {
+                    "event_on": 5161301,
+                    "event_off": 5161302
+                },
+                "case:op7": {
+                    "event_on": 5161303,
+                    "event_off": 5161302
+                },
+                "case:op8": {
+                    "event_off": 5161302
+                }
+            }
+        }
+    ]
+}

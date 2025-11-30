@@ -1,0 +1,110 @@
+{
+    "id": 5161163,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161163_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "手抓鳄鱼饭",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "受孕",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "书库辖员",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "书店偶遇",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "书店营业",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161163_prompt_1",
+                        "text": "你選擇了手抓鳄鱼饭",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008133
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161163_prompt_2",
+                        "text": "你選擇了受孕",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010051
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161163_prompt_3",
+                        "text": "你選擇了书库辖员",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000346
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161163_prompt_4",
+                        "text": "你選擇了书店偶遇",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000575
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161163_prompt_5",
+                        "text": "你選擇了书店营业",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5002006
+                },
+                "case:op6": {
+                    "event_on": 5161162,
+                    "event_off": 5161163
+                },
+                "case:op7": {
+                    "event_on": 5161164,
+                    "event_off": 5161163
+                },
+                "case:op8": {
+                    "event_off": 5161163,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

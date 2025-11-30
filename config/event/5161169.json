@@ -1,0 +1,110 @@
+{
+    "id": 5161169,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161169_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "苏丹的戏弄",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "苏丹的诘问",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "苏丹的索要",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "苏丹的报复",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "苏丹的索求",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161169_prompt_1",
+                        "text": "你選擇了苏丹的戏弄",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5001018
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161169_prompt_2",
+                        "text": "你選擇了苏丹的诘问",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006012
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161169_prompt_3",
+                        "text": "你選擇了苏丹的索要",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006018
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161169_prompt_4",
+                        "text": "你選擇了苏丹的报复",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006019
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161169_prompt_5",
+                        "text": "你選擇了苏丹的索求",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006579
+                },
+                "case:op6": {
+                    "event_on": 5161168,
+                    "event_off": 5161169
+                },
+                "case:op7": {
+                    "event_on": 5161170,
+                    "event_off": 5161169
+                },
+                "case:op8": {
+                    "event_off": 5161169,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

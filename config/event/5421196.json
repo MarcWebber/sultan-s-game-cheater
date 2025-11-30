@@ -1,0 +1,1 @@
+{"id": 5421196, "text": "佣兵报恩", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121196}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2000948+追随者": 1, "prompt": {"id": "prompt_5421196_01", "text": "", "icon": ["cards/2000605"]}, "success": {"event_off": 5421196}}}]}

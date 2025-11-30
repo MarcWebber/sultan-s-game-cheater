@@ -1,0 +1,1 @@
+{"id": 5421193, "text": "做羔羊（密", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121193}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5008083, "prompt": {"id": "prompt_5421193_01", "text": "你想出了一个新点子。", "icon": ["cards/2000887"]}}}]}

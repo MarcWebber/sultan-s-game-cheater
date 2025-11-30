@@ -1,0 +1,1 @@
+{"id": 5400659, "text": "众筹道具-生命之心-梅姬复活", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100659}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2001174+equip": 2001155, "prompt": {"id": "5400659_prompt_01", "text": "呜……", "icon": "cards/2001174"}}}]}

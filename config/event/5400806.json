@@ -1,0 +1,1 @@
+{"id": 5400806, "text": "小筹启动", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100806}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000303, "success": {"event_off": 5400806}}}]}

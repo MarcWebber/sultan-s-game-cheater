@@ -1,0 +1,110 @@
+{
+    "id": 5161152,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161152_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "神的面容",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "神圣的会晤",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "神的秘密",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "神秘的援助",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "神之恩",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161152_prompt_1",
+                        "text": "你選擇了神的面容",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004807
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161152_prompt_2",
+                        "text": "你選擇了神圣的会晤",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004808
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161152_prompt_3",
+                        "text": "你選擇了神的秘密",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004907
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161152_prompt_4",
+                        "text": "你選擇了神秘的援助",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006557
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161152_prompt_5",
+                        "text": "你選擇了神之恩",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006650
+                },
+                "case:op6": {
+                    "event_on": 5161151,
+                    "event_off": 5161152
+                },
+                "case:op7": {
+                    "event_on": 5161153,
+                    "event_off": 5161152
+                },
+                "case:op8": {
+                    "event_off": 5161152,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

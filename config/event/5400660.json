@@ -1,0 +1,1 @@
+{"id": 5400660, "text": "众筹道具-生命之心-奈布哈尼复活", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100660}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2001175+equip": 2001155, "prompt": {"id": "5400660_prompt_01", "text": "……嗷啊………", "icon": "cards/2001175"}}}]}

@@ -1,0 +1,110 @@
+{
+    "id": 5161081,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161081_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "见聪明人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "见坏人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "见蠢人",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "见讨厌钱的人",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "见证得利",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161081_prompt_1",
+                        "text": "你選擇了见聪明人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000314
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161081_prompt_2",
+                        "text": "你選擇了见坏人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000315
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161081_prompt_3",
+                        "text": "你選擇了见蠢人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000316
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161081_prompt_4",
+                        "text": "你選擇了见讨厌钱的人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000319
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161081_prompt_5",
+                        "text": "你選擇了见证得利",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000321
+                },
+                "case:op6": {
+                    "event_on": 5161080,
+                    "event_off": 5161081
+                },
+                "case:op7": {
+                    "event_on": 5161082,
+                    "event_off": 5161081
+                },
+                "case:op8": {
+                    "event_off": 5161081,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

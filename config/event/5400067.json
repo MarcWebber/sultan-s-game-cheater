@@ -1,0 +1,1 @@
+{"id": 5400067, "text": "是否有君王的胸襟", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100067}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"event_off": 5300068, "magic_sudan": 2010012}}]}

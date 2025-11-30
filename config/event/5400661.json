@@ -1,0 +1,1 @@
+{"id": 5400661, "text": "众筹道具-生命之心-奈费勒复活", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100661}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2001176+equip": 2001155, "prompt": {"id": "5400661_prompt_01", "text": "……哼呃…………", "icon": "cards/2001176"}}}]}

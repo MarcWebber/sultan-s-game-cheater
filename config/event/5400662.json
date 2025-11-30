@@ -1,0 +1,1 @@
+{"id": 5400662, "text": "众筹道具-生命之心-伊曼复活", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100662}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.2001177+equip": 2001155, "prompt": {"id": "5400662_prompt_01", "text": "……嘶…………", "icon": "cards/2001177"}}}]}

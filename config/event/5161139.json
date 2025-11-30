@@ -1,0 +1,110 @@
+{
+    "id": 5161139,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161139_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "热辣欢宴",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "仁慈的许诺",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "人前显圣",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "荣誉杀戮",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "冗长的问询",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161139_prompt_1",
+                        "text": "你選擇了热辣欢宴",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008102
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161139_prompt_2",
+                        "text": "你選擇了仁慈的许诺",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000673
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161139_prompt_3",
+                        "text": "你選擇了人前显圣",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004522
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161139_prompt_4",
+                        "text": "你選擇了荣誉杀戮",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5003018
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161139_prompt_5",
+                        "text": "你選擇了冗长的问询",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006643
+                },
+                "case:op6": {
+                    "event_on": 5161138,
+                    "event_off": 5161139
+                },
+                "case:op7": {
+                    "event_on": 5161140,
+                    "event_off": 5161139
+                },
+                "case:op8": {
+                    "event_off": 5161139,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

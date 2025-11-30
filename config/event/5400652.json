@@ -1,0 +1,1 @@
+{"id": 5400652, "text": "众筹道具-生命之心-梅姬死亡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100652}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2001157}}], "auto_start": false}

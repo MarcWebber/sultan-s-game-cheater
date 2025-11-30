@@ -1,0 +1,110 @@
+{
+    "id": 5161160,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161160_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "失踪的快脚",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "食物中毒",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "誓师",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "弑神（废弃）",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "世界之眼",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161160_prompt_1",
+                        "text": "你選擇了失踪的快脚",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008053
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161160_prompt_2",
+                        "text": "你選擇了食物中毒",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008129
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161160_prompt_3",
+                        "text": "你選擇了誓师",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010009
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161160_prompt_4",
+                        "text": "你選擇了弑神（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010043
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161160_prompt_5",
+                        "text": "你選擇了世界之眼",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010045
+                },
+                "case:op6": {
+                    "event_on": 5161159,
+                    "event_off": 5161160
+                },
+                "case:op7": {
+                    "event_on": 5161161,
+                    "event_off": 5161160
+                },
+                "case:op8": {
+                    "event_off": 5161160,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

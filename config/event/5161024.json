@@ -1,0 +1,110 @@
+{
+    "id": 5161024,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161024_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "创造正强者",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "吹响骨笛",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "蠢妓女和活恶棍",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "蠢妓女和活恶棍",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "此岸彼岸",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161024_prompt_1",
+                        "text": "你選擇了创造正强者",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006020
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161024_prompt_2",
+                        "text": "你選擇了吹响骨笛",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006628
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161024_prompt_3",
+                        "text": "你選擇了蠢妓女和活恶棍",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000130
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161024_prompt_4",
+                        "text": "你選擇了蠢妓女和活恶棍",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006534
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161024_prompt_5",
+                        "text": "你選擇了此岸彼岸",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000353
+                },
+                "case:op6": {
+                    "event_on": 5161023,
+                    "event_off": 5161024
+                },
+                "case:op7": {
+                    "event_on": 5161025,
+                    "event_off": 5161024
+                },
+                "case:op8": {
+                    "event_off": 5161024,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

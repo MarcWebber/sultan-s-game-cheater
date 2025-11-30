@@ -1,0 +1,1 @@
+{"id": 5421192, "text": "做狗", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5121192}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5008082, "prompt": {"id": "prompt_5421192_01", "text": "你想出了一个新点子。", "icon": ["cards/2000887"]}}}]}

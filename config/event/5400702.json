@@ -1,0 +1,1 @@
+{"id": 5400702, "text": "马衔倒计时每天", "is_replay": 0, "auto_start": false, "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100702}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"table.马衔使用者~equip": ["被驯服的人"], "success": {"rite": 5000202}}}]}

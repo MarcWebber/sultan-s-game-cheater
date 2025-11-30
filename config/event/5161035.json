@@ -1,0 +1,110 @@
+{
+    "id": 5161035,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161035_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "赌马",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "独自前行",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "毒蛇神殿",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "镀金",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "锻造龙鳞装备",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161035_prompt_1",
+                        "text": "你選擇了赌马",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5002515
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161035_prompt_2",
+                        "text": "你選擇了独自前行",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006033
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161035_prompt_3",
+                        "text": "你選擇了毒蛇神殿",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008192
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161035_prompt_4",
+                        "text": "你選擇了镀金",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010038
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161035_prompt_5",
+                        "text": "你選擇了锻造龙鳞装备",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006078
+                },
+                "case:op6": {
+                    "event_on": 5161034,
+                    "event_off": 5161035
+                },
+                "case:op7": {
+                    "event_on": 5161036,
+                    "event_off": 5161035
+                },
+                "case:op8": {
+                    "event_off": 5161035,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

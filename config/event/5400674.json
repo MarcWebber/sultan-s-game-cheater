@@ -1,0 +1,1 @@
+{"id": 5400674, "text": "众筹道具-超级贝姬夫人", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100674}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"rite": 5000162, "prompt": {"id": "5400674_prompt_01", "text": "一切如常的一天……等等，今天怎么没见贝姬夫人？", "icon": "cards/2000461"}}}], "auto_start": false}

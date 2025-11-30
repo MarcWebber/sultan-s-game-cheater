@@ -1,0 +1,110 @@
+{
+    "id": 5161136,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161136_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "全面整修",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "权力的游戏",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "全民公敌",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "权势之盾",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "全家福",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161136_prompt_1",
+                        "text": "你選擇了全面整修",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000006
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161136_prompt_2",
+                        "text": "你選擇了权力的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5001001
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161136_prompt_3",
+                        "text": "你選擇了全民公敌",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004512
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161136_prompt_4",
+                        "text": "你選擇了权势之盾",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006590
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161136_prompt_5",
+                        "text": "你選擇了全家福",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008099
+                },
+                "case:op6": {
+                    "event_on": 5161135,
+                    "event_off": 5161136
+                },
+                "case:op7": {
+                    "event_on": 5161137,
+                    "event_off": 5161136
+                },
+                "case:op8": {
+                    "event_off": 5161136,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

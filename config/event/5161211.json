@@ -1,0 +1,53 @@
+{
+    "id": 5161211,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161211_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "熏狮子全餐",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op3"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161211_prompt_1",
+                        "text": "你選擇了熏狮子全餐",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008134
+                },
+                "case:op2": {
+                    "event_on": 5161210
+                },
+                "case:op3": {
+                    "event_off": 5161211,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"id": 5400654, "text": "众筹道具-生命之心-奈费勒死亡", "is_replay": 0, "auto_start_init": [1], "start_trigger": true, "on": {"round_begin_ba": 1}, "condition": {"rite": 5100654}, "settlement": [{"tips_resource": "", "tips_text": "", "action": {"card": 2001159}}], "auto_start": false}
