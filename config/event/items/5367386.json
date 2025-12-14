@@ -1,0 +1,125 @@
+{
+    "id": 5367386,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367386_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "蜘蛛斗篷",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "质疑者",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "致谢",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "重剑",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "中国",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001055",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367386_prompt_1",
+                        "text": "你選擇了蜘蛛斗篷",
+                        "icon": "cards/2001055"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001224",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367386_prompt_2",
+                        "text": "你選擇了质疑者",
+                        "icon": "cards/2001224"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001235",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367386_prompt_3",
+                        "text": "你選擇了致谢",
+                        "icon": "cards/2001235"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000256",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367386_prompt_4",
+                        "text": "你選擇了重剑",
+                        "icon": "cards/2000256"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000366",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367386_prompt_5",
+                        "text": "你選擇了中国",
+                        "icon": "cards/2000366"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367385,
+                    "event_off": 5367386
+                },
+                "case:op7": {
+                    "event_on": 5367387,
+                    "event_off": 5367386
+                },
+                "case:op8": {
+                    "event_off": 5367386,
+                    " event_on": 5367360
+                }
+            }
+        }
+    ]
+}

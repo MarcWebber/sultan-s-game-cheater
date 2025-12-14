@@ -1,0 +1,77 @@
+{
+    "id": 5161172,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161172_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "索拉薇儿的游戏",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "索拉薇儿的游戏",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "所有人的宴会",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op5"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161172_prompt_1",
+                        "text": "你選擇了索拉薇儿的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000804
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161172_prompt_2",
+                        "text": "你選擇了索拉薇儿的游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000809
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161172_prompt_3",
+                        "text": "你選擇了所有人的宴会",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006627
+                },
+                "case:op4": {
+                    "event_on": 5161171
+                },
+                "case:op5": {
+                    "event_off": 5161172,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "id": 5367377,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367377_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "雨之子·下卷",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "与龙对话",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "雨林！雨林！",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "玉石臂环",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "欲望",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000193",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367377_prompt_1",
+                        "text": "你選擇了雨之子·下卷",
+                        "icon": "cards/2000193"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000692",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367377_prompt_2",
+                        "text": "你選擇了与龙对话",
+                        "icon": "cards/2000692"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000801",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367377_prompt_3",
+                        "text": "你選擇了雨林！雨林！",
+                        "icon": "cards/2000801"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000820",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367377_prompt_4",
+                        "text": "你選擇了玉石臂环",
+                        "icon": "cards/2000820"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000879",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367377_prompt_5",
+                        "text": "你選擇了欲望",
+                        "icon": "cards/2000879"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367376,
+                    "event_off": 5367377
+                },
+                "case:op7": {
+                    "event_on": 5367378,
+                    "event_off": 5367377
+                },
+                "case:op8": {
+                    "event_off": 5367377,
+                    " event_on": 5367360
+                }
+            }
+        }
+    ]
+}

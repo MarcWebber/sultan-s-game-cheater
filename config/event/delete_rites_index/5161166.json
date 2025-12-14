@@ -1,0 +1,110 @@
+{
+    "id": 5161166,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161166_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "私情与背叛（废弃）",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "私下调查",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "丝绒暗室",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "颂神会",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "搜寻提尔亚遗物",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161166_prompt_1",
+                        "text": "你選擇了私情与背叛（废弃）",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000564
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161166_prompt_2",
+                        "text": "你選擇了私下调查",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006635
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161166_prompt_3",
+                        "text": "你選擇了丝绒暗室",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008116
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161166_prompt_4",
+                        "text": "你選擇了颂神会",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008105
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161166_prompt_5",
+                        "text": "你選擇了搜寻提尔亚遗物",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000531
+                },
+                "case:op6": {
+                    "event_on": 5161165,
+                    "event_off": 5161166
+                },
+                "case:op7": {
+                    "event_on": 5161167,
+                    "event_off": 5161166
+                },
+                "case:op8": {
+                    "event_off": 5161166,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

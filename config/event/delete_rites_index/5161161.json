@@ -1,0 +1,110 @@
+{
+    "id": 5161161,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161161_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "狩猎实战",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "受伤的白犀牛",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "收服盖斯",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "收服玛希尔",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "狩猎游戏",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161161_prompt_1",
+                        "text": "你選擇了狩猎实战",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000613
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161161_prompt_2",
+                        "text": "你選擇了受伤的白犀牛",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000630
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161161_prompt_3",
+                        "text": "你選擇了收服盖斯",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000688
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161161_prompt_4",
+                        "text": "你選擇了收服玛希尔",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000733
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161161_prompt_5",
+                        "text": "你選擇了狩猎游戏",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5003026
+                },
+                "case:op6": {
+                    "event_on": 5161160,
+                    "event_off": 5161161
+                },
+                "case:op7": {
+                    "event_on": 5161162,
+                    "event_off": 5161161
+                },
+                "case:op8": {
+                    "event_off": 5161161,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

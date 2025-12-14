@@ -1,0 +1,110 @@
+{
+    "id": 5161008,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161008_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "被魔鬼蛊惑之人",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "背叛和逃亡",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "被弃的丑态",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "被独自关押的奈费勒",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "背叛",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161008_prompt_1",
+                        "text": "你選擇了被魔鬼蛊惑之人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006075
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161008_prompt_2",
+                        "text": "你選擇了背叛和逃亡",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006620
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161008_prompt_3",
+                        "text": "你選擇了被弃的丑态",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006645
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161008_prompt_4",
+                        "text": "你選擇了被独自关押的奈费勒",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006665
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161008_prompt_5",
+                        "text": "你選擇了背叛",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008009
+                },
+                "case:op6": {
+                    "event_on": 5161007,
+                    "event_off": 5161008
+                },
+                "case:op7": {
+                    "event_on": 5161009,
+                    "event_off": 5161008
+                },
+                "case:op8": {
+                    "event_off": 5161008,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

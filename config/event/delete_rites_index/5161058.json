@@ -1,0 +1,110 @@
+{
+    "id": 5161058,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161058_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "挂毯长廊",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "寡妇的友谊",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "怪异的降临",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "管不住的老婆",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "光之训诫",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161058_prompt_1",
+                        "text": "你選擇了挂毯长廊",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000137
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161058_prompt_2",
+                        "text": "你選擇了寡妇的友谊",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000624
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161058_prompt_3",
+                        "text": "你選擇了怪异的降临",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008183
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161058_prompt_4",
+                        "text": "你選擇了管不住的老婆",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006593
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161058_prompt_5",
+                        "text": "你選擇了光之训诫",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004805
+                },
+                "case:op6": {
+                    "event_on": 5161057,
+                    "event_off": 5161058
+                },
+                "case:op7": {
+                    "event_on": 5161059,
+                    "event_off": 5161058
+                },
+                "case:op8": {
+                    "event_off": 5161058,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

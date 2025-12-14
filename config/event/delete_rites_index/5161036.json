@@ -1,0 +1,89 @@
+{
+    "id": 5161036,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161036_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "敦请圣像",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "夺宝奇兵",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "堕神的呼唤",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "囤积之乐",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op6"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161036_prompt_1",
+                        "text": "你選擇了敦请圣像",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000850
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161036_prompt_2",
+                        "text": "你選擇了夺宝奇兵",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000752
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161036_prompt_3",
+                        "text": "你選擇了堕神的呼唤",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5008190
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161036_prompt_4",
+                        "text": "你選擇了囤积之乐",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000317
+                },
+                "case:op5": {
+                    "event_on": 5161035
+                },
+                "case:op6": {
+                    "event_off": 5161036,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

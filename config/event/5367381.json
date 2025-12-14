@@ -1,0 +1,125 @@
+{
+    "id": 5367381,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367381_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "战士的护巾",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "湛蓝丝巾",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "战车项链",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "斩首斧",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "斩王剑",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2000571",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367381_prompt_1",
+                        "text": "你選擇了战士的护巾",
+                        "icon": "cards/2000571"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2000779",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367381_prompt_2",
+                        "text": "你選擇了湛蓝丝巾",
+                        "icon": "cards/2000779"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2000826",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367381_prompt_3",
+                        "text": "你選擇了战车项链",
+                        "icon": "cards/2000826"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2000920",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367381_prompt_4",
+                        "text": "你選擇了斩首斧",
+                        "icon": "cards/2000920"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000916",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367381_prompt_5",
+                        "text": "你選擇了斩王剑",
+                        "icon": "cards/2000916"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367380,
+                    "event_off": 5367381
+                },
+                "case:op7": {
+                    "event_on": 5367382,
+                    "event_off": 5367381
+                },
+                "case:op8": {
+                    "event_off": 5367381,
+                    " event_on": 5367360
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "id": 5367393,
+    "text": "选择道具",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5367393_option_1",
+                    "text": "选择道具",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "罪孽：傲慢",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "罪孽：裂隙",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "罪孽：欲望",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "罪孽：无辜者之血",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "作恶的狗群",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "g.card": [
+                        "2001035",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367393_prompt_1",
+                        "text": "你選擇了罪孽：傲慢",
+                        "icon": "cards/2001035"
+                    }
+                },
+                "case:op2": {
+                    "g.card": [
+                        "2001036",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367393_prompt_2",
+                        "text": "你選擇了罪孽：裂隙",
+                        "icon": "cards/2001036"
+                    }
+                },
+                "case:op3": {
+                    "g.card": [
+                        "2001037",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367393_prompt_3",
+                        "text": "你選擇了罪孽：欲望",
+                        "icon": "cards/2001037"
+                    }
+                },
+                "case:op4": {
+                    "g.card": [
+                        "2001038",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367393_prompt_4",
+                        "text": "你選擇了罪孽：无辜者之血",
+                        "icon": "cards/2001038"
+                    }
+                },
+                "case:op5": {
+                    "g.card": [
+                        "2000279",
+                        "已拥有+1"
+                    ],
+                    "prompt": {
+                        "id": "5367393_prompt_5",
+                        "text": "你選擇了作恶的狗群",
+                        "icon": "cards/2000279"
+                    }
+                },
+                "case:op6": {
+                    "event_on": 5367392,
+                    "event_off": 5367393
+                },
+                "case:op7": {
+                    "event_on": 5367394,
+                    "event_off": 5367393
+                },
+                "case:op8": {
+                    "event_off": 5367393,
+                    " event_on": 5367360
+                }
+            }
+        }
+    ]
+}

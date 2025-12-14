@@ -1,0 +1,110 @@
+{
+    "id": 5161215,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161215_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "以弱胜强",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "异国商人",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "以凡人的方式",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "异色花园",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "一次纵欲的尝试",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161215_prompt_1",
+                        "text": "你選擇了以弱胜强",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000017
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161215_prompt_2",
+                        "text": "你選擇了异国商人",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000056
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161215_prompt_3",
+                        "text": "你選擇了以凡人的方式",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000203
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161215_prompt_4",
+                        "text": "你選擇了异色花园",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000206
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161215_prompt_5",
+                        "text": "你選擇了一次纵欲的尝试",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000313
+                },
+                "case:op6": {
+                    "event_on": 5161214,
+                    "event_off": 5161215
+                },
+                "case:op7": {
+                    "event_on": 5161216,
+                    "event_off": 5161215
+                },
+                "case:op8": {
+                    "event_off": 5161215,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

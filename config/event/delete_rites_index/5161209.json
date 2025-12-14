@@ -1,0 +1,110 @@
+{
+    "id": 5161209,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161209_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "血炼熔炉",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "血的渴求",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "血之墙",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "血色绿洲",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "血肉之税",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161209_prompt_1",
+                        "text": "你選擇了血炼熔炉",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000740
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161209_prompt_2",
+                        "text": "你選擇了血的渴求",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006071
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161209_prompt_3",
+                        "text": "你選擇了血之墙",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006533
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161209_prompt_4",
+                        "text": "你選擇了血色绿洲",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006550
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161209_prompt_5",
+                        "text": "你選擇了血肉之税",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5006576
+                },
+                "case:op6": {
+                    "event_on": 5161208,
+                    "event_off": 5161209
+                },
+                "case:op7": {
+                    "event_on": 5161210,
+                    "event_off": 5161209
+                },
+                "case:op8": {
+                    "event_off": 5161209,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}

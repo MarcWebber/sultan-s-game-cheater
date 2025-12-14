@@ -1,0 +1,110 @@
+{
+    "id": 5161188,
+    "text": "选择仪式",
+    "is_replay": 0,
+    "auto_start": false,
+    "start_trigger": true,
+    "on": {
+        "round_begin_ba": 1
+    },
+    "condition": {},
+    "settlement": [
+        {
+            "tips_resource": "",
+            "tips_text": "",
+            "action": {
+                "option": {
+                    "id": "5161188_option_1",
+                    "text": "选择仪式",
+                    "icon": "cards/2000001",
+                    "items": [
+                        {
+                            "text": "帷幕之后",
+                            "tag": "op1"
+                        },
+                        {
+                            "text": "喂食",
+                            "tag": "op2"
+                        },
+                        {
+                            "text": "文书的工作",
+                            "tag": "op3"
+                        },
+                        {
+                            "text": "温和拘禁",
+                            "tag": "op4"
+                        },
+                        {
+                            "text": "我要去妓院！",
+                            "tag": "op5"
+                        },
+                        {
+                            "text": "上一页",
+                            "tag": "op6"
+                        },
+                        {
+                            "text": "下一页",
+                            "tag": "op7"
+                        },
+                        {
+                            "text": "返回",
+                            "tag": "op8"
+                        }
+                    ]
+                },
+                "case:op1": {
+                    "prompt": {
+                        "id": "5161188_prompt_1",
+                        "text": "你選擇了帷幕之后",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010022
+                },
+                "case:op2": {
+                    "prompt": {
+                        "id": "5161188_prompt_2",
+                        "text": "你選擇了喂食",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5010052
+                },
+                "case:op3": {
+                    "prompt": {
+                        "id": "5161188_prompt_3",
+                        "text": "你選擇了文书的工作",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000021
+                },
+                "case:op4": {
+                    "prompt": {
+                        "id": "5161188_prompt_4",
+                        "text": "你選擇了温和拘禁",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5004510
+                },
+                "case:op5": {
+                    "prompt": {
+                        "id": "5161188_prompt_5",
+                        "text": "你選擇了我要去妓院！",
+                        "icon": "cards/2000001"
+                    },
+                    "clean.rite": 5000815
+                },
+                "case:op6": {
+                    "event_on": 5161187,
+                    "event_off": 5161188
+                },
+                "case:op7": {
+                    "event_on": 5161189,
+                    "event_off": 5161188
+                },
+                "case:op8": {
+                    "event_off": 5161188,
+                    "event_on": 5161300
+                }
+            }
+        }
+    ]
+}
